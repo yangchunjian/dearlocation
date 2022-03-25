@@ -25,7 +25,7 @@
 - 线上地止:[线上预览-dearlocation.com](https://dearlocation.com/)
 - 您也可关注**官方微信公众号:dearlocation**
   <div align="center">
-  <img src="https://t1.picb.cc/uploads/2020/06/11/tIpk0j.jpg" width="148" height="148" alt="dearlocation公众号" border="0">
+  <!--<img src="https://t1.picb.cc/uploads/2020/06/11/tIpk0j.jpg" width="148" height="148" alt="dearlocation公众号" border="0">-->
   </div>
 
 ### 如何支持作者
