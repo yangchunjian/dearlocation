@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="flash-container">
-      <img src="/images/dearlocation.jpeg" alt />
+      <img src="https://www.yangchunjian.com/docbook/imgs/dearlocation.jpeg" alt />
     </div>
   </div>
 </template>
