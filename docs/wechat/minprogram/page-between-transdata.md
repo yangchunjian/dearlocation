@@ -502,7 +502,7 @@ App({
     // 定义的全局变量,如token,某些状态等,放在globalData下
     this.globalData = {
       token: 'token',
-      url: 'http://coder.itclan.cn/',
+      url: 'http://dearlocation.com/',
       userInfo: 'dearlocation',
     };
   },
@@ -805,7 +805,7 @@ Page({
   data: {
     parentPageData: {
       name: '川川',
-      url: 'http://coder.itclan.cn',
+      url: 'http://dearlocation.com',
       vx: 'dearlocation',
     },
   },
@@ -905,7 +905,7 @@ Page({
   data: {
     parentPageData: {
       name: '川川',
-      url: 'http://coder.itclan.cn',
+      url: 'http://dearlocation.com',
       vx: 'dearlocation',
     },
     subdetailData: {},

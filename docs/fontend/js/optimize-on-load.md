@@ -92,7 +92,7 @@ new Date().getTime() - performance.timing.navigationStart;
 在页面 header 中使用 link 标签来强制对 DNS 预解析
 
 ```js
-<link rel="dns-prefetch" href="https://coder.itclan.cn">
+<link rel="dns-prefetch" href="https://dearlocation.com">
 ```
 
 ::: warning 注意

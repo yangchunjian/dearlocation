@@ -52,7 +52,7 @@ autoGroup-1: 小程序实用案例
     点击跳转到dearlocation公众号
   </view>
   <view class="contaniner-1" bindtap="handleToWebSite">
-    点击跳转到https://coder.itclan.cn/网站
+    点击跳转到https://dearlocation.com/网站
   </view>
 </view>
 ```
@@ -82,7 +82,7 @@ Page({
   },
 
   handleToWebSite() {
-    const url = 'https://coder.itclan.cn/'; // 跳转的外链
+    const url = 'https://dearlocation.com/'; // 跳转的外链
     const navtitle = 'dearlocation'; // 这个标题是你自己可以设置的
     wx.navigateTo({
       // 跳转到webview页面
@@ -139,11 +139,11 @@ Page({
 跳转到的网页需要在小程序后配置支持业务域名即可完成跳转,否则是跳转失败的
 :::
 
-如下所示,跳转至`https://coder.itclan.cn/`:
+如下所示,跳转至`https://dearlocation.com/`:
 
 ```js
 handleToWebSite() {
-    const url = 'https://coder.itclan.cn/'; // 跳转的外链
+    const url = 'https://dearlocation.com/'; // 跳转的外链
     const navtitle = 'dearlocation'; // 这个标题是你自己可以设置的
     wx.navigateTo({
       // 跳转到webview页面

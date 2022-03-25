@@ -20,7 +20,7 @@ const headConfig = [
     {
       rel: 'keywords',
       content:
-        '亲位,dearlocation,dearlocation的技术博客,coder.itclan.cn,itclan.cn前端开发,IT技术,网络技术,斜杠青年,itclan,川川,https://itclan.cn,https://coder.itclan.cn/',
+        '亲位,dearlocation,dearlocation的技术博客,dearlocation.com,itclan.cn前端开发,IT技术,网络技术,斜杠青年,itclan,川川,https://itclan.cn,https://dearlocation.com/',
     },
   ],
   ['meta', { name: 'Author', content: '亲位' }],

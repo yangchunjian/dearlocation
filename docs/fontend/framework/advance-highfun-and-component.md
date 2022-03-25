@@ -38,7 +38,7 @@ setTimeout(function() {
 
 ```js
 setInterval(() => {
-  console.log('http://coder.itclan.cn');
+  console.log('http://dearlocation.com');
 }, 2000);
 ```
 
@@ -86,11 +86,11 @@ setTimeout(function() {
 
 ```js
 setInterval(function() {
-  console.log('http://coder.itclan.cn/');
+  console.log('http://dearlocation.com/');
 }, 2000);
 ```
 
-每隔 2 秒打印一次`http://coder.itclan.cn/`
+每隔 2 秒打印一次`http://dearlocation.com/`
 :::
 ::: tab Ajax 应用 lazy
 

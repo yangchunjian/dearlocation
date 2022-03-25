@@ -15,14 +15,14 @@
 
 ### dearlocation 博客介绍
 
-- 本博客主要分享前端技术,不限于`CSS`,`JavaScript`,`React`,`Vue`,`微信小程序`,`云开发`:eagle:等为主
+- 本博客主要分享后端技术,不限于`JAVA`,`MySQL`,`Redis`,`Elasticsearch`,`微信小程序`,`云开发`等
 - 本博客主要分享实际开发中遇到的一些问题,并非搬运工,旨在有效的记录与分享,会一直维护下去
 - 本博客会不定期更新面试题分享,算法等,很多源自真实公司笔试题
 
 ### 如有问题请提 issue
 
 - 本博客若有对小伙伴们有帮助,谢谢不要吝啬您的`star`
-- 线上地止:[线上预览-coder.itclan.cn](https://coder.itclan.cn/)
+- 线上地止:[线上预览-dearlocation.com](https://dearlocation.com/)
 - 您也可关注**官方微信公众号:dearlocation**
   <div align="center">
   <img src="https://t1.picb.cc/uploads/2020/06/11/tIpk0j.jpg" width="148" height="148" alt="dearlocation公众号" border="0">
@@ -47,7 +47,7 @@
     <img src="https://t1.picb.cc/uploads/2020/06/11/tIpwCK.jpg" width="148" height="148" alt="支付宝支付" border="0">
 </div>
 
-- 小额赞助后,您可以联系作者,可获得额外的回报,您可以告诉我,您的名字,它将会出现在`dearlocation` 的`GitHub`仓库中,再比如您公司 `logo`,或相关产品会出现在[dearlocation 官网](https://coder.itclan.cn)上.
+- 小额赞助后,您可以联系作者,可获得额外的回报,您可以告诉我,您的名字,它将会出现在`dearlocation` 的`GitHub`仓库中,再比如您公司 `logo`,或相关产品会出现在[dearlocation 官网](https://dearlocation.com)上.
 - **如需合作联系:vx:`suibichuanji`,备注:坐标-昵称-身份,如:深圳-李明-IT(后端)**
 
 ### 如何参与贡献

@@ -25,7 +25,7 @@
     <script charset="utf-8" async="async" src="https://static.bshare.cn/b/bshareC0.js"></script>
     <script id="union_douhao" union_pay_tid="720" src="https://n.2lian.com/static/js/loader.js"></script>
     <meta name="description" content="dearlocation,dearlocation的技术博客,dearloc">
-    <meta rel="keywords" content="亲位,dearlocation,dearlocation的技术博客,coder.itclan.cn,itclan.cn前端开发,IT技术,网络技术,斜杠青年,itclan,川川,https://itclan.cn,https://coder.itclan.cn/">
+    <meta rel="keywords" content="亲位,dearlocation,dearlocation的技术博客,dearlocation.com,itclan.cn前端开发,IT技术,网络技术,斜杠青年,itclan,川川,https://itclan.cn,https://dearlocation.com/">
     <meta name="Author" content="亲位">
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <meta name="theme-color" content="#3eaf7c">
@@ -234,10 +234,10 @@
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>配合伪类使用</li></ul> <p>伪元素 <code>:before</code> 还可以配合伪类使用，这里举经常与 <code>:before</code> 配合使用的伪类 <code>:hover</code> 为例</p> <p>具体实例可见<a href="./example-hover-underline-sides">css 实现鼠标经过元素下划线由左向右或由中间向两侧展开</a></p> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token selector">.before:hover:before</span><span class="token punctuation">{</span><span class="token property">content</span><span class="token punctuation">:</span><span class="token string">'在before之前插入内容'</span><span class="token punctuation">;</span> <span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span><span class="token punctuation">}</span>
 &lt;div class=<span class="token string">&quot;before&quot;</span>&gt; me&lt;/div&gt;
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>配合取值函数 <code>attr()</code> 使用</li></ul> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token selector">a::before</span><span class="token punctuation">{</span><span class="token property">content</span><span class="token punctuation">:</span> <span class="token function">attr</span><span class="token punctuation">(</span>title<span class="token punctuation">)</span><span class="token punctuation">}</span>
-&lt;a href=<span class="token string">&quot;https://coder.itclan.cn/&quot;</span> title=<span class="token string">&quot;dearlocation&quot;</span>&gt;&lt;/a&gt;
+&lt;a href=<span class="token string">&quot;https://dearlocation.com/&quot;</span> title=<span class="token string">&quot;dearlocation&quot;</span>&gt;&lt;/a&gt;
 
 效果
-&lt;a href=<span class="token string">&quot;https://coder.itclan.cn/&quot;</span> title=<span class="token string">&quot;dearlocation&quot;</span>&gt;dearlocation&lt;/a&gt;
+&lt;a href=<span class="token string">&quot;https://dearlocation.com/&quot;</span> title=<span class="token string">&quot;dearlocation&quot;</span>&gt;dearlocation&lt;/a&gt;
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h2 id="伪类与伪元素的具体区别"><a href="#伪类与伪元素的具体区别" class="header-anchor">#</a> 伪类与伪元素的具体区别</h2> <p>在上面主要是罗列了一些硬知识点,仍然是比较难以理解的,下面用具体的代码示例来学习下的</p> <p>下面是一个简单的 <code>html</code> 列表片段</p> <div class="language-html line-numbers-mode"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>我是第一个li<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>我是第二个li<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>

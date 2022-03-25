@@ -14,7 +14,7 @@
         <div>dearlocation:读书,技术,生活,笔耕不辍,知行合一,旨在用心交流与快乐分享,做一个具有情怀的先行者</div>
       </el-collapse-item>
       <el-collapse-item title="官网" name="5">
-        <div>https://coder.itclan.cn/</div>
+        <div>https://dearlocation.com/</div>
       </el-collapse-item>
       <el-collapse-item title="其他业务" name="6">
         <div>广告文案策划编写/短视频后期制作(特效,后期剪辑处理)/配音/公众号代运营,推广</div>

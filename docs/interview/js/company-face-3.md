@@ -13,7 +13,7 @@ title: Js 笔试真题-3
 将常规的 URL 字符串的参数解析为对象的形式,如下示例所示
 
 ```js
-let httpUrlStr = 'https://coder.itclan.cn?name=dearlocation&study=css';
+let httpUrlStr = 'https://dearlocation.com?name=dearlocation&study=css';
 ```
 
 解析后结果如下
@@ -22,7 +22,7 @@ let httpUrlStr = 'https://coder.itclan.cn?name=dearlocation&study=css';
 { "name": "dearlocation", "study":  "css" }
 ```
 
-<parseurl-parseUrl :url="`https://coder.itclan.cn?name=dearlocation&study=css`" />
+<parseurl-parseUrl :url="`https://dearlocation.com?name=dearlocation&study=css`" />
 
 ## 代码实现
 
@@ -31,7 +31,7 @@ let httpUrlStr = 'https://coder.itclan.cn?name=dearlocation&study=css';
 ::: details 点击即可查看使用 split 方式实现
 
 ```js
-let baseUrlStr = 'https://coder.itclan.cn?name=dearlocation&study=css';
+let baseUrlStr = 'https://dearlocation.com?name=dearlocation&study=css';
 // 参数转成对象
 function queryString(str) {
   let params = str.split('?')[1]; //截取?号后的字符串即name=dearlocation&study=css
@@ -56,7 +56,7 @@ console.log(queryString(baseUrlStr)); // {name: "dearlocation", study: "css"]}
 ::: details 点击即可查看正则表达式方式实现
 
 ```js
-let baseUrlStr = 'https://coder.itclan.cn?name=dearlocation&study=css';
+let baseUrlStr = 'https://dearlocation.com?name=dearlocation&study=css';
 const queryURLParameter = (url) => {
   let regx = /([^&?=]+)=([^&?=]+)/g;
   let obj = {};
@@ -85,7 +85,7 @@ console.log(queryURLParameter(baseUrlStr)); // {name: "dearlocation", study: "cs
 `params`请求参数,可以多个,也就是如下所示,那怎么办?
 
 ```
-let baseUrlStr = 'https://coder.itclan.cn?name=dearlocation&study=css&study=js&study=react';
+let baseUrlStr = 'https://dearlocation.com?name=dearlocation&study=css&study=js&study=react';
 ```
 
 经过转换,最终结果为
@@ -100,7 +100,7 @@ let baseUrlStr = 'https://coder.itclan.cn?name=dearlocation&study=css&study=js&s
 
 ```js
 let baseUrlStr =
-  'https://coder.itclan.cn?name=dearlocation&study=css&study=js&study=react';
+  'https://dearlocation.com?name=dearlocation&study=css&study=js&study=react';
 // 参数转成对象
 function queryString(str) {
   let params = str.split('?')[1];
@@ -130,7 +130,7 @@ console.log(queryString(baseUrlStr)); //{name: "dearlocation",study: ["css", "js
 主要在中间做了一下处理,判断是不是数组,这个有点虐心,虽然平常遇到的场景不是特别多,但是也是有这种情况的,有次面试就被折腾得不行的,回来脑补了一下的
 :::
 
-<parseurl-parseUrl :url="`https://coder.itclan.cn?name=dearlocation&study=css&study=js&study=react`" />
+<parseurl-parseUrl :url="`https://dearlocation.com?name=dearlocation&study=css&study=js&study=react`" />
 
 ## 第 2 题-var let const 的区别
 

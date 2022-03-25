@@ -11,14 +11,14 @@ autoGroup-1: 正则表达式
 
 校验一用户输入 url 的正确性
 
-<regular-regExpress :label="`输入链接网址`"  :input="`https://coder.itclan.cn`" :btntext="`立即校验`" :type="`url`"/>
+<regular-regExpress :label="`输入链接网址`"  :input="`https://dearlocation.com`" :btntext="`立即校验`" :type="`url`"/>
 
 ::: details 点击即可查核心代码
 
 ```js{1}
 let regUrl = /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\*\+,;=.]+$/;
 
-let testUrl = 'https://coder.itclan.cn/';
+let testUrl = 'https://dearlocation.com/';
 function checkUrl(str) {
   if (regUrl.test(str)) {
     // url正确
@@ -27,7 +27,7 @@ function checkUrl(str) {
   }
 }
 
-console.log(checkUrl(testUrl)); // https://coder.itclan.cn/
+console.log(checkUrl(testUrl)); // https://dearlocation.com/
 ```
 
 :::

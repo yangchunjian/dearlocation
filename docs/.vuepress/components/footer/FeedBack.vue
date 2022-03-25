@@ -30,7 +30,7 @@ export default {
   name: "FeedBack",
   data() {
     return {
-      msgpath: `https://coder.itclan.cn${this.$route.path}`,
+      msgpath: `https://dearlocation.com${this.$route.path}`,
     };
   },
 

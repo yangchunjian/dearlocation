@@ -178,7 +178,7 @@ autoGroup-2: 生活思考
 
 ⒉ 开发完成了轻量版的【轻记账】微信小程序,目前 pv 已达 1500
 
-⒊ 丢弃 `jekyll`,拥抱 `vuepress`,并搭建了[dearlocation 网站](https://coder.itclan.cn),并在上面输出一些技术总结
+⒊ 丢弃 `jekyll`,拥抱 `vuepress`,并搭建了[dearlocation 网站](https://dearlocation.com),并在上面输出一些技术总结
 
 ⒋ 开发完成了[佳豪瑞森装饰](https://jiahaoruisen.com)官方网站
 
@@ -212,13 +212,13 @@ autoGroup-2: 生活思考
    <img class="medium-zoom lazy" loading="lazy" src="https://cdn.jsdelivr.net/gh/itclancode/blogImgAssets@master/2020-replay-day/1609634072032-07-toutiao.png" alt="" />
    <p>(头条视频收益)</p>
 </div>
-当然在[dearlocation网站](https://coder.itclan.cn)中加入了一个引流的工具,给用户读者制造了一点阅读障碍
+当然在[dearlocation网站](https://dearlocation.com)中加入了一个引流的工具,给用户读者制造了一点阅读障碍
 
 这个致正在屏幕前阅读的读者,还是希望您能多多体谅一下,通常写一篇博客,文章,的确消耗自己不少精力,而大部分的文章,我都是在晚上,或者牺牲周末的时间来完成的
 
 我个人觉得,看一篇文章,随手关注一下,甚至赏杯咖啡的钱鼓励一下,也没有什么,如果能从作者中提取到对自己有用的信息,给自己带来启发,打开了一扇窗,我觉得,那就是值
 
-当然无论是在[dearlocation 网站](https://coder.itclan.cn)上还是在 dearlocation 公众号里,都是能看到的
+当然无论是在[dearlocation 网站](https://dearlocation.com)上还是在 dearlocation 公众号里,都是能看到的
 
 所有的文章都在这里:[dearlocation 文章目录](https://mp.weixin.qq.com/s/EgSgGqMWoV4nrt7qPF9nzA)
 
@@ -238,14 +238,14 @@ autoGroup-2: 生活思考
 
 5. [github-itclancode](https://github.com/itclancode/)
 
-6. [dearlocation 网站](https://coder.itclan.cn)
+6. [dearlocation 网站](https://dearlocation.com)
 
 7. [公众号:dearlocation](https://mp.weixin.qq.com/s/EgSgGqMWoV4nrt7qPF9nzA)
    ...
 
-当然任何一分享都优先于第一时间在 [dearlocation 网站](https://coder.itclan.cn)上发布,其次就是其他.不要问为什么,因为我的网站,我做主了
+当然任何一分享都优先于第一时间在 [dearlocation 网站](https://dearlocation.com)上发布,其次就是其他.不要问为什么,因为我的网站,我做主了
 
-对于 2020 年,在技术上投入的时间算是比较多的,但依旧远远不够,所幸之处就是孕育了一个[爸爸 itclan](https://itclan.cn),有一个自己还算比较认可的儿子[dearlocation](https://coder.itclan.cn)
+对于 2020 年,在技术上投入的时间算是比较多的,但依旧远远不够,所幸之处就是孕育了一个[爸爸 itclan](https://itclan.cn),有一个自己还算比较认可的儿子[dearlocation](https://dearlocation.com)
 
 其中爸爸的主要技术栈是:LAMP,儿子主要是 vue,当然在小程序开发当中也接触到了云开发,以及云托管,还有部分服务器部署,运维的知识
 
@@ -331,7 +331,7 @@ autoGroup-2: 生活思考
 
 对于 2021,我想依旧更多是:多专注自我,人若无名,专心练剑.剑成之后,退可守,亦可攻
 
-业余好好经营爸爸[itclan 爱客来科技](https://itclan.cn),和儿子[dearlocation](https://coder.itclan.cn)
+业余好好经营爸爸[itclan 爱客来科技](https://itclan.cn),和儿子[dearlocation](https://dearlocation.com)
 
 在未来,或许会有更多的成员加入,在众多成员当中,希望能有一两个出山,那我就知足了的
 
@@ -339,7 +339,7 @@ autoGroup-2: 生活思考
 
 ⒈ 年薪百万
 
-⒉ [dearlocation](https://coder.itclan.cn)公众号粉丝十万
+⒉ [dearlocation](https://dearlocation.com)公众号粉丝十万
 
 ⒊ [itclan](https://itclan.cn)爸爸众多儿子中至少能有一个出色,拿得出手的
 

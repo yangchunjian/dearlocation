@@ -37,7 +37,7 @@ export default {
           list_name: "川川",
           list_title: "人人领读-发起人",
           list_desc:
-            "itclan.cn/coder.itclan.cn站长,dearlocation公众号博主,人人领读公众号发起人,一个具有情怀的技匠,路上正追逐斜杠青年的践行者",
+            "itclan.cn/dearlocation.com站长,dearlocation公众号博主,人人领读公众号发起人,一个具有情怀的技匠,路上正追逐斜杠青年的践行者",
           list_source: chuanchuanSource,
           list_img:
             "https://cdn.jsdelivr.net/gh/itclanCode/blogImgAssets/lingdustar/1607597279256-chuanchuan.png",

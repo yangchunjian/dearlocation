@@ -42,7 +42,7 @@ function getURLParameters(url) {
 :::
 ::: tab 方法2 lazy
 ```javascript
-let baseUrlStr = 'https://coder.itclan.cn?name=dearlocation&study=css';
+let baseUrlStr = 'https://dearlocation.com?name=dearlocation&study=css';
 // 参数转成对象
 function queryString(str) {
   let params = str.split('?')[1]; //截取?号后的字符串即name=dearlocation&study=css
@@ -63,7 +63,7 @@ console.log(queryString(baseUrlStr)); // {name: "dearlocation", study: "css"]}
 
 ::: tab 方法3 lazy
 ```javascript
-let baseUrlStr = 'https://coder.itclan.cn?name=dearlocation&study=css';
+let baseUrlStr = 'https://dearlocation.com?name=dearlocation&study=css';
 const queryURLParameter = (url) => {
   let regx = /([^&?=]+)=([^&?=]+)/g;
   let obj = {};

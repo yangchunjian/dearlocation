@@ -154,7 +154,7 @@ window.onload = function() {
 这种方式我有试过,但不靠谱,实现不了:joy:,即使能实现,每篇文章都要手动的添加 id,那不是一个懒的程序员应该做的事情
 :::
 
-可以在控制台中审查元素,找到文章最外层的那个容器,实在不知道,你找个已经实现了解锁文章的博客作为参照:例如[dearlocation 网站](http://coder.itclan.cn/)
+可以在控制台中审查元素,找到文章最外层的那个容器,实在不知道,你找个已经实现了解锁文章的博客作为参照:例如[dearlocation 网站](http://dearlocation.com/)
 
 没有添加解锁文章的博客,是没有那个`id="container"`属性的
 
@@ -394,7 +394,7 @@ window.onload = function() {
 
 如果你按照以上的步骤无论是通过`import`的方式还是通过`Vue.mixin`的方式,在打包过程中就不会此类问题
 
-之所以介绍两种方式,那是我踩坑之后,才发现的,本地运行好好的,一打包就出错.算是一个小坑,我的[dearlocation 博客](http://coder.itclan.cn)里使用的是`Vue.mixin()`这种方式全局注入组件实现全站文章隐藏的
+之所以介绍两种方式,那是我踩坑之后,才发现的,本地运行好好的,一打包就出错.算是一个小坑,我的[dearlocation 博客](http://dearlocation.com)里使用的是`Vue.mixin()`这种方式全局注入组件实现全站文章隐藏的
 
 你也可以查看[如何解决 vuepress 编译打包失败即 window/document is not defined 问题](/fontend/tools/pack-fail-window-problem)
 

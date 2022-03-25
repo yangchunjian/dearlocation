@@ -477,10 +477,10 @@ console.log(`主站 ${symItclan}`) // Uncaught TypeError: Cannot convert a Symbo
 - ### `Symbol`可以显示转为字符串
 
 ```
-let Sydearlocation = Symbol('https://coder.itclan.cn');
+let Sydearlocation = Symbol('https://dearlocation.com');
 
-console.log(String(Sydearlocation)) // Symbol(https://coder.itclan.cn)
-console.log(Sydearlocation.toString()) // Symbol(https://coder.itclan.cn)
+console.log(String(Sydearlocation)) // Symbol(https://dearlocation.com)
+console.log(Sydearlocation.toString()) // Symbol(https://dearlocation.com)
 ```
 
 - ### `Symbol`值可以转为布尔值,但是不能转为数值
