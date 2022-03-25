@@ -18,7 +18,7 @@ const rightBar = {
       title: '扫码易购',
       desc: '福利推荐',
       imgUrl:
-        'https://cdn.jsdelivr.net/gh/itclanCode/blogImgAssets/rightBarImgs/1606971855441-xiaoshangdian.jpg',
+        'https://www.yangchunjian.com/docbook/imgs/qrcode.jpg',
     },
   ],
 
@@ -28,7 +28,7 @@ const rightBar = {
     newImg:
       'https://cdn.jsdelivr.net/gh/itclanCode/blogImgAssets/rightBarImgs/1606971937519-new.png',
     buyImg:
-      'https://cdn.jsdelivr.net/gh/itclanCode/blogImgAssets/rightBarImgs/1606971855441-xiaoshangdian.jpg',
+      'https://www.yangchunjian.com/docbook/imgs/qrcode.jpg',
     codeImg:
       'https://www.yangchunjian.com/docbook/imgs/dearlocation.jpeg',
     publicodeImg:
