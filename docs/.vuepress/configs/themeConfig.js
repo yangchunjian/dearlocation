@@ -20,7 +20,7 @@ const navConfig = require('./navConfig'); // 头部导航栏配置,通过配置�
 
 const themeconfig = {
   // logo: "/images/logo.png", // 左上角logo
-  repo: 'itclanCode/blogcode', // 链接的仓库
+  repo: 'yangchunjian/dearlocation', // 链接的仓库
   repoLabel: 'GitHub', // 链接的名称
   docsDir: 'docs',
   editLinks: true, // 通过配置editLinks来设置是否出现编辑链接
