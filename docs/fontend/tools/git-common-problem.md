@@ -83,7 +83,7 @@ push 你的代码 (git push), 这时会让你输入用户名和密码, 这一步
 
 ```
 origin  https://github.com/github用户名/仓库名称.git (fetch)
-origin  https://github.com/github用户名/blogcode.git (push)
+origin  https://github.com/github用户名/dearlocation.git (push)
 ```
 
 - 若是`ssh`方式,则会显示如下

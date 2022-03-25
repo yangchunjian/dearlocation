@@ -1057,7 +1057,7 @@ module.exports = {
 ### 创建两个仓库
 
 - 在`github`上创建两个仓库,一个仓库的名称:`https://<USERNAME>.github.io/<REPO>/` 即`https://github.com/<USERNAME>/<REPO>`,或者直接仓库的名称就是`username.github.io`(这个 username 是你 github 的登录账号的名称,是固定的),这个仓库的作用是用来部署线上版本用的
-- 在创建一个仓库,这个仓库的名称任意,这个仓库是用来平时日常开发代码的,比如我的:`blogcode`
+- 在创建一个仓库,这个仓库的名称任意,这个仓库是用来平时日常开发代码的,比如我的:`dearlocation`
 
 ::: details 为什么要创建两个代码仓库呢,一个仓库不是很好么?
 
@@ -1114,7 +1114,7 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
-# git push -f git@github.com:itclancode/blogcode.git master:gh-pages
+# git push -f git@github.com:itclancode/dearlocation.git master:gh-pages
 
 cd -
 
@@ -1539,9 +1539,9 @@ doc.itclan.cn;
 
 关于`vuepress`搭建网站到自定义域名部署上线,基本上就完成了,如果您觉得`github pages`访问很慢,也可以将代码托管给[gitee](https://gitee.com/)或者[coding](https://coding.net/)等一些第三方平台上的,这样访问速度就会快些
 
-当然你也可以直接`clone`[blogcode 源码](https://github.com/yangchunjian/dearlocation)进行二次修改,但是我个人觉得,建议还是自己手动一行一行的配置一下,结合[vuepress 中文官方文档](https://www.vuepress.cn/),进行学习配置
+当然你也可以直接`clone`[dearlocation 源码](https://github.com/yangchunjian/dearlocation)进行二次修改,但是我个人觉得,建议还是自己手动一行一行的配置一下,结合[vuepress 中文官方文档](https://www.vuepress.cn/),进行学习配置
 
-建议您克隆[blogcode 简易版-示例 Demo](https://github.com/itclanCode/vuepress-build-blog-demo),您当前看到的博客,就是基于此简易示例`Demo`进行拓展的,该模板没有掺杂特别多的东西,在示例的`md`中也有对应的`markdown`语法的拓展的演示,可自行修改
+建议您克隆[dearlocation 简易版-示例 Demo](https://github.com/itclanCode/vuepress-build-blog-demo),您当前看到的博客,就是基于此简易示例`Demo`进行拓展的,该模板没有掺杂特别多的东西,在示例的`md`中也有对应的`markdown`语法的拓展的演示,可自行修改
 
 一上来,就折腾一堆文件,不明不白的东西,难免会令新手奔溃,这就像读源码的,一上来,读上千行的代码,根本不知道从哪看起,而分模块的读,先整体,后局部,从简易的示例模块中读,才是正确的方式
 
