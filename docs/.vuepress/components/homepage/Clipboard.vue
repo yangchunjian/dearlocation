@@ -14,7 +14,7 @@
   <div>
     <p>
       <span>MIT Licensed | {{ dateYear }}-present</span>
-      <a href="https://github.com/itclanCode/blogcode" target="_blank"
+      <a href="https://github.com/yangchunjian/dearlocation" target="_blank"
         >亲位</a
       >
       <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">

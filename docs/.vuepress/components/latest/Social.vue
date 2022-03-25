@@ -20,7 +20,7 @@ export default {
     return {
       SocialData: [
         {
-          href: "https://github.com/itclanCode/blogcode",
+          href: "https://github.com/yangchunjian/dearlocation",
           imgSrc: "/images/latest/social-github.svg",
           alt: "github-itclancode",
           text: "Github"

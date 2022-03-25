@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itclanCode/blogcode.git"
+    "url": "git+https://github.com/yangchunjian/dearlocation.git"
   },
   "keywords": [
     "dearlocation的技术博客-亲位",
@@ -35,9 +35,9 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/itclanCode/blogcode/issues"
+    "url": "https://github.com/yangchunjian/dearlocation/issues"
   },
-  "homepage": "https://github.com/itclanCode/blogcode#readme",
+  "homepage": "https://github.com/yangchunjian/dearlocation#readme",
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.9.5",
     "@vuepress/plugin-back-to-top": "^1.9.5",

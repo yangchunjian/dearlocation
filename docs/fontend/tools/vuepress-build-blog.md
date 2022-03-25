@@ -661,7 +661,7 @@ module.exports = {
 ::: details 为什么有必要将 config 进行拆分,分割?
 随着你往后想要配置的 nav,slidebar,导航栏,侧边栏,以及插件的增多,如果没有对 config.js 进行分割,该文件的配置将会越来越长,越来越臃肿,到最后,连你自己都看不下去,无法忍受了的,对于后期的代码维护,以及拓展是极其不友好的,所以在一开始,就考虑一下代码的拆分,更多的是方便自己,一劳永逸,不要觉得这个很麻烦,不抽离,越往后,越是灾难,到最后,自己可能在也不会去看了的
 :::
-如果以上的讲解依然不清楚:可以研究一下:[dearlocation 博客-项目源码](https://github.com/itclanCode/blogcode),按照这个结构进行配置,就好了的
+如果以上的讲解依然不清楚:可以研究一下:[dearlocation 博客-项目源码](https://github.com/yangchunjian/dearlocation),按照这个结构进行配置,就好了的
 
 ## 配置插件
 
@@ -1376,7 +1376,7 @@ plugins: [
 
 - 链接地止[徽章生成地止 shields.io](https://shields.io/)
 
-<a target="_blank" href="https://github.com/itclanCode/blogcode"><img src="https://img.shields.io/badge/stars-20K-brightgreen"></a>
+<a target="_blank" href="https://github.com/yangchunjian/dearlocation"><img src="https://img.shields.io/badge/stars-20K-brightgreen"></a>
 <a target="_blank" href="https://juejin.im/user/5900e97b1b69e60058b936ed/posts"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-10K-orange"></a>
 
 ## 常见问题:ghost: <Badge text="必看" type="error"/>
@@ -1539,7 +1539,7 @@ doc.itclan.cn;
 
 关于`vuepress`搭建网站到自定义域名部署上线,基本上就完成了,如果您觉得`github pages`访问很慢,也可以将代码托管给[gitee](https://gitee.com/)或者[coding](https://coding.net/)等一些第三方平台上的,这样访问速度就会快些
 
-当然你也可以直接`clone`[blogcode 源码](https://github.com/itclanCode/blogcode)进行二次修改,但是我个人觉得,建议还是自己手动一行一行的配置一下,结合[vuepress 中文官方文档](https://www.vuepress.cn/),进行学习配置
+当然你也可以直接`clone`[blogcode 源码](https://github.com/yangchunjian/dearlocation)进行二次修改,但是我个人觉得,建议还是自己手动一行一行的配置一下,结合[vuepress 中文官方文档](https://www.vuepress.cn/),进行学习配置
 
 建议您克隆[blogcode 简易版-示例 Demo](https://github.com/itclanCode/vuepress-build-blog-demo),您当前看到的博客,就是基于此简易示例`Demo`进行拓展的,该模板没有掺杂特别多的东西,在示例的`md`中也有对应的`markdown`语法的拓展的演示,可自行修改
 
@@ -1597,7 +1597,7 @@ doc.itclan.cn;
 
 自己的网站,自己做主,一定要坚信,对于这种绝大多人都可以快速搭建起来的应用网站,你也是可以的,只要耐心折腾一下,本身并无多大技术含量,只有折腾过了,你才会发现新的大陆
 
-如果您有关于`VuePress`搭建网站或二次开发中有任何问题,欢迎提[issue](https://github.com/itclanCode/blogcode/issues),也欢迎评论下方,留言,我们一起学习讨论,加油
+如果您有关于`VuePress`搭建网站或二次开发中有任何问题,欢迎提[issue](https://github.com/yangchunjian/dearlocation/issues),也欢迎评论下方,留言,我们一起学习讨论,加油
 
 <footer-FooterLink :isShareLink="true" :isDaShang="true" />
 <footer-FeedBack />

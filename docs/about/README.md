@@ -133,7 +133,7 @@ title: 关于作者
   <p>扫码即可体验,还有待完善</p>
   </div>
 
-* [dearlocation 博客源码](https://github.com/itclanCode/blogcode)
+* [dearlocation 博客源码](https://github.com/yangchunjian/dearlocation)
 * [it资源网 https://itclan.cn](https://itclan.cn)
 - [爱客来科技](https://aikelaidev.cn)
 * [微信公众号: dearlocation](https://mp.weixin.qq.com/s/EgSgGqMWoV4nrt7qPF9nzA)
