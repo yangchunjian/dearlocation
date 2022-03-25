@@ -1072,11 +1072,11 @@ module.exports = {
 :::
 
 ::: tip 提醒
-如果您的仓库不是放置在根目录下(就是`https://itclancode.github.io/blogcode/`这种形式,而非`https://itclancode.github.io/`),则在`config.js`的基础配置中需要更改`base`的路径,它默认是指向根路径的,可以省略
+如果您的仓库不是放置在根目录下(就是`https://yangchunjian.github.io/dearlocation/`这种形式,而非`https://yangchunjian.github.io/`),则在`config.js`的基础配置中需要更改`base`的路径,它默认是指向根路径的,可以省略
 
 ```js
 module.exports = {
-  base: '/blogcode/',
+  base: '/dearlocation/',
 };
 ```
 
@@ -1110,7 +1110,7 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io,把下面一行注释掉,替换username即可,注意以下这是ssh的方式
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
-# git push -f git@github.com:itclancode.github.io.git master
+# git push -f git@github.com:yangchunjian.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
@@ -1153,7 +1153,7 @@ git remote -v
 
 ⒈ npm run docs:build,手动构建
 
-⒉ git push -f https://itclancode.github.io.git master
+⒉ git push -f https://yangchunjian.github.io.git master
 :::
 
 当你`push`,完后,地止栏里输入`xxx.github.io`,如果能够访问成功,那说明部署已经成功了,如下所示
@@ -1174,7 +1174,7 @@ git remote -v
 <img class="medium-zoom lazy" loading="lazy" src="https://cdn.jsdelivr.net/gh/itclanCode/blogImgAssets/vuepress-build-blog/1607996677592-18-domain-config1.png" alt="配置域名" />
 <img class="medium-zoom lazy" loading="lazy" src="https://cdn.jsdelivr.net/gh/itclanCode/blogImgAssets/vuepress-build-blog/1607996736235-19-domain-config3.png" alt="配置域名" />
 
-实现这一步相当于就是将自定义的域名指向`gihub pages`,当访问`https://itclancode.github.io/`与`doc.itclan.cn`指向同一个`IP`,相比于浏览器地止栏输入`xxx.github.io`,直接输入域名访问要方便得多
+实现这一步相当于就是将自定义的域名指向`gihub pages`,当访问`https://yangchunjian.github.io/`与`doc.itclan.cn`指向同一个`IP`,相比于浏览器地止栏输入`xxx.github.io`,直接输入域名访问要方便得多
 
 ### 检验域名有没有解析成功
 
@@ -1183,7 +1183,7 @@ git remote -v
 ```js
 C:\Users\itclancode>ping doc.itclan.cn
 
-正在 Ping itclancode.github.io [xxx.xxx.xxx.xxx] 具有 32 字节的数据:
+正在 Ping yangchunjian.github.io [xxx.xxx.xxx.xxx] 具有 32 字节的数据:
 请求超时。
 来自 xxx.xxx.xxx.xxx的回复: 字节=32 时间=51ms TTL=48
 来自 xxx.xxx.xxx.xxx 的回复: 字节=32 时间=52ms TTL=48
@@ -1194,9 +1194,9 @@ xxx.xxx.xxx.xxx 的 Ping 统计信息:
 往返行程的估计时间(以毫秒为单位):
     最短 = 51ms，最长 = 53ms，平均 = 52ms
 
-C:\Users\itclancode>ping itclancode.github.io
+C:\Users\itclancode>ping yangchunjian.github.io
 
-正在 Ping itclancode.github.io [xxx.xxx.xxx.xxx] 具有 32 字节的数据:
+正在 Ping yangchunjian.github.io [xxx.xxx.xxx.xxx] 具有 32 字节的数据:
 请求超时。
 来自 xxx.xxx.xxx.xxx 的回复: 字节=32 时间=51ms TTL=48
 来自 xxx.xxx.xxx.xxx 的回复: 字节=32 时间=55ms TTL=48
