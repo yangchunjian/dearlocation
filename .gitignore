@@ -4,3 +4,4 @@ node_modules
 .vuepress/dist/
 .vuepress/configs/secretKey.js
 .vercel
+.idea
