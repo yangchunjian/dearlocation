@@ -1,8 +1,8 @@
 <div align="center">
 
-# itclanCoder
+# dearlocation
 
-![tI00h0.jpg](https://t1.picb.cc/uploads/2020/06/11/tI00h0.jpg)
+<!-- ![tI00h0.jpg](https://t1.picb.cc/uploads/2020/06/11/tI00h0.jpg) -->
 
 <p align="center">
 
@@ -13,7 +13,7 @@
 </p>
 </div>
 
-### itclanCoder 博客介绍
+### dearlocation 博客介绍
 
 - 本博客主要分享前端技术,不限于`CSS`,`JavaScript`,`React`,`Vue`,`微信小程序`,`云开发`:eagle:等为主
 - 本博客主要分享实际开发中遇到的一些问题,并非搬运工,旨在有效的记录与分享,会一直维护下去
@@ -23,15 +23,15 @@
 
 - 本博客若有对小伙伴们有帮助,谢谢不要吝啬您的`star`
 - 线上地止:[线上预览-coder.itclan.cn](https://coder.itclan.cn/)
-- 您也可关注**官方微信公众号:itclanCoder**
+- 您也可关注**官方微信公众号:dearlocation**
   <div align="center">
-  <img src="https://t1.picb.cc/uploads/2020/06/11/tIpk0j.jpg" width="148" height="148" alt="itclanCoder公众号" border="0">
+  <img src="https://t1.picb.cc/uploads/2020/06/11/tIpk0j.jpg" width="148" height="148" alt="dearlocation公众号" border="0">
   </div>
 
 ### 如何支持作者
 
 - 间接支持:
-  - 给该项目`star`,可以`clone`,但是谢谢注明下来源,写作不易,请您尊重下作者劳动成果,建议克隆另一简易版本[itclanCoder 博客-简易模板](https://github.com/itclanCode/vuepress-build-blog-demo),自行二次配置,修改
+  - 给该项目`star`,可以`clone`,但是谢谢注明下来源,写作不易,请您尊重下作者劳动成果,建议克隆另一简易版本[dearlocation 博客-简易模板](https://github.com/itclanCode/vuepress-build-blog-demo),自行二次配置,修改
   - 收藏,转发,点赞
   - [视频录制](https://space.bilibili.com/267957620),如有收获,三连击(点赞,关注,投币:whale:)
 - 直接支持
@@ -47,7 +47,7 @@
     <img src="https://t1.picb.cc/uploads/2020/06/11/tIpwCK.jpg" width="148" height="148" alt="支付宝支付" border="0">
 </div>
 
-- 小额赞助后,您可以联系作者,可获得额外的回报,您可以告诉我,您的名字,它将会出现在`itclanCoder` 的`GitHub`仓库中,再比如您公司 `logo`,或相关产品会出现在[itclanCoder 官网](https://coder.itclan.cn)上.
+- 小额赞助后,您可以联系作者,可获得额外的回报,您可以告诉我,您的名字,它将会出现在`dearlocation` 的`GitHub`仓库中,再比如您公司 `logo`,或相关产品会出现在[dearlocation 官网](https://coder.itclan.cn)上.
 - **如需合作联系:vx:`suibichuanji`,备注:坐标-昵称-身份,如:深圳-李明-IT(后端)**
 
 ### 如何参与贡献
