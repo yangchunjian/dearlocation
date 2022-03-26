@@ -2,7 +2,7 @@
   <div class="shang-wrap">
     <a
       target="_blank"
-      href="https://www.zhi12.cn/paycenter/reward/widget?entity=user&id=33813"
+      href="https://www.zhi12.cn/paycenter/reward/widget?entity=user&id=72958"
     >
       <img
         height="80"

@@ -50,7 +50,7 @@
       <div
         @click="
           handleShange(
-            'https://www.zhi12.cn/paycenter/reward/widget?entity=user&id=33813'
+            'https://www.zhi12.cn/paycenter/reward/widget?entity=user&id=72958'
           )
         "
       >

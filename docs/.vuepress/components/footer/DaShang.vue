@@ -1,5 +1,5 @@
 <template>
-  <div  @click="handleShangBtn('https://www.zhi12.cn/paycenter/reward/widget?entity=user&id=33813')">
+  <div  @click="handleShangBtn('https://www.zhi12.cn/paycenter/reward/widget?entity=user&id=72958')">
         <el-tooltip class="item" effect="dark" content="如果我的文章对您有任何帮助,欢迎您的任何金额打赏鼓励" placement="top">
             <el-button class="shang-btn">赞</el-button>
          </el-tooltip>

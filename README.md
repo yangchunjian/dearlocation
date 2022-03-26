@@ -38,13 +38,13 @@
 
   - 如果您觉得博客中的文章对你有帮助,可赞助一杯咖啡的钱,小额捐助来表示您的谢意.更好的鼓励我深夜打码,创作
 
-  * [点击链接支付宝/微信赞助](https://www.zhi12.cn/paycenter/reward/widget?entity=user&id=33813)
+  * [点击链接微信/支付宝赞助](https://www.zhi12.cn/paycenter/reward/widget?entity=user&id=72958)
 
 <div align="center">
-    <img src="https://t1.picb.cc/uploads/2020/06/11/tIptoc.jpg" width="148" height="148" alt="微信支付" border="0">
+    <img src="https://www.yangchunjian.com/docbook/imgs/wechat.png" width="148" height="148" alt="微信支付" border="0">
     <br /><br />
     <hr />
-    <img src="https://t1.picb.cc/uploads/2020/06/11/tIpwCK.jpg" width="148" height="148" alt="支付宝支付" border="0">
+    <img src="https://www.yangchunjian.com/docbook/imgs/zfb.gif" width="148" height="148" alt="支付宝支付" border="0">
 </div>
 
 - 小额赞助后,您可以联系作者,可获得额外的回报,您可以告诉我,您的名字,它将会出现在`dearlocation` 的`GitHub`仓库中,再比如您公司 `logo`,或相关产品会出现在[dearlocation 官网](https://dearlocation.com)上.
