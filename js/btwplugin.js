@@ -7,9 +7,9 @@ window.onload = function() {
   btw = new BTWPlugin();
   btw.init({
     id: 'container',
-    blogId: '15005-1605711320163-146',
-    name: 'dearlocation',
-    qrcode: 'http://pic.yupoo.com/itclan/7c9fd976/bccf3846.jpg',
+    blogId: '29399-1648261280064-485',
+    name: '亲位网',
+    qrcode: 'https://www.yangchunjian.com/docbook/imgs/qrcode_for_gh_8756901e5b12_344.jpg',
     keyword: '验证码',
   });
 };
