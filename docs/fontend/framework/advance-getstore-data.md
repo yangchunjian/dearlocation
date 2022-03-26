@@ -78,7 +78,7 @@ class TodoList extends React.Component {
     // 组件内部的初始化状态数据
     this.state = {
       inputValue: 'dearlocation', // input表单初始值
-      list: ['dearlocation', '川川', '学习Redux'], // 下方列表展示的数据
+      list: ['dearlocation', '春建', '学习Redux'], // 下方列表展示的数据
     };
   }
   render() {
@@ -147,7 +147,7 @@ const store = createStore(reducer); // 创建好reducer后,需要将reducer作�
 function reducer(
   state = {
     inputValue: 'dearlocation',
-    list: ['dearlocation', '川川', '学习Redux'],
+    list: ['dearlocation', '春建', '学习Redux'],
   },
   action
 ) {

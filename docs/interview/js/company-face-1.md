@@ -221,7 +221,7 @@ const module = {
 };
 
 const unboundGetName = module.getName;
-console.log(unboundGetName()); //  函数在全局范围内被调用,undefined,这里的this指向的是window,很多面试题在全局范围定义了一个var name = "川川",那么此处便会输出"川川",因为这里全局作用域内没有name,所以是undefined
+console.log(unboundGetName()); //  函数在全局范围内被调用,undefined,这里的this指向的是window,很多面试题在全局范围定义了一个var name = "春建",那么此处便会输出"春建",因为这里全局作用域内没有name,所以是undefined
 const boundGetName = unboundGetName.bind(module); // 通过bind改变this的指向,指向module对象
 console.log(boundGetName()); // dearlocation
 ```

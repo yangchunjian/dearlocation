@@ -114,9 +114,9 @@ Page({
   handleChangeName() {
     console.log("name开始的数据", this.data.name); // dearlocation
     this.setData({
-      name: "川川"
+      name: "春建"
     })
-    console.log("name经过setData后的数据", this.data.name); // 川川
+    console.log("name经过setData后的数据", this.data.name); // 春建
   }
 
 })
@@ -131,8 +131,8 @@ Page({
 
 ```
 this.setData({
-   // this.data.name: "川川"  // 这样写是会报错的
-   name: "川川"               // 正确的写法
+   // this.data.name: "春建"  // 这样写是会报错的
+   name: "春建"               // 正确的写法
 })
 ```
 
@@ -142,11 +142,11 @@ this.setData({
 handleChangeName() {
     console.log("name开始的数据", this.data.name); // dearlocation
     this.setData({
-      name: "川川"
+      name: "春建"
     }, () => { // 接收第二个回调函数
        console.log("执行setData引起的界面更新渲染完毕后的回调函数");
     })
-    console.log("name经过setData后的数据", this.data.name); // 川川
+    console.log("name经过setData后的数据", this.data.name); // 春建
   }
 ```
 
@@ -154,7 +154,7 @@ handleChangeName() {
 
 ```
 dearlocation
-川川
+春建
 执行setData引起的界面更新渲染完毕后的回调函数
 ```
 
@@ -220,7 +220,7 @@ this.setData({
 
 ```
 this.setData({
-   ['person.age']: "川川"   // 访问对象下的属性可以用.也可以用中括号,中间代表是一个变量,需要用引号引起来
+   ['person.age']: "春建"   // 访问对象下的属性可以用.也可以用中括号,中间代表是一个变量,需要用引号引起来
 })
 
 ```

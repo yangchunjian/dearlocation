@@ -74,7 +74,7 @@ const element = (
    <div>
       <h1 title="我是子h1元素属性的内容">我是子h1元素的节点内容</h1>
       <h2>欢迎关注微信dearlocation公众号</h2>
-      <h3>川川是全宇宙最帅的小伙子</h3>
+      <h3>春建是全宇宙最帅的小伙子</h3>
    </div>
 )
 ```
@@ -102,7 +102,7 @@ JSX 会移除首尾行以及空行,与标签相邻的空行都会被删除,文�
   dearlocation
 </div>
 <div>
-  川川
+  春建
   dearlocation
 </div>
 <div>
@@ -165,9 +165,9 @@ var aDiv = [
 在插值表达式中,`javascript`表达式可以被包裹在双大括号`{}`中,以下两种写法都是等价的,这跟上面提到的是一样的
 
 ```
-<myComponent>川川</myComponent>
+<myComponent>春建</myComponent>
 // 等价于
-<myComponent>{'川川'}</myComponent>
+<myComponent>{'春建'}</myComponent>
 ```
 
 至于这种写法的具体实用:对于展示任意长度的列表就非常有用了的,渲染 HTML 列表
@@ -388,12 +388,12 @@ ReactDOM.render(<SearchArea />, container);
 ```
 function PersonA() {
   return (
-   <Info name="川川" age="一个靠前排的90后帅小伙" />
+   <Info name="春建" age="一个靠前排的90后帅小伙" />
   );
 }
 // 上面的return后面的等价于
 function personA() {
-  const props = { name: "川川", age:"一个靠前排的90后帅小伙"}
+  const props = { name: "春建", age:"一个靠前排的90后帅小伙"}
   return (
     <Info { ...props } />
   );
@@ -415,13 +415,13 @@ ReactDOM.render(<PersonA />, container);
 
 ```
 var obj = {
-name: "川川",
+name: "春建",
 age: "你猜,小鲜肉一枚"
 }
 var getAttr = Object.keys(obj);
 var getValue = Object.keys(obj).map((item) => obj[item]);
 console.log(getAttr); // ["name", "age"]
-console.log(getValue);// ["川川", "你猜,小鲜肉一枚"]
+console.log(getValue);// ["春建", "你猜,小鲜肉一枚"]
 ```
 
 如下真实例子所示:
@@ -457,7 +457,7 @@ class Person extends Component {
     super(props);
 
     this.person = {
-       name: "川川",
+       name: "春建",
        age: "一个靠前排的90后帅小伙",
        desc: "欢迎关注微信dearlocation公众号"
     }

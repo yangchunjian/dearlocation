@@ -382,7 +382,7 @@ onLoad: function (options) {
 const params = {
   // 参数放到外面,让代码更加清晰,可读,可维护性更高
   id: 22,
-  name: '川川',
+  name: '春建',
   sex: 'boy',
 };
 wx.navigateTo({
@@ -396,7 +396,7 @@ wx.navigateTo({
 onLoad: function (options) {
     console.log(options);
     const obj = JSON.parse(options.obj); // 将字符串对象转化为真正的对象
-    console.log(obj); // {id: 22, name: "川川",sex: "boy"}
+    console.log(obj); // {id: 22, name: "春建",sex: "boy"}
 },
 ```
 
@@ -419,7 +419,7 @@ onLoad: function (options) {
 const params = {
   // 参数放到外面,让代码更加清晰,可读,可维护性更高
   id: 22,
-  name: '川川',
+  name: '春建',
   sex: 'boy',
 };
 const param = encodeURIComponent(JSON.stringify(params)); // 通过encodeURIComponent编码
@@ -436,7 +436,7 @@ onLoad: function (options) {
     console.log(options);
     const tempObj = decodeURIComponent(options.obj)
     const obj = JSON.parse(tempObj); // 将字符串对象转化为真正的对象
-    console.log(obj); // {id: 22, name: "川川",sex: "boy"}
+    console.log(obj); // {id: 22, name: "春建",sex: "boy"}
 },
 ```
 
@@ -804,7 +804,7 @@ process->e
 Page({
   data: {
     parentPageData: {
-      name: '川川',
+      name: '春建',
       url: 'http://dearlocation.com',
       vx: 'dearlocation',
     },
@@ -904,7 +904,7 @@ process->e
 Page({
   data: {
     parentPageData: {
-      name: '川川',
+      name: '春建',
       url: 'http://dearlocation.com',
       vx: 'dearlocation',
     },

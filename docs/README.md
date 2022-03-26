@@ -2,7 +2,7 @@
 home: true
 heroImage: https://www.yangchunjian.com/docbook/imgs/dearlocation.jpeg
 heroText: dearlocation
-tagline: 书以启智,技于谋生,活出斜杠
+tagline: 技术,工作,生活
 actionText: 开始阅读 →
 actionLink: /latestarticle/
 features:

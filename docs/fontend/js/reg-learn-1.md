@@ -224,20 +224,20 @@ console.log(pattern.exec(str)); //["dearlocation", index: 17, input: "welcome fo
 - **返回**:如果匹配到,则返回一成功的数组,如果没有找到任何的一个匹配,那么它将返回的是`null`
 
 ```js
-var str = '"chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人"';
-console.log(str.match('chuanchuan')); // ["chuanchuan", index: 1, input: ""chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人""]
+var str = '"chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人"';
+console.log(str.match('chuanchuan')); // ["chuanchuan", index: 1, input: ""chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人""]
 var pattern = /chuanchuan/gi;
-var str = '"chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人"';
+var str = '"chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人"';
 console.log(str.match(pattern)); // ["chuanchuan", "chuanchuan"]
-var str = '"chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人"';
-console.log(str.match(/handsome/)); // ["handsome", index: 15, input: ""chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人""]
+var str = '"chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人"';
+console.log(str.match(/handsome/)); // ["handsome", index: 15, input: ""chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人""]
 ```
 
 当不匹配时,其结果返回`null`,同样要注意圆括号内是正则表达式与`test()`和`exec()`方法不同
 
 ```js
 var pattern = /亲位/gi;
-var str = '"chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人"';
+var str = '"chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人"';
 console.log(str.match(pattern)); // null
 ```
 
@@ -253,15 +253,15 @@ console.log(str.match(pattern)); // null
 
 ```js
 var pattern = /亲位/i;
-var str = 'chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人';
+var str = 'chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人';
 console.log(str.search(pattern)); // -1
 ```
 
 若匹配到,则返回的是该待匹配对象子字符串的位置
 
 ```js
-var pattern = /川川/gi; // 由于search方法查到就返回,无需g修饰符,查到返回第一个
-var str = 'chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人';
+var pattern = /春建/gi; // 由于search方法查到就返回,无需g修饰符,查到返回第一个
+var str = 'chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人';
 console.log(str.search(pattern)); // 37
 ```
 
@@ -275,9 +275,9 @@ console.log(str.search(pattern)); // 37
 
 ```js
 var pattern = /chuanchuan/i;
-var str = 'chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人';
+var str = 'chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人';
 console.log('未使用replace方法之前', str);
-console.log('使用replace方法之后', str.replace(pattern, '亲位')); //未使用replace方法之前 chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人//使用replace方法之后 亲位 is handsome man,chuanchuan川川是一个全宇宙最帅的男人
+console.log('使用replace方法之后', str.replace(pattern, '亲位')); //未使用replace方法之前 chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人//使用replace方法之后 亲位 is handsome man,chuanchuan春建是一个全宇宙最帅的男人
 ```
 
 ::: tip 注意
@@ -294,17 +294,17 @@ console.log('使用replace方法之后', str.replace(pattern, '亲位')); //未�
 
 ```js
 var pattern = / /i; // 中间是空格,空格也是字符,用来分割单词之间的字符之一,意味着以空格的规则将字符串进行拆分成数组
-var str = 'chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人';
+var str = 'chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人';
 console.log('未使用split方法之前', str);
-console.log('使用split方法之后', str.split(pattern)); //未使用split方法之前 chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人//使用split方法之后 (4) ["chuanchuan", "is", "handsome", "man,chuanchuan川川是一个全宇宙最帅的男人"]
+console.log('使用split方法之后', str.split(pattern)); //未使用split方法之前 chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人//使用split方法之后 (4) ["chuanchuan", "is", "handsome", "man,chuanchuan春建是一个全宇宙最帅的男人"]
 ```
 
 `split()`:圆括号后设置第二个参数,会指定返回字符串的长度
 
 ```
 var pattern = / /i;
-var str = "chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人";
-console.log("未使用split方法之前",str); //未使用split方法之前 chuanchuan is handsome man,chuanchuan川川是一个全宇宙最帅的男人
+var str = "chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人";
+console.log("未使用split方法之前",str); //未使用split方法之前 chuanchuan is handsome man,chuanchuan春建是一个全宇宙最帅的男人
 console.log("使用split方法之后",str.split(pattern,2)); //使用split方法之后["chuanchuan", "is"]
 ```
 

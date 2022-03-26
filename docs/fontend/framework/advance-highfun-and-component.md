@@ -957,7 +957,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ComponentB name={'川川'} site={'dearlocation'} />
+        <ComponentB name={'春建'} site={'dearlocation'} />
         <ComponentC />
         <ComponentF />
       </div>

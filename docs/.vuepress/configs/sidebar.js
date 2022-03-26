@@ -7,7 +7,7 @@
  * @Autor: vxPublic:dearlocation
  * @Date: 2020-05-29
  * @Version: xxx.v1.0
- * @LastEditors: 川川
+ * @LastEditors: 春建
  * @LastEditTime: 2020-06-02 07:20:57
  * @Description: 侧边栏主配置文件 主入口文件原本在config.js中,但从config.js中抽离到了themConfig.js中,该文件通过module.exports导出,在themeConfig.js中通过require的方式引入
  *

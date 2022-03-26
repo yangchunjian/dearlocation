@@ -119,7 +119,7 @@ evalfun作用域 = 20
 *
 * @global variable {name="亲位"}
 * @function fun1,fun2
-* @local variable {oTherName="哇嘎嘎",AliasName = "川川"}
+* @local variable {oTherName="哇嘎嘎",AliasName = "春建"}
 * @return {fun2,name,oTherName,AliasName}
 * @return fun2,fun1函数的返回结果值为fun2的值
 *
@@ -129,7 +129,7 @@ var name = "亲位"; // 全局变量
 var fun1 = function(){
     var oTherName = "哇嘎嘎"; // 局部变量
     var fun2 = function(){
-      var AliasName = "川川"; // 局部变量
+      var AliasName = "春建"; // 局部变量
       AliasName = oTherName;
       oTherName = AliasName;
       return {name,oTherName,AliasName};

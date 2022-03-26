@@ -104,7 +104,7 @@ const store = createStore(
 function reducer(
   state = {
     inputValue: 'dearlocation',
-    list: ['dearlocation', '川川', '学习Redux'],
+    list: ['dearlocation', '春建', '学习Redux'],
   },
   action
 ) {

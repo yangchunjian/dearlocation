@@ -345,7 +345,7 @@ class ChangeText extends Component {
 }
 // 给props值设置一个默认初始值,外部组件若不传任何值,则显示默认值,具体这部分内容可以看上一节
 ChangeText.defaultProps = {
-  name: '川川',
+  name: '春建',
   age: 25,
 };
 // 利用prop-types第三方库对外部传来的props值进行校验操作,确保输入与输出数据类型一致,这部分详细内容,可以看上一节
@@ -356,7 +356,7 @@ ChangeText.propTypes = {
 
 const container = document.getElementById('root');
 
-ReactDOM.render(<ChangeText name="川川,一个帅小伙" age={18} />, container);
+ReactDOM.render(<ChangeText name="春建,一个帅小伙" age={18} />, container);
 ```
 
 刷新浏览器,查看`render`函数执行的次数,当点击按钮时,只要`state`和`props`发生了改变,`render`函数就会重新渲染

@@ -539,7 +539,7 @@ import {
 const defaultStatus = {
   // 默认初始值
   inputValue: 'dearlocation',
-  list: ['川川', '111', '222'],
+  list: ['春建', '111', '222'],
 };
 function reducer(state = defaultStatus, action) {
   if (action.type === CHANGE_INPUT_VALUE) {

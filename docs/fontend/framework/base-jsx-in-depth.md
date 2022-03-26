@@ -104,7 +104,7 @@ class Acomponent extends React.Component {
 // return 后面带着一个圆括号,只是为了换行显示,根节点最顶层只能是一个元素
       return (
        <div>
-         <h1 title="我是川川">一个靠前排的90后帅小伙</h1>
+         <h1 title="我是春建">一个靠前排的90后帅小伙</h1>
          <h2>欢迎关注微信dearlocation公众号</h2>
        </div>
        )
@@ -119,7 +119,7 @@ class Acomponent extends Component {
   render() {
     return (
      <Fragment>
-        <h1 title="我是川川">一个靠前排的90后帅小伙</h1>
+        <h1 title="我是春建">一个靠前排的90后帅小伙</h1>
         <h2>欢迎关注微信dearlocation公众号</h2>
      </Fragment>
     )
@@ -138,7 +138,7 @@ class Acomponent extends Component {
 例如:你在插值表达式里写对象:它是会报错的
 
 ```
-{ {name: "川川", age: "一个靠前排的90后帅小伙"} }
+{ {name: "春建", age: "一个靠前排的90后帅小伙"} }
 ```
 
 错误如下所示
@@ -152,7 +152,7 @@ Objects are not valid as a React child (found: object with keys {name, age}). If
 当然如果是数组的话,它会自动的给拼接起来,本质上是通过数组中的 join("")方法处理后的结果
 
 ```
-{ ["川川", "全宇宙最帅"]} //川川全宇宙最帅
+{ ["春建", "全宇宙最帅"]} //春建全宇宙最帅
 ```
 
 当然对于在 JSX 里面写 if,for 语句也是会报错的

@@ -7,7 +7,7 @@
  * @Autor: vxPublic:dearlocation
  * @Date: 2020-06-02 07:29:20
  * @Version: xxx.v1.0
- * @LastEditors: 川川
+ * @LastEditors: 春建
  * @LastEditTime: 2021-03-29 17:19:08
  * @Description:头部html中head需要引入的标签,当前文件通过module.exports导出,在config.js主入口文件中通过require导入
  */
@@ -20,7 +20,7 @@ const headConfig = [
     {
       rel: 'keywords',
       content:
-        '亲位,dearlocation,dearlocation的技术博客,dearlocation.com,itclan.cn前端开发,IT技术,网络技术,斜杠青年,itclan,川川,https://itclan.cn,https://dearlocation.com/',
+        '亲位,dearlocation,dearlocation的技术博客,dearlocation.com,dearloc,yangchunjian,yangchunjian.com,后端技术,IT,春建,https://dearlocation.com/',
     },
   ],
   ['meta', { name: 'Author', content: '亲位' }],

@@ -34,7 +34,7 @@ export default {
     return {
       listData: [
         {
-          list_name: "川川",
+          list_name: "春建",
           list_title: "人人领读-发起人",
           list_desc:
             "itclan.cn/dearlocation.com站长,dearlocation公众号博主,人人领读公众号发起人,一个具有情怀的技匠,路上正追逐斜杠青年的践行者",

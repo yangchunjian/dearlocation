@@ -261,7 +261,7 @@ Object.getOwnPropertySymbols(person); // [Symbol('name')]
 
 ```
 let person = {
-  [Symbol('name')]: "川川",
+  [Symbol('name')]: "春建",
   enum: 2,
   nonEnum: 3
 };

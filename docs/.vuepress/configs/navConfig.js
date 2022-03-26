@@ -7,7 +7,7 @@
  * @Autor: vxPublic:dearlocation
  * @Date: 2020-05-29
  * @Version: xxx.v1.0
- * @LastEditors: 川川
+ * @LastEditors: 春建
  * @LastEditTime: 2021-03-04 09:24:54
  * @Description: 头部navs导航配置文件,入口文件原本在config.js文件中,但抽离到了themeConfig.js中,该文件通过module.exports导出,在themeConfig.js中通过require方式引入
  * 集中配置管理头部nav导航栏

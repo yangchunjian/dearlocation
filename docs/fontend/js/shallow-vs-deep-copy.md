@@ -48,7 +48,7 @@ str1 = str;         // 将str赋值给左边的str1
 bol1 = bol;       // 将bol赋值给左边的bol1
 console.log(num,str,bol,nul,unde,sym,num1,str1,bol1);
 num1 = 200;    // 给num1重新赋值
-str1 = "川川";
+str1 = "春建";
 bol1 = false
 console.log(num,str,bol,nul,unde,sym,num1,str1,bol1);
 num = 300;
@@ -62,8 +62,8 @@ console.log(num,str,bol,nul,unde,sym,num1,str1,bol1);
 
 ```
 100 "dearlocation" true null undefined ƒ Symbol() { [native code] } 100 "dearlocation" true
-100 "dearlocation" true null undefined ƒ Symbol() { [native code] } 200 "川川" false
-300 "web" false null undefined ƒ Symbol() { [native code] } 200 "川川" false
+100 "dearlocation" true null undefined ƒ Symbol() { [native code] } 200 "春建" false
+300 "web" false null undefined ƒ Symbol() { [native code] } 200 "春建" false
 ```
 
 <div align="center">
@@ -232,7 +232,7 @@ console.log(obj1, obj2);
 **背景:**在实际开发中,你也许会遇到这样的需求,需要往一个数组中添加对象,但结果是最后一次 push 的对象值总会覆盖之前 push 进去的值，例如如下所示
 
 ```
-var sourceObj = { name: "川川", age: 20, job: "搬砖"}
+var sourceObj = { name: "春建", age: 20, job: "搬砖"}
 var targetObj = {};  // 在外头定义对象
 var arrs = [];   // 定义一个空数组,保存新添加入的值,需要将obj中的对象添加到这个arrs数组当中去
 for(var i in sourceObj ) {
@@ -251,7 +251,7 @@ console.log(arrs);  //  [{name: "搬砖"}, {name: "搬砖", {name: "搬砖"}}]
 而非
 
 ```
- [{name: "川川"}, {name: "age", {name: "搬砖"}}]
+ [{name: "春建"}, {name: "age", {name: "搬砖"}}]
 ```
 
 这在初学者的中,是一件非常令人苦恼的事情,甚至让你掉不少头发
@@ -259,7 +259,7 @@ console.log(arrs);  //  [{name: "搬砖"}, {name: "搬砖", {name: "搬砖"}}]
 目标结果:分别拿到 sourceObj 对象中的键值对,然后存储到目标数数组 arrs 中,也就是 arrs 最终结果应该是这样的
 
 ```
-arrs = [{name: "川川"}, {age: 20}, {job: "搬砖"}]
+arrs = [{name: "春建"}, {age: 20}, {job: "搬砖"}]
 ```
 
 **问题原因:** 每次取出来的值都放在 `targetObj.name`中了，因为是在外面的定义的对象，所以每次 `targetObj`的地址是一样的, `arrs`中保存的是 `targetObj`的地址，当最后一次给`targetObj.name`赋值为 搬砖时
@@ -269,27 +269,27 @@ arrs = [{name: "川川"}, {age: 20}, {job: "搬砖"}]
 **具体解决**:把定义在外面的目标对象 `targetObj`放到 `for-in`里面就可以了的
 
 ```
-var sourceObj = { name: "川川", age: 20, job: "搬砖"}
+var sourceObj = { name: "春建", age: 20, job: "搬砖"}
 var arrs = [];   // 定义一个空数组,保存新添加入的值,需要将obj中的对象添加到这个arrs数组当中去
 for(var i in sourceObj ) {
     var targetObj = {};  // 在里面定义对象
     targetObj.name = sourceObj[i];
    arrs.push(targetObj);
 }
-console.log(arrs);  //  [{name: "川川"}, {name: 20, {name: "搬砖"}}]
+console.log(arrs);  //  [{name: "春建"}, {name: 20, {name: "搬砖"}}]
 ```
 
 其中在`for-in`中前面的 i 代表的就是 `key`值,所以:如果想要把 `sourceObj`对象中的键值一并放到`arrs`数组中,你可以这样做:将目标对象赋值时, `targetObjet.name`换成 `targetObject[i]`就可以了的
 
 ```
-var sourceObj = { name: "川川", age: 20, job: "搬砖"}
+var sourceObj = { name: "春建", age: 20, job: "搬砖"}
 var arrs = [];   // 定义一个空数组,保存新添加入的值,需要将obj中的对象添加到这个arrs数组当中去
 for(var i in sourceObj ) {
     var targetObj = {};  // 在里面定义对象
     targetObj[i] = sourceObj[i];
    arrs.push(targetObj);
 }
-console.log(arrs);  //  [{name: "川川"}, {age: 20}, {job: "搬砖"}]
+console.log(arrs);  //  [{name: "春建"}, {age: 20}, {job: "搬砖"}]
 ```
 
 曾今,这被作为一个面试题,尽管很基础,但我发现,能快速回答以及正确做出来的,还真不多,虽然也谈不上奇葩,一下子没想出来,也并不能代表什么,但是不得不说,最基础的东西,才是最值得回味的

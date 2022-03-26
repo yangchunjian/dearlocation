@@ -55,9 +55,9 @@ Person.prototype.data = {
 
 var p1 = new Person();
 var p2 = new Person();
-p1.data.name = '川川';
-console.log(p1.data.name); // 川川
-console.log(p1.data.name); // 川川
+p1.data.name = '春建';
+console.log(p1.data.name); // 春建
+console.log(p1.data.name); // 春建
 ```
 
 挂载在原型下属性如果是一个对象,实例化出来的对象(p1,p2)都指向的是同一份实体

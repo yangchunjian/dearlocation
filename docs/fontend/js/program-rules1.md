@@ -117,7 +117,7 @@ cc.js; // ✗ avoid,不要简写,这是什么意思的
  * @Autor: vxPublic:dearlocation
  * @Date: 2020-02-19 16:42:51
  * @Version: xxx.v1.0
- * @LastEditors: 川川
+ * @LastEditors: 春建
  * @LastEditTime: 2020-02-24 11:14:41
  * @Description: 转盘抽象公共js模块的封装
  */

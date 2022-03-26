@@ -6,7 +6,7 @@
  * @Mode Name:
  * @Autor: vxPublic:dearlocation
  * @Version: xxx.v1.0
- * @LastEditors: 川川
+ * @LastEditors: 春建
  * @Description:
  *
  *  该文件来做一些应用级别的配置，当该文件存在的时候，会被导入到应用内部

@@ -122,7 +122,7 @@ window.onload = function(){
 
 
       oBtn.innerHTML = "点我按钮"; // dom操作,添加内容
-      oDiv.innerHTML = "我是川川"; // 同上
+      oDiv.innerHTML = "我是春建"; // 同上
       oBody.appendChild(oBtn);// 把节点元素添加到dom中
       oBody.appendChild(oDiv);
 
@@ -196,7 +196,7 @@ body{
 $(function(){
    var $body = $("body"),
        $btn = $("<button id='btn' class='btn'>点我按钮</button>"),
-       $div = $("<div class='div'>我是川川</div>"),
+       $div = $("<div class='div'>我是春建</div>"),
        onOff = true;
 
       $body.append($btn);
@@ -242,7 +242,7 @@ var vm =  new Vue({
      el: "#app",
      data: {
      btnMsg: "点我按钮",
-     descMsg: "我是川川",
+     descMsg: "我是春建",
      status:true,
      defaultClass:"btn",
      activeClass:"activeBtn"
@@ -264,7 +264,7 @@ var vm =  new Vue({
 ```
 var data = {
     btnMsg: "点我按钮",
-    descMsg: "我是川川",
+    descMsg: "我是春建",
     status:true,
     defaultClass:"btn",
     activeClass:"activeBtn"

@@ -210,16 +210,16 @@ class B extends A {
   constructor() {
     super();
     this.name = "itclan";     // 子类B的私有属性
-    super.name = "川川";
+    super.name = "春建";
     console.log(super.name);  // undefined,super是父类,而name是父类的私有属性,无法直接访问
-    console.log(this.name);   // 川川
+    console.log(this.name);   // 春建
   }
 }
 
 let b = new B();
 ```
 
-在上面面示例代码中，`super.name`赋值为"川川"，这时等同于对`this.name`赋值为`川川`。而当读取`super.name`的时候，它读的是`A.prototype.name`，所以返回`undefined`
+在上面面示例代码中，`super.name`赋值为"春建"，这时等同于对`this.name`赋值为`春建`。而当读取`super.name`的时候，它读的是`A.prototype.name`，所以返回`undefined`
 
 - **如果用在静态方法之中**
 

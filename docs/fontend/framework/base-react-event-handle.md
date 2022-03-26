@@ -35,7 +35,7 @@ obj.onclick = function(){})
 ```js
 //对象.addEventListener('事件类型,不带on', 回调函数))对DOM对象进行事件监听处理
 document.addEventListener('click', function() {
-  alert('川川是个全宇宙最帅的小伙子');
+  alert('春建是个全宇宙最帅的小伙子');
 });
 ```
 
@@ -270,7 +270,7 @@ class List extends Component {
   }
 }
 
-const listData = ['dearlocation', '川川', 'chrome', 'Firefox', 'IE'];
+const listData = ['dearlocation', '春建', 'chrome', 'Firefox', 'IE'];
 
 const container = document.getElementById('root');
 
@@ -958,7 +958,7 @@ debounce(method, duration, timer = null) {
 
 ```js
 /*
-* @authors 川川 (itclancode@163.com)
+* @authors 春建 (itclancode@163.com)
 * @ID suibichuanji
 * @date 2019-08-31 21:08:17
 * @weChatNum 微信公众号:dearlocation
@@ -1013,7 +1013,7 @@ this.handleClickThrottled = throttle(this.handleClick, 1000);
 ```js
 /**
  *
- * @authors 川川 (itclancode@163.com)
+ * @authors 春建 (itclancode@163.com)
  * @ID suibichuanji
  * @date 2019-08-31 21:10:17
  * @version $Id$

@@ -55,7 +55,7 @@ console.log(pattern.test(str)); // true
 示例 1
 
 ```js
-var str = '川川 亲位 dearlocation';
+var str = '春建 亲位 dearlocation';
 var pattern = /川*/;
 console.log(pattern.test(str)); // true
 ```

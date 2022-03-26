@@ -7,7 +7,7 @@
  * @Autor: vxPublic:dearlocation
  * @Date: 2020-06-02 07:40:46
  * @Version: xxx.v1.0
- * @LastEditors: 川川
+ * @LastEditors: 春建
  * @LastEditTime: 2020-06-02 07:56:44
  * @Description:本文件为markdown的相关配置,该文件通过module.exports方式导出,在config.js主入口中通过require方式引入
  */
