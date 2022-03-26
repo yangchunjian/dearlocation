@@ -25,7 +25,7 @@
     <script charset="utf-8" async="async" src="https://static.bshare.cn/b/bshareC0.js"></script>
     <script id="union_douhao" union_pay_tid="720" src="https://n.2lian.com/static/js/loader.js"></script>
     <meta name="description" content="dearlocation,dearlocation的技术博客,dearloc">
-    <meta rel="keywords" content="亲位,dearlocation,dearlocation的技术博客,dearlocation.com,itclan.cn前端开发,IT技术,网络技术,斜杠青年,itclan,川川,https://itclan.cn,https://dearlocation.com/">
+    <meta rel="keywords" content="亲位,dearlocation,dearlocation的技术博客,dearlocation.com,dearloc,yangchunjian,yangchunjian.com,后端技术,IT,春建,https://dearlocation.com/">
     <meta name="Author" content="亲位">
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <meta name="theme-color" content="#3eaf7c">
@@ -246,27 +246,27 @@ Page({
   handleChangeName() {
     console.log(&quot;name开始的数据&quot;, this.data.name); // dearlocation
     this.setData({
-      name: &quot;川川&quot;
+      name: &quot;春建&quot;
     })
-    console.log(&quot;name经过setData后的数据&quot;, this.data.name); // 川川
+    console.log(&quot;name经过setData后的数据&quot;, this.data.name); // 春建
   }
 
 })
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><p>在上面的示例代码中,更改<code>data</code>下面的<code>name</code>字段值,使用的是<code>setData</code>方法,这个方法接收了一个参数,第一个参数是对象,这个<code>Object</code> 以 <code>key: value</code> 的形式表示，将 <code>this.data</code> 中的 <code>key</code> 对应的值改变成 <code>value</code></p> <div class="custom-block warning"><p class="custom-block-title">注意</p> <p>这个<code>key</code> 可以以数据路径的形式给出,支持改变数组中的某一项或对象的某个属性，如 array[2].message，a.b.c.d，并且不需要在 <code>this.data</code> 中预先定义,但凡是页面要显示的变量数据,最好先挂载在<code>data</code>下初始化定义,然后在使用</p></div> <p>也就是说在更改<code>setData</code>下的变量时,直接写<code>key</code>名就可以了的,不用写<code>this.data.属性</code>,如下所示</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>this.setData({
-   // this.data.name: &quot;川川&quot;  // 这样写是会报错的
-   name: &quot;川川&quot;               // 正确的写法
+   // this.data.name: &quot;春建&quot;  // 这样写是会报错的
+   name: &quot;春建&quot;               // 正确的写法
 })
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>而<code>setData</code>接收第二个参数,是一个<code>Function callback</code></p> <div class="language-js line-numbers-mode"><div class="highlight-lines"><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br></div><pre class="language-js"><code><span class="token function">handleChangeName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;name开始的数据&quot;</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>data<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// dearlocation</span>
     <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setData</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-      <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">&quot;川川&quot;</span>
+      <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">&quot;春建&quot;</span>
     <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span> <span class="token comment">// 接收第二个回调函数</span>
        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;执行setData引起的界面更新渲染完毕后的回调函数&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span><span class="token punctuation">)</span>
-    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;name经过setData后的数据&quot;</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>data<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 川川</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;name经过setData后的数据&quot;</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>data<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 春建</span>
   <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>上面代码的执行顺序是</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>dearlocation
-川川
+春建
 执行setData引起的界面更新渲染完毕后的回调函数
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>此结果说明这个<code>setData</code>方法是异步的,等待主线程任务做完了,然后在去执行第二个参数,回调异步函数</p> <h2 id="如何更改当前对象某个属性的值"><a href="#如何更改当前对象某个属性的值" class="header-anchor">#</a> 如何更改当前对象某个属性的值</h2> <p>有时候,我们的接口数据类型是对象,并非是基本数据类型(number,boolean,string,null),但由于业务需求,我们往往需要改变对象下的某个属性</p> <p>如下所示,我想改变<code>person</code>下的 age 属性值</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// miniprogram/pages/setdata/setdata.js
 Page({
@@ -295,7 +295,7 @@ Page({
    &quot;person.age&quot;: 24  // 注意要用双引号或单引号将属性给引起来
 })
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li><strong>方法 2</strong>:使用中扩号<code>['对象.属性']:属性值</code></li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>this.setData({
-   ['person.age']: &quot;川川&quot;   // 访问对象下的属性可以用.也可以用中括号,中间代表是一个变量,需要用引号引起来
+   ['person.age']: &quot;春建&quot;   // 访问对象下的属性可以用.也可以用中括号,中间代表是一个变量,需要用引号引起来
 })
 
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>如下所示</p> <div align="center"><img loading="lazy" width="400" height="400" src="/assets/img/remove-attr-success.c3cdb2a0.gif" alt="成功改属性" class="medium-zoom lazy"></div>

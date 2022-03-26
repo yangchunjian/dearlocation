@@ -25,7 +25,7 @@
     <script charset="utf-8" async="async" src="https://static.bshare.cn/b/bshareC0.js"></script>
     <script id="union_douhao" union_pay_tid="720" src="https://n.2lian.com/static/js/loader.js"></script>
     <meta name="description" content="dearlocation,dearlocation的技术博客,dearloc">
-    <meta rel="keywords" content="亲位,dearlocation,dearlocation的技术博客,dearlocation.com,itclan.cn前端开发,IT技术,网络技术,斜杠青年,itclan,川川,https://itclan.cn,https://dearlocation.com/">
+    <meta rel="keywords" content="亲位,dearlocation,dearlocation的技术博客,dearlocation.com,dearloc,yangchunjian,yangchunjian.com,后端技术,IT,春建,https://dearlocation.com/">
     <meta name="Author" content="亲位">
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <meta name="theme-color" content="#3eaf7c">
@@ -213,7 +213,7 @@
 obj<span class="token punctuation">.</span><span class="token function-variable function">onclick</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>事件委托监听方式</li></ul> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">//对象.addEventListener('事件类型,不带on', 回调函数))对DOM对象进行事件监听处理</span>
 document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'川川是个全宇宙最帅的小伙子'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'春建是个全宇宙最帅的小伙子'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>而在<code>React</code>中事件处理和内联方式相似,但是却有些不同</p> <p>如何确保函数可以访问组件的属性?</p> <p>如何传递参数给事件处理器回调? 怎样阻止函数被调用太快或者太多次?</p> <p>频繁操作<code>DOM</code>会造成浏览器的卡顿,响应不及时,引起浏览器的重绘重排,从而加重了浏览器的压力</p> <p>频繁的调用后台接口,好好的接口被前端玩坏,造成页面空白,崩溃,容易被后端同学提刀来见</p> <p>既要提升用户体验,又要减少服务器端的开销</p> <p>那么本篇就是你想要知道的</p> <div align="center"><img loading="lazy" src="/assets/img/01-guide.b8e09ff2.jpg" alt="todolist" class="medium-zoom lazy"></div> <h2 id="react-中的事件"><a href="#react-中的事件" class="header-anchor">#</a> React 中的事件</h2> <p>在<code>React</code>中事件的绑定是直接写在<code>JSX</code>元素上的,不需要通过<code>addEventListener</code>事件委托的方式进行监听</p> <p><strong>写法上</strong>:</p> <ul><li><p>在<code>JSX</code>元素上添加事件,通过<code>on*EventType</code>这种内联方式添加,命名采用小驼峰式(<code>camelCase</code>)的形式,而不是纯小写(原生 HTML 中对<code>DOM</code>元素绑定事件,事件类型是小写的),无需调用<code>addEventListener</code>进行事件监听</p></li> <li><p>也无需考虑兼容性,<code>React</code>已经封装好了一些的事件类型属性(<code>ps:onClick</code>,<code>onMouseMove</code>,<code>onChange</code>,<code>onFocus</code>)等
 使用<code>JSX</code>语法时,需要传入一个函数作为事件处理函数,而不是一个字符串,也就是<code>props</code>值应该是一个函数类型数据,事件函数方法外面得用一个双大括号包裹起来</p></li> <li><p><code>on*EventType</code>的事件类型属性,只能用作在普通的原生<code>html</code>标签上 (例如:<code>div</code>,<code>input</code>,<code>a</code>,<code>p</code>等,例如:</p></li></ul> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token operator">&lt;</span>div onClick<span class="token operator">=</span><span class="token punctuation">{</span>事件处理函数<span class="token punctuation">}</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
@@ -323,7 +323,7 @@ document<span class="token punctuation">.</span><span class="token function">add
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 
-<span class="token keyword">const</span> listData <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'dearlocation'</span><span class="token punctuation">,</span> <span class="token string">'川川'</span><span class="token punctuation">,</span> <span class="token string">'chrome'</span><span class="token punctuation">,</span> <span class="token string">'Firefox'</span><span class="token punctuation">,</span> <span class="token string">'IE'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> listData <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'dearlocation'</span><span class="token punctuation">,</span> <span class="token string">'春建'</span><span class="token punctuation">,</span> <span class="token string">'chrome'</span><span class="token punctuation">,</span> <span class="token string">'Firefox'</span><span class="token punctuation">,</span> <span class="token string">'IE'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> container <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'root'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
@@ -793,7 +793,7 @@ method.apply(that,args);
 
 <span class="token punctuation">}</span>
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>如果自己封装<code>throttle</code>和<code>debounce</code>函数,可以单独封装到一个文件对外暴露就可以了,在需要用它们的地方,通过<code>import</code>引入即可,在代码中直接调用就可以 在根目录下(以你自己的为准)创建一个<code>throttle.js</code> 通过<code>export default</code> 暴露出去</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">/*
-* @authors 川川 (itclancode@163.com)
+* @authors 春建 (itclancode@163.com)
 * @ID suibichuanji
 * @date 2019-08-31 21:08:17
 * @weChatNum 微信公众号:dearlocation
@@ -838,7 +838,7 @@ method.apply(that,args);
 <span class="token keyword">this</span><span class="token punctuation">.</span>handleClickThrottled <span class="token operator">=</span> <span class="token function">throttle</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>handleClick<span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>同理,若是自己封装<code>debounce</code>函数用于防抖,应把它单独的抽离出去封装成一个函数,通过<code>export</code> 对外暴露,供其他地方调用</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">/**
  *
- * @authors 川川 (itclancode@163.com)
+ * @authors 春建 (itclancode@163.com)
  * @ID suibichuanji
  * @date 2019-08-31 21:10:17
  * @version $Id$

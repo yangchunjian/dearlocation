@@ -25,7 +25,7 @@
     <script charset="utf-8" async="async" src="https://static.bshare.cn/b/bshareC0.js"></script>
     <script id="union_douhao" union_pay_tid="720" src="https://n.2lian.com/static/js/loader.js"></script>
     <meta name="description" content="dearlocation,dearlocation的技术博客,dearloc">
-    <meta rel="keywords" content="亲位,dearlocation,dearlocation的技术博客,dearlocation.com,itclan.cn前端开发,IT技术,网络技术,斜杠青年,itclan,川川,https://itclan.cn,https://dearlocation.com/">
+    <meta rel="keywords" content="亲位,dearlocation,dearlocation的技术博客,dearlocation.com,dearloc,yangchunjian,yangchunjian.com,后端技术,IT,春建,https://dearlocation.com/">
     <meta name="Author" content="亲位">
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <meta name="theme-color" content="#3eaf7c">
@@ -328,14 +328,14 @@ class B extends A {
   constructor() {
     super();
     this.name = &quot;itclan&quot;;     // 子类B的私有属性
-    super.name = &quot;川川&quot;;
+    super.name = &quot;春建&quot;;
     console.log(super.name);  // undefined,super是父类,而name是父类的私有属性,无法直接访问
-    console.log(this.name);   // 川川
+    console.log(this.name);   // 春建
   }
 }
 
 let b = new B();
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><p>在上面面示例代码中，<code>super.name</code>赋值为&quot;川川&quot;，这时等同于对<code>this.name</code>赋值为<code>川川</code>。而当读取<code>super.name</code>的时候，它读的是<code>A.prototype.name</code>，所以返回<code>undefined</code></p> <ul><li><strong>如果用在静态方法之中</strong></li></ul> <p>如果 <code>super</code>作为对象,用在静态方法之中,这时<code>super</code>将指向父类 , 而不是父类的原型对象</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>class Parent {
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><p>在上面面示例代码中，<code>super.name</code>赋值为&quot;春建&quot;，这时等同于对<code>this.name</code>赋值为<code>春建</code>。而当读取<code>super.name</code>的时候，它读的是<code>A.prototype.name</code>，所以返回<code>undefined</code></p> <ul><li><strong>如果用在静态方法之中</strong></li></ul> <p>如果 <code>super</code>作为对象,用在静态方法之中,这时<code>super</code>将指向父类 , 而不是父类的原型对象</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>class Parent {
     static myMethod(msg) {  // 父类的方法之前加静态static关键字
         console.log('static1', msg);
     }

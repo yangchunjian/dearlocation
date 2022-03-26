@@ -7,7 +7,7 @@
  * @Autor: vxPublic:dearlocation
  * @Date: 2020-07-09 10:04:05
  * @Version: xxx.v1.0
- * @LastEditors: 川川
+ * @LastEditors: 春建
  * @LastEditTime: 2020-07-09 12:02:15
  * @Description:设备类型判断
  */

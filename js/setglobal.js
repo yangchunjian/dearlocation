@@ -7,7 +7,7 @@
  * @Autor: vxPublic:dearlocation
  * @Date: 2020-11-26 12:09:21
  * @Version: xxx.v1.0
- * @LastEditors: 川川
+ * @LastEditors: 春建
  * @LastEditTime: 2021-03-29 16:21:36
  * @Description:
  */
@@ -59,7 +59,7 @@ window.console &&
     '%cdearlocation',
     'color:#3eaf7c;font-size:28px;font-weight:300'
   ),
-  console.log('书以启智,技于谋生,活出斜杠.\n祝屏幕前正阅读的您码中致富'),
+  console.log('技术,工作,生活.\n祝屏幕前正阅读的您码中致富'),
   console.log(`%c https://itclan.cn\n`, 'color:#3eaf7c'),
   console.log(`%c https://dearlocation.com\n`, 'color:#3eaf7c'),
   console.log(`%c https://doc.itclan.cn\n`, 'color:#3eaf7c'),
