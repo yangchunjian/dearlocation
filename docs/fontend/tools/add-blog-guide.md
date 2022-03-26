@@ -107,13 +107,13 @@ title: 如何在 vuepress 上添加博客导流到公众号-即输入验证码�
 不要问为什么能在`md`中还能写`js`,甚至写`Vue`,`React`都可以,因为`vuepress`牛逼~
 
 ```js
-<script src="https://my.openwrite.cn/js/readmore.js" type="text/javascript"></script>
+<script src="https://readmore.openwrite.cn/js/readmore.js" type="text/javascript"></script>
 <script>
     const btw = new BTWPlugin();  // 实例化btw插件对象
     btw.init({                    // 初始化设置,接收一些参数
         id: 'container',          // 文章最外层的id
         blogId: 'xxxx你自己的博客ID', // 博客网站的id,openWrite会自动生成
-        name: 'dearlocation',         // 博客的名称
+        name: '亲位网',         // 博客的名称
         qrcode: '你自己的公众号二维码xxx.jpg', // 二维码
         keyword: '验证码',                    // 设置的解锁关键字
     });
@@ -137,7 +137,7 @@ window.onload = function() {
   btw.init({
     id: 'container',
     blogId: 'xxxx你自己的博客ID',
-    name: 'dearlocation',
+    name: '亲位网',
     qrcode: '你自己的公众号二维码xxx.jpg',
     keyword: '验证码',
   });
@@ -173,7 +173,7 @@ window.onload = function() {
   btw.init({
     id: 'container', // 这个id后面的值与上面的设置id属性保持一致就行,不一定非地是container
     blogId: 'xxxx你自己的博客ID',
-    name: 'dearlocation',
+    name: '亲位网',
     qrcode: '你自己的公众号二维码xxx.jpg',
     keyword: '验证码',
   });
@@ -201,7 +201,7 @@ window.onload = function() {
   btw.init({
     id: 'container',
     blogId: 'xxxx你自己的博客ID',
-    name: 'dearlocation',
+    name: '亲位网',
     qrcode: '你自己的公众号二维码xxx.jpg',
     keyword: '验证码',
   });
@@ -216,7 +216,7 @@ module.exports = {
   head: [
     [
       'script',
-      { charset: 'utf-8', src: 'https://my.openwrite.cn/js/readmore.js' },
+      { charset: 'utf-8', src: 'https://readmore.openwrite.cn/js/readmore.js' },
     ],
   ],
 };
