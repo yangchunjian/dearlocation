@@ -6,19 +6,11 @@ export const javapub = defineSidebarConfig({
     "home",
     "slide",
     {
-      text: "最少必要面试题",
+      text: "试题",
       icon: "creative",
       prefix: "willbe/",
       link: "willbe/",
       collapsable: true,//可折叠
-      children: "structure",
-    },
-    {
-      text: "小游戏",
-      icon: "creative",
-      prefix: "project/game/",
-      link: "project/game/",
-      collapsable: true,
       children: "structure",
     },
     {
