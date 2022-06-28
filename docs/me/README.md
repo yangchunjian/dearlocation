@@ -4,13 +4,19 @@
 
 ## 目录
 
-[2022-04-28](/me/2022-04/essay.md)
+[2022-04](/me/2022-04/essay.md)
 
-公众号二维码
+# 公众号
 
-![](/accounts/wechat.jpg)
+推荐一波~
 
-个人微信
+![公众号](https://www.yangchunjian.com/docbook/imgs/qrcode_for_gh_8756901e5b12_344.jpg)
 
-![](/accounts/QRcode.jpg)
+---
+
+## 联系我
+
+交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。
+
+![微信](https://javainterview.cn/img/weixin.jpeg)
 
