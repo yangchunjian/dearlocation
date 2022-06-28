@@ -6,7 +6,7 @@ icon: page
 ## 这是文章的标题
 title: IDEA 破解【稳定】【更新】（永久更新）
 ## 设置作者
-author: DearLocation.cn
+author: DearLocation.com
 ## 设置写作时间
 date: 2022-05-15
 ## 一个页面可以有多个分类

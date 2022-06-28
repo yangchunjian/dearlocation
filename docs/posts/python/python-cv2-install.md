@@ -6,7 +6,7 @@ icon: page
 # 这是文章的标题
 title: python 安装 cv2 - 已解决
 # 设置作者
-author: DearLocation.cn
+author: DearLocation.com
 # 设置写作时间
 date: 2022-04-24
 # 一个页面可以有多个分类

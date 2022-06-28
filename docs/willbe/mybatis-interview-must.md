@@ -6,7 +6,7 @@ icon: page
 # 这是文章的标题
 title: MyBatis 面试题
 # 设置作者
-author: DearLocation.cn
+author: DearLocation.com
 # 设置写作时间
 date: 2022-06-23
 # 一个页面可以有多个分类

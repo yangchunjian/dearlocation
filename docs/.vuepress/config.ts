@@ -58,7 +58,7 @@ export default defineUserConfig({
         // 此处放置主题配置
         hostname: "https://dearlocation.com/",
         author: {
-            name: "DearLocation.cn",
+            name: "DearLocation.com",
             url: "https://dearlocation.com",
         },
         iconAssets: "iconfont",

@@ -25,7 +25,7 @@ projects:
     link: /me/
 	 
 # footer: 自定义你的页脚文字
-footer:  Copyright © 2022-present DearLocation.cn
+footer:  Copyright © 2022-present DearLocation.com
 ---
 
 

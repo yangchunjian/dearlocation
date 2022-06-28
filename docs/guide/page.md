@@ -6,7 +6,7 @@ icon: page
 # 这是文章的标题
 title: 页面配置
 # 设置作者
-author: DearLocation.cn
+author: DearLocation.com
 # 设置写作时间
 date: 2020-01-01
 # 一个页面可以有多个分类
