@@ -1,24 +1,24 @@
-<template><p>Elastic Search</p>
+<template><div><p>Elastic Search</p>
 <!-- more -->
 <p>10道不得不会的ElasticSearch面试题</p>
-<p>以下是 ElasticSearch 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code>建议收藏，经常温习查阅</code>。</p>
+<p>以下是 ElasticSearch 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code v-pre>建议收藏，经常温习查阅</code>。</p>
 <p>评论区见</p>
-<p><code>关于es的面试，建议使用名词用官方语言描述会更准确。</code></p>
+<p><code v-pre>关于es的面试，建议使用名词用官方语言描述会更准确。</code></p>
 <p>@[toc]</p>
 <h2 id="_1-说说你们公司-es-的集群架构-索引数据大小-分片有多少-以及一些调优手段-。" tabindex="-1"><a class="header-anchor" href="#_1-说说你们公司-es-的集群架构-索引数据大小-分片有多少-以及一些调优手段-。" aria-hidden="true">#</a> 1. 说说你们公司 es 的集群架构，索引数据大小，分片有多少，以及一些调优手段 。</h2>
 <p>节点数、分片数、副本数，尽量根据自己公司使用情况回答，当然适当放大也可行。</p>
 <p>调优手段是现在很常见的面试题，下面这几种调优手段一定要了解懂。当然，下面的每一条都可以当做调优的一部分。</p>
 <p><strong>设计调优</strong></p>
 <p>参考：
-https://www.cnblogs.com/sanduzxcvbnm/p/12084012.html</p>
-<p>a. 根据业务增量需求，采取基于日期模板创建索引，通过 <code>rollover API</code> 滚动索引；(rollover API我会单独写一个代码案例做讲解，公众号：DearLocation)
+<a href="https://www.cnblogs.com/sanduzxcvbnm/p/12084012.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/sanduzxcvbnm/p/12084012.html<ExternalLinkIcon/></a></p>
+<p>a. 根据业务增量需求，采取基于日期模板创建索引，通过 <code v-pre>rollover API</code> 滚动索引；(rollover API我会单独写一个代码案例做讲解，公众号：DearLocation)
 b. 使用别名进行索引管理；（es的索引名不能改变，提供的别名机制使用非常广泛。）
 c. 每天凌晨定时对索引做force_merge操作，以释放空间；
 d. 采取冷热分离机制，热数据存储到SSD，提高检索效率；冷数据定期进行shrink操作，以缩减存储；
 e. 采取curator进行索引的生命周期管理；
 f. 仅针对需要分词的字段，合理的设置分词器；
 g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否需要存储等。</p>
-<p>进100+原创文章：https://gitee.com/yangchunjian/DearLocation</p>
+<p>进100+原创文章：<a href="https://gitee.com/yangchunjian/DearLocation" target="_blank" rel="noopener noreferrer">https://gitee.com/yangchunjian/DearLocation<ExternalLinkIcon/></a></p>
 <p><strong>写入调优</strong></p>
 <ol>
 <li>写入前副本数设置为0；</li>
@@ -39,7 +39,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 <p>倒排索引也就是单词到文档的映射，当然不只是存里文档id这么简单。还包括：词频（TF，Term Frequency）、偏移量（offset）、位置（Posting）。</p>
 <h2 id="_3-elasticsearch-是如何实现-master-选举的" tabindex="-1"><a class="header-anchor" href="#_3-elasticsearch-是如何实现-master-选举的" aria-hidden="true">#</a> 3. elasticsearch 是如何实现 master 选举的</h2>
 <blockquote>
-<p>ElasticSearch 的选主是 ZenDiscovery 模块负责，源码分析将首发在。 https://gitee.com/yangchunjian/DearLocation</p>
+<p>ElasticSearch 的选主是 ZenDiscovery 模块负责，源码分析将首发在。 <a href="https://gitee.com/yangchunjian/DearLocation" target="_blank" rel="noopener noreferrer">https://gitee.com/yangchunjian/DearLocation<ExternalLinkIcon/></a></p>
 </blockquote>
 <ol>
 <li>对所有可以成为 Master 的节点（node.master: true）根据 nodeId 排序，每次选举每个节点都把自己所知道节点排一次序，然后选出第一个（第0位）节点，暂且认为它是 Master 节点。</li>
@@ -67,7 +67,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token number">1</span>. translog 可以理解为就是一个文件，一直追加。
 <span class="token number">2</span>. MemoryBuffer 应用缓存。
 <span class="token number">3</span>. Filesystem Cache 系统缓冲区。
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>延伸阅读：Lucene 的 <code>Segement</code>:</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>延伸阅读：Lucene 的 <code v-pre>Segement</code>:</p>
 <blockquote>
 <ol>
 <li>Lucene 索引是由多个段组成，段本身是一个功能齐全的倒排索引。</li>
@@ -114,7 +114,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 
 如果你 确实 需要从你的集群取回大量的文档，你可以通过用 scroll 查询禁用排序使这个取回行为更有效率，我们会在 later <span class="token keyword">in</span> this chapter 进行讨论。
 注：https://www.elastic.co/guide/cn/elasticsearch/guide/current/scroll.html
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h2 id="_5-elasticsearch-在部署时-对-linux-的设置有哪些优化方法" tabindex="-1"><a class="header-anchor" href="#_5-elasticsearch-在部署时-对-linux-的设置有哪些优化方法" aria-hidden="true">#</a> 5. Elasticsearch 在部署时，对 Linux 的设置有哪些优化方法</h2>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_5-elasticsearch-在部署时-对-linux-的设置有哪些优化方法" tabindex="-1"><a class="header-anchor" href="#_5-elasticsearch-在部署时-对-linux-的设置有哪些优化方法" aria-hidden="true">#</a> 5. Elasticsearch 在部署时，对 Linux 的设置有哪些优化方法</h2>
 <ol>
 <li>关闭缓存swap;</li>
 </ol>
@@ -139,7 +139,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 </li>
 </ol>
 <blockquote>
-<p>https://www.elastic.co/cn/blog/how-to-design-your-elasticsearch-data-storage-architecture-for-scale#raid56</p>
+<p><a href="https://www.elastic.co/cn/blog/how-to-design-your-elasticsearch-data-storage-architecture-for-scale#raid56" target="_blank" rel="noopener noreferrer">https://www.elastic.co/cn/blog/how-to-design-your-elasticsearch-data-storage-architecture-for-scale#raid56<ExternalLinkIcon/></a></p>
 </blockquote>
 <h2 id="_6-elasticsearch-中的节点-比如共-20-个-其中的-10-个选了一个-master-另外-10-个选了另一个-master-怎么办" tabindex="-1"><a class="header-anchor" href="#_6-elasticsearch-中的节点-比如共-20-个-其中的-10-个选了一个-master-另外-10-个选了另一个-master-怎么办" aria-hidden="true">#</a> 6. Elasticsearch 中的节点（比如共 20 个），其中的 10 个选了一个 master，另外 10 个选了另一个 master，怎么办？</h2>
 <ol>
@@ -155,7 +155,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 <h2 id="_8-详细描述一下-elasticsearch-更新和删除文档的过程。" tabindex="-1"><a class="header-anchor" href="#_8-详细描述一下-elasticsearch-更新和删除文档的过程。" aria-hidden="true">#</a> 8. 详细描述一下 Elasticsearch 更新和删除文档的过程。</h2>
 <ol>
 <li>删除和更新也都是写操作，但是 Elasticsearch 中的文档是不可变的，因此不能被删除或者改动以展示其变更；(根本原因是底层lucene的segment段文件不可更新删除)</li>
-<li>磁盘上的每个段都有一个相应的 .del 文件。当删除请求发送后，文档并没有真 的被删除，而是在 <code>.del</code> 文件中被标记为删除。该文档依然能匹配查询，但是会在 结果中被过滤掉。当段合并时，在.del 文件中被标记为删除的文档将不会被写入 新段。</li>
+<li>磁盘上的每个段都有一个相应的 .del 文件。当删除请求发送后，文档并没有真 的被删除，而是在 <code v-pre>.del</code> 文件中被标记为删除。该文档依然能匹配查询，但是会在 结果中被过滤掉。当段合并时，在.del 文件中被标记为删除的文档将不会被写入 新段。</li>
 <li>在新的文档被创建时，Elasticsearch 会为该文档指定一个版本号，当执行更新 时，旧版本的文档在.del 文件中被标记为删除，新版本的文档被索引到一个新段。</li>
 </ol>
 <p>旧版本的文档依然能匹配查询，但是会在结果中被过滤掉。</p>
@@ -183,7 +183,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 <span class="token number">3</span>. 和bitmap相比，属于两种特定统计情况，简单来说，HyperLogLog 去重比 bitmap 方便很多
 <span class="token number">4</span>. 一般可以bitmap和hyperloglog配合使用，bitmap标识哪些用户活跃，hyperloglog计数
 来源：刷刷面试
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h2 id="_10-在并发情况下-elasticsearch-如果保证读写一致" tabindex="-1"><a class="header-anchor" href="#_10-在并发情况下-elasticsearch-如果保证读写一致" aria-hidden="true">#</a> 10. 在并发情况下，Elasticsearch 如果保证读写一致？</h2>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_10-在并发情况下-elasticsearch-如果保证读写一致" tabindex="-1"><a class="header-anchor" href="#_10-在并发情况下-elasticsearch-如果保证读写一致" aria-hidden="true">#</a> 10. 在并发情况下，Elasticsearch 如果保证读写一致？</h2>
 <blockquote>
 <p>首先要了解什么是一致性，在分布式系统中，我们一般通过CPA理论分析。</p>
 </blockquote>
@@ -210,4 +210,4 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 <p><RouterLink to="/willbe/jvm-interview-must.html">【JVM】10道不得不会的JVM面试题</RouterLink></p>
 <p><RouterLink to="/willbe/willbe/spring-interview-must.html">【Spring】10道不得不会的Spring面试题</RouterLink></p>
 <p><a href="https://github.com/yangchunjian" target="_blank" rel="noopener noreferrer">GItHub<ExternalLinkIcon/></a>|<a href="https://gitee.com/yangchunjian" target="_blank" rel="noopener noreferrer">GitEE<ExternalLinkIcon/></a></p>
-</template>
+</div></template>

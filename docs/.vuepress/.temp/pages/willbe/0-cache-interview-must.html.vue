@@ -1,7 +1,7 @@
-<template><p>缓存</p>
+<template><div><p>缓存</p>
 <!-- more -->
 <p>10道不得不会的 缓存 面试题</p>
-<p>以下是 缓存 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code>建议收藏，经常温习查阅</code>。</p>
+<p>以下是 缓存 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code v-pre>建议收藏，经常温习查阅</code>。</p>
 <p>评论区见</p>
 <p>什么是缓存穿透？怎么解决？</p>
 <p>缓存雪崩</p>
@@ -23,4 +23,4 @@
 <p><RouterLink to="/willbe/jvm-interview-must.html">【JVM】10道不得不会的JVM面试题</RouterLink></p>
 <p><RouterLink to="/willbe/willbe/spring-interview-must.html">【Spring】10道不得不会的Spring面试题</RouterLink></p>
 <p><a href="https://github.com/yangchunjian" target="_blank" rel="noopener noreferrer">GItHub<ExternalLinkIcon/></a>|<a href="https://gitee.com/yangchunjian" target="_blank" rel="noopener noreferrer">GitEE<ExternalLinkIcon/></a></p>
-</template>
+</div></template>

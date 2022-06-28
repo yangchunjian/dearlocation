@@ -1,7 +1,7 @@
-<template><p>Java 基础</p>
+<template><div><p>Java 基础</p>
 <!-- more -->
 <p>10道不得不会的Java基础面试题</p>
-<p>以下都是Java的基础面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code>建议收藏，经常温习查阅</code>。</p>
+<p>以下都是Java的基础面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code v-pre>建议收藏，经常温习查阅</code>。</p>
 <p>评论区见</p>
 <hr>
 <hr>
@@ -9,13 +9,13 @@
 <h2 id="_1-instanceof-关键字的作用" tabindex="-1"><a class="header-anchor" href="#_1-instanceof-关键字的作用" aria-hidden="true">#</a> 1. instanceof 关键字的作用</h2>
 <p>instanceof 是 Java 的保留关键字。它的作用是测试它左边的对象是否是它右边的类的实例，返回 boolean 的数据类型。</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token keyword">boolean</span> result <span class="token operator">=</span> obj <span class="token keyword">instanceof</span> <span class="token keyword">class</span> 
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>当 obj 为 Class 的对象，或者是其直接或间接子类，或者是其接口的实现类，结果result 都返回 true，否则返回false。</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>当 obj 为 Class 的对象，或者是其直接或间接子类，或者是其接口的实现类，结果result 都返回 true，否则返回false。</p>
 <p>注意一点：编译器会检查 obj 是否能转换成右边的class类型，如果不能转换则直接报错，如果不能确定类型，则通过编译，具体看运行时定。</p>
 <p>obj 必须为引用类型，只能作为对象的判断，不能是基本类型。</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i <span class="token keyword">instanceof</span> <span class="token class-name">Integer</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//编译不通过</span>
 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i <span class="token keyword">instanceof</span> <span class="token class-name">Object</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//编译不通过</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>源码参考：JavaSE 8 instanceof 的实现算法：https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-6.html#jvms-6.5.instanceof</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>源码参考：JavaSE 8 instanceof 的实现算法：<a href="https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-6.html#jvms-6.5.instanceof" target="_blank" rel="noopener noreferrer">https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-6.html#jvms-6.5.instanceof<ExternalLinkIcon/></a></p>
 <h2 id="_2-java自动装箱和拆箱" tabindex="-1"><a class="header-anchor" href="#_2-java自动装箱和拆箱" aria-hidden="true">#</a> 2. Java自动装箱和拆箱</h2>
 <p>什么是装箱拆箱，这里不做源码层面解读，源码解读在JavaPub公众号发出。这里通过讲解 int 和 Interger 区别，解答Java自动装箱和拆箱。</p>
 <blockquote>
@@ -46,14 +46,14 @@
  
 <span class="token comment">//true</span>
 <span class="token comment">//false</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>输出结果表明i1和i2指向的是同一个对象，而i3和i4指向的是不同的对象。此时只需一看源码便知究竟，下面这段代码是Integer的valueOf方法的具体实现：</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>输出结果表明i1和i2指向的是同一个对象，而i3和i4指向的是不同的对象。此时只需一看源码便知究竟，下面这段代码是Integer的valueOf方法的具体实现：</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">Integer</span> <span class="token function">valueOf</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token punctuation">)</span> <span class="token punctuation">{</span>
         <span class="token keyword">if</span><span class="token punctuation">(</span>i <span class="token operator">>=</span> <span class="token operator">-</span><span class="token number">128</span> <span class="token operator">&amp;&amp;</span> i <span class="token operator">&lt;=</span> <span class="token class-name">IntegerCache</span><span class="token punctuation">.</span>high<span class="token punctuation">)</span>
             <span class="token keyword">return</span> <span class="token class-name">IntegerCache</span><span class="token punctuation">.</span>cache<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">128</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
         <span class="token keyword">else</span>
             <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Integer</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token keyword">class</span> <span class="token class-name">IntegerCache</span> <span class="token punctuation">{</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token keyword">class</span> <span class="token class-name">IntegerCache</span> <span class="token punctuation">{</span>
         <span class="token keyword">static</span> <span class="token keyword">final</span> <span class="token keyword">int</span> high<span class="token punctuation">;</span>
         <span class="token keyword">static</span> <span class="token keyword">final</span> <span class="token class-name">Integer</span> cache<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
  
@@ -80,11 +80,11 @@
  
         <span class="token keyword">private</span> <span class="token class-name">IntegerCache</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div><blockquote>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
 <p>从这2段代码可以看出，在通过<strong>valueOf方法创建Integer对象的时候，如果数值在[-128,127]之间，便返回指向IntegerCache.cache中已经存在的对象的引用；否则创建一个新的Integer对象。</strong></p>
 </blockquote>
 <p><strong>上面的代码中i1和i2的数值为100，因此会直接从cache中取已经存在的对象，所以i1和i2指向的是同一个对象，而i3和i4则是分别指向不同的对象。</strong></p>
-<p><code>注意，Integer、Short、Byte、Character、Long这几个类的valueOf方法的实现是类似的。 Double、Float的valueOf方法的实现是类似的（没有缓存数值，这里的数值想想都有很多，不适合缓存）。</code></p>
+<p><code v-pre>注意，Integer、Short、Byte、Character、Long这几个类的valueOf方法的实现是类似的。 Double、Float的valueOf方法的实现是类似的（没有缓存数值，这里的数值想想都有很多，不适合缓存）。</code></p>
 <hr>
 <h2 id="_3-重载和重写区别" tabindex="-1"><a class="header-anchor" href="#_3-重载和重写区别" aria-hidden="true">#</a> 3. 重载和重写区别</h2>
 <p>重载和重写是一个特别好理解的概念，这里说一个通俗的解答方式</p>
@@ -126,7 +126,7 @@
         javaPubTest<span class="token punctuation">.</span><span class="token function">out</span><span class="token punctuation">(</span><span class="token string">"string"</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br></div></div><p>**重写（Overriding）**发生在父类子类之间，比如所有类都是继承与Object类的，Object类中本身就有equals、hashcode、toString方法等。在任意子类中定义了重名和同样的参数列表就构成方法重写。</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>**重写（Overriding）**发生在父类子类之间，比如所有类都是继承与Object类的，Object类中本身就有equals、hashcode、toString方法等。在任意子类中定义了重名和同样的参数列表就构成方法重写。</p>
 <ol>
 <li>方法名必须相同，返回值类型必须相同。</li>
 <li>参数列表必须相同。</li>
@@ -142,7 +142,7 @@
 <blockquote>
 <p>为什么重写equals还要重写hashcode?</p>
 </blockquote>
-<p>通过上面俩条我们知道 <strong>&quot;equals&quot;是判断两个变量或实例所指向的内存空间的值是不是相同。</strong> 但是一些特殊场景，我们需要对比俩个对象是否相等，例如：<code>User user1 = new User();</code> <code>User user2 = new User();</code> user1 和 user2 对比。这是我们就需要重写 equals 方法。</p>
+<p>通过上面俩条我们知道 <strong>&quot;equals&quot;是判断两个变量或实例所指向的内存空间的值是不是相同。</strong> 但是一些特殊场景，我们需要对比俩个对象是否相等，例如：<code v-pre>User user1 = new User();</code> <code v-pre>User user2 = new User();</code> user1 和 user2 对比。这是我们就需要重写 equals 方法。</p>
 <p>所以可以通过重写equals()方法来判断对象的值是否相等，但是有一个要求：<strong>equals()方法实现了等价关系</strong>，即：</p>
 <ul>
 <li>自反性：对于任何非空引用x，x.equals(x)应该返回true；</li>
@@ -151,14 +151,14 @@
 <li>一致性：如果x和y引用的对象没有发生变化，那么反复调用x.equals(y)应该返回同样的结果；</li>
 <li>非空性：对于任意非空引用x，x.equals(null)应该返回false；</li>
 </ul>
-<p>到这里也是一个很正常的操作，但是当我们要用到 HashSet 等集合时。存储的对象我们需要用 <code>hashcode 判断对象是否存在</code>，如果使用 Object 默认的hashcode方法，那我们同样属性的俩个用户一定是不相等的(例如下面user3、user4)，因为内存地址不同，这并不符合我们的业务，所以决定了重写 hashcode 的必要性。</p>
+<p>到这里也是一个很正常的操作，但是当我们要用到 HashSet 等集合时。存储的对象我们需要用 <code v-pre>hashcode 判断对象是否存在</code>，如果使用 Object 默认的hashcode方法，那我们同样属性的俩个用户一定是不相等的(例如下面user3、user4)，因为内存地址不同，这并不符合我们的业务，所以决定了重写 hashcode 的必要性。</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token class-name">User</span> user3 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">User</span><span class="token punctuation">(</span><span class="token string">"DearLocation"</span><span class="token punctuation">,</span> <span class="token string">"man"</span><span class="token punctuation">,</span> <span class="token string">"1996-08-28"</span><span class="token punctuation">)</span>
 <span class="token class-name">User</span> user4 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">User</span><span class="token punctuation">(</span><span class="token string">"DearLocation"</span><span class="token punctuation">,</span> <span class="token string">"man"</span><span class="token punctuation">,</span> <span class="token string">"1996-08-28"</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><hr>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><hr>
 <h2 id="_5-谈谈nio和bio区别" tabindex="-1"><a class="header-anchor" href="#_5-谈谈nio和bio区别" aria-hidden="true">#</a> 5. 谈谈NIO和BIO区别</h2>
 <p>致力于大白话说清楚。NIO和BIO是一个相对有点抽象的概念，如果你对网络有点了解，理解起来可能会更顺畅。首先说一下基本</p>
-<p><strong>BIO</strong>：同步阻塞IO，每一个客户端连接，服务端都会对应一个处理线程，对于没有分配到处理线程的连接就会被阻塞或者拒绝。相当于是<code>一个连接一个线程</code>。</p>
-<p><strong>NIO</strong>：同步非阻塞IO，基于Reactor模型，客户端和channel进行通信，channel可以进行读写操作，通过多路复用器selector来轮询注册在其上的channel，而后再进行IO操作。这样的话，在进行IO操作的时候再用一个线程去处理就可以了，也就是<code>一个请求一个线程</code>。</p>
+<p><strong>BIO</strong>：同步阻塞IO，每一个客户端连接，服务端都会对应一个处理线程，对于没有分配到处理线程的连接就会被阻塞或者拒绝。相当于是<code v-pre>一个连接一个线程</code>。</p>
+<p><strong>NIO</strong>：同步非阻塞IO，基于Reactor模型，客户端和channel进行通信，channel可以进行读写操作，通过多路复用器selector来轮询注册在其上的channel，而后再进行IO操作。这样的话，在进行IO操作的时候再用一个线程去处理就可以了，也就是<code v-pre>一个请求一个线程</code>。</p>
 <blockquote>
 <p>Reactor模型是什么?</p>
 <ol>
@@ -168,7 +168,7 @@
 </ol>
 <p>简单来说：Reactor线程模型的思想就是基于IO复用和线程池的结合。</p>
 </blockquote>
-<p><strong>AIO</strong>：（一般都会把AIO和NIO、BIO放一块比较，这里简单提一下。）异步非阻塞IO，相比NIO更进一步，完全由操作系统来完成请求的处理，然后通知服务端开启线程去进行处理，因此是<code>一个有效请求一个线程</code>。</p>
+<p><strong>AIO</strong>：（一般都会把AIO和NIO、BIO放一块比较，这里简单提一下。）异步非阻塞IO，相比NIO更进一步，完全由操作系统来完成请求的处理，然后通知服务端开启线程去进行处理，因此是<code v-pre>一个有效请求一个线程</code>。</p>
 <p><strong>那么怎么理解同步和阻塞？</strong></p>
 <p>首先，可以认为一个IO操作包含两个部分：</p>
 <ol>
@@ -186,9 +186,9 @@
 2. 每个人告诉售票员自己的目的地，然后睡觉，司机只和售票员交互，到了某个点由售票员通知乘客下车。 ( 类似非阻塞 )     
 
 很显然，每个人要到达某个目的地可以认为是一个线程，司机可以认为是 CPU 。在阻塞式里面，每个线程需要不断的轮询，上下文切换，以达到找到目的地的结果。而在非阻塞方式里，每个乘客 ( 线程 ) 都在睡觉 ( 休眠 ) ，只在真正外部环境准备好了才唤醒，这样的唤醒肯定不会阻塞。
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>建议阅读：
-https://www.cnblogs.com/aspirant/p/6877350.html
-https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>建议阅读：
+<a href="https://www.cnblogs.com/aspirant/p/6877350.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/aspirant/p/6877350.html<ExternalLinkIcon/></a>
+<a href="https://www.cnblogs.com/shoshana-kong/p/11228555.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/shoshana-kong/p/11228555.html<ExternalLinkIcon/></a></p>
 <hr>
 <h2 id="_6-string、stringbuffer、stringbuilder-的区别是什么" tabindex="-1"><a class="header-anchor" href="#_6-string、stringbuffer、stringbuilder-的区别是什么" aria-hidden="true">#</a> 6. String、StringBuffer、StringBuilder 的区别是什么？</h2>
 <p><strong>String</strong>是Immutable类的典型实现，被声明为 final class，除了hash这个属性其它属性都声明为final。它的不可变性，所以例如拼接字符串时候会产生很多无用的中间对象，如果频繁的进行这样的操作对性能有所影响。</p>
@@ -197,7 +197,7 @@ https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
 <p><strong>StringBuffer</strong> 线程不安全，但是性能更好。</p>
 <hr>
 <h2 id="_7-泛型是什么-有什么特点" tabindex="-1"><a class="header-anchor" href="#_7-泛型是什么-有什么特点" aria-hidden="true">#</a> 7. 泛型是什么，有什么特点</h2>
-<p>泛型在编码中有非常广泛的使用（jdk5引入），你一定经常能见到类似这种写法 <code>&lt;T&gt;</code> 。</p>
+<p>泛型在编码中有非常广泛的使用（jdk5引入），你一定经常能见到类似这种写法 <code v-pre>&lt;T&gt;</code> 。</p>
 <p>泛型提供了编译时类型安全检测机制，允许在编译时检测到非法的类型。<strong>本质</strong>是参数化类型。</p>
 <ol>
 <li>把类型当作是参数一样传递</li>
@@ -237,14 +237,14 @@ https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
       　　<span class="token comment">// ...</span>
 
       <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p><strong>final修饰一个方法</strong></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>final修饰一个方法</strong></p>
 <p>当 final 关键字用来修饰一个方法的时候，这个方法就是最终方法，也就是不能被覆盖重写。</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code>    修饰符 <span class="token keyword">final</span> 返回值类型 方法名称<span class="token punctuation">(</span>参数列表<span class="token punctuation">)</span> <span class="token punctuation">{</span>
 
      　　<span class="token comment">// 方法体</span>
 
      <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>注意：对于类、方法来说，abstract 关键字和 final 关键字不能同时使用，因为矛盾。</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注意：对于类、方法来说，abstract 关键字和 final 关键字不能同时使用，因为矛盾。</p>
 <p><strong>final修饰一个局部变量</strong></p>
 <p>一旦使用 final 用来修饰局部变量，那么这个变量就不能进行更改「一次赋值，终生不变」。</p>
 <ol>
@@ -281,7 +281,7 @@ https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
 <li>@Inherited</li>
 </ol>
 <p><img src="https://img-blog.csdnimg.cn/1b035a1306d5426b9fdba1bd07bb57a4.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBASmF2YVB1Yi1yb2RlcnQ=,size_12,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" loading="lazy"></p>
-<p>一般比较常用的有 @Target，@Retention。<code>@Target</code>表示这个注解可以修饰那些地方（比如类、方法、成员变量），<code>@Retention</code> 主要是设置注解的生命周期。</p>
+<p>一般比较常用的有 @Target，@Retention。<code v-pre>@Target</code>表示这个注解可以修饰那些地方（比如类、方法、成员变量），<code v-pre>@Retention</code> 主要是设置注解的生命周期。</p>
 <blockquote>
 <p>这是你一定会被问，</p>
 <ol>
@@ -299,7 +299,7 @@ https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
 	<span class="token keyword">public</span> <span class="token annotation punctuation">@interface</span> <span class="token class-name">LoginRequired</span> <span class="token punctuation">{</span>
     
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>然后写两个简单的接口，访问sourceA，sourceB资源</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>然后写两个简单的接口，访问sourceA，sourceB资源</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@RestController</span>
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">IndexController</span> <span class="token punctuation">{</span>
 
@@ -314,7 +314,7 @@ https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
     <span class="token punctuation">}</span>
 
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><p>很简单的俩个接口，没添加拦截器之前成功访问</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>很简单的俩个接口，没添加拦截器之前成功访问</p>
 <p><img src="https://img-blog.csdnimg.cn/237de5087d2e46fd9c2388a293ddd690.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBASmF2YVB1Yi1yb2RlcnQ=,size_16,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" loading="lazy"></p>
 <p>实现 spring 的 HandlerInterceptor 类先实现拦截器，但不拦截，只是简单打印日志，如下：</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">SourceAccessInterceptor</span> <span class="token keyword">implements</span> <span class="token class-name">HandlerInterceptor</span> <span class="token punctuation">{</span>
@@ -334,7 +334,7 @@ https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
 
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><p>实现spring类 WebMvcConfigurer，创建配置类把拦截器添加到拦截器链中</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>实现spring类 WebMvcConfigurer，创建配置类把拦截器添加到拦截器链中</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@Configuration</span>
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">InterceptorTrainConfigurer</span> <span class="token keyword">implements</span> <span class="token class-name">WebMvcConfigurer</span> <span class="token punctuation">{</span>
     <span class="token annotation punctuation">@Override</span>
@@ -342,7 +342,7 @@ https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
         registry<span class="token punctuation">.</span><span class="token function">addInterceptor</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">SourceAccessInterceptor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addPathPatterns</span><span class="token punctuation">(</span><span class="token string">"/**"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>拦截成功如下</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>拦截成功如下</p>
 <p><img src="https://img-blog.csdnimg.cn/8c2a2de1a354426e99a709d9939e2295.png" alt="在这里插入图片描述" loading="lazy">
 在 sourceB 方法上添加我们的登录注解 @LoginRequired</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@RestController</span>
@@ -360,7 +360,7 @@ https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
     <span class="token punctuation">}</span>
 
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>简单实现登录拦截逻辑</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>简单实现登录拦截逻辑</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code>	<span class="token annotation punctuation">@Override</span>
     <span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">preHandle</span><span class="token punctuation">(</span><span class="token class-name">HttpServletRequest</span> request<span class="token punctuation">,</span> <span class="token class-name">HttpServletResponse</span> response<span class="token punctuation">,</span> <span class="token class-name">Object</span> handler<span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">Exception</span> <span class="token punctuation">{</span>
         <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"进入拦截器了"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -377,7 +377,7 @@ https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
         response<span class="token punctuation">.</span><span class="token function">getWriter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"你访问的资源需要登录"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><p>运行成功，访问sourceB时需要登录了，访问sourceA则不用登录。
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>运行成功，访问sourceB时需要登录了，访问sourceA则不用登录。
 <img src="https://img-blog.csdnimg.cn/5f621d02dfbc4d36ac3965acd2b4607f.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBASmF2YVB1Yi1yb2RlcnQ=,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" loading="lazy">
 <img src="https://img-blog.csdnimg.cn/87a44ae94b5a4ec685cec7918d419d6b.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBASmF2YVB1Yi1yb2RlcnQ=,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" loading="lazy"></p>
 <p><strong>场景二：自定义注解+AOP 实现日志打印</strong></p>
@@ -386,13 +386,13 @@ https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>spring-boot-starter-aop<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>定义一个注解@MyLog</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>定义一个注解@MyLog</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@Target</span><span class="token punctuation">(</span><span class="token class-name">ElementType</span><span class="token punctuation">.</span>METHOD<span class="token punctuation">)</span>
 <span class="token annotation punctuation">@Retention</span><span class="token punctuation">(</span><span class="token class-name">RetentionPolicy</span><span class="token punctuation">.</span>RUNTIME<span class="token punctuation">)</span>
 <span class="token keyword">public</span> <span class="token annotation punctuation">@interface</span> <span class="token class-name">MyLog</span> <span class="token punctuation">{</span>
     
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>定义一个切面类，见如下代码注释理解：</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>定义一个切面类，见如下代码注释理解：</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@Aspect</span> <span class="token comment">// 1.表明这是一个切面类</span>
 <span class="token annotation punctuation">@Component</span>
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">MyLogAspect</span> <span class="token punctuation">{</span>
@@ -427,13 +427,13 @@ https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
 
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br></div></div><p>在步骤二中的IndexController写一个sourceC进行测试，加上我们的自定义注解：</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在步骤二中的IndexController写一个sourceC进行测试，加上我们的自定义注解：</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code>    <span class="token annotation punctuation">@MyLog</span>
     <span class="token annotation punctuation">@GetMapping</span><span class="token punctuation">(</span><span class="token string">"/sourceC/{source_name}"</span><span class="token punctuation">)</span>
     <span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">sourceC</span><span class="token punctuation">(</span><span class="token annotation punctuation">@PathVariable</span><span class="token punctuation">(</span><span class="token string">"source_name"</span><span class="token punctuation">)</span> <span class="token class-name">String</span> sourceName<span class="token punctuation">)</span><span class="token punctuation">{</span>
         <span class="token keyword">return</span> <span class="token string">"你正在访问sourceC资源"</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>启动springboot web项目，输入访问地址</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>启动springboot web项目，输入访问地址</p>
 <p><img src="https://img-blog.csdnimg.cn/699f926567e74423902434d50cabf81f.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBASmF2YVB1Yi1yb2RlcnQ=,size_16,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" loading="lazy">
 <img src="https://img-blog.csdnimg.cn/04e37829274044c0b297fa9b97bb5915.png" alt="在这里插入图片描述" loading="lazy"></p>
 <p>有些面试官喜欢问，注解三要素是哪些：</p>
@@ -448,25 +448,25 @@ https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
 <p><img src="https://img-blog.csdnimg.cn/44e70dbb3062498fbbfbaa9045c0f8d6.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBASmF2YVB1Yi1yb2RlcnQ=,size_17,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述" loading="lazy">
 <strong>使用new关键字</strong></p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token class-name">User</span> user <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">User</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p><strong>使用Class类的newInstance方法</strong></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>使用Class类的newInstance方法</strong></p>
 <p>我们也可以使用Class类的newInstance方法创建对象。这个newInstance方法调用无参的构造函数创建对象。</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token class-name">Employee</span> emp <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">Employee</span><span class="token punctuation">)</span> <span class="token class-name">Class</span><span class="token punctuation">.</span><span class="token function">forName</span><span class="token punctuation">(</span><span class="token string">"org.javapub.blog.Employee"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">newInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 或者
 <span class="token class-name">Employee</span> emp2 <span class="token operator">=</span> <span class="token class-name">Employee</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">.</span><span class="token function">newInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><strong>使用Constructor类的newInstance方法</strong></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>使用Constructor类的newInstance方法</strong></p>
 <p>和Class类的newInstance方法很像， java.lang.reflect.Constructor类里也有一个newInstance方法可以创建对象。我们可以通过这个newInstance方法调用有参数的和私有的构造函数。</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token class-name">Constructor</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Employee</span><span class="token punctuation">></span></span> constructor <span class="token operator">=</span> <span class="token class-name">Employee</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">.</span><span class="token function">getConstructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token class-name">Employee</span> emp3 <span class="token operator">=</span> constructor<span class="token punctuation">.</span><span class="token function">newInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><strong>使用clone方法</strong></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>使用clone方法</strong></p>
 <p>无论何时我们调用一个对象的clone方法，jvm就会创建一个新的对象，将前面对象的内容全部拷贝进去。用clone方法创建对象并不会调用任何构造函数。</p>
 <p>要使用clone方法，我们需要先实现Cloneable接口并实现其定义的clone方法。</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token class-name">Employee</span> emp4 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">Employee</span><span class="token punctuation">)</span> emp3<span class="token punctuation">.</span><span class="token function">clone</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p><strong>使用反序列化</strong></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>使用反序列化</strong></p>
 <p>当我们序列化和反序列化一个对象，jvm会给我们创建一个单独的对象。在反序列化时，jvm创建对象并不会调用任何构造函数。</p>
 <p>为了反序列化一个对象，我们需要让我们的类实现Serializable接口</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token class-name">ObjectInputStream</span> in <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ObjectInputStream</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">FileInputStream</span><span class="token punctuation">(</span><span class="token string">"data.obj"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token class-name">Employee</span> emp5 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">Employee</span><span class="token punctuation">)</span> in<span class="token punctuation">.</span><span class="token function">readObject</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><strong>联系JavaPub:</strong></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>联系JavaPub:</strong></p>
 <ol>
 <li>如果需要下载CSDN资料又没有积分可以JavaPub留言，JavaPub帮你下载</li>
 </ol>
@@ -486,4 +486,4 @@ https://www.cnblogs.com/shoshana-kong/p/11228555.html</p>
 <p><img src="/accounts/wechat.jpg" alt="" loading="lazy"></p>
 <p>个人微信</p>
 <p><img src="/accounts/QRcode.jpg" alt="" loading="lazy"></p>
-</template>
+</div></template>

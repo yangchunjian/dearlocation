@@ -1,8 +1,8 @@
-<template><p>JVM</p>
+<template><div><p>JVM</p>
 <!-- more -->
 <p>10道不得不会的JVM面试题</p>
 <p>我是JavaPub，专注于面试、副业，技术人的成长记录。</p>
-<p>以下是 JVM 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code>建议收藏，经常温习查阅</code>。</p>
+<p>以下是 JVM 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code v-pre>建议收藏，经常温习查阅</code>。</p>
 <p>评论区见</p>
 <p>@[toc]</p>
 <h1 id="jvm" tabindex="-1"><a class="header-anchor" href="#jvm" aria-hidden="true">#</a> JVM</h1>
@@ -132,4 +132,4 @@
 <p><RouterLink to="/willbe/jvm-interview-must.html">【JVM】10道不得不会的JVM面试题</RouterLink></p>
 <p><RouterLink to="/willbe/spring-interview-must.html">【Spring】10道不得不会的Spring面试题</RouterLink></p>
 <p><a href="https://github.com/yangchunjian" target="_blank" rel="noopener noreferrer">GItHub<ExternalLinkIcon/></a>|<a href="https://gitee.com/yangchunjian" target="_blank" rel="noopener noreferrer">GitEE<ExternalLinkIcon/></a></p>
-</template>
+</div></template>

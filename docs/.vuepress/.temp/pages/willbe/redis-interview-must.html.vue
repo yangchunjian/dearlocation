@@ -1,7 +1,7 @@
-<template><p>Redis</p>
+<template><div><p>Redis</p>
 <!-- more -->
 <p>10道不得不会的 Redis 面试题</p>
-<p>以下是 Redis 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code>建议收藏，经常温习查阅</code>。</p>
+<p>以下是 Redis 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code v-pre>建议收藏，经常温习查阅</code>。</p>
 <p>评论区见</p>
 <p>@[toc]</p>
 <h3 id="_1-redis是什么" tabindex="-1"><a class="header-anchor" href="#_1-redis是什么" aria-hidden="true">#</a> 1. Redis是什么？</h3>
@@ -102,7 +102,7 @@
 <li>保证谁加的锁只能被谁解锁，即Redis加锁的value，解锁时需要传入相同的value才能成功，保证value唯一性；</li>
 <li>设置锁超时时间，防止加锁方异常无法释放锁时其他客户端无法获取锁，同时，超时时间要大于业务处理时间；</li>
 </ol>
-<p>使用Redis命令 <code>SET lock_key unique_value NX EX seconds</code> 进行加锁，单命令操作，Redis是串行执行命令，所以能保证只有一个能加锁成功。</p>
+<p>使用Redis命令 <code v-pre>SET lock_key unique_value NX EX seconds</code> 进行加锁，单命令操作，Redis是串行执行命令，所以能保证只有一个能加锁成功。</p>
 <h2 id="推荐阅读" tabindex="-1"><a class="header-anchor" href="#推荐阅读" aria-hidden="true">#</a> 推荐阅读：</h2>
 <p><RouterLink to="/willbe/java-basics-interview-must.html">【Java基础】10道不得不会的Java基础面试题</RouterLink></p>
 <p><a href="java-concurrent-interview-must">【Java并发】10道不得不会的Java并发基础面试题</a></p>
@@ -112,4 +112,4 @@
 <p><RouterLink to="/willbe/willbe/spring-interview-must.html">【Spring】10道不得不会的Spring面试题</RouterLink></p>
 <p><a href="https://blog.csdn.net/qq_40374604/category_11740063.html" target="_blank" rel="noopener noreferrer">【Redis】10道不得不会的Redis面试题<ExternalLinkIcon/></a></p>
 <p><a href="https://github.com/yangchunjian" target="_blank" rel="noopener noreferrer">GItHub<ExternalLinkIcon/></a>|<a href="https://gitee.com/yangchunjian" target="_blank" rel="noopener noreferrer">GitEE<ExternalLinkIcon/></a></p>
-</template>
+</div></template>

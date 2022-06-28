@@ -1,8 +1,8 @@
-<template><p>Docker</p>
+<template><div><p>Docker</p>
 <!-- more -->
 <p>10道不得不会的 Docker 面试题</p>
 <p>我是JavaPub，专注于面试、副业，技术人的成长记录。</p>
-<p>以下是 Docker 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code>建议收藏，经常温习查阅</code>。</p>
+<p>以下是 Docker 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code v-pre>建议收藏，经常温习查阅</code>。</p>
 <p>评论区见</p>
 <p>@[toc]</p>
 <h1 id="docker" tabindex="-1"><a class="header-anchor" href="#docker" aria-hidden="true">#</a> Docker</h1>
@@ -12,7 +12,7 @@
 <h3 id="_2-docker-和虚拟机有什么不同" tabindex="-1"><a class="header-anchor" href="#_2-docker-和虚拟机有什么不同" aria-hidden="true">#</a> 2. Docker 和虚拟机有什么不同？</h3>
 <p>Docker 是轻量级的沙盒，在其中运行的只是应用，虚拟机里面还有额外的系统。</p>
 <h3 id="_3-什么是-dockerfile" tabindex="-1"><a class="header-anchor" href="#_3-什么是-dockerfile" aria-hidden="true">#</a> 3. 什么是 DockerFile？</h3>
-<p>Dockerfile 是一个文本文件，其中包含我们需要运行以构建 Docker 镜像的所有命令，每一条指令构建一层，因此每一条指令的内容，就是描述该层应当如何构建。Docker 使用 Dockerfile 中的指令自动构建镜像。我们可以 <code>docker build</code> 用来创建按顺序执行多个命令行指令的自动构建。</p>
+<p>Dockerfile 是一个文本文件，其中包含我们需要运行以构建 Docker 镜像的所有命令，每一条指令构建一层，因此每一条指令的内容，就是描述该层应当如何构建。Docker 使用 Dockerfile 中的指令自动构建镜像。我们可以 <code v-pre>docker build</code> 用来创建按顺序执行多个命令行指令的自动构建。</p>
 <p><strong>一些最常用的指令如下：</strong></p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>FROM ：使用 FROM 为后续的指令建立基础映像。在所有有效的 Dockerfile 中， FROM 是第一条指令。
 
@@ -21,11 +21,11 @@ LABEL： LABEL 指令用于组织项目映像，模块，许可等。在自动�
 RUN： RUN 指令可在映像当前层执行任何命令并创建一个新层，用于在映像层中添加功能层，也许最来的层会依赖它。
 
 CMD： 使用 CMD 指令为执行的容器提供默认值。在 Dockerfile 文件中，若添加多个 CMD 指令，只有最后的 CMD 指令运行。
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h3 id="_4-使用docker-compose时如何保证容器a先于容器b运行" tabindex="-1"><a class="header-anchor" href="#_4-使用docker-compose时如何保证容器a先于容器b运行" aria-hidden="true">#</a> 4. 使用Docker Compose时如何保证容器A先于容器B运行？</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_4-使用docker-compose时如何保证容器a先于容器b运行" tabindex="-1"><a class="header-anchor" href="#_4-使用docker-compose时如何保证容器a先于容器b运行" aria-hidden="true">#</a> 4. 使用Docker Compose时如何保证容器A先于容器B运行？</h3>
 <blockquote>
 <p>Docker Compose 是一个用来定义和运行复杂应用的Docker工具。一个使用Docker容器的应用，通常由多个容器组成。使用Docker Compose不再需要使用shell脚本来启动容器。Compose 通过一个配置文件来管理多个Docker容器。简单理解：Docker Compose 是docker的管理工具。</p>
 </blockquote>
-<p>Docker Compose 在继续下一个容器之前不会等待容器准备就绪。为了控制我们的执行顺序，我们可以使用“<strong>取决于</strong>”条件，<code>depends_on</code> 。这是在 docker-compose.yml 文件中使用的示例</p>
+<p>Docker Compose 在继续下一个容器之前不会等待容器准备就绪。为了控制我们的执行顺序，我们可以使用“<strong>取决于</strong>”条件，<code v-pre>depends_on</code> 。这是在 docker-compose.yml 文件中使用的示例</p>
 <div class="language-yaml ext-yml line-numbers-mode"><pre v-pre class="language-yaml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">"2.4"</span>
 
 <span class="token key atrule">services</span><span class="token punctuation">:</span>
@@ -41,7 +41,7 @@ CMD： 使用 CMD 指令为执行的容器提供默认值。在 Dockerfile 文�
  <span class="token key atrule">db</span><span class="token punctuation">:</span>
 
    <span class="token key atrule">image</span><span class="token punctuation">:</span> mysql
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>用 <code>docker-compose up</code> 命令将按照我们指定的依赖顺序启动和运行服务。</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>用 <code v-pre>docker-compose up</code> 命令将按照我们指定的依赖顺序启动和运行服务。</p>
 <h3 id="_5-一个完整的docker由哪些部分组成" tabindex="-1"><a class="header-anchor" href="#_5-一个完整的docker由哪些部分组成" aria-hidden="true">#</a> 5. 一个完整的Docker由哪些部分组成?</h3>
 <ul>
 <li>DockerClient 客户端</li>
@@ -57,7 +57,7 @@ CMD： 使用 CMD 指令为执行的容器提供默认值。在 Dockerfile 文�
 <ol>
 <li>查看本地主机的所用镜像：`docker images``</li>
 <li>搜索镜像：`docker search mysql``</li>
-<li>下载镜像：<code>docker pull mysql</code>，没写 tag 就默认下载最新的 lastest</li>
+<li>下载镜像：<code v-pre>docker pull mysql</code>，没写 tag 就默认下载最新的 lastest</li>
 <li>下载指定版本的镜像：`docker pull mysql:5.7``</li>
 <li>删除镜像：`docker rmi -f 镜像id 镜像id 镜像id``</li>
 </ol>
@@ -96,4 +96,4 @@ CMD： 使用 CMD 指令为执行的容器提供默认值。在 Dockerfile 文�
 <p><a href="https://blog.csdn.net/qq_40374604/category_11740063.html" target="_blank" rel="noopener noreferrer">10道不得不会的 Redis 面试题<ExternalLinkIcon/></a></p>
 <p><a href="https://blog.csdn.net/qq_40374604/category_11740063.html" target="_blank" rel="noopener noreferrer">10道不得不会的 Kafka 面试题<ExternalLinkIcon/></a></p>
 <p><a href="https://blog.csdn.net/qq_40374604/category_11740063.html" target="_blank" rel="noopener noreferrer">10道不得不会的 MyBatis 面试题<ExternalLinkIcon/></a></p>
-</template>
+</div></template>

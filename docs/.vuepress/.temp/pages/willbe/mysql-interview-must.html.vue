@@ -1,7 +1,7 @@
-<template><p>MySql</p>
+<template><div><p>MySql</p>
 <!-- more -->
 <p>10道不得不会的MySQL基础面试题</p>
-<p>以下都是 <strong>MySQL常见面试题</strong>，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code>建议收藏，经常温习查阅</code>。</p>
+<p>以下都是 <strong>MySQL常见面试题</strong>，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code v-pre>建议收藏，经常温习查阅</code>。</p>
 <p>评论区见</p>
 <p>@[toc]</p>
 <hr>
@@ -91,7 +91,7 @@
 <hr>
 <p>参考：</p>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>1. https://haicoder.net/note/mysql-interview/mysql-interview-optimistic-pessimism-lock.html
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><hr>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><hr>
 <h2 id="推荐阅读" tabindex="-1"><a class="header-anchor" href="#推荐阅读" aria-hidden="true">#</a> 推荐阅读：</h2>
 <p>系列面试题</p>
 <p><a href="https://mp.weixin.qq.com/s/3Nviyml0cvnX_HHkZ5DjWg" target="_blank" rel="noopener noreferrer">【Java基础】10道不得不会的Java基础面试题<ExternalLinkIcon/></a></p>
@@ -101,4 +101,4 @@
 <p><RouterLink to="/willbe/jvm-interview-must.html">【JVM】10道不得不会的JVM面试题</RouterLink></p>
 <p><RouterLink to="/willbe/spring-interview-must.html">【Spring】10道不得不会的Spring面试题</RouterLink></p>
 <p><a href="https://github.com/yangchunjian" target="_blank" rel="noopener noreferrer">GItHub<ExternalLinkIcon/></a>|<a href="https://gitee.com/yangchunjian" target="_blank" rel="noopener noreferrer">GitEE<ExternalLinkIcon/></a></p>
-</template>
+</div></template>
