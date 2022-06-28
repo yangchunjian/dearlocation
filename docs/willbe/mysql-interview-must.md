@@ -4,7 +4,7 @@ index: 1
 ## 这是页面的图标
 icon: page
 ## 这是文章的标题
-title: 10道不得不会的MySQL基础面试题
+title: MySQL面试题
 ## 设置作者
 author: DearLocation.cn
 ## 设置写作时间
