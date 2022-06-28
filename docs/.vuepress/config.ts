@@ -103,12 +103,12 @@ export default defineUserConfig({
         footer: "<a href='https://beian.miit.gov.cn/'>京ICP备xxx号</a>",
         displayFooter: true,
 
-        // encrypt: {
-        //     config: {
-        //         "/guide/encrypt.html": ["1234"],
-        //         "/zh/guide/encrypt.html": ["1234"],
-        //     },
-        // },
+        encrypt: {
+            config: {
+                "/guide/encrypt.html": ["1234"],
+                "/zh/guide/encrypt.html": ["1234"],
+            },
+        },
         // plugins: {
         //     //rss
         //     feed: {
