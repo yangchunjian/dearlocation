@@ -20,7 +20,7 @@ export default defineThemeConfig({
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
-  footer: "<a href='https://beian.miit.gov.cn/'>京ICP备2021007111号-2</a>",
+  footer: "<a href='https://beian.miit.gov.cn/'>京ICP备xxx号</a>",
 
   displayFooter: true,
 
@@ -38,7 +38,7 @@ export default defineThemeConfig({
       // sidebar
       sidebar: sidebar.javapub,
 
-      footer: "<a href='https://beian.miit.gov.cn/'>京ICP备2021007111号-2</a>",
+      footer: "<a href='https://beian.miit.gov.cn/'>京ICP备xxx号</a>",
 
       displayFooter: true,
 
@@ -46,7 +46,7 @@ export default defineThemeConfig({
       visitor: true,
 
       blog: {
-        description: "一个来自巴彦淖尔的朋友",
+        description: "一个来自黑龙江的朋友",
         intro: "/intro.html",
       },
     },
@@ -61,12 +61,12 @@ export default defineThemeConfig({
       // sidebar
       sidebar: sidebar.zh,
 
-      footer: "<a href='https://beian.miit.gov.cn/'>京ICP备2021007111号-2</a>",
+      footer: "<a href='https://beian.miit.gov.cn/'>京ICP备xxx号</a>",
 
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        description: "后端人员",
         intro: "/zh/intro.html",
       },
     },

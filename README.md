@@ -57,7 +57,7 @@ JavaPub的博客仓库
 
 # 备用信息
 
-<a href='https://beian.miit.gov.cn/'>京ICP备2021007111号-2</a>
+<a href='https://beian.miit.gov.cn/'>京ICP备xxx号</a>
 
 
 # 账号信息
