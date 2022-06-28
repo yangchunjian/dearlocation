@@ -87,10 +87,10 @@ CMD： 使用 CMD 指令为执行的容器提供默认值。在 Dockerfile 文�
 </blockquote>
 <p>低谷蓄力</p>
 <p><strong>《最少必要面试题》</strong></p>
-<p><a href="https://javapub.blog.csdn.net/article/details/122011870" target="_blank" rel="noopener noreferrer">10道不得不会的Java基础面试题<ExternalLinkIcon/></a></p>
-<p><a href="https://javapub.blog.csdn.net/article/details/122087243" target="_blank" rel="noopener noreferrer">10道不得不会的MySQL基础面试题<ExternalLinkIcon/></a></p>
-<p><a href="https://javapub.blog.csdn.net/article/details/122159231" target="_blank" rel="noopener noreferrer">10道不得不会的Java并发基础面试题<ExternalLinkIcon/></a></p>
-<p><a href="https://javapub.blog.csdn.net/article/details/124008535" target="_blank" rel="noopener noreferrer">10道不得不会的JVM面试题<ExternalLinkIcon/></a></p>
+<p><a href="https://dearlocation.blog.csdn.net/article/details/122011870" target="_blank" rel="noopener noreferrer">10道不得不会的Java基础面试题<ExternalLinkIcon/></a></p>
+<p><a href="https://dearlocation.blog.csdn.net/article/details/122087243" target="_blank" rel="noopener noreferrer">10道不得不会的MySQL基础面试题<ExternalLinkIcon/></a></p>
+<p><a href="https://dearlocation.blog.csdn.net/article/details/122159231" target="_blank" rel="noopener noreferrer">10道不得不会的Java并发基础面试题<ExternalLinkIcon/></a></p>
+<p><a href="https://dearlocation.blog.csdn.net/article/details/124008535" target="_blank" rel="noopener noreferrer">10道不得不会的JVM面试题<ExternalLinkIcon/></a></p>
 <p><a href="https://blog.csdn.net/qq_40374604/article/details/123761794" target="_blank" rel="noopener noreferrer">10道不得不会的ElasticSearch面试题<ExternalLinkIcon/></a></p>
 <p><a href="https://blog.csdn.net/qq_40374604/category_11740063.html" target="_blank" rel="noopener noreferrer">10道不得不会的Spring面试题<ExternalLinkIcon/></a></p>
 <p><a href="https://blog.csdn.net/qq_40374604/category_11740063.html" target="_blank" rel="noopener noreferrer">10道不得不会的 Redis 面试题<ExternalLinkIcon/></a></p>

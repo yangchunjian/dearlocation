@@ -1,7 +1,7 @@
 <template><div><p>bi</p>
 <!-- more -->
 <p>俩万后台管理系统免费开源，</p>
-<p>预览地址：<a href="http://liawan.javapub.net.cn/" target="_blank" rel="noopener noreferrer">http://liawan.javapub.net.cn/<ExternalLinkIcon/></a>
+<p>预览地址：<a href="http://liawan.dearlocation.net.cn/" target="_blank" rel="noopener noreferrer">http://liawan.dearlocation.net.cn/<ExternalLinkIcon/></a>
 开源地址：<a href="https://gitee.com/yangchunjian/liawan-vue" target="_blank" rel="noopener noreferrer">https://gitee.com/yangchunjian/liawan-vue<ExternalLinkIcon/></a></p>
 <hr>
 <h2 id="比特币" tabindex="-1"><a class="header-anchor" href="#比特币" aria-hidden="true">#</a> 比特币</h2>

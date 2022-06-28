@@ -1,6 +1,6 @@
 import { sidebar } from "vuepress-theme-hope";
 
-export const javapub = sidebar({
+export const dearlocation = sidebar({
   "/": [
     "",
     "home",

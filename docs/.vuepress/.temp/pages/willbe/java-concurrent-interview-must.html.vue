@@ -110,14 +110,14 @@ instance <span class="token operator">=</span> memory<span class="token punctuat
 <p><strong>CountDownLatch</strong> 是一个同步的辅助类，允许一个或多个线程，等待其他一组线程完成操作，再继续执行。简单来说：CountDownLatch 是一个计数器，可以保证线程之间的顺序执行把线程从并发状态调整为串行状态保证了线程的执行顺序。(只可以使用一次)</p>
 <p><strong>CyclicBarrier</strong> 是一个同步的辅助类，允许一组线程相互之间等待，达到一个共同点，再继续执行。典型场景：可以用于多线程计算数据，最后合并计算结果。（可以多次使用）</p>
 <p>分享一个直观的代码：</p>
-<div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>javapub<span class="token punctuation">.</span>test</span><span class="token punctuation">;</span>
+<div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>dearlocation<span class="token punctuation">.</span>test</span><span class="token punctuation">;</span>
 
 <span class="token keyword">import</span> <span class="token import"><span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span>concurrent<span class="token punctuation">.</span></span><span class="token class-name">CountDownLatch</span></span><span class="token punctuation">;</span>
 
 <span class="token doc-comment comment">/**
  * @Author: DearLocation
  * @License: https://github.com/yangchunjian/
- * @Contact: https://javapub.blog.csdn.net/
+ * @Contact: https://dearlocation.blog.csdn.net/
  * @Date: 2022/1/1 16:50
  * @Version: 1.0
  * @Description: countDownLatch 可以保证线程之间的顺序执行把线程从并发状态调整为串行状态保证了线程的执行顺序。
@@ -179,7 +179,7 @@ C
 <span class="token doc-comment comment">/**
  * @Author: DearLocation
  * @License: https://github.com/yangchunjian/
- * @Contact: https://javapub.blog.csdn.net/
+ * @Contact: https://dearlocation.blog.csdn.net/
  * @Date: 2022/1/2 13:42
  * @Version: 1.0
  * @Description: CyclicBarrier
@@ -279,7 +279,7 @@ CyclicBarrier：
 <span class="token doc-comment comment">/**
  * @Author: DearLocation
  * @License: https://github.com/yangchunjian/
- * @Contact: https://javapub.blog.csdn.net/
+ * @Contact: https://dearlocation.blog.csdn.net/
  * @Date: 2022/1/2 14:38
  * @Version: 1.0
  * @Description: ReentrantLock
@@ -388,12 +388,12 @@ CyclicBarrier：
 <p>线程内部顺序调用，T1、T2、T3。这个可能不是要考察的点，但也是一个方案。</p>
 <p><strong>方法2：</strong></p>
 <p>join()方法用于将线程由 ”并行“变成”串行“，它用于等待其他线程的终止，在当前线程掉用了join()方法，那么当前线程将进入阻塞状态，等到另一个线程结束，当前线程再由阻塞状态转变成就绪状态，等待CPU的使用权。</p>
-<div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>javapub<span class="token punctuation">.</span>test</span><span class="token punctuation">;</span>
+<div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>dearlocation<span class="token punctuation">.</span>test</span><span class="token punctuation">;</span>
 
 <span class="token doc-comment comment">/**
  * @Author: DearLocation
  * @License: https://github.com/yangchunjian/
- * @Contact: https://javapub.blog.csdn.net/
+ * @Contact: https://dearlocation.blog.csdn.net/
  * @Date: 2022/1/2 15:20
  * @Version: 1.0
  * @Description:

@@ -1,2 +1,2 @@
 export * from "./zh";
-export * from "./javapub";
+export * from "./dearlocation";

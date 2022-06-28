@@ -53,7 +53,7 @@ export default defineUserConfig({
             url: "https://dearlocation.com",
         },
         iconPrefix: "iconfont icon-",
-        logo: "/javapub-backgroup.svg",
+        logo: "/dearlocation-backgroup.svg",
         repo: "https://github.com/yangchunjian/dearlocation",
         docsDir: "docs",
         pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
@@ -62,9 +62,9 @@ export default defineUserConfig({
         locales: {
             "/": {
                 // navbar
-                navbar: navbar.javapub,
+                navbar: navbar.dearlocation,
                 // sidebar
-                sidebar: sidebar.javapub,
+                sidebar: sidebar.dearlocation,
                 footer: "<a href='https://beian.miit.gov.cn/'>京ICP备xxx号</a>",
                 displayFooter: true,
                 //浏览量
