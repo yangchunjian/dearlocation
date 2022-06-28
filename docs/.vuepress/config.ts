@@ -54,7 +54,7 @@ export default defineUserConfig({
         hostname: "https://dearlocation.com/",
         author: {
             name: "Chunjian Yang",
-            url: "http://javapub.net.cn",
+            url: "https://dearlocation.com",
         },
         iconPrefix: "iconfont icon-",
         logo: "/javapub-backgroup.svg",
