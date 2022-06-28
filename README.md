@@ -1,57 +1,133 @@
-<div align="center">
+# JavaPub-Blog
 
-# dearlocation
+JavaPub的博客仓库
 
-<!-- ![tI00h0.jpg](https://t1.picb.cc/uploads/2020/06/11/tI00h0.jpg) -->
+<http://javapub.net.cn/>
 
-<p align="center">
+[toc]
 
-![](https://img.shields.io/badge/%E6%8E%98%E9%87%91-10K-brightgreen)
-![](https://img.shields.io/badge/stars-20K-brightgreen)
-![](https://img.shields.io/badge/segmentFault-15K-brightgreen)
+## 启动方式
 
-</p>
-</div>
 
-### dearlocation 博客介绍
+1. 下载依赖
 
-- 本博客主要分享后端技术,不限于`JAVA`,`MySQL`,`Redis`,`Elasticsearch`,`微信小程序`,`云开发`等
-- 本博客主要分享实际开发中遇到的一些问题,并非搬运工,旨在有效的记录与分享,会一直维护下去
-- 本博客会不定期更新面试题分享,算法等,很多源自真实公司笔试题
+初始化
 
-### 如有问题请提 issue
+> npm install vuepress
 
-- 本博客若有对小伙伴们有帮助,谢谢不要吝啬您的`star`
-- 线上地止:[线上预览-dearlocation.com](https://dearlocation.com/)
-- 您也可关注**官方微信公众号:dearlocation**
-  <div align="center">
-  <!--<img src="https://t1.picb.cc/uploads/2020/06/11/tIpk0j.jpg" width="148" height="148" alt="dearlocation公众号" border="0">-->
-  </div>
+> npm install yarn
 
-### 如何支持作者
+> yarn install
 
-- 间接支持:
-  - 给该项目`star`,可以`clone`,但是谢谢注明下来源,写作不易,请您尊重下作者劳动成果,建议克隆另一简易版本[dearlocation 博客-简易模板](https://github.com/itclanCode/vuepress-build-blog-demo),自行二次配置,修改
-  - 收藏,转发,点赞
-  - [视频录制](https://space.bilibili.com/267957620),如有收获,三连击(点赞,关注,投币:whale:)
-- 直接支持
+搜索：
 
-  - 如果您觉得博客中的文章对你有帮助,可赞助一杯咖啡的钱,小额捐助来表示您的谢意.更好的鼓励我深夜打码,创作
+> npm i -D @vuepress/plugin-search@next
 
-  * [点击链接微信/支付宝赞助](https://www.zhi12.cn/paycenter/reward/widget?entity=user&id=72958)
+> npm i -D @vuepress/plugin-docsearch@next
 
-<div align="center">
-    <img src="https://www.yangchunjian.com/docbook/imgs/wechat.png" width="148" height="148" alt="微信支付" border="0">
-    <br /><br />
-    <hr />
-    <img src="https://www.yangchunjian.com/docbook/imgs/zfb.gif" width="148" height="148" alt="支付宝支付" border="0">
-</div>
+2. 命令运行本地服务
 
-- 小额赞助后,您可以联系作者,可获得额外的回报,您可以告诉我,您的名字,它将会出现在`dearlocation` 的`GitHub`仓库中,再比如您公司 `logo`,或相关产品会出现在[dearlocation 官网](https://dearlocation.com)上.
-- **如需合作联系:vx:`berich20000000`,备注:坐标-昵称-身份,如:深圳-李明-IT(后端)**
+> yarn docs:dev
 
-### 如何参与贡献
 
-- 如果您有对本项目中有任何建议或发现文中内容有误(不限于标点符号,错别字:shirt:)，欢迎提交 `issues` 
-- 如本博客中有未涉及到知识点,欢迎提交 `PR`
-- 如果您有好的文章推荐,建议您以`markdown` 格式发送到邮箱`1091938307@qq.com`,无论是否被录用,都会一一给您回复,至于如何写好文档,请参照[中文技术文档的写作规范指南](https://github.com/ruanyf/document-style-guide)
+3. 打包成静态文件
+
+命令用来生成静态文件，默认情况下，放置在docs/.vuepress/dist目录中，当然你也可以在docs/.vuepress/config.js中的dest字段来修改默认存放目录。
+
+> yarn docs:build
+
+
+
+
+
+# TODO
+
+- [x] 初始化vuepress
+- [x] 安装主题vuepress-theme-hope
+- [x] 评论系统
+- [x] 侧边栏目录自动生成
+- [ ] 404页面
+- [ ] 访问量统计
+- [ ] 百度提交收录链接
+- [ ] 支持https
+- [ ] SEO
+- [x] 本地搜索
+
+
+
+# 备用信息
+
+<a href='https://beian.miit.gov.cn/'>京ICP备2021007111号-2</a>
+
+
+# 账号信息
+
+评论管理：
+
+https://rodert-java-pub-blog-cq4tgfqik-rodert.vercel.app/ui
+
+
+# 项目结构介绍
+
+
+`yarn.lock` yarn管理，最好不要手动修改，可能破坏某些东西
+
+`docs/zh` 主题样式参考
+
+
+
+
+
+## 推荐阅读（附源码-附安装视频）
+
+`无套路，免费领取`
+
+
+
+中国象棋：[下载地址1](https://javapub.blog.csdn.net/article/details/124503370) | [下载地址2](http://javapub.net.cn/project/game/chinese-chess-game.html)
+
+植物大战僵尸：[下载地址1](https://javapub.blog.csdn.net/article/details/124238828) | [下载地址2](http://javapub.net.cn/project/game/plants-vs-zombies-game.html)
+
+俄罗斯方块：[下载地址1](https://javapub.blog.csdn.net/article/details/124471774) | [下载地址2](http://javapub.net.cn/project/game/super-mario-game.html)
+
+超级马里奥：[下载地址1](https://javapub.blog.csdn.net/article/details/124463555) | [下载地址2](http://javapub.net.cn/project/game/super-mario-game.html)
+
+吃豆人游戏：[下载地址1](https://javapub.blog.csdn.net/article/details/124463461) | [下载地址2](http://javapub.net.cn/project/game/super-mario-game.html)
+
+打地鼠：[下载地址1](https://javapub.blog.csdn.net/article/details/124463376) | [下载地址2](http://javapub.net.cn/project/game/super-mario-game.html)
+
+捕鱼达人：[下载地址1](https://javapub.blog.csdn.net/article/details/123834030) | [下载地址2](http://javapub.net.cn/project/game/catch-fish-game.html)
+
+打飞机：[下载地址1](https://javapub.blog.csdn.net/article/details/123699508) | [下载地址2](http://javapub.net.cn/project/game/super-mario-game.html)
+
+坦克大战：[下载地址1](https://javapub.blog.csdn.net/article/details/123779963) | [下载地址2](http://javapub.net.cn/project/game/super-mario-game.html)
+
+1024：[下载地址1](https://javapub.blog.csdn.net/article/details/123832950) | [下载地址2](http://javapub.net.cn/project/game/super-mario-game.html)
+
+贪吃蛇：[下载地址1](https://javapub.blog.csdn.net/article/details/123833575) | [下载地址2](http://javapub.net.cn/project/game/super-mario-game.html)
+
+3D赛车：[下载地址1](https://javapub.blog.csdn.net/article/details/124462822) | [下载地址2](http://javapub.net.cn/project/game/3d-racing-game.html)
+
+
+
+
+汇总地址：[下载地址1](https://blog.csdn.net/qq_40374604/category_11788364.html) | [下载地址2](http://javapub.net.cn/category/%E5%B0%8F%E6%B8%B8%E6%88%8F/)
+
+
+
+## 当前目录：
+
+0. [ssm_helloworld_web 【SSM整合】](ssm_helloworld_web)
+0. [firstSpringProject 【spring初始化工程】](firstSpringProject)
+1. [springbootfirstdemo 【springboot入门初始化】](https://github.com/Rodert/SpringBoot-javapub/tree/main/springbootfirstdemo)
+2. [spring-boot整合MyBatis批量更新](https://github.com/Rodert/SpringBoot-javapub/tree/main/spring-boot-mybatis)
+3. [spring-boot自定义注解+AOP切面日志](https://github.com/Rodert/SpringBoot-javapub/tree/main/spring-boot-annotation )
+4. [spring-boot整合docker打包jar](https://github.com/Rodert/SpringBoot-javapub/tree/main/spring-boot-docker)
+5. [spring-boot 整合elasticsearch手脚架](https://github.com/Rodert/SpringBoot-javapub/tree/main/spring-boot-elasticsearch)
+6. [spring-boot整合解析excel](https://github.com/Rodert/SpringBoot-javapub/tree/main/spring-boot-excel)
+7. [spring-boot实现全链路日志traceId](https://github.com/Rodert/SpringBoot-javapub/tree/main/spring-boot-trace)
+8. [springboot整合flowable工作流](https://github.com/Rodert/springboot-flowable)   [GitHub](https://github.com/Rodert/springboot-flowable) | [Gitee](https://gitee.com/rodert/springboot-flowable)
+9. [SpringBoot+Vue后台管理系统【源码+视频】](https://gitee.com/rodert/liawan-vue) [github](https://github.com/Rodert/liawan-vue) | [gitee](https://gitee.com/rodert/liawan-vue)
+10. 
+
+

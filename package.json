@@ -1,18 +1,19 @@
 {
   "name": "dearlocation",
-  "version": "2.0.0-alpha.48",
-  "private": true,
-  "description": "dearlocation",
+  "version": "2.0.0",
+  "description": "A project of vuepress-theme-hope",
   "license": "MIT",
-  "author": "DearLocation",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs"
   },
   "devDependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.48",
     "vuepress": "^2.0.0-beta.48",
     "vuepress-theme-hope": "^2.0.0-beta.84"
   },
-  "main": "index.ts",
-  "repository": "https://github.com/yangchunjian/dearlocation.git"
+  "dependencies": {
+    "yarn": "^1.22.18"
+  }
 }
