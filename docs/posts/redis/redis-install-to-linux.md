@@ -6,7 +6,7 @@ icon: page
 ## 这是文章的标题
 title: Linux下redis安装
 ## 设置作者
-author: Chunjian Yang
+author: DearLocation.cn
 ## 设置写作时间
 date: 2022-05-19
 ## 一个页面可以有多个分类

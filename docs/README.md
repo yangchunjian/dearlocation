@@ -54,7 +54,7 @@ projects:
 #     link: https://你的自定义链接
 
 # footer: 自定义你的页脚文字
-footer: MIT Licensed | Copyright © 2022-present Chunjian Yang
+footer: MIT Licensed | Copyright © 2022-present DearLocation.cn
 ---
 
 如果你愿意
