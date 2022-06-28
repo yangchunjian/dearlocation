@@ -1,6 +1,6 @@
-import { defineNavbarConfig } from "vuepress-theme-hope";
+import { navbar } from "vuepress-theme-hope";
 
-export const javapub = defineNavbarConfig([
+export const javapub = navbar([
   "/",
   "/home",
   { text: "指南", icon: "creative", link: "/guide/" },
