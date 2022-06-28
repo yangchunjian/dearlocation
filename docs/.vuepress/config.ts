@@ -60,6 +60,7 @@ export default defineUserConfig({
             name: "DearLocation.cn",
             url: "https://dearlocation.com",
         },
+        iconAssets: "iconfont",
         iconPrefix: "iconfont icon-",
         logo: "/dearlocation-backgroup.svg",
         repo: "https://github.com/yangchunjian/dearlocation",
