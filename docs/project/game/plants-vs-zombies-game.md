@@ -39,7 +39,7 @@ Java实现植物大战僵尸小游戏【附源码】
 ⭐欢迎点赞留言
 
 # 2 正文
-> **公众号：JavaPub**
+> **公众号：DearLocation**
 
 ## 2.1 展示
 1MB GIF可以欣赏：https://tva2.sinaimg.cn/large/007F3CC8ly1h1d47cxdsag31b60k9u0x.gif

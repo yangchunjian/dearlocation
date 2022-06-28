@@ -26,7 +26,7 @@ Java并发
 
 10道不得不会的Java并发基础面试题
 
-以下都是Java的并发基础面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。**JavaPub**在这里整理这些容易忘记的重点知识及**解答**，`建议收藏，经常温习查阅`。
+以下都是Java的并发基础面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。**DearLocation**在这里整理这些容易忘记的重点知识及**解答**，`建议收藏，经常温习查阅`。
 
 评论区见
 
@@ -221,7 +221,7 @@ package com.javapub.test;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @Author: JavaPub
+ * @Author: DearLocation
  * @License: https://github.com/Rodert/
  * @Contact: https://javapub.blog.csdn.net/
  * @Date: 2022/1/1 16:50
@@ -286,7 +286,7 @@ package com.roundyuan.fanggateway.test;
 import java.util.concurrent.CyclicBarrier;
 
 /**
- * @Author: JavaPub
+ * @Author: DearLocation
  * @License: https://github.com/Rodert/
  * @Contact: https://javapub.blog.csdn.net/
  * @Date: 2022/1/2 13:42
@@ -396,7 +396,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @Author: JavaPub
+ * @Author: DearLocation
  * @License: https://github.com/Rodert/
  * @Contact: https://javapub.blog.csdn.net/
  * @Date: 2022/1/2 14:38
@@ -529,7 +529,7 @@ join()方法用于将线程由 ”并行“变成”串行“，它用于等待�
 package com.javapub.test;
 
 /**
- * @Author: JavaPub
+ * @Author: DearLocation
  * @License: https://github.com/Rodert/
  * @Contact: https://javapub.blog.csdn.net/
  * @Date: 2022/1/2 15:20

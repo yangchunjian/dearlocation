@@ -3,7 +3,7 @@ import themeConfig from "./themeConfig";
 
 export default defineHopeConfig({
   base: "/",
-  title: "JavaPub",//默认信息
+  title: "DearLocation",//默认信息
   description: "专注于面试、副业，技术人的成长记录",//默认信息
 
   head: [
@@ -19,7 +19,7 @@ export default defineHopeConfig({
       "meta",
       {
         name: 'keywords',
-        content: 'JavaPub,java,爬虫,毕业设计,python,计算机毕业设计,elasticsearch,springboot',
+        content: 'DearLocation,java,爬虫,毕业设计,python,计算机毕业设计,elasticsearch,springboot',
       }
     ],
     //添加百度站长的自动推送代码

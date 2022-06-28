@@ -35,7 +35,7 @@ export default defineThemeConfig({
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
-      Gitee: "https://gitee.com/rodert/JavaPub",
+      Gitee: "https://gitee.com/rodert/DearLocation",
       GitHub: "https://github.com/Rodert",
       // Gitlab: "https://example.com",
       // Gmail: "https://example.com",
@@ -133,7 +133,7 @@ export default defineThemeConfig({
        * Using giscus
        */
       // type: "giscus",
-      // repo: "Rodert/JavaPub-Blog",
+      // repo: "Rodert/DearLocation-Blog",
       // repoId: "R_kgDOHK-WNg",
       // category: "Announcements",
       // categoryId: "DIC_kwDOHK-WNs4COsXL",

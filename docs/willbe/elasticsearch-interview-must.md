@@ -26,7 +26,7 @@ Elastic Search
 
 10道不得不会的ElasticSearch面试题
 
-以下是 ElasticSearch 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。**JavaPub**在这里整理这些容易忘记的重点知识及**解答**，`建议收藏，经常温习查阅`。
+以下是 ElasticSearch 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。**DearLocation**在这里整理这些容易忘记的重点知识及**解答**，`建议收藏，经常温习查阅`。
 
 评论区见
 
@@ -45,7 +45,7 @@ Elastic Search
 参考：
 https://www.cnblogs.com/sanduzxcvbnm/p/12084012.html
 
-a. 根据业务增量需求，采取基于日期模板创建索引，通过 `rollover API` 滚动索引；(rollover API我会单独写一个代码案例做讲解，公众号：JavaPub)
+a. 根据业务增量需求，采取基于日期模板创建索引，通过 `rollover API` 滚动索引；(rollover API我会单独写一个代码案例做讲解，公众号：DearLocation)
 b. 使用别名进行索引管理；（es的索引名不能改变，提供的别名机制使用非常广泛。）
 c. 每天凌晨定时对索引做force_merge操作，以释放空间；
 d. 采取冷热分离机制，热数据存储到SSD，提高检索效率；冷数据定期进行shrink操作，以缩减存储；
@@ -53,7 +53,7 @@ e. 采取curator进行索引的生命周期管理；
 f. 仅针对需要分词的字段，合理的设置分词器；
 g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否需要存储等。
 
-进100+原创文章：https://gitee.com/rodert/JavaPub
+进100+原创文章：https://gitee.com/rodert/DearLocation
 
 **写入调优**
 
@@ -76,7 +76,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 
 
 ## 3. elasticsearch 是如何实现 master 选举的
-> ElasticSearch 的选主是 ZenDiscovery 模块负责，源码分析将首发在。 https://gitee.com/rodert/JavaPub 
+> ElasticSearch 的选主是 ZenDiscovery 模块负责，源码分析将首发在。 https://gitee.com/rodert/DearLocation 
 
 1. 对所有可以成为 Master 的节点（node.master: true）根据 nodeId 排序，每次选举每个节点都把自己所知道节点排一次序，然后选出第一个（第0位）节点，暂且认为它是 Master 节点。
 2. 如果对某个节点的投票数达到一定的值（可以成为master节点数n/2+1）并且该节点自己也选举自己，那这个节点就是master。否则重新选举。

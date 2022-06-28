@@ -4,7 +4,7 @@ layout: Blog
 icon: home
 title: 博客主页
 heroImage: /javapub-backgroup.svg
-heroText: JavaPub
+heroText: DearLocation
 heroFullScreen: true
 tagline: 专注于面试、副业，技术人的成长记录
 projects:
@@ -31,7 +31,7 @@ projects:
   - icon: link
     name: 旧版博客
     desc: GitHub
-    link: https://github.com/Rodert/JavaPub
+    link: https://github.com/Rodert/DearLocation
 	 
 #   - icon: book
 #     name: 书籍名称

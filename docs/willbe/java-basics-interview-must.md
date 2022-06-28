@@ -26,7 +26,7 @@ Java 基础
 
 10道不得不会的Java基础面试题
 
-以下都是Java的基础面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。**JavaPub**在这里整理这些容易忘记的重点知识及**解答**，`建议收藏，经常温习查阅`。
+以下都是Java的基础面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。**DearLocation**在这里整理这些容易忘记的重点知识及**解答**，`建议收藏，经常温习查阅`。
 
 评论区见
 
@@ -222,8 +222,8 @@ public class JavaPubTest {
 到这里也是一个很正常的操作，但是当我们要用到 HashSet 等集合时。存储的对象我们需要用 `hashcode 判断对象是否存在`，如果使用 Object 默认的hashcode方法，那我们同样属性的俩个用户一定是不相等的(例如下面user3、user4)，因为内存地址不同，这并不符合我们的业务，所以决定了重写 hashcode 的必要性。
 
 ```java
-User user3 = new User("JavaPub", "man", "1996-08-28")
-User user4 = new User("JavaPub", "man", "1996-08-28")
+User user3 = new User("DearLocation", "man", "1996-08-28")
+User user4 = new User("DearLocation", "man", "1996-08-28")
 ```
 
 ---

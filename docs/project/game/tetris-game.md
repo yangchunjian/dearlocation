@@ -51,7 +51,7 @@ star: true
 
 ## 2 正文
 
-> **公众号：JavaPub**
+> **公众号：DearLocation**
 
 ### 2.1 展示预览
 

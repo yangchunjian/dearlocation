@@ -3,7 +3,7 @@ home: true
 icon: home
 title: 项目主页
 heroImage: /javapub-logo.svg
-heroText: JavaPub
+heroText: DearLocation
 tagline: 专注于面试、副业，技术人的成长记录。
 actions:
   - text: 最少必要面试题 💡
