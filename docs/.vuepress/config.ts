@@ -78,7 +78,7 @@ export default defineUserConfig({
     // 此处放置主题配置
 
       // 此处放置主题配置
-      hostname: "http://javapub.net.cn/",
+      hostname: "https://dearlocation.com/",
 
       author: {
         name: "Chunjian Yang",

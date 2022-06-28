@@ -2,7 +2,7 @@
 
 JavaPub的博客仓库
 
-<http://javapub.net.cn/>
+<https://dearlocation.com/>
 
 [toc]
 
