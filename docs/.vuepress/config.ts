@@ -8,46 +8,42 @@ export default defineUserConfig({
         title: "DearLocation",//默认信息
         description: "「Java面试+Java学习」",//默认信息
         head: [
-            [
-                "link",
+            ["link",
                 {
                     rel: "stylesheet",
                     href: "//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
                 },
             ],
             //被搜索引擎搜索标签
-            [
-                "meta",
+            ["meta",
                 {
                     name: 'keywords',
                     content: 'DearLocation,java,爬虫,毕业设计,python,计算机毕业设计,elasticsearch,springboot',
                 }
             ],
             //360站长的验证代码
-            [
-                "meta",
+            ["meta",
                 {
                     name: "360-site-verification",
                     content: "63b223c45248d2ea87cb9b1042148dda",
                 },
             ],
             // 添加360站长的自动推送代码
-            [
-                "script",
+            ["script",
                 {
                     src: "/assets/js/autopush-360.js",
                 },
             ],
             ['script', {},
                 `
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?469aa022c0181622bdf0357a8ca0fd9a";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-      })();
-      `
+                  var _hmt = _hmt || [];
+                  (function() {
+                    var hm = document.createElement("script");
+                    hm.src = "https://hm.baidu.com/hm.js?469aa022c0181622bdf0357a8ca0fd9a";
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(hm, s);
+                  })();
+                `
             ],
         ],
         // 此处放置主题配置
@@ -78,9 +74,6 @@ export default defineUserConfig({
                     intro: "/intro.html",
                 },
             },
-            /**
-             * Chinese locale config
-             */
             "/zh/": {
                 // navbar
                 navbar: navbar.zh,
