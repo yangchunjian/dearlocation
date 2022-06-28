@@ -6,8 +6,8 @@
     <link>https://dearlocation.com/</link>
     <description></description>
     <language>en-US</language>
-    <pubDate>Tue, 28 Jun 2022 11:00:04 GMT</pubDate>
-    <lastBuildDate>Tue, 28 Jun 2022 11:00:04 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jun 2022 11:34:14 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jun 2022 11:34:14 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>使用指南</category>
@@ -28,7 +28,7 @@
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">Intro Page</source>
-      <pubDate>Tue, 28 Jun 2022 10:58:41 GMT</pubDate>
+      <pubDate>Tue, 28 Jun 2022 11:33:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="intro-page" tabindex="-1"> Intro Page</h1>
 <p>Place your introducation and profile here.</p>
 ]]></content:encoded>
@@ -38,7 +38,7 @@
       <link>https://dearlocation.com/slide.html</link>
       <guid>https://dearlocation.com/slide.html</guid>
       <source url="https://dearlocation.com/rss.xml">幻灯片页</source>
-      <pubDate>Tue, 28 Jun 2022 10:58:41 GMT</pubDate>
+      <pubDate>Tue, 28 Jun 2022 11:33:03 GMT</pubDate>
       <content:encoded><![CDATA[
 <i>Content not supported</i>]]></content:encoded>
       <enclosure url="https://dearlocation.com/javapub-logo.svg" type="image/svg+xml"/>
@@ -49,7 +49,7 @@
       <guid>https://dearlocation.com/guide/</guid>
       <source url="https://dearlocation.com/rss.xml">主要功能与配置演示</source>
       <category>使用指南</category>
-      <pubDate>Tue, 28 Jun 2022 10:58:41 GMT</pubDate>
+      <pubDate>Tue, 28 Jun 2022 11:33:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="主要功能与配置演示" tabindex="-1"> 主要功能与配置演示</h1>
 <ul>
 <li>
@@ -75,7 +75,7 @@
       <description>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。
 </description>
       <category>使用指南</category>
-      <pubDate>Tue, 28 Jun 2022 10:58:41 GMT</pubDate>
+      <pubDate>Tue, 28 Jun 2022 11:33:03 GMT</pubDate>
       <content:encoded><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。</p>
 
 <p>本页面应当禁用了:</p>
@@ -100,7 +100,7 @@
       <guid>https://dearlocation.com/guide/encrypt.html</guid>
       <source url="https://dearlocation.com/rss.xml">密码加密的文章</source>
       <category>使用指南</category>
-      <pubDate>Tue, 28 Jun 2022 10:58:41 GMT</pubDate>
+      <pubDate>Tue, 28 Jun 2022 11:33:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="密码加密的文章" tabindex="-1"> 密码加密的文章</h1>
 <p>实际的文章内容。</p>
 <p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
@@ -115,7 +115,7 @@
       <description>VuePress 的每个文档页面都是由 Markdown 渲染而成。所以你需要通过在相应路径创建编写 Markdown 建立你的文档或博客页面。
 </description>
       <category>使用指南</category>
-      <pubDate>Tue, 28 Jun 2022 10:58:41 GMT</pubDate>
+      <pubDate>Tue, 28 Jun 2022 11:33:03 GMT</pubDate>
       <content:encoded><![CDATA[<p>VuePress 的每个文档页面都是由 Markdown 渲染而成。所以你需要通过在相应路径创建编写 Markdown 建立你的文档或博客页面。</p>
 
 <h2 id="markdown-介绍" tabindex="-1"> Markdown 介绍</h2>
@@ -347,7 +347,7 @@
       <link>https://dearlocation.com/me/</link>
       <guid>https://dearlocation.com/me/</guid>
       <source url="https://dearlocation.com/rss.xml">公众号</source>
-      <pubDate>Tue, 28 Jun 2022 10:58:41 GMT</pubDate>
+      <pubDate>Tue, 28 Jun 2022 11:33:03 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>本站完善中，谢谢你的关注</p>
 </blockquote>
@@ -472,7 +472,7 @@
       <content:encoded><![CDATA[<p>Docker</p>
 
 <p>10道不得不会的 Docker 面试题</p>
-<p>我是JavaPub，专注于面试、副业，技术人的成长记录。</p>
+<p>我是DearLocation，专注于面试、副业，技术人的成长记录。</p>
 <p>以下是 Docker 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code>建议收藏，经常温习查阅</code>。</p>
 <p>评论区见</p>
 <p>@[toc]</p>
@@ -709,7 +709,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 <p>设置最大文件句柄数；</p>
 </li>
 </ol>
-<p><strong>后俩点不懂可以先说有一定了解，关注JavaPub会做详细讲解。</strong></p>
+<p><strong>后俩点不懂可以先说有一定了解，关注DearLocation会做详细讲解。</strong></p>
 <ol start="4">
 <li>
 <p>调整线程池和队列大小</p>
@@ -821,7 +821,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 <span>System</span><span>.</span>out<span>.</span><span>println</span><span>(</span>i <span>instanceof</span> <span>Object</span><span>)</span><span>;</span><span>//编译不通过</span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><p>源码参考：JavaSE 8 instanceof 的实现算法：<a href="https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-6.html#jvms-6.5.instanceof" target="_blank" rel="noopener noreferrer">https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-6.html#jvms-6.5.instanceof</a></p>
 <h2 id="_2-java自动装箱和拆箱" tabindex="-1"> 2. Java自动装箱和拆箱</h2>
-<p>什么是装箱拆箱，这里不做源码层面解读，源码解读在JavaPub公众号发出。这里通过讲解 int 和 Interger 区别，解答Java自动装箱和拆箱。</p>
+<p>什么是装箱拆箱，这里不做源码层面解读，源码解读在DearLocation公众号发出。这里通过讲解 int 和 Interger 区别，解答Java自动装箱和拆箱。</p>
 <blockquote>
 <p>自动装箱 ----- 基本类型的值 → 包装类的实例</p>
 <p>自动拆箱 ----- 基本类型的值 ← 包装类的实例</p>
@@ -899,7 +899,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 <li>访问修饰符和返回值类型可以相同也可以不同。</li>
 </ol>
 <p>其实简单而言：重载就是对于不同的情况写不同的方法。 比如，同一个类中，写不同的构造函数用于初始化不同的参数。</p>
-<div><pre><code><span>public</span> <span>class</span> <span>JavaPubTest</span> <span>{</span>
+<div><pre><code><span>public</span> <span>class</span> <span>DearLocationTest</span> <span>{</span>
     <span>public</span> <span>void</span> <span>out</span><span>(</span><span>)</span><span>{</span>
         <span>System</span><span>.</span>out<span>.</span><span>println</span><span>(</span><span>"参数"</span><span>+</span><span>null</span><span>)</span><span>;</span>
     <span>}</span>
@@ -922,7 +922,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
     <span>}</span>
     
     <span>public</span> <span>static</span> <span>void</span> <span>main</span><span>(</span><span>String</span><span>[</span><span>]</span> args<span>)</span> <span>{</span>
-        <span>JavaPubTest</span> javaPubTest <span>=</span> <span>new</span> <span>JavaPubTest</span><span>(</span><span>)</span><span>;</span>
+        <span>DearLocationTest</span> javaPubTest <span>=</span> <span>new</span> <span>DearLocationTest</span><span>(</span><span>)</span><span>;</span>
         javaPubTest<span>.</span><span>out</span><span>(</span><span>)</span><span>;</span>
         javaPubTest<span>.</span><span>out</span><span>(</span><span>1</span><span>)</span><span>;</span>
         javaPubTest<span>.</span><span>out</span><span>(</span><span>"string"</span><span>)</span><span>;</span>
@@ -981,7 +981,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 </ol>
 <p>同步和异步在于第二个，实际的IO读写操作，如果操作系统帮你完成了再通知你，那就是异步，否则都叫做同步。</p>
 <p>阻塞和非阻塞在于第一个，发起IO请求，对于NIO来说通过channel发起IO操作请求后，其实就返回了，所以是非阻塞。</p>
-<p>NIO和BIO是非常重要的计算机知识，学习后会对整个计算机的理解更近一步，一次学会终身受益。JavaPub会单独写一篇深入图解NIO和BIO。</p>
+<p>NIO和BIO是非常重要的计算机知识，学习后会对整个计算机的理解更近一步，一次学会终身受益。DearLocation会单独写一篇深入图解NIO和BIO。</p>
 <p>网上看到一个例子（一定要看，会对你有所帮助）：</p>
 <div><pre><code>一辆从 A 开往 B 的公共汽车上，路上有很多点可能会有人下车。司机不知道哪些点会有哪些人会下车，对于需要下车的人，如何处理更好？   
 
@@ -1270,9 +1270,9 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 <p>为了反序列化一个对象，我们需要让我们的类实现Serializable接口</p>
 <div><pre><code><span>ObjectInputStream</span> in <span>=</span> <span>new</span> <span>ObjectInputStream</span><span>(</span><span>new</span> <span>FileInputStream</span><span>(</span><span>"data.obj"</span><span>)</span><span>)</span><span>;</span>
 <span>Employee</span> emp5 <span>=</span> <span>(</span><span>Employee</span><span>)</span> in<span>.</span><span>readObject</span><span>(</span><span>)</span><span>;</span>
-</code></pre><div aria-hidden="true"><div></div><div></div></div></div><p><strong>联系JavaPub:</strong></p>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><p><strong>联系DearLocation:</strong></p>
 <ol>
-<li>如果需要下载CSDN资料又没有积分可以JavaPub留言，JavaPub帮你下载</li>
+<li>如果需要下载CSDN资料又没有积分可以DearLocation留言，DearLocation帮你下载</li>
 </ol>
 <blockquote>
 <p>查看更多面试题及答案
@@ -1364,7 +1364,7 @@ instance <span>=</span> memory<span>;</span>      <span>//3：设置instance指�
 <p><strong>wait</strong> 方法一般是跟notify方法连用的</p>
 <p>多线程之间需要协调工作。如果条件不满足则等待。当条件满足时，等待该条件的线程将被唤醒。在Java中，这个机制实现依赖于wait/notify或wait/notifyAll。</p>
 <p>object.wait()让当前线程进入不可运行状态，如sleep()一样，但不同的是wait方法从一个对象调用，而不是从一个线程调用；我们称这个对象为“锁定对象（lockObj）”。在lockObj.wait()被调用之前，当前线程必须在lockObj上同步（synchronize）；然后调用wait()后释放这个锁，并将线程增加到与lockObj相关的“等待名单（wait list）”。然后，另一个在同一个lockObj锁定（synchronize）的方法可以调用lockObj.nofity()。这会唤醒原来等待的线程。基本上，wait() / notify()就像sleep() / interrupt()，只是活动线程不需要直接指向一个睡眠线程，他们只需要共享锁对象（lockObj）。</p>
-<p>到这里你是否明白这个问题，如果不明白来JavaPub，后续一篇代码分析，马上安排。</p>
+<p>到这里你是否明白这个问题，如果不明白来DearLocation，后续一篇代码分析，马上安排。</p>
 <hr>
 <h2 id="_4-如何停止一个正在运行的线程" tabindex="-1"> 4. 如何停止一个正在运行的线程？</h2>
 <p>最直观的一定是 Thread.stop，但是它是不推荐的，并且已经废弃。看一下官方说明
@@ -1771,9 +1771,9 @@ CyclicBarrier：
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>信号量方式 java.util.concurrent.Semaphore <code>英 [ˈseməfɔː(r)]</code>
 待研究</p>
 <hr>
-<p><strong>联系JavaPub:</strong></p>
+<p><strong>联系DearLocation:</strong></p>
 <ol>
-<li>如果需要下载CSDN资料又没有积分可以JavaPub留言，JavaPub帮你下载</li>
+<li>如果需要下载CSDN资料又没有积分可以DearLocation留言，DearLocation帮你下载</li>
 </ol>
 <h2 id="推荐阅读" tabindex="-1"> 推荐阅读：</h2>
 <p><a href="/willbe/java-basics-interview-must.html">【Java基础】10道不得不会的Java基础面试题</a></p>
@@ -1797,7 +1797,7 @@ CyclicBarrier：
       <content:encoded><![CDATA[<p>JVM</p>
 
 <p>10道不得不会的JVM面试题</p>
-<p>我是JavaPub，专注于面试、副业，技术人的成长记录。</p>
+<p>我是DearLocation，专注于面试、副业，技术人的成长记录。</p>
 <p>以下是 JVM 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code>建议收藏，经常温习查阅</code>。</p>
 <p>评论区见</p>
 <p>@[toc]</p>
@@ -1943,7 +1943,7 @@ CyclicBarrier：
       <content:encoded><![CDATA[<p>kafka</p>
 
 <p>10道不得不会的 Kafka 面试题</p>
-<p>我是JavaPub，专注于面试、副业，技术人的成长记录。</p>
+<p>我是DearLocation，专注于面试、副业，技术人的成长记录。</p>
 <p>以下是 Kafka 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code>建议收藏，经常温习查阅</code>。</p>
 <p>评论区见</p>
 <p>@[toc]</p>
@@ -2169,7 +2169,7 @@ ZooKeeper负载过重:
       <content:encoded><![CDATA[<p>MyBatis</p>
 
 <p>10道不得不会的 MyBatis 面试题</p>
-<p>我是JavaPub，专注于面试、副业，技术人的成长记录。</p>
+<p>我是DearLocation，专注于面试、副业，技术人的成长记录。</p>
 <p>以下是 MyBatis 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code>建议收藏，经常温习查阅</code>。</p>
 <p>评论区见</p>
 <p>@[toc]</p>
@@ -2604,7 +2604,7 @@ select * from user where name = javapub;
       <content:encoded><![CDATA[<p>spring</p>
 
 <p>10道不得不会的Spring面试题</p>
-<p>我是JavaPub，专注于面试、副业，技术人的成长记录。</p>
+<p>我是DearLocation，专注于面试、副业，技术人的成长记录。</p>
 <p>以下是 Spring 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code>建议收藏，经常温习查阅</code>。</p>
 <p>评论区见</p>
 <p>@[toc]</p>
@@ -2867,7 +2867,7 @@ c. 最后判断这个Bean是否配置了dlestroy-method等自定义的销毁方�
       <link>https://dearlocation.com/zh/slide.html</link>
       <guid>https://dearlocation.com/zh/slide.html</guid>
       <source url="https://dearlocation.com/rss.xml">幻灯片页</source>
-      <pubDate>Tue, 28 Jun 2022 10:58:41 GMT</pubDate>
+      <pubDate>Tue, 28 Jun 2022 11:33:03 GMT</pubDate>
       <content:encoded><![CDATA[
 <i>Content not supported</i>]]></content:encoded>
       <enclosure url="https://dearlocation.com/logo.svg" type="image/svg+xml"/>
@@ -4604,7 +4604,7 @@ Redis 中的字典由 dict.h/dict 结构表示：</p>
       <guid>https://dearlocation.com/zh/guide/</guid>
       <source url="https://dearlocation.com/rss.xml">主要功能与配置演示</source>
       <category>使用指南</category>
-      <pubDate>Tue, 28 Jun 2022 10:58:41 GMT</pubDate>
+      <pubDate>Tue, 28 Jun 2022 11:33:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="主要功能与配置演示" tabindex="-1"> 主要功能与配置演示</h1>
 <ul>
 <li>
@@ -4630,7 +4630,7 @@ Redis 中的字典由 dict.h/dict 结构表示：</p>
       <description>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。
 </description>
       <category>使用指南</category>
-      <pubDate>Tue, 28 Jun 2022 10:58:41 GMT</pubDate>
+      <pubDate>Tue, 28 Jun 2022 11:33:03 GMT</pubDate>
       <content:encoded><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。</p>
 
 <p>本页面应当禁用了:</p>
@@ -4655,7 +4655,7 @@ Redis 中的字典由 dict.h/dict 结构表示：</p>
       <guid>https://dearlocation.com/zh/guide/encrypt.html</guid>
       <source url="https://dearlocation.com/rss.xml">密码加密的文章</source>
       <category>使用指南</category>
-      <pubDate>Tue, 28 Jun 2022 10:58:41 GMT</pubDate>
+      <pubDate>Tue, 28 Jun 2022 11:33:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="密码加密的文章" tabindex="-1"> 密码加密的文章</h1>
 <p>实际的文章内容。</p>
 <p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
@@ -4670,7 +4670,7 @@ Redis 中的字典由 dict.h/dict 结构表示：</p>
       <description>VuePress 的每个文档页面都是由 Markdown 渲染而成。所以你需要通过在相应路径创建编写 Markdown 建立你的文档或博客页面。
 </description>
       <category>使用指南</category>
-      <pubDate>Tue, 28 Jun 2022 10:58:41 GMT</pubDate>
+      <pubDate>Tue, 28 Jun 2022 11:33:03 GMT</pubDate>
       <content:encoded><![CDATA[<p>VuePress 的每个文档页面都是由 Markdown 渲染而成。所以你需要通过在相应路径创建编写 Markdown 建立你的文档或博客页面。</p>
 
 <h2 id="markdown-介绍" tabindex="-1"> Markdown 介绍</h2>
