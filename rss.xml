@@ -1,0 +1,2583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://dearlocation.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <title></title>
+    <link>https://dearlocation.com/</link>
+    <description></description>
+    <language>en-US</language>
+    <pubDate>Tue, 28 Jun 2022 16:09:56 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jun 2022 16:09:56 GMT</lastBuildDate>
+    <generator>vuepress-plugin-feed2</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>使用指南</category>
+    <category>最少必要面试题</category>
+    <category>我</category>
+    <category>vpn</category>
+    <category>Java练手项目</category>
+    <category>币</category>
+    <category>idea</category>
+    <category>mysql</category>
+    <category>nacos</category>
+    <category>python</category>
+    <category>redis</category>
+    <category>CategoryA</category>
+    <category>CategoryB</category>
+    <item>
+      <title>Intro Page</title>
+      <link>https://dearlocation.com/intro.html</link>
+      <guid>https://dearlocation.com/intro.html</guid>
+      <source url="https://dearlocation.com/rss.xml">Intro Page</source>
+      <pubDate>Tue, 28 Jun 2022 16:08:36 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="intro-page" tabindex="-1"> Intro Page</h1>
+<p>Place your introducation and profile here.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>幻灯片页</title>
+      <link>https://dearlocation.com/slide.html</link>
+      <guid>https://dearlocation.com/slide.html</guid>
+      <source url="https://dearlocation.com/rss.xml">幻灯片页</source>
+      <pubDate>Tue, 28 Jun 2022 16:08:36 GMT</pubDate>
+      <content:encoded><![CDATA[
+<i>Content not supported</i>]]></content:encoded>
+      <enclosure url="https://dearlocation.com/dearlocation-logo.svg" type="image/svg+xml"/>
+    </item>
+    <item>
+      <title>主要功能与配置演示</title>
+      <link>https://dearlocation.com/guide/</link>
+      <guid>https://dearlocation.com/guide/</guid>
+      <source url="https://dearlocation.com/rss.xml">主要功能与配置演示</source>
+      <category>使用指南</category>
+      <pubDate>Tue, 28 Jun 2022 16:08:36 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="主要功能与配置演示" tabindex="-1"> 主要功能与配置演示</h1>
+<ul>
+<li>
+<p><a href="/guide/page.html">页面展示</a></p>
+</li>
+<li>
+<p><a href="/guide/markdown.html">Markdown 展示</a></p>
+</li>
+<li>
+<p><a href="/guide/disable.html">禁用展示</a></p>
+</li>
+<li>
+<p><a href="/guide/encrypt.html">加密展示</a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>组件禁用</title>
+      <link>https://dearlocation.com/guide/disable.html</link>
+      <guid>https://dearlocation.com/guide/disable.html</guid>
+      <source url="https://dearlocation.com/rss.xml">组件禁用</source>
+      <description>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。
+</description>
+      <category>使用指南</category>
+      <pubDate>Tue, 28 Jun 2022 16:08:36 GMT</pubDate>
+      <content:encoded><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。</p>
+
+<p>本页面应当禁用了:</p>
+<ul>
+<li>导航栏</li>
+<li>侧边栏</li>
+<li>路径导航</li>
+<li>页面信息</li>
+<li>贡献者</li>
+<li>编辑此页链接</li>
+<li>更新时间</li>
+<li>上一篇/下一篇 链接</li>
+<li>评论</li>
+<li>页脚</li>
+<li>返回顶部按钮</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>密码加密的文章</title>
+      <link>https://dearlocation.com/guide/encrypt.html</link>
+      <guid>https://dearlocation.com/guide/encrypt.html</guid>
+      <source url="https://dearlocation.com/rss.xml">密码加密的文章</source>
+      <category>使用指南</category>
+      <pubDate>Tue, 28 Jun 2022 16:08:36 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="密码加密的文章" tabindex="-1"> 密码加密的文章</h1>
+<p>实际的文章内容。</p>
+<p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
+<p>段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Markdown 增强</title>
+      <link>https://dearlocation.com/guide/markdown.html</link>
+      <guid>https://dearlocation.com/guide/markdown.html</guid>
+      <source url="https://dearlocation.com/rss.xml">Markdown 增强</source>
+      <description>VuePress 的每个文档页面都是由 Markdown 渲染而成。所以你需要通过在相应路径创建编写 Markdown 建立你的文档或博客页面。
+</description>
+      <category>使用指南</category>
+      <pubDate>Tue, 28 Jun 2022 16:08:36 GMT</pubDate>
+      <content:encoded><![CDATA[<p>VuePress 的每个文档页面都是由 Markdown 渲染而成。所以你需要通过在相应路径创建编写 Markdown 建立你的文档或博客页面。</p>
+
+<h2 id="markdown-介绍" tabindex="-1"> Markdown 介绍</h2>
+<p>如果你是一个新手，还不会编写 Markdown，请先阅读 <a href="https://vuepress-theme-hope.github.io/v2/zh/basic/markdown/README.html" target="_blank" rel="noopener noreferrer">Markdown 介绍</a> 和 <a href="https://vuepress-theme-hope.github.io/v2/zh/basic/markdown/demo.html" target="_blank" rel="noopener noreferrer">Markdown 演示</a>。</p>
+<div><p>Frontmatter</p>
+<p>Frontmatter 是 VuePress 中很重要的一个概念，如果你不了解它，你需要阅读 <a href="https://vuepress-theme-hope.github.io/v2/zh/basic/vuepress/page.html#front-matter" target="_blank" rel="noopener noreferrer">Frontmatter 介绍</a>。</p>
+</div>
+<h2 id="vuepress-扩展" tabindex="-1"> VuePress 扩展</h2>
+<p>为了丰富文档写作，VuePress 对 Markdown 语法进行了扩展。</p>
+<p>关于这些扩展，请阅读 <a href="https://vuepress-theme-hope.github.io/v2/zh/basic/vuepress/markdown.html" target="_blank" rel="noopener noreferrer">VuePress 中的 Markdown 扩展</a>。</p>
+<h2 id="主题扩展" tabindex="-1"> 主题扩展</h2>
+<h3 id="一键启用" tabindex="-1"> 一键启用</h3>
+<p>你可以设置 <code>themeconfig.plugins.htmlEnhance.enableAll</code> 启用 <a href="https://vuepress-theme-hope.github.io/v2/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a> 插件的所有功能。</p>
+<div><pre><code>module.exports = {
+  themeConfig: {
+    plugins: {
+      mdEnhance: {
+        enableAll: true,
+      },
+    },
+  },
+};
+</code></pre><div><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br><br><br></div><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="自定义容器" tabindex="-1"> 自定义容器</h3>
+<div>
+<p>安全的在 Markdown 中使用 {{ variable }}。</p>
+</div>
+<div><p>自定义标题</p>
+<p>信息容器，包含 <code>代码</code> 与 。</p>
+<div><pre><code><span>const</span> a <span>=</span> <span>1</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div></div></div></div>
+<div><p>自定义标题</p>
+<p>提示容器</p>
+</div>
+<div><p>自定义标题</p>
+<p>警告容器</p>
+</div>
+<div><p>自定义标题</p>
+<p>危险容器</p>
+</div>
+<details><summary>自定义标题</summary>
+<p>详情容器</p>
+</details>
+<details><summary>代码</summary>
+<div><pre><code>:::
+
+安全的在 Markdown 中使用 {{ variable }}。
+
+:::
+
+::: info 自定义标题
+
+信息容器
+
+:::
+
+::: tip 自定义标题
+
+提示容器
+
+:::
+
+::: warning 自定义标题
+
+警告容器
+
+:::
+
+::: danger 自定义标题
+
+危险容器
+
+:::
+
+::: details 自定义标题
+
+详情容器
+
+:::
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></details>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/container.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="代码块" tabindex="-1"> 代码块</h3>
+<p>:::: code-group</p>
+<p>::: code-group-item yarn</p>
+<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-theme-hope
+</code></pre><div aria-hidden="true"><div></div></div></div><p>:::</p>
+<p>::: code-group-item npm:active</p>
+<div><pre><code><span>npm</span> i -D vuepress-theme-hope
+</code></pre><div aria-hidden="true"><div></div></div></div><p>:::</p>
+<p>::::</p>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/code-group.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="自定义对齐" tabindex="-1"> 自定义对齐</h3>
+<div style="text-align: center"><p>我是居中的</p>
+</div>
+<div style="text-align: right"><p>我在右对齐</p>
+</div>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/align.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="上下角标" tabindex="-1"> 上下角标</h3>
+<p>19<sup>th</sup> H<sub>2</sub>O</p>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/sup-sub.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="脚注" tabindex="-1"> 脚注</h3>
+<p>此文字有脚注<sup></sup>.</p>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/footnote.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="标记" tabindex="-1"> 标记</h3>
+<p>你可以标记 <mark>重要的内容</mark> 。</p>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/mark.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="任务列表" tabindex="-1"> 任务列表</h3>
+<ul>
+<li>
+<p><input type="checkbox" id="task-item-0" checked="checked" disabled="disabled"><label for="task-item-0"> 计划 1</label></p>
+</li>
+<li>
+<p><input type="checkbox" id="task-item-1" disabled="disabled"><label for="task-item-1"> 计划 2</label></p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/tasklist.html" target="_blank" rel="noopener noreferrer">查看详情</a></p>
+</li>
+</ul>
+<h3 id="图表" tabindex="-1"> 图表</h3>
+<i>Content not supported</i><ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/chart.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="流程图" tabindex="-1"> 流程图</h3>
+<i>Content not supported</i><ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/flowchart.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="mermaid" tabindex="-1"> Mermaid</h3>
+<i>Content not supported</i><ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/mermaid.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="tex-语法" tabindex="-1"> Tex 语法</h3>
+<p class='katex-block'><span><span><span><i>Content not supported</i></span><span aria-hidden="true"><span><span style="height:2.4em;vertical-align:-0.95em;"></span><span><span></span><span><span><span><span style="height:1.3714em;"><span style="top:-2.314em;"><span style="height:3em;"></span><span><span style="margin-right:0.05556em;">∂</span><span><span style="margin-right:0.03588em;">ω</span><span><span><span><span style="height:0.5904em;"><span style="top:-2.989em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span style="height:3em;"></span><span style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span style="height:3em;"></span><span><span><span style="margin-right:0.05556em;">∂</span><span><span><span><span style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span></span></span></span><span>​</span></span><span><span style="height:0.686em;"><span></span></span></span></span></span><span></span></span><span style="margin-right:0.1667em;"></span><span><span style="top:0em;"><span>(</span></span><span><span></span><span><span><span><span style="height:1.3414em;"><span style="top:-2.314em;"><span style="height:3em;"></span><span><span style="margin-right:0.03588em;">ω</span></span></span><span style="top:-3.23em;"><span style="height:3em;"></span><span style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span style="height:3em;"></span><span><span><span style="margin-right:0.03588em;">y</span><span><span><span><span style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span><span style="margin-right:0.03588em;">ω</span></span></span></span></span></span></span></span></span></span></span></span><span>​</span></span><span><span style="height:0.686em;"><span></span></span></span></span></span><span></span></span><span style="top:0em;"><span>)</span></span></span><span style="margin-right:0.2778em;"></span><span>=</span><span style="margin-right:0.2778em;"></span></span><span><span style="height:3.0277em;vertical-align:-1.2777em;"></span><span><span style="top:0em;"><span>(</span></span><span><span></span><span><span><span><span style="height:1.3414em;"><span style="top:-2.314em;"><span style="height:3em;"></span><span><span style="margin-right:0.03588em;">ω</span></span></span><span style="top:-3.23em;"><span style="height:3em;"></span><span style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span style="height:3em;"></span><span><span><span style="margin-right:0.03588em;">y</span><span><span><span><span style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span><span style="margin-right:0.03588em;">ω</span></span></span></span></span></span></span></span></span></span></span></span><span>​</span></span><span><span style="height:0.686em;"><span></span></span></span></span></span><span></span></span><span style="top:0em;"><span>)</span></span></span><span style="margin-right:0.1667em;"></span><span><span style="top:0em;"><span>{</span></span><span>(</span><span>lo<span style="margin-right:0.01389em;">g</span></span><span style="margin-right:0.1667em;"></span><span style="margin-right:0.03588em;">y</span><span><span>)</span><span><span><span><span style="height:0.7144em;"><span style="top:-3.113em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span><span style="margin-right:0.2222em;"></span><span>+</span><span style="margin-right:0.2222em;"></span><span><span><span><span style="height:1.6514em;"><span style="top:-1.8723em;margin-left:0em;"><span style="height:3.05em;"></span><span><span><span>i</span><span>=</span><span>1</span></span></span></span><span style="top:-3.05em;"><span style="height:3.05em;"></span><span><span>∑</span></span></span><span style="top:-4.3em;margin-left:0em;"><span style="height:3.05em;"></span><span><span style="margin-right:0.02778em;">r</span></span></span></span><span>​</span></span><span><span style="height:1.2777em;"><span></span></span></span></span></span><span style="margin-right:0.1667em;"></span><span><span></span><span><span><span><span style="height:1.5017em;"><span style="top:-2.314em;"><span style="height:3em;"></span><span><span><span style="margin-right:0.03588em;">ω</span><span><span><span><span style="height:0.7507em;"><span style="top:-2.989em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span>i</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span style="height:3em;"></span><span style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span style="height:3em;"></span><span><span>(</span><span>−</span><span>1</span><span><span>)</span><span><span><span><span style="height:0.8247em;"><span style="top:-3.063em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span>i</span></span></span></span></span></span></span></span><span style="margin-right:0.02778em;">r</span><span style="margin-right:0.1667em;"></span><span>⋯</span><span style="margin-right:0.1667em;"></span><span>(</span><span style="margin-right:0.02778em;">r</span><span style="margin-right:0.2222em;"></span><span>−</span><span style="margin-right:0.2222em;"></span><span>i</span><span style="margin-right:0.2222em;"></span><span>+</span><span style="margin-right:0.2222em;"></span><span>1</span><span>)</span><span>(</span><span>lo<span style="margin-right:0.01389em;">g</span></span><span style="margin-right:0.1667em;"></span><span style="margin-right:0.03588em;">y</span><span><span>)</span><span><span><span><span style="height:0.8247em;"><span style="top:-3.063em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span><span style="margin-right:0.02778em;">r</span><span>−</span><span>i</span></span></span></span></span></span></span></span></span></span></span></span><span>​</span></span><span><span style="height:0.686em;"><span></span></span></span></span></span><span></span></span><span style="top:0em;"><span>}</span></span></span></span></span></span></span></p>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/tex.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="代码演示" tabindex="-1"> 代码演示</h3>
+<p>::: demo 一个普通 Demo</p>
+<div><pre><code><span><span><span>&lt;</span>h1</span><span>></span></span>VuePress Theme Hope<span><span><span>&lt;/</span>h1</span><span>></span></span>
+<span><span><span>&lt;</span>p</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>id</span><span><span>=</span><span>"</span>very<span>"</span></span><span>></span></span>非常<span><span><span>&lt;/</span>span</span><span>></span></span>强大!<span><span><span>&lt;/</span>p</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><div><pre><code>document<span>.</span><span>querySelector</span><span>(</span><span>"#very"</span><span>)</span><span>.</span><span>addEventListener</span><span>(</span><span>"click"</span><span>,</span> <span>(</span><span>)</span> <span>=></span> <span>{</span>
+  <span>alert</span><span>(</span><span>"非常强大"</span><span>)</span><span>;</span>
+<span>}</span><span>)</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><div><pre><code><span>span</span> <span>{</span>
+  <span>color</span><span>:</span> red<span>;</span>
+<span>}</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><p>:::</p>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/demo.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="幻灯片" tabindex="-1"> 幻灯片</h3>
+<i>Content not supported</i><ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/presentation.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<hr>
+<section>
+<ol>
+<li id="footnote1"><p>这是脚注内容 </p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>页面配置</title>
+      <link>https://dearlocation.com/guide/page.html</link>
+      <guid>https://dearlocation.com/guide/page.html</guid>
+      <source url="https://dearlocation.com/rss.xml">页面配置</source>
+      <description>more 注释之前的内容被视为文章摘要。
+</description>
+      <category>使用指南</category>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><code>more</code> 注释之前的内容被视为文章摘要。</p>
+
+<h2 id="页面信息" tabindex="-1"> 页面信息</h2>
+<p>你可以在 Markdown 的 Frontmatter 中设置页面信息。</p>
+<ul>
+<li>
+<p>作者设置为 Ms.Hope。</p>
+</li>
+<li>
+<p>写作时间应为 2020 年 1 月 1 日</p>
+</li>
+<li>
+<p>分类为 “使用指南”</p>
+</li>
+<li>
+<p>标签为 “页面配置” 和 “使用指南”</p>
+</li>
+</ul>
+<h2 id="页面内容" tabindex="-1"> 页面内容</h2>
+<p>你可以自由在这里书写你的 Markdown。</p>
+<div><p>Tips</p>
+<ul>
+<li>
+<p>Markdown 文件夹的图片请使用相对链接 <code>./</code> 进行引用。</p>
+</li>
+<li>
+<p><code>.vuepress/public</code> 文件夹的图片，请使用绝对链接 <code>/</code> 进行引用</p>
+</li>
+</ul>
+</div>
+<p>主题包含了一个自定义徽章章可以使用:</p>
+<blockquote>
+<p>文字结尾应该有深蓝色的 徽章文字 徽章。 <i>Content not supported</i></p>
+</blockquote>
+<h2 id="页面结构" tabindex="-1"> 页面结构</h2>
+<p>此页面应当包含：</p>
+<ul>
+<li>返回顶部按钮</li>
+<li>路径导航</li>
+<li>评论</li>
+<li>页脚</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>公众号</title>
+      <link>https://dearlocation.com/me/</link>
+      <guid>https://dearlocation.com/me/</guid>
+      <source url="https://dearlocation.com/rss.xml">公众号</source>
+      <pubDate>Tue, 28 Jun 2022 16:08:36 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p>本站完善中，谢谢你的关注</p>
+</blockquote>
+<p>关于我</p>
+<h2 id="目录" tabindex="-1"> 目录</h2>
+<p><a href="/me/2022-04/essay.html">2022-04</a></p>
+<h1 id="公众号" tabindex="-1"> 公众号</h1>
+<p>推荐一波~</p>
+<p><img src="https://www.yangchunjian.com/docbook/imgs/qrcode_for_gh_8756901e5b12_344.jpg" alt="公众号" loading="lazy"></p>
+<hr>
+<h2 id="联系我" tabindex="-1"> 联系我</h2>
+<p>交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。</p>
+<p><img src="https://javainterview.cn/img/weixin.jpeg" alt="微信" loading="lazy"></p>
+]]></content:encoded>
+      <enclosure url="https://www.yangchunjian.com/docbook/imgs/qrcode_for_gh_8756901e5b12_344.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>MyBatis 面试题</title>
+      <link>https://dearlocation.com/willbe/mybatis-interview-must.html</link>
+      <guid>https://dearlocation.com/willbe/mybatis-interview-must.html</guid>
+      <source url="https://dearlocation.com/rss.xml">MyBatis 面试题</source>
+      <description>MyBatis
+</description>
+      <category>最少必要面试题</category>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>MyBatis</p>
+
+]]></content:encoded>
+    </item>
+    <item>
+      <title>MySQL面试题</title>
+      <link>https://dearlocation.com/willbe/mysql-interview-must.html</link>
+      <guid>https://dearlocation.com/willbe/mysql-interview-must.html</guid>
+      <source url="https://dearlocation.com/rss.xml">MySQL面试题</source>
+      <description>MySql
+</description>
+      <category>最少必要面试题</category>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>MySql</p>
+
+]]></content:encoded>
+    </item>
+    <item>
+      <title>幻灯片页</title>
+      <link>https://dearlocation.com/zh/slide.html</link>
+      <guid>https://dearlocation.com/zh/slide.html</guid>
+      <source url="https://dearlocation.com/rss.xml">幻灯片页</source>
+      <pubDate>Tue, 28 Jun 2022 16:08:36 GMT</pubDate>
+      <content:encoded><![CDATA[
+<i>Content not supported</i>]]></content:encoded>
+      <enclosure url="https://dearlocation.com/logo.svg" type="image/svg+xml"/>
+    </item>
+    <item>
+      <title>随记</title>
+      <link>https://dearlocation.com/me/2022-04/essay.html</link>
+      <guid>https://dearlocation.com/me/2022-04/essay.html</guid>
+      <source url="https://dearlocation.com/rss.xml">随记</source>
+      <description>随记
+</description>
+      <category>我</category>
+      <pubDate>Thu, 28 Apr 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>随记</p>
+
+<p>不用猜了，帅哥一枚，哈哈~</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ip飘移</title>
+      <link>https://dearlocation.com/posts/article/ip-switch.html</link>
+      <guid>https://dearlocation.com/posts/article/ip-switch.html</guid>
+      <source url="https://dearlocation.com/rss.xml">ip飘移</source>
+      <description>各大主流社交软件显示ip地址，如何实现ip飘移
+</description>
+      <category>vpn</category>
+      <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>各大主流社交软件显示ip地址，如何实现ip飘移</p>
+
+<p>[toc]</p>
+<p>今日一则被一则报道刷下，<strong>微信公众号、抖音、微博等社交媒体平台全量开放IP属地功能，导致很多大V都“翻车”了。</strong></p>
+<p>大致原因微信也做了解释如下：</p>
+<p><img src="https://tvax1.sinaimg.cn/large/007F3CC8ly1h1srm99siyj30ic0vdn6c.jpg" alt="image" loading="lazy"></p>
+<p>看看各位up主身在何方！</p>
+<p><img src="https://tva3.sinaimg.cn/large/007F3CC8ly1h1srrx5azzj30k10lsdnm.jpg" alt="image" loading="lazy"></p>
+<p><img src="https://tvax4.sinaimg.cn/large/007F3CC8ly1h1srsfvp6yj30jz0gxwkl.jpg" alt="image" loading="lazy"></p>
+<p>互联网不是法外之地。习惯在阳光下说话，秉持“底线自觉”，网络空间中的文明指数一定会逐步提升，每个人也都将是受益者。双手支持国家的这项政策。</p>
+<p>其实作为up主，相信很多人都收到过或大或小的网络暴力，这次得举动也是对网络环境的一点点警示作用。还有类似 Russia and Ukraine 等如果太激进话题也不符合社会主义核心价值观。</p>
+<p>后台看了下，大多数股东都是从事互联网行业的，让自己的ip闪电飘移是基础操作。今天介绍一种傻瓜式操作方式、保姆级教程、手把手教学。当然，如果保姆没教会，可以私信我。</p>
+<h2 id="搭建" tabindex="-1"> 搭建</h2>
+<p>这里使用热门的 V2Ray 搭建梯服务器的工具和协议</p>
+<p>官网在这里，为了防止漏洞，大家定时更新下客户端和服务端。
+<a href="https://github.com/v2ray/v2ray-core/" target="_blank" rel="noopener noreferrer">https://github.com/v2ray/v2ray-core/</a></p>
+<p><strong>首先：</strong></p>
+<p>需要的服务器资源，自行解决，某云也有提供。如果你想白嫖也可以私信我，白嫖稳定性可想而知，但是突然用一下是够。</p>
+<h3 id="服务端" tabindex="-1"> 服务端</h3>
+<p>服务器系统 centos7 64位</p>
+<ol>
+<li>安装wget</li>
+</ol>
+<blockquote>
+<p>yum -y install wget</p>
+</blockquote>
+<ol start="2">
+<li>下载脚本</li>
+</ol>
+<blockquote>
+<p>wget <a href="https://install.direct/go.sh" target="_blank" rel="noopener noreferrer">https://install.direct/go.sh</a></p>
+</blockquote>
+<ol start="3">
+<li>安装unzip</li>
+</ol>
+<p>因为centos不支持apt-get，我们需要安装unzip</p>
+<blockquote>
+<p>yum install zip unzip</p>
+</blockquote>
+<ol start="4">
+<li>执行安装</li>
+</ol>
+<blockquote>
+<p>bash <a href="http://go.sh" target="_blank" rel="noopener noreferrer">go.sh</a></p>
+</blockquote>
+<p><img src="https://tvax3.sinaimg.cn/large/007F3CC8ly1h1t02qio7hj30kb0ckjzl.jpg" alt="image" loading="lazy"></p>
+<p>执行以上步骤提示如下错误信息：</p>
+<div><pre><code>ERROR: This script has been DISCARDED, please switch to fhs-install-v2ray project.
+
+HOW TO USE: https://github.com/v2fly/fhs-install-v2ray
+
+TO MIGRATE: https://github.com/v2fly/fhs-install-v2ray/wiki/Migrate-from-the-old-script-to-this
+
+可以参见：http://loonlog.com/2020/10/5/v2ray-server-new/，如果还有问题可以私信
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>使用以下脚本：</p>
+<blockquote>
+<p>curl -Ls <a href="https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh" target="_blank" rel="noopener noreferrer">https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh</a> | sudo bash</p>
+</blockquote>
+<ol start="5">
+<li>配置</li>
+</ol>
+<p>服务端其实是不需要再进行任何配置的，配置文件位于 <code>/etc/v2ray/config.json</code>，使用 <code>cat /etc/v2ray/config.json</code> 查看配置信息。</p>
+<p>配置信息主要注意以下几点：</p>
+<ul>
+<li>
+<p>配置文件中的id、端口、alterId需要和客户端的配置保持一致；</p>
+</li>
+<li>
+<p>服务端使用脚本安装成功之后默认就是vmess协议；</p>
+</li>
+<li>
+<p>配置完成之后重启v2ray。</p>
+</li>
+<li>
+<p>下图后面也有，可以对比理解</p>
+</li>
+</ul>
+<p><img src="https://tvax3.sinaimg.cn/large/007F3CC8ly1h1t09loyx2j30uz0fuwl4.jpg" alt="image" loading="lazy"></p>
+<ol start="6">
+<li>常用的启动，停止，重启v2ray命令</li>
+</ol>
+<p>在首次安装完成之后，V2Ray不会自动启动，需要手动运行上述启动命令。而在已经运行V2Ray的VPS上再次执行安装脚本，安装脚本会自动停止V2Ray 进程，升级V2Ray程序，然后自动运行V2Ray。在升级过程中，配置文件不会被修改。</p>
+<p>启动</p>
+<blockquote>
+<p>systemctl start v2ray</p>
+</blockquote>
+<p>停止</p>
+<p><code>systemctl stop v2ray</code></p>
+<p>重启</p>
+<p><code>systemctl restart v2ray</code></p>
+<p>关于软件更新：更新 V2Ray 的方法是再次执行安装脚本！再次执行安装脚本！再次执行安装脚本！</p>
+<ol start="7">
+<li>防火墙端口的打开</li>
+</ol>
+<p>centos系统防火墙需要开启</p>
+<p>查看已开放端口</p>
+<blockquote>
+<p>firewall-cmd --zone=public --list-ports</p>
+</blockquote>
+<p>添加开放端口</p>
+<blockquote>
+<p>firewall-cmd --zone=public --add-port=80/tcp --permanent</p>
+</blockquote>
+<p>重载防火墙配置，不然查看开放端口都查不到，也不能用，重载配置后即可</p>
+<blockquote>
+<p>firewall-cmd --reload</p>
+</blockquote>
+<p>如果哪一天发现怎么无法使用了，有可能是IP被屏蔽，也有肯能是端口被封，这个时候就需要换个端口，别忘记防火墙开启新端口，那旧端口就可以删除了：</p>
+<p>删除端口：</p>
+<blockquote>
+<p>firewall-cmd --zone=public --remove-port=123456/tcp --permanent</p>
+</blockquote>
+<h3 id="客户端windows" tabindex="-1"> 客户端Windows</h3>
+<p><strong>1. 下载windows客户端</strong></p>
+<div><pre><code>下载【v2ray-windows-64.zip Github Release】； https://github.com/v2ray/v2ray-core/releases
+
+下载【v2rayN-v2rayN.exe-Github Release】；https://github.com/2dust/v2rayN/releases
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><p>第一个下载，对v2ray-windows-64.zip进行解压，</p>
+<p>第二个下载，解压后，将下载的V2RayN.exe和一个汉化文件夹复制到第一个下载解压后的目录，即两个下载好的文件需要在同一目录。</p>
+<p><img src="https://tvax4.sinaimg.cn/large/007F3CC8ly1h1t0fe5rnoj306o06ewfr.jpg" alt="image" loading="lazy"></p>
+<p><img src="https://tva4.sinaimg.cn/large/007F3CC8ly1h1t0fkftu4j30gs09uwj1.jpg" alt="image" loading="lazy"></p>
+<p><strong>2. 配置windows客户端</strong></p>
+<p>运行V2RayN.exe，然后进行配置。</p>
+<p>客户端的配置需要根据你的服务端进行相应的配置，因为你的服务端协议可能是vmess,shadowsocks等。</p>
+<p>如果你的服务端配置是协议vmess，则配置如下：</p>
+<p><img src="https://tva1.sinaimg.cn/large/007F3CC8ly1h1t0gc9iklj30rg0h7n2x.jpg" alt="image" loading="lazy"></p>
+<p><img src="https://tvax1.sinaimg.cn/large/007F3CC8ly1h1t0gga6kmj30uz0fuwl4.jpg" alt="image" loading="lazy"></p>
+<p><strong>3. 启用代理</strong></p>
+<p>右击V2RayN运行的图标</p>
+<p><img src="https://tva2.sinaimg.cn/large/007F3CC8ly1h1t0h4dd4pj30ee04s40y.jpg" alt="image" loading="lazy"></p>
+<p>以上代理就完成了，但是还不能 <code>学科网上</code></p>
+<p>需要如下设置，就是设置本地代理模式，这里使用谷歌浏览器的一个插件：“SwitchyOmega”</p>
+<p>SwitchyOmega</p>
+<p>这具体是个什么东西，自行百度，我也说不明白，哈哈</p>
+<ol>
+<li>下载谷歌浏览器插件</li>
+</ol>
+<p>下载地址，翻到下面，下载crx文件 <a href="https://github.com/FelisCatus/SwitchyOmega/releases/" target="_blank" rel="noopener noreferrer">https://github.com/FelisCatus/SwitchyOmega/releases/</a></p>
+<p><img src="https://tva4.sinaimg.cn/large/007F3CC8ly1h1t0kawbkfj30m9051gmv.jpg" alt="image" loading="lazy"></p>
+<ol start="2">
+<li>安装插件</li>
+</ol>
+<p>把下载的文件扩展名crx改为zip，然后解压</p>
+<p>点击谷歌浏览器右边面包按钮，找到更多工具-扩展程序，打开开发这模式</p>
+<p>加载已解压的扩展程序，选择刚刚解压的文件夹，即可安装成功，有错误提示忽略</p>
+<ol start="3">
+<li>配置扩展程序</li>
+</ol>
+<p>打开配置界面，如下3张图：</p>
+<p>根据123步骤进行配置</p>
+<p><img src="https://tvax4.sinaimg.cn/large/007F3CC8ly1h1t0l0c9v5j30pe0iewjv.jpg" alt="image" loading="lazy"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007F3CC8ly1h1t0l7cbk9j30po0fy0yv.jpg" alt="image" loading="lazy"></p>
+<p><img src="https://tvax3.sinaimg.cn/large/007F3CC8ly1h1t0lytreqj30pg0mz79q.jpg" alt="image" loading="lazy"></p>
+<p>这个规则列表地址是 <a href="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt" target="_blank" rel="noopener noreferrer">https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt</a></p>
+<p>大家可以直接复制利用</p>
+<p>规则列表地址是大神提供的需要地址，这里我们直接使用，这样就可以facebook，内网就正常渠道上网</p>
+<p><img src="https://tva1.sinaimg.cn/large/007F3CC8ly1h1t0mky07uj30tt0ixtjb.jpg" alt="image" loading="lazy"></p>
+<h3 id="客户端" tabindex="-1"> 客户端</h3>
+<ol>
+<li>
+<p>安卓：<a href="https://github.com/2dust/v2rayNG/releases" target="_blank" rel="noopener noreferrer">https://github.com/2dust/v2rayNG/releases</a></p>
+</li>
+<li>
+<p>安卓：<a href="https://apkpure.com/bifrostv/com.github.dawndiy.bifrostv" target="_blank" rel="noopener noreferrer">https://apkpure.com/bifrostv/com.github.dawndiy.bifrostv</a></p>
+</li>
+<li>
+<p>ios：<a href="https://itunes.apple.com/us/app/i2ray/id1445270056?mt=8" target="_blank" rel="noopener noreferrer">https://itunes.apple.com/us/app/i2ray/id1445270056?mt=8</a></p>
+</li>
+<li>
+<p>mac：<a href="https://github.com/Cenmrev/V2RayX/releases" target="_blank" rel="noopener noreferrer">https://github.com/Cenmrev/V2RayX/releases</a></p>
+</li>
+</ol>
+<p>如果有什么疑惑联系讨论</p>
+]]></content:encoded>
+      <enclosure url="https://tvax1.sinaimg.cn/large/007F3CC8ly1h1srm99siyj30ic0vdn6c.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Java练手项目 [第一弹]</title>
+      <link>https://dearlocation.com/posts/article/java-project-1.html</link>
+      <guid>https://dearlocation.com/posts/article/java-project-1.html</guid>
+      <source url="https://dearlocation.com/rss.xml">Java练手项目 [第一弹]</source>
+      <category>Java练手项目</category>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>源码+文档+免费领取</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>币</title>
+      <link>https://dearlocation.com/posts/btc/btc-01.html</link>
+      <guid>https://dearlocation.com/posts/btc/btc-01.html</guid>
+      <source url="https://dearlocation.com/rss.xml">币</source>
+      <description>bi
+</description>
+      <category>币</category>
+      <pubDate>Sat, 21 May 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>bi</p>
+
+<p>俩万后台管理系统免费开源，</p>
+<p>预览地址：<a href="http://liawan.dearlocation.net.cn/" target="_blank" rel="noopener noreferrer">http://liawan.dearlocation.net.cn/</a>
+开源地址：<a href="https://gitee.com/yangchunjian/liawan-vue" target="_blank" rel="noopener noreferrer">https://gitee.com/yangchunjian/liawan-vue</a></p>
+<hr>
+<h2 id="比特币" tabindex="-1"> 比特币</h2>
+<p>加密货币是当前全世界最受争议的事件之一，它的实现原理决定了对法币造成的挑战。</p>
+<p>从2009年1月3日中本聪生成第一枚比特币开始，比特币就开始书写它的传奇。</p>
+<p><img src="https://tvax2.sinaimg.cn/large/007F3CC8ly1h2fphd7mlnj30ni0na0yk.jpg" alt="image" loading="lazy"></p>
+<p>这是截至发稿时BTC的周线图，最近几年局势比较动荡，俄乌冲突、朝核危机、塔利班、Corona Virus Disease 2019，COVID-19 间接导致的全球经济，为了使自己的资本保值、不被印钞机稀释掉，也就催化了加密货币的生长。</p>
+<p>除了BTC，还有以太坊 ETH、狗币 DOGE、FIL及最近最火的LUNA/USDT。最听说有人挣得钵满彭满、开着高杠杆</p>
+<h2 id="luna" tabindex="-1"> LUNA</h2>
+<p>最近就算没接触炒币的胖友们也一定听说露娜LUNA/USDT币，造富神话。</p>
+<p><img src="https://tvax1.sinaimg.cn/large/007F3CC8ly1h2fq399nahj316e085wjx.jpg" alt="image" loading="lazy"></p>
+]]></content:encoded>
+      <enclosure url="https://tvax2.sinaimg.cn/large/007F3CC8ly1h2fphd7mlnj30ni0na0yk.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>IDEA 破解【稳定】【更新】（永久更新）</title>
+      <link>https://dearlocation.com/posts/idea/idea-crack.html</link>
+      <guid>https://dearlocation.com/posts/idea/idea-crack.html</guid>
+      <source url="https://dearlocation.com/rss.xml">IDEA 破解【稳定】【更新】（永久更新）</source>
+      <description>亲测2019、2020、2021、2022版本可用
+</description>
+      <category>idea</category>
+      <pubDate>Sun, 15 May 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>亲测2019、2020、2021、2022版本可用</p>
+
+<p>[toc]</p>
+<blockquote>
+<p>初次访问：反爬虫，激活码已被保护</p>
+</blockquote>
+<h2 id="说明" tabindex="-1"> 说明</h2>
+<p>2018.2~2022版本用这个，下面激活码直接复制粘贴到activation code即可激活软件，如果是新的版本，换新激活码的时候code with me也要激活一次</p>
+<p><img src="https://tvax1.sinaimg.cn/large/007F3CC8ly1h29hbpt2d9j307306y757.jpg" alt="image" loading="lazy"></p>
+<blockquote>
+<p>微信扫一扫，获取，验证码</p>
+<p>微信扫一扫，回复“验证码”，获取网页验证码</p>
+</blockquote>
+<p>激活后如果显示key is invalid，这是因为你破解过软件的原因，请按如下操作</p>
+<ol>
+<li>打开软件，</li>
+<li>help edit VM options，</li>
+<li>删掉最下面一行的javaagent，重启软件即可</li>
+</ol>
+<h2 id="注意" tabindex="-1"> 注意：</h2>
+<p>（如果是较新的版本Intellij IDEA和Code with me都要激活一次）</p>
+<h2 id="必读" tabindex="-1"> 必读</h2>
+<p>激活码过了一段时间会失效，到时候怎么办？</p>
+<p>jetBrains 官方会不定时封号，但是本站激活码即时更新，如果失效可以到公众号发送“激活码”获取最新更新的激活码</p>
+]]></content:encoded>
+      <enclosure url="https://tvax1.sinaimg.cn/large/007F3CC8ly1h29hbpt2d9j307306y757.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>mysql主从搭建</title>
+      <link>https://dearlocation.com/posts/mysql/mysql-master-slave.html</link>
+      <guid>https://dearlocation.com/posts/mysql/mysql-master-slave.html</guid>
+      <source url="https://dearlocation.com/rss.xml">mysql主从搭建</source>
+      <description>基于linux搭建mysql主从服务器，单机搭建
+</description>
+      <category>mysql</category>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>基于linux搭建mysql主从服务器，单机搭建</p>
+
+<p>[toc]</p>
+<h2 id="下载" tabindex="-1"> 下载</h2>
+<blockquote>
+<p>wget wget <a href="https://downloads.mysql.com/archives/get/p/23/file/mysql-5.7.32-el7-x86_64.tar.gz" target="_blank" rel="noopener noreferrer">https://downloads.mysql.com/archives/get/p/23/file/mysql-5.7.32-el7-x86_64.tar.gz</a></p>
+</blockquote>
+<h2 id="创建多实例配置目录" tabindex="-1"> 创建多实例配置目录</h2>
+<div><pre><code><span>#为每个实例创建单独的文件，以便存放对应的数据文件、日志文件、临时文件</span>
+<span>mkdir</span> -p /mnt/databases/mysql/<span>{</span>mysql_3306,mysql_3307<span>}</span>
+<span>mkdir</span> /mnt/databases/mysql/mysql_3306/<span>{</span>data,log,tmp<span>}</span>
+<span>mkdir</span> /mnt/databases/mysql/mysql_3307/<span>{</span>data,log,tmp<span>}</span>
+
+<span>#更改目录权限</span>
+<span>chown</span> -R mysql-admin:mysql /mnt/databases/mysql/ 
+<span>chown</span> -R mysql-admin:mysql /usr/local/mysql/
+
+<span>#添加环境变量</span>
+<span>echo</span> <span>'export PATH=$PATH:/usr/local/mysql/bin'</span> <span>>></span>  /etc/profile 
+<span>source</span> /etc/profile 
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="配置my-cnf" tabindex="-1"> 配置my.cnf</h2>
+<blockquote>
+<p>vim /usr/local/mysql/support-files/my.cnf</p>
+</blockquote>
+<div><pre><code><span>[</span>client<span>]</span>
+<span>port</span><span>=</span><span>3306</span>
+<span>socket</span><span>=</span>/tmp/mysql.sock
+
+<span>[</span>mysqld_multi<span>]</span>
+<span>mysqld</span><span>=</span>/usr/local/mysql/bin/mysqld_safe
+<span>mysqladmin</span><span>=</span>/usr/local/mysql/bin/mysqladmin
+<span>log</span><span>=</span>/mnt/databases/mysql/mysqld_multi.log
+
+<span>[</span>mysqld<span>]</span>
+<span>user</span><span>=</span>mysql-admin
+<span>basedir</span><span>=</span>/usr/local/mysql
+<span>sql_mode</span><span>=</span>NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+
+<span>[</span>mysqld3306<span>]</span>
+<span>mysqld</span><span>=</span>mysqld
+<span>mysqladmin</span><span>=</span>mysqladmin
+<span>datadir</span><span>=</span>/mnt/databases/mysql/mysql_3306/data
+<span>port</span><span>=</span><span>3306</span>
+<span>server_id</span><span>=</span><span>3306</span>
+<span>socket</span><span>=</span>/tmp/mysql_3306.sock
+log-output<span>=</span>file
+<span>slow_query_log</span><span>=</span><span>1</span>
+<span>long_query_time</span><span>=</span><span>1</span>
+<span>slow_query_log_file</span><span>=</span>/mnt/databases/mysql/mysql_3306/log/slow.log
+log-error<span>=</span>/mnt/databases/mysql/mysql_3306/log/error.log
+<span>binlog_format</span><span>=</span>mixed
+log-bin<span>=</span>/mnt/databases/mysql/mysql_3306/log/mysql3306_bin
+
+<span>[</span>mysqld3307<span>]</span>
+<span>mysqld</span><span>=</span>mysqld
+<span>mysqladmin</span><span>=</span>mysqladmin
+<span>datadir</span><span>=</span>/mnt/databases/mysql/mysql_3307/data
+<span>port</span><span>=</span><span>3307</span>
+<span>server_id</span><span>=</span><span>3307</span>
+<span>socket</span><span>=</span>/tmp/mysql_3307.sock
+log-output<span>=</span>file
+<span>slow_query_log</span><span>=</span><span>1</span>
+<span>long_query_time</span><span>=</span><span>1</span>
+<span>slow_query_log_file</span><span>=</span>/mnt/databases/mysql/mysql_3307/log/slow.log
+log-error<span>=</span>/mnt/databases/mysql/mysql_3307/log/error.log
+<span>binlog_format</span><span>=</span>mixed
+log-bin<span>=</span>/mnt/databases/mysql/mysql_3307/log/mysql3307_bin
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><blockquote>
+<p>cp /usr/local/mysql/support-files/my.cnf /etc/my.cnf</p>
+</blockquote>
+<h2 id="初始化数据库" tabindex="-1"> 初始化数据库</h2>
+<div><pre><code><span>#进入到mysql的bin目录下</span>
+<span>cd</span> /usr/local/mysql/bin
+<span>#执行初始化3306数据库</span>
+./mysqld --initialize --user<span>=</span>mysql-admin --basedir<span>=</span>/usr/local/mysql/ --datadir<span>=</span>/mnt/databases/mysql/mysql_3306/data
+
+<span>#初始化3307数据库</span>
+./mysqld --initialize --user<span>=</span>mysql-admin --basedir<span>=</span>/usr/local/mysql/ --datadir<span>=</span>/mnt/databases/mysql/mysql_3307/data
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="管理多实例" tabindex="-1"> 管理多实例</h2>
+<div><pre><code><span>#启动全部实例：</span>
+/usr/local/mysql/bin/mysqld_multi start
+
+<span>#查看全部实例状态：</span>
+/usr/local/mysql/bin/mysqld_multi report 
+
+<span>#启动单个实例：</span>
+/usr/local/mysql/bin/mysqld_multi start <span>3306</span> 
+
+<span>#停止单个实例：</span>
+/usr/local/mysql/bin/mysqld_multi stop <span>3306</span> 
+
+<span>#查看单个实例状态：</span>
+/usr/local/mysql/bin/mysqld_multi report <span>3306</span> 
+
+<span>#停止实例命令失效时，使用如下命令：</span>
+mysqladmin -u root -p -S /tmp/mysql_3306.sock <span>shutdown</span>
+Enter password:
+
+<span>#查看启动进程</span>
+<span>netstat</span> -tlnap <span>|</span> <span>grep</span> mysql
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="修改临时密码" tabindex="-1"> 修改临时密码</h2>
+<div><pre><code><span>#逐一登录mysql，输入临时密码登录；</span>
+mysql -S /tmp/mysql_3306.sock -p
+Enter password:
+<span>#设置新密码</span>
+<span>set</span> password <span>for</span> root@<span>'localhost'</span><span>=</span>password<span>(</span><span>'123456'</span><span>)</span><span>;</span> 
+flush privileges<span>;</span> 
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><hr>
+<hr>
+<h2 id="主从" tabindex="-1"> 主从</h2>
+<h3 id="配置修改" tabindex="-1"> 配置修改</h3>
+<div><pre><code><span>#打开配置文件my.cnf</span>
+<span>vim</span> /usr/local/mysql/support-files/my.cnf
+<span>#在 主库[mysqld3306] 下增加配置，忽略同步的数据库名称；</span>
+binlog-ignore-db<span>=</span>mysql
+binlog-ignore-db<span>=</span>performance_schema
+binlog-ignore-db<span>=</span>sys
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>重启</p>
+<div><pre><code><span>#关闭3306，启动3306；3307没有修改，不需要进行重启；</span>
+mysqladmin -u root -p -S /tmp/mysql_3306.sock <span>shutdown</span>
+mysqld_multi start <span>3306</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><h3 id="授权" tabindex="-1"> 授权</h3>
+<p>主库</p>
+<div><pre><code>grant replication slave on *.* to <span>'root'</span>@<span>'127.0.0.1'</span> identified by <span>'123456'</span><span>;</span>
+<span>#授权后需要刷新后，才能生效；</span>
+flush privileges<span>;</span> 
+<span>#查看主库授权状态</span>
+show master status<span>;</span> 
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="https://tva1.sinaimg.cn/large/007F3CC8ly1h1oaj3c3y7j30nr0nx7pp.jpg" alt="image" loading="lazy"></p>
+<p>从库</p>
+<div><pre><code><span>#注意：从库的几个参数一定要和主库的保持一致</span>
+change master to <span>master_host</span><span>=</span><span>'127.0.0.1'</span>,master_user<span>=</span><span>'root'</span>,master_password<span>=</span><span>'123456'</span>,master_log_file<span>=</span><span>'mysql3306-bin.000006'</span>,master_log_pos<span>=</span><span>597</span><span>;</span>
+<span>#启动主从拷贝</span>
+start slave<span>;</span> 
+<span>#查看拷贝状态</span>
+show slave status<span>;</span>
+ <span>#清除授权，授权信息也被清除掉</span>
+reset slave all<span>;</span>
+<span>#查看状态</span>
+show slave status <span>\</span>G
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><strong>检验</strong></p>
+<div><pre><code>Slave_IO_Running: Yes
+Slave_SQL_Running: Yes
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><h2 id="附加" tabindex="-1"> 附加</h2>
+<p>建立从库只读账户</p>
+<div><pre><code>GRANT SElECT ON *.* TO <span>'root_readonly'</span>@<span>'%'</span> IDENTIFIED BY <span>"123456"</span><span>;</span>
+<span>#执行刷新，刷新后；</span>
+flush privileges<span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div>]]></content:encoded>
+      <enclosure url="https://tva1.sinaimg.cn/large/007F3CC8ly1h1oaj3c3y7j30nr0nx7pp.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>nacos安装-Windows</title>
+      <link>https://dearlocation.com/posts/nacos/nacos-install-windows.html</link>
+      <guid>https://dearlocation.com/posts/nacos/nacos-install-windows.html</guid>
+      <source url="https://dearlocation.com/rss.xml">nacos安装-Windows</source>
+      <description>nacos下载安装教程-windows
+</description>
+      <category>nacos</category>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>nacos下载安装教程-windows</p>
+
+<ol>
+<li>打开Nacos官网</li>
+</ol>
+<blockquote>
+<p><a href="https://nacos.io/zh-cn/" target="_blank" rel="noopener noreferrer">https://nacos.io/zh-cn/</a></p>
+</blockquote>
+<p><img src="https://tvax1.sinaimg.cn/large/007F3CC8ly1h2suwhm5fyj31gy0qz4bu.jpg" alt="image" loading="lazy"></p>
+<ol start="2">
+<li>进入GitHub，点击Tags</li>
+</ol>
+<p><code>如果打不开Github，直接看最后一条</code></p>
+<p><img src="https://tvax1.sinaimg.cn/large/007F3CC8ly1h2suxqciqhj31gb0ruh5o.jpg" alt="image" loading="lazy"></p>
+<ol start="3">
+<li>点击Releases，下滑到需要的版本</li>
+</ol>
+<p><img src="https://tvax1.sinaimg.cn/large/007F3CC8ly1h2sv0rjjbrj31gv0ruwua.jpg" alt="image" loading="lazy"></p>
+<ol start="4">
+<li>下载解压后，得到目录</li>
+</ol>
+<p><img src="https://tvax4.sinaimg.cn/large/007F3CC8ly1h2sv1jejztj30l8089gnp.jpg" alt="image" loading="lazy"></p>
+<ol start="5">
+<li>修改配置</li>
+</ol>
+<p><code>有些特殊情况会出现异常，建议按照如下配置</code></p>
+<blockquote>
+<p>以notepad++方式打开startup.cmd
+然后修改大概在26行的set MODE=&quot;cluster&quot;为set MODE=&quot;standalone&quot;</p>
+</blockquote>
+<p><img src="https://tva2.sinaimg.cn/large/007F3CC8ly1h2sv40n17ej31hc0qekdd.jpg" alt="image" loading="lazy"></p>
+<ol start="6">
+<li>启动</li>
+</ol>
+<p>进入 bin 目录，双击 startup.cmd 运行</p>
+<p><img src="https://tva1.sinaimg.cn/large/007F3CC8ly1h2sv2n5h24j31hn0sn7wh.jpg" alt="image" loading="lazy"></p>
+<hr>
+<p>如果无法访问Github，移驾如下地址下载or给博主留言免费下载：<a href="https://download.csdn.net/download/qq_40374604/14894556" target="_blank" rel="noopener noreferrer">https://download.csdn.net/download/qq_40374604/14894556</a></p>
+]]></content:encoded>
+      <enclosure url="https://tvax1.sinaimg.cn/large/007F3CC8ly1h2suwhm5fyj31gy0qz4bu.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>python 安装 cv2 - 已解决</title>
+      <link>https://dearlocation.com/posts/python/python-cv2-install.html</link>
+      <guid>https://dearlocation.com/posts/python/python-cv2-install.html</guid>
+      <source url="https://dearlocation.com/rss.xml">python 安装 cv2 - 已解决</source>
+      <description>python 安装 cv2 - 已解决
+</description>
+      <category>python</category>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>python 安装 cv2 - 已解决</p>
+
+<p>python 安装 cv2 - 已解决</p>
+<p><code>建议收藏</code></p>
+<p>提供多种操作，一定有一种适合你的</p>
+<p>@[toc]</p>
+<p>情况就这么个情况，就是装不上。本文没一句废话，仔细阅读。</p>
+<p><img src="https://tva2.sinaimg.cn/large/007F3CC8ly1h1ky1xzxiij30rl0efqem.jpg" alt="image" loading="lazy"></p>
+<h2 id="_1-传统方式1" tabindex="-1"> 1. 传统方式1</h2>
+<p>（执行一遍，一条条试）</p>
+<blockquote>
+<p>可尝试 python3 -m pip install --upgrade pip</p>
+</blockquote>
+<blockquote>
+<p>pip install cv2</p>
+</blockquote>
+<blockquote>
+<p>pip3 install opencv-python</p>
+</blockquote>
+<p>国内镜像</p>
+<blockquote>
+<p>pip3 install opencv-python  -i <a href="http://pypi.mirrors.ustc.edu.cn/simple/" target="_blank" rel="noopener noreferrer">http://pypi.mirrors.ustc.edu.cn/simple/</a></p>
+</blockquote>
+<blockquote>
+<p>pip install cv2 -i <a href="http://pypi.mirrors.ustc.edu.cn/simple/" target="_blank" rel="noopener noreferrer">http://pypi.mirrors.ustc.edu.cn/simple/</a></p>
+</blockquote>
+<p>进度：</p>
+<p><img src="https://tva3.sinaimg.cn/large/007F3CC8ly1h1ky2lreabj315c0lkdyk.jpg" alt="image" loading="lazy"></p>
+<hr>
+<h2 id="_2-第一阶段-终极办法01" tabindex="-1"> 2. 第一阶段 终极办法01</h2>
+<p>切换 python 版本， python3.9 不支持 cv2 (python3.7及以下)</p>
+<hr>
+<h2 id="_3-第二阶段-终极办法02" tabindex="-1"> 3. 第二阶段 终极办法02</h2>
+<p>自己安装</p>
+<p><a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud" target="_blank" rel="noopener noreferrer">https://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud</a></p>
+<p><img src="https://tva4.sinaimg.cn/large/007F3CC8ly1h1ky2v4l1cj31hc0lq4k1.jpg" alt="image" loading="lazy"></p>
+<p>等待下载好，copy到python安装目录下的lib目录当中</p>
+<p>接着，在cmd中安装（先进入lib目录中再安装你下载的那个文件）</p>
+<div><pre><code>pip <span>install</span> opencv_python‑2.4.13.7‑cp27‑cp27m‑win_amd64.whl
+</code></pre><div aria-hidden="true"><div></div></div></div><p>等待安装好，验证一下。</p>
+<div><pre><code>pip <span>install</span> numpy
+</code></pre><div aria-hidden="true"><div></div></div></div><h2 id="附加" tabindex="-1"> 附加</h2>
+<p><img src="https://tva1.sinaimg.cn/large/007F3CC8ly1h1ky36j7ztj30l208i79e.jpg" alt="image" loading="lazy"></p>
+<p>下载：</p>
+<p>如果是以上错误，你可能需要安装 OpenSSL。<a href="http://slproweb.com/products/Win32OpenSSL.html" target="_blank" rel="noopener noreferrer">http://slproweb.com/products/Win32OpenSSL.html</a></p>
+<p><img src="https://tvax4.sinaimg.cn/large/007F3CC8ly1h1ky3c790uj31e50qknlm.jpg" alt="image" loading="lazy"></p>
+<p>安装：</p>
+<p>一直下一步</p>
+<p>配置环境变量</p>
+]]></content:encoded>
+      <enclosure url="https://tva2.sinaimg.cn/large/007F3CC8ly1h1ky1xzxiij30rl0efqem.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>rodert单排学习redis入门【黑铁】</title>
+      <link>https://dearlocation.com/posts/redis/learn-redis-01.html</link>
+      <guid>https://dearlocation.com/posts/redis/learn-redis-01.html</guid>
+      <source url="https://dearlocation.com/rss.xml">rodert单排学习redis入门【黑铁】</source>
+      <description>rodert单排学习redis入门【黑铁】
+</description>
+      <category>redis</category>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>rodert单排学习redis入门【黑铁】</p>
+
+<p>redis入门</p>
+<blockquote>
+<p>欢迎大家前来白嫖PDF。下图回复：666</p>
+</blockquote>
+<blockquote>
+<p>本教程致力于最实用教程，个别图片粘贴有丢失，还有来领取原版。</p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20200613232629668.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+<p>@[toc]</p>
+<h2 id="前言" tabindex="-1"> 前言</h2>
+<blockquote>
+<p>声明：参考来源互联网，有任何争议可以留言。站在前人的肩上，我们才能看的更远。</p>
+</blockquote>
+<blockquote>
+<p>本教程纯手打，致力于最实用教程，不需要什么奖励，只希望多多转发支持。
+欢迎来我公众号，希望可以结识你，也可以催更，微信搜索：DearLocation</p>
+</blockquote>
+<blockquote>
+<p>有任何问题都可以来谈谈 ！</p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20200613232439488.jpg" alt="在这里插入图片描述" loading="lazy"></p>
+<blockquote>
+<p>本篇主要是 Redis 的入门，涉及一些基础命令和常见场景。</p>
+</blockquote>
+<blockquote>
+<p>redis是目前最热的缓存组件之一，如果你还不懂，那就开始，入门到实战</p>
+</blockquote>
+<blockquote>
+<p>本文主要是 <strong><span color=#159957 face="黑体">Redis</span></strong> 入门知识，介绍 Redis 特性、使用场景、安装和数据类型。</p>
+</blockquote>
+<blockquote>
+<p>中文官网：<a href="http://www.redis.cn/" target="_blank" rel="noopener noreferrer">http://www.redis.cn/</a></p>
+</blockquote>
+<h2 id="_1-nosql-not-only-sql" tabindex="-1"> 1.NoSql(not only sql)</h2>
+<p>指非关系型数据库，不支持sql语句，nosql中存储的数据是KV形式</p>
+<p>常见的NoSQL产品有：Mongodb、Redis、Hbase hadoop、Cassandra hadoop。</p>
+<h2 id="_2-redis入门" tabindex="-1"> 2.Redis入门</h2>
+<blockquote>
+<p>这是一些redis介绍，做一些简单了解即可。</p>
+</blockquote>
+<p><strong><span color=#159957 face="黑体">Redis</span></strong>（Remote Dictionary Server )，即远程字典服务，是一个开源的使用ANSI C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。从2010年3月15日起，Redis的开发工作由VMware主持。从2013年5月开始，<strong><span color=#159957 face="黑体">Redis</span></strong> 的开发由Pivotal赞助。</p>
+<p>redis 是一个 <strong><span color=#159957 face="黑体">key-value</span></strong> 存储系统。和 Memcached 类似，它支持存储的 value 类型相对更多，包括string(字符串)、list(链表)、set(集合)、zset(sorted set --有序集合)和hash（哈希类型）。这些数据类型都支持push/pop、add/remove及取交集并集和差集及更丰富的操作，而且这些操作都是原子性的。在此基础上，<strong><span color=#159957 face="黑体">Redis</span></strong> 支持各种不同方式的排序。与 <strong><span color=#159957 face="黑体">memcached</span></strong> 一样，为了保证效率，数据都是缓存在内存中。区别的是 <strong><span color=#159957 face="黑体">Redis</span></strong> 会周期性的把更新的数据写入磁盘或者把修改操作写入追加的记录文件，并且在此基础上实现了 <strong><span color=#159957 face="黑体">master-slave</span></strong>(主从)同步。</p>
+<p><strong><span color=#159957 face="黑体">Redis</span></strong> 是一个高性能的key-value数据库。 <strong><span color=#159957 face="黑体">Redis</span></strong> 的出现，很大程度补偿了**<span color=#159957 face="黑体">memcached</span>**这类key/value存储的不足，在部 分场合可以对关系数据库起到很好的补充作用。它提供了Java，C/C++，C#，PHP，JavaScript，Perl，Object-C，Python，Ruby，Erlang等客户端，使用很方便。
+<strong><span color=#159957 face="黑体">Redis</span></strong> 支持主从同步。数据可以从主服务器向任意数量的从服务器上同步，从服务器可以是关联其他从服务器的主服务器。这使得 <strong><span color=#159957 face="黑体">Redis</span></strong> 可执行单层树复制。存盘可以有意无意的对数据进行写操作。由于完全实现了发布/订阅机制，使得从数据库在任何地方同步树时，可订阅一个频道并接收主服务器完整的消息发布记录。同步对读取操作的可扩展性和数据冗余很有帮助。</p>
+<p><strong><span color=#159957 face="黑体">Redis</span></strong> 的官网地址，非常好记，<a href="http://xn--redis-qr1k.io" target="_blank" rel="noopener noreferrer">是redis.io</a>。（域名后缀io属于国家域名，是british Indian Ocean territory，即英属印度洋领地），Vmware在资助着 <strong><span color=#159957 face="黑体">Redis</span></strong> 项目的开发和维护。</p>
+<h2 id="_3-redis特性" tabindex="-1"> 3.Redis特性</h2>
+<h3 id="_3-1-性能" tabindex="-1"> 3.1.性能</h3>
+<p>下面是官方的bench-mark数据：
+测试完成了 50 个并发执行 100000 个请求。
+设置和获取的值是一个 256 字节字符串。
+Linux box 是运行 Linux 2.6 , 这是 X3320 Xeon 2.5 ghz。
+文本执行使用 loopback 接口(127.0.0.1)。
+结果:读的速度是 <strong>110000次/s</strong> ,写的速度是 <strong>81000次/s</strong> 。</p>
+<h3 id="_3-2-特性" tabindex="-1"> 3.2.特性</h3>
+<ol>
+<li>**<span color=#159957 face="黑体">Redis </span>**与其他 <strong><span color=#159957 face="黑体">key-value</span></strong> 缓存产品有以下三个特点：</li>
+<li>**<span color=#159957 face="黑体">Redis </span>**支持数据的持久化，可以将内存中的数据保存在磁盘中，重启的时候可以再次加载进行使用。</li>
+<li>**<span color=#159957 face="黑体">Redis </span>**不仅仅支持简单的 **<span color=#159957 face="黑体">key-value</span>**类型的数据，同时还提供 **<span color=#159957 face="黑体">list，set，zset，hash </span>**等数据结构的存储。</li>
+<li>**<span color=#159957 face="黑体">Redis </span>**支持数据的备份，即 <strong><span color=#159957 face="黑体">master-slave</span></strong> 模式的数据备份。</li>
+</ol>
+<h3 id="_3-3-优势" tabindex="-1"> 3.3.优势</h3>
+<ul>
+<li>性能极高 – **<span color=#159957 face="黑体">Redis </span>**能读的速度是110000次/s,写的速度是81000次/s 。</li>
+<li>丰富的数据类型 – **<span color=#159957 face="黑体">Redis </span>**支持二进制案例的 Strings, Lists, Hashes, Sets 及 Ordered Sets 数据类型操作。</li>
+<li>原子 – **<span color=#159957 face="黑体">Redis </span><strong>的所有操作都是原子性的，同时</strong><span color=#159957 face="黑体">Redis </span>**还支持对几个操作全并后的原子性执行。</li>
+<li>丰富的特性 – **<span color=#159957 face="黑体">Redis </span>**还支持 publish/subscribe, 通知, key 过期等等特性。</li>
+</ul>
+<h2 id="_4-redis使用场景" tabindex="-1"> 4.Redis使用场景</h2>
+<blockquote>
+<p>目前在互联网公司， <strong><span color=#159957 face="黑体">Redis </span></strong> 使用非常广泛，我日常工作中，会用它做爬虫采集系统中队列使用，还有在后台管理系统中做分布式，存储 token 使用。</p>
+</blockquote>
+<p>1、<strong><span color=#159957 face="黑体">缓存</span></strong></p>
+<p>缓存现在几乎是所有中大型网站都在用的必杀技，合理的利用缓存不仅能够提升网站访问速度，还能大大降低数据库的压力。<strong><span color=#159957 face="黑体">Redis </span></strong> 提供了键过期功能，也提供了灵活的键淘汰策略，所以，现在 <strong><span color=#159957 face="黑体">Redis </span></strong> 用在缓存的场合非常多。</p>
+<p>2、<strong><span color=#159957 face="黑体">排行榜</span></strong></p>
+<p>很多网站都有排行榜应用的，如京东的月度销量榜单、商品按时间的上新排行榜等。<strong><span color=#159957 face="黑体">Redis </span></strong> 提供的有序集合数据类构能实现各种复杂的排行榜应用。</p>
+<p>3、<strong><span color=#159957 face="黑体">计数器</span></strong></p>
+<p>什么是计数器，如电商网站商品的浏览量、视频网站视频的播放数等。为了保证数据实时效，每次浏览都得给+1，并发量高时如果每次都请求数据库操作无疑是种挑战和压力。<strong><span color=#159957 face="黑体">Redis </span></strong> 提供的 <strong><span color=#159957 face="黑体">incr</span></strong> 命令来实现计数器功能，内存操作，性能非常好，非常适用于这些计数场景。</p>
+<p>4、<strong><span color=#159957 face="黑体">分布式会话</span></strong></p>
+<p>集群模式下，在应用不多的情况下一般使用容器自带的 session 复制功能就能满足，当应用增多相对复杂的系统中，一般都会搭建以 Redis 等内存数据库为中心的 session 服务，session 不再由容器管理，而是由 session 服务及内存数据库管理。</p>
+<p>5、<strong><span color=#159957 face="黑体">分布式锁</span></strong></p>
+<p>在很多互联网公司中都使用了分布式技术，分布式技术带来的技术挑战是对同一个资源的并发访问，如全局ID、减库存、秒杀等场景，并发量不大的场景可以使用数据库的悲观锁、乐观锁来实现，但在并发量高的场合中，利用数据库锁来控制资源的并发访问是不太理想的，大大影响了数据库的性能。可以利用 Redis 的setnx功能来编写分布式的锁，如果设置返回1说明获取锁成功，否则获取锁失败，实际应用中要考虑的细节要更多。</p>
+<p>6、<strong><span color=#159957 face="黑体">社交网络</span></strong></p>
+<p>点赞、踩、关注/被关注、共同好友等是社交网站的基本功能，社交网站的访问量通常来说比较大，而且传统的关系数据库类型不适合存储这种类型的数据，Redis提供的哈希、集合等数据结构能很方便的的实现这些功能。</p>
+<p>7、<strong><span color=#159957 face="黑体">最新列表</span></strong></p>
+<p>Redis列表结构，LPUSH可以在列表头部插入一个内容ID作为关键字，LTRIM可用来限制列表的数量，这样列表永远为N个ID，无需查询最新的列表，直接根据ID去到对应的内容页即可。</p>
+<p>8、<strong><span color=#159957 face="黑体">消息系统</span></strong></p>
+<p>消息队列是大型网站必用中间件，如ActiveMQ、RabbitMQ、Kafka 等流行的消息队列中间件，主要用于业务解耦、流量削峰及异步处理实时性低的业务。Redis 提供了发布/订阅及阻塞队列功能，能实现一个简单的消息队列系统。另外，这个不能和专业的消息中间件相比。</p>
+<h2 id="_5-安装" tabindex="-1"> 5.安装</h2>
+<h3 id="_5-1-单机安装" tabindex="-1"> 5.1.单机安装</h3>
+<h4 id="_5-1-1-windows下" tabindex="-1"> 5.1.1.windows下</h4>
+<p>redis 开源在 github 上</p>
+<ul>
+<li>下载，解压</li>
+</ul>
+<blockquote>
+<p>下载地址：<a href="https://github.com/tporadowski/redis/releases" target="_blank" rel="noopener noreferrer">https://github.com/tporadowski/redis/releases</a></p>
+</blockquote>
+<p>Redis 支持 32 位和 64 位。这个需要根据你系统平台的实际情况选择，这里我们下载 <strong>Redis-x64-xxx.zip</strong>压缩包到 C 盘，解压后，将文件夹重新命名为 redis。</p>
+<ul>
+<li>运行</li>
+</ul>
+<p>解压后，打开 cmd 窗口，cd 切换到 redis根目录下。</p>
+<blockquote>
+<p>redis-server.exe redis.windows.conf</p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20200613232402250.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+<ul>
+<li>客户端连接</li>
+</ul>
+<p>不要关闭原 cmd 窗口，新打开一个 cmd 窗口，切换到 redis 根目录</p>
+<blockquote>
+<p>redis-cli.exe -h 127.0.0.1 -p 6379</p>
+</blockquote>
+<p>6379 是 redis 默认端口，我们可以在配置中修改</p>
+<ul>
+<li>测试</li>
+</ul>
+<p>设置 key 值</p>
+<blockquote>
+<p>set myKey abc</p>
+</blockquote>
+<p>取出 key 值</p>
+<blockquote>
+<p>get myKey</p>
+</blockquote>
+<h4 id="_5-1-2-linux下" tabindex="-1"> 5.1.2.linux下</h4>
+<blockquote>
+<p>linux 和 windows 下类似，启动方式参考上文</p>
+</blockquote>
+<div><pre><code>$ <span>wget</span> http://download.redis.io/releases/redis-2.8.17.tar.gz
+$ <span>tar</span> xzf redis-2.8.17.tar.gz
+$ <span>cd</span> redis-2.8.17
+$ <span>make</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div><h2 id="_6-五类数据结构" tabindex="-1"> 6.五类数据结构</h2>
+<h3 id="_6-0-说明" tabindex="-1"> 6.0.说明</h3>
+<blockquote>
+<p>类型中会涉及到很多的 Redis 操作命令，一定耐心看完，优化的基础是要了解。</p>
+</blockquote>
+<h3 id="_6-1-介绍" tabindex="-1"> 6.1.介绍</h3>
+<p>Redis 是一个开源（BSD许可）的，内存中的数据结构存储系统，它可以用作数据库、缓存和消息中间件。 它支持多种类型的数据结构，如 字符串（strings）， 散列（hashes）， 列表（lists）， 集合（sets）， 有序集合（sorted sets） 与范围查询， bitmaps， hyperloglogs 和 地理空间（geospatial） 索引半径查询。 Redis 内置了 复制（replication），LUA脚本（Lua scripting）， LRU驱动事件（LRU eviction），事务（transactions） 和不同级别的 磁盘持久化（persistence）， 并通过 Redis哨兵（Sentinel）和自动 分区（Cluster）提供高可用性（high availability）。</p>
+<blockquote>
+<p>redis是非常优秀的缓存工具，熟练使用redis，可以让我们的开发进一步。</p>
+</blockquote>
+<p>对于下面操作，可以通过 redis-cli 工具连接使用</p>
+<h3 id="_6-2-redis-keys" tabindex="-1"> 6.2.Redis keys</h3>
+<blockquote>
+<p>关于key的几条规则，一定不要以为它们不重要，了解一些对你排查问题至关重要。</p>
+</blockquote>
+<p>Redis <strong>key</strong> 值是二进制安全的，这意味着可以用任何二进制序列作为key值，从形如”foo”的简单字符串到一个 JPEG 文件的内容都可以。空字符串也是有效 key 值。</p>
+<p>关于key的几条规则：</p>
+<ul>
+<li>太长的键值不是个好主意，例如1024字节的键值就不是个好主意，不仅因为消耗内存，而且在数据中查找这类键值的计算成本很高。</li>
+<li>太短的键值通常也不是好主意，如果你要用”u:1000:pwd”来代替”user:1000:password”，这没有什么问题，但后者更易阅读，并且由此增加的空间消耗相对于**<span color=#159957 face="黑体">key object</span><strong>和</strong><span color=#159957 face="黑体">value object</span>**本身来说很小。当然，没人阻止您一定要用更短的键值节省一丁点儿空间。</li>
+<li>最好坚持一种模式。例如：”object-type:uid:field”就是个不错的注意，像这样”user:1000:password”。我喜欢对多单词的字段名中加上一个点，就像这样：”comment:q1234:reply.to”。</li>
+</ul>
+<h3 id="_6-2-字符串-strings" tabindex="-1"> 6.2.字符串（strings）</h3>
+<blockquote>
+<p>二进制安全的字符串</p>
+</blockquote>
+<p>字符串方式是redis最简单的数据类型，redis就像一个可以持久化的memcached服务器。</p>
+<ul>
+<li>基本的操作方式**<span color=#159957 face="黑体">get 和 set </span>**方式</li>
+</ul>
+<div><pre><code><span>></span> <span>set</span> mykey somevalue
+OK
+<span>></span> get mykey
+<span>"somevalue"</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div><p>例如：当key存在时，set会失败。值的长度不能超过512MB。</p>
+<ul>
+<li>一个有趣的操作，<strong>原子</strong>递增，</li>
+</ul>
+<div><pre><code><span>></span> <span>set</span> counter <span>100</span>
+OK
+<span>></span> incr counter
+<span>(</span>integer<span>)</span> <span>101</span>
+<span>></span> incr counter
+<span>(</span>integer<span>)</span> <span>102</span>
+<span>></span> incrby counter <span>50</span>
+<span>(</span>integer<span>)</span> <span>152</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><strong><span color=#159957 face="黑体">INCR </span></strong> 命令将字符串解析成整型，将其加一，再将结果保存成新的字符串，类似的命令还有 <strong><span color=#159957 face="黑体">INCRBY</span></strong> , <strong><span color=#159957 face="黑体">DECR</span></strong> 和 <strong><span color=#159957 face="黑体">DECRBY</span></strong> 。</p>
+<p>还有一个有趣的命令， <strong><span color=#159957 face="黑体">GETSET</span></strong>  命令：设置新值，返回原值。这个操作有什么用？在我们需要保证原子性操作时</p>
+<p>MSET 和 MGET 是批量操作</p>
+<div><pre><code><span>></span> mset a <span>10</span> b <span>20</span> c <span>30</span>
+OK
+<span>></span> mget a b c
+<span>1</span><span>)</span> <span>"10"</span>
+<span>2</span><span>)</span> <span>"20"</span>
+<span>3</span><span>)</span> <span>"30"</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><strong><span color=#159957 face="黑体">MGET</span></strong> 命令返回由值组成的数组。</p>
+<ul>
+<li>修改和查询存在操作</li>
+</ul>
+<blockquote>
+<p><strong><span color=#159957 face="黑体">exists</span></strong>:判断键是否存在，<strong><span color=#159957 face="黑体">del</span></strong>：删除指定键</p>
+</blockquote>
+<div><pre><code><span>></span> <span>set</span> mykey hello
+OK
+<span>></span> exists mykey
+<span>(</span>integer<span>)</span> <span>1</span>
+<span>></span> del mykey
+<span>(</span>integer<span>)</span> <span>1</span>
+<span>></span> exists mykey
+<span>(</span>integer<span>)</span> <span>0</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><blockquote>
+<p><strong><span color=#159957 face="黑体">TYPE</span></strong> 命令返回key对应的存储类型</p>
+</blockquote>
+<div><pre><code><span>></span> <span>set</span> mykey x
+OK
+<span>></span> <span>type</span> mykey
+string
+<span>></span> del mykey
+<span>(</span>integer<span>)</span> <span>1</span>
+<span>></span> <span>type</span> mykey
+none
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><ul>
+<li>Redis超时</li>
+</ul>
+<p>对 <strong>key</strong> 设置**<span color=#159957 face="黑体">超时</span>**。精度可以使用毫秒或秒。</p>
+<div><pre><code><span>></span> <span>set</span> key some-value
+OK
+<span>></span> expire key <span>5</span>
+<span>(</span>integer<span>)</span> <span>1</span>
+<span>></span> get key <span>(</span>immediately<span>)</span>
+<span>"some-value"</span>
+<span>></span> get key <span>(</span>after some <span>time</span><span>)</span>
+<span>(</span>nil<span>)</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>使用了 <strong><span color=#159957 face="黑体">EXPIRE</span></strong> 来设置超时时间(也可以再次调用这个命令来改变超时时间，使用 <strong><span color=#159957 face="黑体">PERSIST</span></strong> 命令去除超时时间 )。我们也可以在创建值的时候设置超时时间:</p>
+<div><pre><code><span>></span> <span>set</span> key <span>100</span> ex <span>10</span>
+OK
+<span>></span> ttl key
+<span>(</span>integer<span>)</span> <span>9</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div><p><strong><span color=#159957 face="黑体">TTL</span></strong> 命令用来查看key对应的值剩余存活时间。</p>
+<h3 id="_6-3-列表-lists" tabindex="-1"> 6.3.列表（Lists）</h3>
+<blockquote>
+<p>值得注意的：<strong><span color=#159957 face="黑体">Redis lists</span></strong> 基于 <strong><span color=#159957 face="黑体">Linked Lists</span></strong> 实现。</p>
+</blockquote>
+<p>**<span color=#159957 face="黑体">Redis 列表</span>**是简单的字符串列表，按照插入顺序排序。你可以添加一个元素到列表的头部（左边）或者尾部（右边）</p>
+<p>一个列表最多可以包含 232 - 1 个元素 (4294967295, 每个列表超过40亿个元素)。</p>
+<ul>
+<li>Redis Lists 入门</li>
+</ul>
+<div><pre><code><span>></span> rpush mylist A
+<span>(</span>integer<span>)</span> <span>1</span>
+<span>></span> rpush mylist B
+<span>(</span>integer<span>)</span> <span>2</span>
+<span>></span> lpush mylist first
+<span>(</span>integer<span>)</span> <span>3</span>
+<span>></span> lrange mylist <span>0</span> -1
+<span>1</span><span>)</span> <span>"first"</span>
+<span>2</span><span>)</span> <span>"A"</span>
+<span>3</span><span>)</span> <span>"B"</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>从右边(尾部)插入俩个元素，左边(头部)插入一个元素，**<span color=#159957 face="黑体">LRANGE </span>**打印所有(0,-1)元素。</p>
+<ul>
+<li>**<span color=#159957 face="黑体">Redis Lists</span>**常用指令</li>
+</ul>
+<blockquote>
+<p>BLPOP key1 [key2 ] timeout
+移出并获取列表的第一个元素， 如果列表没有元素会阻塞列表直到等待超时或发现可弹出元素为止。</p>
+</blockquote>
+<blockquote>
+<p>BRPOP key1 [key2 ] timeout
+移出并获取列表的最后一个元素， 如果列表没有元素会阻塞列表直到等待超时或发现可弹出元素为止。</p>
+</blockquote>
+<blockquote>
+<p>BRPOPLPUSH source destination timeout
+从列表中弹出一个值，将弹出的元素插入到另外一个列表中并返回它； 如果列表没有元素会阻塞列表直到等待超时或发现可弹出元素为止。</p>
+</blockquote>
+<blockquote>
+<p>LINDEX key index
+通过索引获取列表中的元素</p>
+</blockquote>
+<blockquote>
+<p>LINSERT key BEFORE|AFTER pivot value
+在列表的元素前或者后插入元素</p>
+</blockquote>
+<p>说明：<strong><span color=#159957 face="黑体">Redis Linsert</span></strong> 命令用于在列表的元素前或者后插入元素。当指定元素不存在于列表中时，不执行任何操作。当列表不存在时，被视为空列表，不执行任何操作。如果 key 不是列表类型，返回一个错误。</p>
+<p><strong>实例：</strong></p>
+<div><pre><code>redis<span>></span> RPUSH mylist <span>"Hello"</span>
+<span>(</span>integer<span>)</span> <span>1</span>
+redis<span>></span> RPUSH mylist <span>"World"</span>
+<span>(</span>integer<span>)</span> <span>2</span>
+redis<span>></span> LINSERT mylist BEFORE <span>"World"</span> <span>"There"</span>
+<span>(</span>integer<span>)</span> <span>3</span>
+redis<span>></span> LRANGE mylist <span>0</span> -1
+<span>1</span><span>)</span> <span>"Hello"</span>
+<span>2</span><span>)</span> <span>"There"</span>
+<span>3</span><span>)</span> <span>"World"</span>
+redis<span>></span> 
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><blockquote>
+<p>LLEN key
+获取列表长度</p>
+</blockquote>
+<blockquote>
+<p>LPOP key
+移出并获取列表的第一个元素</p>
+</blockquote>
+<blockquote>
+<p>LPUSH key value1 [value2]
+将一个或多个值插入到列表头部</p>
+</blockquote>
+<blockquote>
+<p>LPUSHX key value
+将一个值插入到<strong>已存在</strong>的列表头部</p>
+</blockquote>
+<blockquote>
+<p>LRANGE key start stop
+获取列表指定范围内的元素</p>
+</blockquote>
+<blockquote>
+<p>LREM key count value
+移除列表元素</p>
+</blockquote>
+<div><pre><code>count > 0 : 从表头开始向表尾搜索，移除与 VALUE 相等的元素，数量为 COUNT 。
+count &lt; 0 : 从表尾开始向表头搜索，移除与 VALUE 相等的元素，数量为 COUNT 的绝对值。
+count = 0 : 移除表中所有与 VALUE 相等的值。
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><blockquote>
+<p>LSET key index value
+通过索引设置列表元素的值</p>
+</blockquote>
+<blockquote>
+<p>LTRIM key start stop
+对一个列表进行修剪(trim)，就是说，让列表只保留指定区间内的元素，不在指定区间之内的元素都将被删除。</p>
+</blockquote>
+<div><pre><code>注意：下标从0开始
+</code></pre><div aria-hidden="true"><div></div></div></div><blockquote>
+<p>RPOP key
+移除列表的最后一个元素，返回值为移除的元素。</p>
+</blockquote>
+<blockquote>
+<p>RPOPLPUSH source destination
+移除列表的最后一个元素，并将该元素添加到另一个列表并返回。</p>
+</blockquote>
+<blockquote>
+<p>RPUSH key value1 [value2]
+在列表中添加一个或多个值</p>
+</blockquote>
+<blockquote>
+<p>RPUSHX key value
+为已存在的列表添加值</p>
+</blockquote>
+<h3 id="_6-4-哈希-hash" tabindex="-1"> 6.4.哈希(Hash)</h3>
+<blockquote>
+<p><strong><span color=#159957 face="黑体">Redis hash </span></strong> 是一个 <strong><span color=#159957 face="黑体">string </span><strong>类型的 <strong><span color=#159957 face="黑体">field </span></strong> 和 <strong><span color=#159957 face="黑体">value </span></strong> 的映射表，</strong><span color=#159957 face="黑体">hash </span></strong> 特别适合用于存储对象。</p>
+</blockquote>
+<p>Redis 中每个 hash 可以存储 232 - 1 键值对（40多亿）。</p>
+<div><pre><code>序号	命令及描述
+1	HDEL key field1 [field2] 
+删除一个或多个哈希表字段
+2	HEXISTS key field 
+查看哈希表 key 中，指定的字段是否存在。
+3	HGET key field 
+获取存储在哈希表中指定字段的值。
+4	HGETALL key 
+获取在哈希表中指定 key 的所有字段和值
+5	HINCRBY key field increment 
+为哈希表 key 中的指定字段的整数值加上增量 increment 。
+6	HINCRBYFLOAT key field increment 
+为哈希表 key 中的指定字段的浮点数值加上增量 increment 。
+7	HKEYS key 
+获取所有哈希表中的字段
+8	HLEN key 
+获取哈希表中字段的数量
+9	HMGET key field1 [field2] 
+获取所有给定字段的值
+10	HMSET key field1 value1 [field2 value2 ] 
+同时将多个 field-value (域-值)对设置到哈希表 key 中。
+11	HSET key field value 
+将哈希表 key 中的字段 field 的值设为 value 。
+12	HSETNX key field value 
+只有在字段 field 不存在时，设置哈希表字段的值。
+13	HVALS key 
+获取哈希表中所有值。
+14	HSCAN key cursor [MATCH pattern] [COUNT count] 
+迭代哈希表中的键值对。
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><blockquote>
+<p>参考:<a href="https://www.runoob.com/redis/redis-hashes.html" target="_blank" rel="noopener noreferrer">https://www.runoob.com/redis/redis-hashes.html</a></p>
+</blockquote>
+<h3 id="_6-5-集合-set" tabindex="-1"> 6.5.集合(Set)</h3>
+<p>Redis 的 <strong><span color=#159957 face="黑体">Set </span></strong> 是 <strong><span color=#159957 face="黑体">String </span></strong> 类型的无序集合。集合成员是唯一的，这就意味着集合中不能出现重复的数据。</p>
+<p>Redis 中**<span color=#159957 face="黑体">集合 </span>**是通过哈希表实现的，所以添加，删除，查找的复杂度都是 O(1)。</p>
+<div><pre><code>序号	命令及描述
+1	SADD key member1 [member2] 
+向集合添加一个或多个成员
+2	SCARD key 
+获取集合的成员数
+3	SDIFF key1 [key2] 
+返回给定所有集合的差集
+4	SDIFFSTORE destination key1 [key2] 
+返回给定所有集合的差集并存储在 destination 中
+5	SINTER key1 [key2] 
+返回给定所有集合的交集
+6	SINTERSTORE destination key1 [key2] 
+返回给定所有集合的交集并存储在 destination 中
+7	SISMEMBER key member 
+判断 member 元素是否是集合 key 的成员
+8	SMEMBERS key 
+返回集合中的所有成员
+9	SMOVE source destination member 
+将 member 元素从 source 集合移动到 destination 集合
+10	SPOP key 
+移除并返回集合中的一个随机元素
+11	SRANDMEMBER key [count] 
+返回集合中一个或多个随机数
+12	SREM key member1 [member2] 
+移除集合中一个或多个成员
+13	SUNION key1 [key2] 
+返回所有给定集合的并集
+14	SUNIONSTORE destination key1 [key2] 
+所有给定集合的并集存储在 destination 集合中
+15	SSCAN key cursor [MATCH pattern] [COUNT count] 
+迭代集合中的元素
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><blockquote>
+<p>参考：<a href="https://www.runoob.com/redis/redis-sets.html" target="_blank" rel="noopener noreferrer">https://www.runoob.com/redis/redis-sets.html</a></p>
+</blockquote>
+<h3 id="_6-6-有序集合-sorted-set" tabindex="-1"> 6.6.有序集合(sorted set)</h3>
+<ol>
+<li>Redis **<span color=#159957>有序集合 </span><strong>和</strong><span color=#159957>集合 </span>**一样也是 string 类型元素的集合,且不允许重复的成员。</li>
+<li>不同的是每个元素都会关联一个 double 类型的分数。redis 正是通过分数来为集合中的成员进行从小到大的排序。</li>
+<li>有序集合的成员是唯一的,但分数(score)却可以重复。</li>
+<li>集合是通过哈希表实现的，所以添加，删除，查找的复杂度都是O(1)。 集合中最大的成员数为 232 - 1 (4294967295, 每个集合可存储40多亿个成员)。</li>
+</ol>
+<br>
+<div><pre><code>序号	命令及描述
+1	ZADD key score1 member1 [score2 member2] 
+向有序集合添加一个或多个成员，或者更新已存在成员的分数
+2	ZCARD key 
+获取有序集合的成员数
+3	ZCOUNT key min max 
+计算在有序集合中指定区间分数的成员数
+4	ZINCRBY key increment member 
+有序集合中对指定成员的分数加上增量 increment
+5	ZINTERSTORE destination numkeys key [key ...] 
+计算给定的一个或多个有序集的交集并将结果集存储在新的有序集合 key 中
+6	ZLEXCOUNT key min max 
+在有序集合中计算指定字典区间内成员数量
+7	ZRANGE key start stop [WITHSCORES] 
+通过索引区间返回有序集合指定区间内的成员
+8	ZRANGEBYLEX key min max [LIMIT offset count] 
+通过字典区间返回有序集合的成员
+9	ZRANGEBYSCORE key min max [WITHSCORES] [LIMIT] 
+通过分数返回有序集合指定区间内的成员
+10	ZRANK key member 
+返回有序集合中指定成员的索引
+11	ZREM key member [member ...] 
+移除有序集合中的一个或多个成员
+12	ZREMRANGEBYLEX key min max 
+移除有序集合中给定的字典区间的所有成员
+13	ZREMRANGEBYRANK key start stop 
+移除有序集合中给定的排名区间的所有成员
+14	ZREMRANGEBYSCORE key min max 
+移除有序集合中给定的分数区间的所有成员
+15	ZREVRANGE key start stop [WITHSCORES] 
+返回有序集中指定区间内的成员，通过索引，分数从高到低
+16	ZREVRANGEBYSCORE key max min [WITHSCORES] 
+返回有序集中指定分数区间内的成员，分数从高到低排序
+17	ZREVRANK key member 
+返回有序集合中指定成员的排名，有序集成员按分数值递减(从大到小)排序
+18	ZSCORE key member 
+返回有序集中，成员的分数值
+19	ZUNIONSTORE destination numkeys key [key ...] 
+计算给定的一个或多个有序集的并集，并存储在新的 key 中
+20	ZSCAN key cursor [MATCH pattern] [COUNT count] 
+迭代有序集合中的元素（包括元素成员和元素分值）
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="_7-redis常用" tabindex="-1"> 7.Redis常用</h2>
+<blockquote>
+<p>如果你读到在这里，相信你对 Redis 已经有了一定了解，入门就先简单学到这里，下篇一起上**<span color=#159957 face="黑体">青铜</span>**。</p>
+</blockquote>
+<blockquote>
+<p>后面的篇章，还将继续介绍 Redis 的一些高级用法，缓存击穿、缓存雪崩，源码分析等。看后不忘三连，还有需要更多技术博文可以留言催更。</p>
+</blockquote>
+]]></content:encoded>
+      <enclosure url="https://img-blog.csdnimg.cn/20200613232629668.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" type="image/"/>
+    </item>
+    <item>
+      <title>rodert单排学习redis进阶【青铜】</title>
+      <link>https://dearlocation.com/posts/redis/learn-redis-02.html</link>
+      <guid>https://dearlocation.com/posts/redis/learn-redis-02.html</guid>
+      <source url="https://dearlocation.com/rss.xml">rodert单排学习redis进阶【青铜】</source>
+      <description>rodert单排学习redis进阶【青铜】
+</description>
+      <category>redis</category>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>rodert单排学习redis进阶【青铜】</p>
+
+<p>redis之青铜</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616155217399.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy">
+@[toc]</p>
+<h2 id="前言" tabindex="-1"> 前言</h2>
+<blockquote>
+<p>声明：参考来源互联网，有任何争议可以留言。站在前人的肩上，我们才能看的更远。</p>
+</blockquote>
+<blockquote>
+<p>本教程纯手打，致力于最实用教程，不需要什么奖励，只希望多多转发支持。
+欢迎来我公众号，希望可以结识你，也可以催更，微信搜索：DearLocation</p>
+</blockquote>
+<blockquote>
+<p>有任何问题都可以来谈谈 ！</p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20200616161009430.jpg" alt="在这里插入图片描述" loading="lazy"></p>
+<p>本篇继续学习 Redis ,上一篇 <a href="https://mp.weixin.qq.com/s?__biz=MzUzNDUyOTY0Nw==&amp;mid=2247484011&amp;idx=1&amp;sn=1ffdb758a552db1934f41b1c4496bb36&amp;chksm=fa92116bcde5987da7db79b41b86add44bddc574cdbd33bd622b7f6a21662c652331ed9e4173&amp;scene=126&amp;sessionid=1592125292&amp;key=2e8f81eda3e54fad9074a8b209275cc64f9c5dd28066961b7be2f518b92c55507968ed1b6278d887e87fd9f464f4b4899c8cf651adda04616c16f3c11e97de5ebdc827c9144e99e8b08451af86234894&amp;ascene=1&amp;uin=MTk1NDc4MzM2Mg%3D%3D&amp;devicetype=Windows+10+x64&amp;version=62090070&amp;lang=zh_CN&amp;exportkey=AWHTYrB4gjJmGEbHtri6R6w%3D&amp;pass_ticket=leo%2BHfJ0BW2bC82%2BQSYAPob7M1DzxC09JpT%2BAvOxTmnKdJp6Basn7bAq9v%2Fv3xN%2B" target="_blank" rel="noopener noreferrer">rodert单排学习redis入门【黑铁】</a> 对 Redis **<span color=#159957>安装</span><strong>和</strong><span color=#159957>常用数据</span>**结构做了梳理，如果没看可以先回去看完再继续本篇~</p>
+<p>上一篇都是对一些 redis 基本数据类型 api 的讲解，本篇是数据类型底层实现，主要内容有：</p>
+<ul>
+<li>为什么使用Redis</li>
+<li>Redis数据结构解析</li>
+<li>SDS简单动态字符串</li>
+<li>哈希表</li>
+<li>跳跃表</li>
+<li>整数集合</li>
+<li>压缩列表</li>
+<li>Redis中数据结构的对象</li>
+<li>...</li>
+</ul>
+<h2 id="_1-再谈redis" tabindex="-1"> 1.再谈Redis</h2>
+<p>Redis 是什么？官话来说就是：</p>
+<blockquote>
+<p>Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker.</p>
+</blockquote>
+<p>Redis 是一个开源的、<strong>基于内存</strong>的<strong>数据结构存储器</strong>，可以用作<strong>数据库</strong>、<strong>缓存</strong>和<strong>消息中间件</strong>。</p>
+<p>如果想尝试 Redis 命令又懒得安装，可以使用这个 <a href="http://try.redis.io/" target="_blank" rel="noopener noreferrer">http://try.redis.io/</a> 网站。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616155248408.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+<h2 id="_2-为什么要用redis" tabindex="-1"> 2.为什么要用Redis</h2>
+<p>上一篇咱们有一定了解</p>
+<p>Redis 是**<span color=#159957>基于内存</span>**，常用作缓存的一种技术，并且 Redis 存储的方式是以 <strong><span color=#c00>key-value</span></strong> 形式。</p>
+<p>那我们为什么不用 Java Map？</p>
+<ul>
+<li>Java Map是**<span color=#c00>本地缓存</span>**的，最主要的特点是轻量以及快速，生命周期随着jvm的销毁而结束，并且在多实例的情况下，每个实例都需要各自保存一份缓存，缓存不具有一致性。</li>
+<li>JVM内存太大容易挂掉，还有各种**<span color=#c00>过期机制、存储结构</span>**需要自己手动来写</li>
+<li>Redis 会定期把缓存保存到硬盘，重启恢复数据，丰富的数据结构，缓存机制等实用功能。</li>
+</ul>
+<h2 id="_3-为什么要使用缓存" tabindex="-1"> 3.为什么要使用缓存？</h2>
+<p>高并发，高可用这是现在互联网经常提到的一个词。在程序出现大量请求是就会出现**<span color=#c00>性能问题</span><strong>，一般性能问题第一道就是</strong><span color=#c00>数据库扛不住了</span>**，数据库的读写会有磁盘操作，而磁盘的速度相对内存来说慢很多。</p>
+<p>所有我们在中间加一道缓存：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616161041153.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+<h2 id="_4-redis数据结构" tabindex="-1"> 4.Redis数据结构</h2>
+<h3 id="_4-1-sds简单动态字符串" tabindex="-1"> 4.1.SDS简单动态字符串</h3>
+<h4 id="_4-1-1-sds简单动态字符串" tabindex="-1"> 4.1.1.SDS简单动态字符串</h4>
+<p>Redis 是由C语言编写的。</p>
+<p>我们现在知道 Redis 所有键都是字符串，值有字符串（string）、散列（hash）、列表（list）、集合（set）和有序集合（sorted set）这五种类型的键的底层实现数据结构。</p>
+<blockquote>
+<p>Redis 没有直接使用 C 语言传统的字符串表示（以空字符结尾的字符数组，以下简称 C 字符串）， 而是自己构建了一种名为简单动态字符串（simple dynamic string，SDS）的抽象类型， 并将 SDS 用作 Redis 的默认字符串表示。</p>
+</blockquote>
+<p>Redis 使用 <code>sds.h/sdshdr</code> 结构表示一个 SDS 值：</p>
+<div><pre><code>struct sdshdr <span>{</span>
+
+    <span>// 记录 buf 数组中已使用字节的数量</span>
+    <span>// 等于 SDS 所保存字符串的长度</span>
+    <span>int</span> len<span>;</span>
+
+    <span>// 记录 buf 数组中未使用字节的数量</span>
+    <span>int</span> free<span>;</span>
+
+    <span>// 字节数组，用于保存字符串</span>
+    <span>char</span> buf<span>[</span><span>]</span><span>;</span>
+
+<span>}</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="https://img-blog.csdnimg.cn/20200616155325700.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+<p>上图是 SDS 示例，以空字符结尾 <code>'\0'</code>。遵循空字符结尾这一惯例的好处是， SDS 可以直接重用一部分 C 字符串函数库里面的函数。</p>
+<p>举个例子， 如果我们有一个指向图 2-1 所示 SDS 的指针 s ， 那么我们可以直接使用 stdio.h/printf 函数， 通过执行以下语句：</p>
+<div><pre><code><span>printf</span><span>(</span><span>"%s"</span><span>,</span> s<span>-></span>buf<span>)</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div></div></div><p>来打印出 SDS 保存的字符串值 &quot;Redis&quot; ， 而无须为 SDS 编写专门的打印函数。</p>
+<h4 id="_4-1-2-sds简单动态字符串好处" tabindex="-1"> 4.1.2.SDS简单动态字符串好处</h4>
+<ol>
+<li>
+<p>sdshdr数据结构中用len属性记录了字符串的长度。那么获取字符串的长度时，<strong><span color=#c00>时间复杂度</span><strong>只需要 <code>O(1)</code>。</strong><span color=#159957>常数复杂度获取字符串长度</span></strong>。</p>
+</li>
+<li>
+<p>SDS不会发生溢出的问题，如果修改SDS时，空间不足。先会扩展空间，再进行修改！(<strong><span color=#c00>内部实现了动态扩展机制</span></strong>)。<strong><span color=#159957>杜绝缓冲区溢出</span></strong>。</p>
+</li>
+<li>
+<p>SDS可以**<span color=#c00>减少内存分配的次数</span><strong>(空间预分配机制)。在扩展空间时，除了分配修改时所必要的空间，还会分配额外的空闲空间(free 属性)。</strong><span color=#159957>减少修改字符串长度时所需的内存重分配次数</span>**。</p>
+</li>
+<li>
+<p>SDS是**<span color=#c00>二进制安全</span>**的，SDS 以二进制的方式来处理SDS存放在buf数组里的数据。</p>
+</li>
+<li>
+<p>可以使用一部分 <code>&lt;string.h&gt;</code> 库中的函数。<strong><span color=#159957>兼容部分 C 字符串函数</span></strong>。</p>
+</li>
+</ol>
+<h3 id="_4-2-redis-链表和链表节点" tabindex="-1"> 4.2.Redis 链表和链表节点</h3>
+<blockquote>
+<p>Java 学习者对链表应该都很熟悉，链表是 Java 中一种典型且常用的数据构。</p>
+</blockquote>
+<p>每个**<span color=#c00>链表节点</span>**使用一个 <code>adlist.h/listNode</code> 结构来表示：</p>
+<div><pre><code>typedef struct listNode <span>{</span>
+
+    <span>// 前置节点</span>
+    struct listNode <span>*</span>prev<span>;</span>
+
+    <span>// 后置节点</span>
+    struct listNode <span>*</span>next<span>;</span>
+
+    <span>// 节点的值</span>
+    <span>void</span> <span>*</span>value<span>;</span>
+
+<span>}</span> listNode<span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>使用listNode是可以组成链表了，Redis中**<span color=#159957>使用list结构来持有链表</span>**：</p>
+<div><pre><code>typedef struct list <span>{</span>
+
+    <span>// 表头节点</span>
+    listNode <span>*</span>head<span>;</span>
+
+    <span>// 表尾节点</span>
+    listNode <span>*</span>tail<span>;</span>
+
+    <span>// 链表所包含的节点数量</span>
+    unsigned <span>long</span> len<span>;</span>
+
+    <span>// 节点值复制函数</span>
+    <span>void</span> <span>*</span><span>(</span><span>*</span>dup<span>)</span><span>(</span><span>void</span> <span>*</span>ptr<span>)</span><span>;</span>
+
+    <span>// 节点值释放函数</span>
+    <span>void</span> <span>(</span><span>*</span>free<span>)</span><span>(</span><span>void</span> <span>*</span>ptr<span>)</span><span>;</span>
+
+    <span>// 节点值对比函数</span>
+    <span>int</span> <span>(</span><span>*</span>match<span>)</span><span>(</span><span>void</span> <span>*</span>ptr<span>,</span> <span>void</span> <span>*</span>key<span>)</span><span>;</span>
+
+<span>}</span> list<span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>由一个 <code>list</code> 结构和三个 <code>listNode</code> 结构组成的链表：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616155348716.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+<h4 id="_4-2-2-redis-链表重点" tabindex="-1"> 4.2.2.Redis 链表重点</h4>
+<ul>
+<li>链表被广泛用于实现 Redis 的各种功能， 比如<strong>列表键， 发布与订阅， 慢查询， 监视器</strong>， 等等。</li>
+<li>每个链表节点由一个 <code>listNode</code> 结构来表示， 每个节点都有一个指向<strong>前置节点</strong>和<strong>后置节点</strong>的指针， 所以 Redis 的链表实现是<strong>双端链表</strong>。</li>
+<li>每个链表使用一个 <code>list</code> 结构来表示，这个结构带有<strong>表头节点指针</strong>、<strong>表尾节点指针</strong>、以及<strong>链表长度</strong>等信息。</li>
+<li>因为链表表头节点的<strong>前置节点</strong>和<strong>表尾节点</strong>的后置节点都指向 NULL ， 所以 Redis 的链表实现是<strong>无环链表</strong>。</li>
+<li>通过为链表设置不同的类型特定函数， Redis 的链表可以用于保存各种不同类型的值。</li>
+</ul>
+<h3 id="_4-3-redis-字典" tabindex="-1"> 4.3.Redis 字典</h3>
+<h4 id="_4-3-1-哈希表" tabindex="-1"> 4.3.1.哈希表</h4>
+<blockquote>
+<p>字典是 Redis 中的一个概念，Redis 的字典使用哈希表作为底层实现。 一个哈希表里面可以有多个哈希表节点， 而每个哈希表节点就保存了字典中的一个键值对。</p>
+</blockquote>
+<p><strong>空哈希表</strong>
+Redis 字典所使用的哈希表由 <code>dict.h/dictht</code> 结构定义：</p>
+<div><pre><code><span>typedef</span> <span>struct</span> <span>dictht</span> <span>{</span>
+
+    <span>// 哈希表数组</span>
+    dictEntry <span>*</span><span>*</span>table<span>;</span>
+
+    <span>// 哈希表大小</span>
+    <span>unsigned</span> <span>long</span> size<span>;</span>
+
+    <span>// 哈希表大小掩码，用于计算索引值</span>
+    <span>// 总是等于 size - 1</span>
+    <span>unsigned</span> <span>long</span> sizemask<span>;</span>
+
+    <span>// 该哈希表已有节点的数量</span>
+    <span>unsigned</span> <span>long</span> used<span>;</span>
+
+<span>}</span> dictht<span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="https://img-blog.csdnimg.cn/20200616155404943.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+<p><strong>哈希表节点</strong>
+哈希表节点使用 dictEntry 结构表示， 每个 dictEntry 结构都保存着一个键值对：</p>
+<div><pre><code><span>typedef</span> <span>struct</span> <span>dictEntry</span> <span>{</span>
+
+    <span>// 键</span>
+    <span>void</span> <span>*</span>key<span>;</span>
+
+    <span>// 值</span>
+    <span>union</span> <span>{</span>
+        <span>void</span> <span>*</span>val<span>;</span> 
+        <span>uint64_t</span> u64<span>;</span> <span>//uint64_t整数</span>
+        <span>int64_t</span> s64<span>;</span> <span>//int64_t整数</span>
+    <span>}</span> v<span>;</span>
+
+    <span>// 指向下个哈希表节点，形成链表</span>
+    <span>struct</span> <span>dictEntry</span> <span>*</span>next<span>;</span>
+
+<span>}</span> dictEntry<span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="https://img-blog.csdnimg.cn/20200616155419279.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+<blockquote>
+<p>有没有注意到，上图有个冲突，俩个键在同一个节点，这就是 Redis <strong>解决键冲突</strong> ，Redis 的哈希表使用链地址法（separate chaining）来解决键冲突： 每个哈希表节点都有一个 next 指针， 多个哈希表节点可以用 next 指针构成一个单向链表， 被分配到同一个索引上的多个节点可以用这个单向链表连接起来， 这就解决了键冲突的问题。</p>
+</blockquote>
+<p><strong>字典</strong>
+Redis 中的字典由 dict.h/dict 结构表示：</p>
+<div><pre><code><span>typedef</span> <span>struct</span> <span>dict</span> <span>{</span>
+
+    <span>// 类型特定函数</span>
+    dictType <span>*</span>type<span>;</span>
+
+    <span>// 私有数据</span>
+    <span>void</span> <span>*</span>privdata<span>;</span>
+
+    <span>// 哈希表</span>
+    dictht ht<span>[</span><span>2</span><span>]</span><span>;</span>
+
+    <span>// rehash 索引</span>
+    <span>// 当 rehash 不在进行时，值为 -1</span>
+    <span>int</span> rehashidx<span>;</span> <span>/* rehashing not in progress if rehashidx == -1 */</span>
+
+<span>}</span> dict<span>;</span>
+
+<span>--</span><span>--</span><span>--</span><span>--</span><span>--</span><span>--</span><span>--</span><span>--</span><span>--</span>分割线<span>--</span><span>--</span><span>--</span><span>--</span><span>--</span><span>--</span><span>--</span><span>--</span><span>--</span><span>--</span><span>--</span><span>--</span><span>--</span><span>-</span>
+
+<span>typedef</span> <span>struct</span> <span>dictType</span> <span>{</span>
+
+    <span>// 计算哈希值的函数</span>
+    <span>unsigned</span> <span>int</span> <span>(</span><span>*</span>hashFunction<span>)</span><span>(</span><span>const</span> <span>void</span> <span>*</span>key<span>)</span><span>;</span>
+
+    <span>// 复制键的函数</span>
+    <span>void</span> <span>*</span><span>(</span><span>*</span>keyDup<span>)</span><span>(</span><span>void</span> <span>*</span>privdata<span>,</span> <span>const</span> <span>void</span> <span>*</span>key<span>)</span><span>;</span>
+
+    <span>// 复制值的函数</span>
+    <span>void</span> <span>*</span><span>(</span><span>*</span>valDup<span>)</span><span>(</span><span>void</span> <span>*</span>privdata<span>,</span> <span>const</span> <span>void</span> <span>*</span>obj<span>)</span><span>;</span>
+
+    <span>// 对比键的函数</span>
+    <span>int</span> <span>(</span><span>*</span>keyCompare<span>)</span><span>(</span><span>void</span> <span>*</span>privdata<span>,</span> <span>const</span> <span>void</span> <span>*</span>key1<span>,</span> <span>const</span> <span>void</span> <span>*</span>key2<span>)</span><span>;</span>
+
+    <span>// 销毁键的函数</span>
+    <span>void</span> <span>(</span><span>*</span>keyDestructor<span>)</span><span>(</span><span>void</span> <span>*</span>privdata<span>,</span> <span>void</span> <span>*</span>key<span>)</span><span>;</span>
+
+    <span>// 销毁值的函数</span>
+    <span>void</span> <span>(</span><span>*</span>valDestructor<span>)</span><span>(</span><span>void</span> <span>*</span>privdata<span>,</span> <span>void</span> <span>*</span>obj<span>)</span><span>;</span>
+
+<span>}</span> dictType<span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>​	ht 属性是一个包含两个项的数组， 数组中的每个项都是一个 <strong>dictht</strong> 哈希表， 一般情况下， 字典只使用 <strong>ht[0]</strong> 哈希表， <strong>ht[1]</strong> 哈希表只会在对 <strong>ht[0]</strong> 哈希表进行 <strong>rehash</strong> 时使用。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616155431351.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+<h4 id="_4-3-2-redis-rehash-重新散列" tabindex="-1"> 4.3.2.Redis rehash(重新散列)</h4>
+<p>随着操作的不断执行， 哈希表保存的键值对会逐渐地增多或者减少， 为了让哈希表的**<span color=#159957>负载因子</span>**（load factor）维持在一个合理的范围之内， 当哈希表保存的键值对数量太多或者太少时， 程序需要对哈希表的大小进行相应的扩展或者收缩。</p>
+<blockquote>
+<p>在对哈希表进行扩展或者收缩操作时，reash 过程并不是一次性地完成的，而是**<span color=#159957>渐进式</span>**地完成的。</p>
+</blockquote>
+<div><pre><code>以下是哈希表渐进式 rehash 的详细步骤：
+
+为 ht[1] 分配空间， 让字典同时持有 ht[0] 和 ht[1] 两个哈希表。
+在字典中维持一个索引计数器变量 rehashidx ， 并将它的值设置为 0 ， 表示 rehash 工作正式开始。
+在 rehash 进行期间， 每次对字典执行添加、删除、查找或者更新操作时， 程序除了执行指定的操作以外， 还会顺带将 ht[0] 哈希表在 rehashidx 索引上的所有键值对 rehash 到 ht[1] ， 当 rehash 工作完成之后， 程序将 rehashidx 属性的值增一。
+随着字典操作的不断执行， 最终在某个时间点上， ht[0] 的所有键值对都会被 rehash 至 ht[1] ， 这时程序将 rehashidx 属性的值设为 -1 ， 表示 rehash 操作已完成。
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h4 id="_4-3-3-重点" tabindex="-1"> 4.3.3.重点</h4>
+<ul>
+<li>字典被广泛用于实现 Redis 的各种功能， 其中包括数据库和哈希键。</li>
+<li>Redis 中的字典使用哈希表作为底层实现， 每个字典带有两个哈希表， 一个用于平时使用， 另一个仅在进行 <code>rehash</code> 时使用。</li>
+<li>当字典被用作数据库的底层实现， 或者哈希键的底层实现时， Redis 使用 MurmurHash2 算法来计算键的哈希值。</li>
+<li>哈希表使用链地址法来解决键冲突， 被分配到同一个索引上的多个键值对会连接成一个单向链表。</li>
+<li>在对哈希表进行扩展或者收缩操作时， 程序需要将现有哈希表包含的所有键值对 <code>rehash</code> 到新哈希表里面， 并且这个 rehash 过程并不是一次性地完成的， 而是渐进式地完成的。</li>
+</ul>
+<h3 id="_4-4-跳跃表" tabindex="-1"> 4.4.跳跃表</h3>
+<h4 id="_4-4-1-跳跃表" tabindex="-1"> 4.4.1.跳跃表</h4>
+<p>Redis 的跳跃表由 <code>redis.h/zskiplistNode</code> 和 <code>redis.h/zskiplist</code> 两个结构定义， 其中 <code>zskiplistNode</code> 结构用于表示跳跃表节点， 而 <code>zskiplist</code> 结构则用于保存跳跃表节点的相关信息， 比如节点的数量， 以及指向**<span color=#159957>表头节点和表尾节点</span>**的指针， 等等。</p>
+<p><strong>跳跃表节点</strong></p>
+<div><pre><code><span>typedef</span> <span>struct</span> <span>zskiplistNode</span> <span>{</span>
+
+    <span>// 后退指针</span>
+    <span>struct</span> <span>zskiplistNode</span> <span>*</span>backward<span>;</span>
+
+    <span>// 分值</span>
+    <span>double</span> score<span>;</span>
+
+    <span>// 成员对象</span>
+    robj <span>*</span>obj<span>;</span>
+
+    <span>// 层</span>
+    <span>struct</span> <span>zskiplistLevel</span> <span>{</span>
+
+        <span>// 前进指针</span>
+        <span>struct</span> <span>zskiplistNode</span> <span>*</span>forward<span>;</span>
+
+        <span>// 跨度</span>
+        <span>unsigned</span> <span>int</span> span<span>;</span>
+
+    <span>}</span> level<span>[</span><span>]</span><span>;</span>
+
+<span>}</span> zskiplistNode<span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><ul>
+<li>zskiplistNode 不同层高节点</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20200616155501710.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+<blockquote>
+<p>跳跃表节点的 level 数组可以包含多个元素， 每个元素都包含一个指向其他节点的指针， 程序可以通过这些层来加快访问其他节点的速度， 一般来说， <strong><span color=#159957>层的数量越多</span></strong>， 访问其他节点的**<span color=#159957>速度就越快</span>**。</p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20200616155511703.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+<blockquote>
+<p>看到这里，如果还有疑惑，不理解什么是跳跃表，传送一篇不错的跳跃表介绍文章：<a href="https://www.cnblogs.com/hunternet/p/11248192.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/hunternet/p/11248192.html</a></p>
+</blockquote>
+<h4 id="_4-4-2-重点" tabindex="-1"> 4.4.2.重点</h4>
+<ol>
+<li>跳跃表是有序集合的底层实现之一， 除此之外它在 Redis 中没有其他应用。</li>
+<li>Redis 的跳跃表实现由 zskiplist 和 zskiplistNode 两个结构组成， 其中 zskiplist 用于保存**<span color=#159957>跳跃表信息</span><strong>（比如表头节点、表尾节点、长度）， 而 zskiplistNode 则用于表示</strong><span color=#159957>跳跃表节点</span>**。</li>
+<li>每个跳跃表节点的层高都是 <strong><span color=#159957>1 至 32</span></strong> 之间的**<span color=#159957>随机数</span>**。</li>
+<li>在同一个跳跃表中， 多个节点可以包含**<span color=#159957>相同的分值</span><strong>， 但每个节点的</strong><span color=#159957>成员对象必须是唯一</span>**的。</li>
+<li>跳跃表中的节点按照分值大小进行排序， 当分值相同时， 节点按照成员对象的大小进行排序。</li>
+</ol>
+<h3 id="_4-5-整数集合" tabindex="-1"> 4.5.整数集合</h3>
+<ul>
+<li><strong>整数集合</strong>是**<span color=#159957>集合键(set)</span>**的底层实现之一。</li>
+<li>整数集合的底层实现为**<span color=#159957>数组</span><strong>， 这个数组以</strong><span color=#159957>有序、无重复</span><strong>的方式保存集合元素，在有需要时， 程序会根据</strong><span color=#159957>新添加元素</span>**的类型， <strong><span color=#159957>改变这个数组的类型</span></strong>。</li>
+<li>升级操作为整数集合带来了操作上的灵活性， 并且尽可能地<strong>节约了内存</strong>。</li>
+<li>整数集合**<span color=#159957>只支持升级</span>**操作， 不支持降级操作。</li>
+</ul>
+<p>整数集合（intset）是 Redis 用于保存整数值的集合抽象数据结构， 它可以保存类型为 <code>int16_t</code> 、 <code>int32_t</code> 或者 <code>int64_t</code> 的整数值， 并且保证集合中不会出现**<span color=#159957>重复元素</span>**。</p>
+<p>数据结构：</p>
+<div><pre><code><span>typedef</span> <span>struct</span> <span>intset</span> <span>{</span>
+
+    <span>// 编码方式</span>
+    <span>uint32_t</span> encoding<span>;</span>
+
+    <span>// 集合包含的元素数量</span>
+    <span>uint32_t</span> length<span>;</span>
+
+    <span>// 保存元素的数组</span>
+    <span>int8_t</span> contents<span>[</span><span>]</span><span>;</span>
+
+<span>}</span> intset<span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="https://img-blog.csdnimg.cn/20200616155827825.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+<h3 id="_4-6-压缩列表" tabindex="-1"> 4.6.压缩列表</h3>
+<h4 id="_4-6-1-前言" tabindex="-1"> 4.6.1.前言</h4>
+<blockquote>
+<p>同整数集合一样压缩列表也不是基础数据结构，而是 <strong>Redis</strong> 自己设计的一种数据存储结构。它有点儿类似数组，通过一片**<span color=#159957>连续的内存空间</span>**，来存储数据。不过，它跟数组不同的一点是，它允许存储的数据大小不同。</p>
+</blockquote>
+<p>我们知道，数组要求每个元素大大小相同，如果要存储长度不同的字符串，那就需要用**<span color=#159957>最大长度</span>**的字符串大小作为元素的大小。以最大长度为标准，就会浪费一部分存储空间。</p>
+<p>数组的优势占用一片**<span color=#159957>连续的空间</span>**可以很好的利用CPU缓存访问数据。如果我们想要保留这种优势，又想节省存储空间我们可以对数组进行压缩。</p>
+<p>那就需要给每个节点增加一个 <code>lenght</code> 的属性。</p>
+<h4 id="_4-6-2-redis-压缩列表" tabindex="-1"> 4.6.2.Redis 压缩列表</h4>
+<p><em>压缩列表(zip1ist)是 Redis 列表和 Redis 哈希的底层实现之一。</em></p>
+<ul>
+<li>
+<p>当一个列表只包含少量列表项,并且每个列表项要么就是小整数值,要么就是长度比较短的字符串,那么Redis就会使用压缩列表来做列表的底层实现。</p>
+</li>
+<li>
+<p>当一个哈希只包含少量键值对,比且每个键值对的键和值要么就是小整数值,要么就是长度比较短的字符串,那么Redis就会使用压缩列表来做哈希的底层实现。</p>
+</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20200616155926449.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+<blockquote>
+<p>参考：<a href="https://www.cnblogs.com/hunternet/p/11306690.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/hunternet/p/11306690.html</a></p>
+</blockquote>
+<ol>
+<li>表是Redis为节约内存自己设计的一种顺序型数据结构。</li>
+<li>表被用作列表键和哈希键的底层实现之一。</li>
+<li>压缩列表可以包含多个节点,每个节点可以保存一个字节数组或者整数值。</li>
+<li>添加新节点到压缩列表,或者从压缩列表中删除节点,可能会引发连锁更新操作,但这种操作出现的几率并不高。</li>
+</ol>
+<h3 id="_4-7-redis的对象" tabindex="-1"> 4.7.Redis的对象</h3>
+<h4 id="_4-7-1-redis的对象" tabindex="-1"> 4.7.1.Redis的对象</h4>
+<p>Redis 中当我们创建一个键值对时，我们至少会创建俩个对象，一个用作键(键对象)，一个用作值(值对象)。</p>
+<ul>
+<li>Redis 对象结构</li>
+</ul>
+<div><pre><code><span>typedef</span> <span>struct</span> <span>redisObject</span> <span>{</span>
+
+    <span>// 类型</span>
+    <span>unsigned</span> type<span>:</span><span>4</span><span>;</span>
+
+    <span>// 编码</span>
+    <span>unsigned</span> encoding<span>:</span><span>4</span><span>;</span>
+
+    <span>// 指向底层实现数据结构的指针</span>
+    <span>void</span> <span>*</span>ptr<span>;</span>
+
+    <span>// ...</span>
+
+<span>}</span> robj<span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><ul>
+<li><strong>Redis 内存回收</strong></li>
+</ul>
+<blockquote>
+<p>值得一提的是 redis 内存回收，因为 C 语言并不具备自动的内存回收功能， 所以 Redis 在自己的对象系统中构建了一个**<span color=#159957>引用计数</span><strong>（reference counting）技术实现的内存回收机制， 通过这一机制， 程序可以通过跟踪对象的引用计数信息， 在适当的时候自动释放对象并进行</strong><span color=#159957>内存回收</span>**。每个对象的引用计数信息由 <code>redisObject</code> 结构的 <code>refcount</code> 属性记录：</p>
+</blockquote>
+<div><pre><code><span>typedef</span> <span>struct</span> <span>redisObject</span> <span>{</span>
+
+    <span>// ...</span>
+
+    <span>// 引用计数</span>
+    <span>int</span> refcount<span>;</span>
+
+    <span>// ...</span>
+
+<span>}</span> robj<span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><ul>
+<li><strong>Redis 对象共享</strong></li>
+</ul>
+<blockquote>
+<p>举个例子， 假设键 A 创建了一个包含整数值 100 的字符串对象作为值对象，如果这时键 B 也要创建一个同样保存了整数值 100 的字符串对象作为值对象。</p>
+</blockquote>
+<p>在 Redis 中， 让多个键共享同一个值对象需要执行以下两个步骤：</p>
+<ol>
+<li>将数据库键的值指针指向一个现有的值对象；</li>
+<li>将被共享的值对象的引用计数增一。</li>
+</ol>
+<p><code>目前来说， Redis 会在初始化服务器时， 创建一万个字符串对象， 这些对象包含了从 0 到 9999 的所有整数值， 当服务器需要用到值为 0到 9999 的字符串对象时， 服务器就会使用这些共享对象， 而不是新创建对象。</code></p>
+<ul>
+<li><strong>Redis 对象的空转时长</strong></li>
+</ul>
+<blockquote>
+<p>除了前面介绍过的 <strong><span color=#159957>type 、 encoding 、 ptr 和 refcount</span></strong> 四个属性之外， redisObject 结构包含的最后一个属性为 <strong><span color=#159957>lru</span></strong> 属性， 该属性记录了对象最后一次被命令程序访问的时间：</p>
+</blockquote>
+<div><pre><code><span>typedef</span> <span>struct</span> <span>redisObject</span> <span>{</span>
+
+    <span>// ...</span>
+
+    <span>unsigned</span> lru<span>:</span><span>22</span><span>;</span>
+
+    <span>// ...</span>
+
+<span>}</span> robj<span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h4 id="_4-7-2-重点" tabindex="-1"> 4.7.2.重点</h4>
+<blockquote>
+<p>内存回收和对象的空转时长涉及到 Redis 配置文件(内存的算法 volatile-lru、allkeys-lru等其他知识点)，后面单独一篇详细讲解。</p>
+</blockquote>
+<ul>
+<li>Redis 数据库中的每个键值对的键和值都是一个对象。</li>
+<li>Redis 共有字**<span color=#159957>符串、列表、哈希、集合、有序集合</span>**五种类型的对象， 每种类型的对象至少都有两种或以上的编码方式， 不同的编码可以在不同的使用场景上优化对象的使用效率。</li>
+<li>服务器在执行某些命令之前， 会先检查给定键的类型能否执行指定的命令， 而检查一个键的类型就是检查键的值对象的类型。</li>
+<li>Redis 的对象系统带有引用计数实现的**<span color=#159957>内存回收机制</span>**， 当一个对象不再被使用时， 该对象所占用的内存就会被自动释放。</li>
+<li>Redis 会共享值为 0 到 9999 的字符串对象。</li>
+<li>对象会记录自己的最后一次被访问的时间， 这个时间可以用于计算对象的**<span color=#159957>空转时间</span>**。</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://img-blog.csdnimg.cn/20200616155217399.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMzc0NjA0,size_16,color_FFFFFF,t_70" type="image/"/>
+    </item>
+    <item>
+      <title>rodert单排学习redis进阶【白银一】</title>
+      <link>https://dearlocation.com/posts/redis/learn-redis-03.html</link>
+      <guid>https://dearlocation.com/posts/redis/learn-redis-03.html</guid>
+      <source url="https://dearlocation.com/rss.xml">rodert单排学习redis进阶【白银一】</source>
+      <description>rodert单排学习redis进阶【白银一】
+</description>
+      <category>redis</category>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>rodert单排学习redis进阶【白银一】</p>
+
+<p>redis之白银一</p>
+<p><code>说些题外话，最近帝都疫情又严重，大家都身处时代洪流中，这不是个别人能左右的，希望你能保护好自己，天天开心。</code></p>
+<p>@[toc]</p>
+<h3 id="前言" tabindex="-1"> 前言</h3>
+<blockquote>
+<p>声明：参考来源互联网，有任何争议可以留言。站在前人的肩上，我们才能看的更远。</p>
+</blockquote>
+<p><code>前文推荐阅读：</code></p>
+<p><a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUzNDUyOTY0Nw==&amp;action=getalbum&amp;album_id=1389304118178840577&amp;subscene=126&amp;scenenote=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzUzNDUyOTY0Nw%3D%3D%26mid%3D2247484050%26idx%3D1%26sn%3D5b76110a20c22959fdbbe1f8f367a709%26chksm%3Dfa921192cde59884bd8c810eba099e3d371f7f77f9481d167e76753739fce4ed0111ca343a35%26scene%3D126%26sessionid%3D1593072726%26key%3D2e8f81eda3e54fad73caa3aec9e546eec371260ca3b30cbb0e97ee0d569806699c0e6ac6bc8f1a0a04974a4f03d1e9ce9ae1bc838e0c06e3ac25f682055eca28db3fc0078943eafe783bb4e5e6816f33%26ascene%3D1%26uin%3DMTk1NDc4MzM2Mg%253D%253D%26devicetype%3DWindows%2B10%2Bx64%26version%3D62090070%26lang%3Dzh_CN%26exportkey%3DAYmXGhQITcjoyZn4ey%252Bxo5Q%253D%26pass_ticket%3DguqlwSdMxkC7XLyNJjPoGkvn0U9XOSyfcXnMeGtUYAn8EAUS8reK0TbBSbbW9Nss%26winzoom%3D1#wechat_redirect" target="_blank" rel="noopener noreferrer">rodert单排学习redis入门【黑铁】</a></p>
+<p><a href="https://mp.weixin.qq.com/s/S2qZiJG-_HgW3ET9Sl0EAg" target="_blank" rel="noopener noreferrer">yangchunjian 单排学习 redis 进阶【青铜】</a></p>
+<h3 id="_1-redis-客户端" tabindex="-1"> 1.Redis 客户端</h3>
+<h4 id="_1-1-redis-desktop-manager" tabindex="-1"> 1.1.Redis Desktop Manager</h4>
+<p>使用称手的工具，做起事来 <code>事半功倍</code> ，用 <code>redis-cli</code> 自然不错。我推荐一款我经常用的 <code>Redis</code> <strong>可视化</strong>工具，<code>Redis Desktop Manager</code> 。</p>
+<p>启动界面如下：</p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zdGF0aWMwMS5pbWdrci5jb20vdGVtcC81MzEyMWYwMGVkNDg0ZTJlYWFkYTZlYWM2NGMzMjE1NC5wbmc?x-oss-process=image/format,png" alt="" loading="lazy"></p>
+<p>至于安装方式是 <code>一键安装</code> 。</p>
+<blockquote>
+<p>官网下载地址：<a href="https://redisdesktop.com/pricing" target="_blank" rel="noopener noreferrer">https://redisdesktop.com/pricing</a></p>
+</blockquote>
+<blockquote>
+<p>学生和学习者可以公众号后台回复：【666】，免费获取。</p>
+</blockquote>
+<h3 id="_2-redis-连接池" tabindex="-1"> 2.Redis 连接池</h3>
+<h4 id="_2-2-0-连接池" tabindex="-1"> 2.2.0.连接池</h4>
+<blockquote>
+<p>池技术被广泛使用在系统开发中，像 <code>JDBC</code> 连接池、线程池等。连连接池是创建和管理一个连接的缓冲池的技术，这些连接准备好被任何需要它们的线程使用。</p>
+</blockquote>
+<p>在处理一个任务时，我们大多情况要在数毫秒级别就完成，如果重复创建、关闭资源，会占用较长时间和大量系统资源。</p>
+<ul>
+<li><strong>使用连接池优势</strong></li>
+</ul>
+<ol>
+<li><strong>减少连接创建时间</strong></li>
+</ol>
+<p>连接在系统初始化时就创建完成，需要时直接从池中取用，减少了时间开销。</p>
+<ol start="2">
+<li><strong>简化的编程模式</strong></li>
+</ol>
+<p>当使用连接池时，每一个单独的线程能够像创建了一个自己的 JDBC 连接一样操作。</p>
+<ol start="3">
+<li><strong>受控的资源使用</strong></li>
+</ol>
+<p>连接池能够控制一个模块的资源占用率，不会让一个模块资源占用过高，导致整个系统崩溃。</p>
+<h4 id="_2-1-redis-连接池" tabindex="-1"> 2.1.Redis 连接池</h4>
+<h5 id="_2-1-1-前言引入" tabindex="-1"> 2.1.1.前言引入</h5>
+<blockquote>
+<p><code>Redis</code> 修炼之连接池篇，前面讲了Redis入门篇：<a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUzNDUyOTY0Nw==&amp;action=getalbum&amp;album_id=1389304118178840577&amp;subscene=126&amp;scenenote=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzUzNDUyOTY0Nw%3D%3D%26mid%3D2247484050%26idx%3D1%26sn%3D5b76110a20c22959fdbbe1f8f367a709%26chksm%3Dfa921192cde59884bd8c810eba099e3d371f7f77f9481d167e76753739fce4ed0111ca343a35%26scene%3D126%26sessionid%3D1593072726%26key%3D2e8f81eda3e54fad73caa3aec9e546eec371260ca3b30cbb0e97ee0d569806699c0e6ac6bc8f1a0a04974a4f03d1e9ce9ae1bc838e0c06e3ac25f682055eca28db3fc0078943eafe783bb4e5e6816f33%26ascene%3D1%26uin%3DMTk1NDc4MzM2Mg%253D%253D%26devicetype%3DWindows%2B10%2Bx64%26version%3D62090070%26lang%3Dzh_CN%26exportkey%3DAYmXGhQITcjoyZn4ey%252Bxo5Q%253D%26pass_ticket%3DguqlwSdMxkC7XLyNJjPoGkvn0U9XOSyfcXnMeGtUYAn8EAUS8reK0TbBSbbW9Nss%26winzoom%3D1#wechat_redirect" target="_blank" rel="noopener noreferrer">rodert单排学习redis入门【黑铁】</a>、<a href="https://mp.weixin.qq.com/s/S2qZiJG-_HgW3ET9Sl0EAg" target="_blank" rel="noopener noreferrer">yangchunjian 单排学习 redis 进阶【青铜】</a>，对 <code>Redis</code> 基本数据类型的操作做了讲解。</p>
+</blockquote>
+<p>在以前没有开源连接池时，很多人自写连接池工具，简单来说就是创建一个集合，存放一批连接，动态维护着。保证每个连接都是有效的。</p>
+<h5 id="_2-1-2-redis-连接池" tabindex="-1"> 2.1.2.Redis 连接池</h5>
+<blockquote>
+<p>本教程涉及到的一些代码都是 Java 语言编写。</p>
+</blockquote>
+<p><code>maven</code> 依赖，引入 <code>pom.xml</code> 文件</p>
+<ul>
+<li><code>pom.xml</code></li>
+</ul>
+<div><pre><code><span><span><span>&lt;</span>dependency</span><span>></span></span>
+    <span><span><span>&lt;</span>groupId</span><span>></span></span>redis.clients<span><span><span>&lt;/</span>groupId</span><span>></span></span>
+    <span><span><span>&lt;</span>artifactId</span><span>></span></span>jedis<span><span><span>&lt;/</span>artifactId</span><span>></span></span>
+    <span><span><span>&lt;</span>version</span><span>></span></span>3.3.0<span><span><span>&lt;/</span>version</span><span>></span></span>
+<span><span><span>&lt;/</span>dependency</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div><ul>
+<li><code>RedisUtil.java</code></li>
+</ul>
+<div><pre><code><span>public</span> <span>final</span> <span>class</span> <span>RedisUtil</span> <span>{</span>
+    <span>//IP 地址</span>
+    <span>private</span> <span>static</span> <span>String</span> ADDR <span>=</span> <span>"127.0.0.1"</span><span>;</span>
+    <span>//端口号</span>
+    <span>private</span> <span>static</span> <span>int</span> PORT <span>=</span> <span>6379</span><span>;</span>
+    <span>//redis 服务端密码</span>
+    <span>private</span> <span>static</span> <span>String</span> PWD <span>=</span> <span>"123456"</span><span>;</span>
+    
+    <span>//可用连接实例最大数目，默认为 8，若赋值 -1，表示不被限制</span>
+    <span>private</span> <span>static</span> <span>Integer</span> MAX_TOTAL <span>=</span> <span>1024</span><span>;</span>
+    <span>//控制一个连接池最多有多少个状态为空闲的 jedis 实例，默认值为 8</span>
+    <span>private</span> <span>static</span> <span>Integer</span> MAX_IDLE <span>=</span> <span>200</span><span>;</span>
+    
+    <span>//等待可用连接最大的等待时间，单位 ms，默认值 -1，表示永不超时，若等待超时抛出 JedisConnectionException</span>
+    <span>private</span> <span>static</span> <span>Integer</span> MAX_WAIT_MILLIS <span>=</span> <span>10000</span><span>;</span>
+    <span>//超时</span>
+    <span>private</span> <span>static</span> <span>Integer</span> TIMEOUT <span>=</span> <span>10000</span><span>;</span>
+    
+    <span>//在用一个 jedis 实例时，是否提前进行 validate 操作，若结果为 true 则 jedis 实例可用</span>
+    <span>private</span> <span>static</span> <span>Boolean</span> TEST_ON_BORROW <span>=</span> <span>true</span><span>;</span>
+    
+    <span>//jedis 连接池</span>
+    <span>private</span> <span>static</span> <span>JedisPool</span> jedisPool <span>=</span> <span>null</span><span>;</span>
+    
+    <span>/**
+     * 初始化 jedis 连接池的静态块,RedisPool 第一次类加载时执行，以后便不再执行
+     */</span>
+    <span>static</span> <span>{</span>
+        <span>try</span> <span>{</span>
+            <span>JedisPoolConfig</span> conf <span>=</span> <span>new</span> <span>JedisPoolConfig</span><span>(</span><span>)</span><span>;</span>
+            <span>/*
+             * 高版本 jedis jar 中 JedisPoolConfig 没有 setMaxActive 和 setMaxWait 属性，因为官方在高版本			   * 中启用了此方法，用以下两个属性替换
+             * maxActive ==> maxTotal
+             * maxWait ==> maxWaitMillis
+             */</span>
+            <span>//设置连接实例最大数目</span>
+            conf<span>.</span><span>setMaxTotal</span><span>(</span>MAX_TOTAL<span>)</span><span>;</span>
+            <span>//设置最多多少空闲的 jedis 实例</span>
+            conf<span>.</span><span>setMaxIdle</span><span>(</span>MAX_IDLE<span>)</span><span>;</span>
+            <span>//设置等待可用连接的最大时间</span>
+            conf<span>.</span><span>setMaxWaitMillis</span><span>(</span>MAX_WAIT_MILLIS<span>)</span><span>;</span>
+            <span>//设置是否提前进行测试借用</span>
+            conf<span>.</span><span>setTestOnBorrow</span><span>(</span>TEST_ON_BORROW<span>)</span><span>;</span>
+            
+            <span>//新建 jedis 连接池</span>
+            jedisPool <span>=</span> <span>new</span> <span>JedisPool</span><span>(</span>conf<span>,</span> ADDR<span>,</span> PORT<span>,</span> TIMEOUT<span>,</span> PWD<span>)</span><span>;</span>
+        <span>}</span>
+        <span>catch</span> <span>(</span><span>Exception</span> e<span>)</span> <span>{</span>
+            e<span>.</span><span>printStackTrace</span><span>(</span><span>)</span><span>;</span>
+        <span>}</span>
+    <span>}</span>
+    
+    <span>/*
+     * 获取 jedis 实例来操作数据，每次使用完要将连接返回给连接池 jedis.close()
+     * @return
+     */</span>
+    <span>public</span> <span>synchronized</span> <span>static</span> <span>Jedis</span> <span>getRedis</span><span>(</span><span>)</span> <span>{</span>
+        <span>try</span> <span>{</span>
+            <span>if</span><span>(</span>jedisPool <span>!=</span> <span>null</span><span>)</span> <span>{</span>
+                <span>//获取 jedis 实例</span>
+                <span>Jedis</span> jedis <span>=</span> jedisPool<span>.</span><span>getResource</span><span>(</span><span>)</span><span>;</span>
+                <span>return</span> jedis<span>;</span>
+            <span>}</span>
+            <span>else</span><span>{</span>
+                <span>System</span><span>.</span>out<span>.</span><span>println</span><span>(</span><span>"没有找到 Jedis 连接池！"</span><span>)</span><span>;</span>
+                <span>return</span> <span>null</span><span>;</span>
+            <span>}</span>
+        <span>}</span> <span>catch</span> <span>(</span><span>Exception</span> e<span>)</span> <span>{</span>
+            e<span>.</span><span>printStackTrace</span><span>(</span><span>)</span><span>;</span>
+            <span>return</span> <span>null</span><span>;</span>
+        <span>}</span>
+    <span>}</span>
+    
+    <span>/*
+     * 用来回收 Jedis 对象资源，用户需要用到此方法释放资源，否则一直占用资源，在新版本中，`returnResource(jedis) 将被废弃不推荐使用，`直接调用 `jedis.close();` 归还连接到连接池。
+     * @param Jedis jedis
+     */</span>
+    <span>public</span> <span>synchronized</span> <span>static</span> <span>void</span> <span>returnJedis</span><span>(</span><span>Jedis</span> jedis<span>)</span> <span>{</span>
+        <span>try</span> <span>{</span>
+            <span>if</span><span>(</span>jedis <span>!=</span> <span>null</span><span>)</span> <span>{</span>
+                <span>//回收 jedis 对象资源</span>
+                jedisPool<span>.</span><span>returnResource</span><span>(</span>jedis<span>)</span><span>;</span>
+                <span>System</span><span>.</span>out<span>.</span><span>println</span><span>(</span><span>"Jedis 被成功回收！"</span><span>)</span><span>;</span>
+            <span>}</span>
+        <span>}</span> <span>catch</span> <span>(</span><span>Exception</span> e<span>)</span> <span>{</span>
+            e<span>.</span><span>printStackTrace</span><span>(</span><span>)</span><span>;</span>
+        <span>}</span>
+    <span>}</span>
+<span>}</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><ul>
+<li></li>
+</ul>
+<blockquote>
+<p>本教程纯手打，致力于最实用教程，不需要什么奖励，只希望多多转发支持。
+欢迎来我公众号，希望可以结识你，也可以催更，微信搜索：DearLocation</p>
+</blockquote>
+<blockquote>
+<p>有任何问题都可以来谈谈 ！</p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20200625165207975.jpg" alt="在这里插入图片描述" loading="lazy"></p>
+]]></content:encoded>
+      <enclosure url="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zdGF0aWMwMS5pbWdrci5jb20vdGVtcC81MzEyMWYwMGVkNDg0ZTJlYWFkYTZlYWM2NGMzMjE1NC5wbmc?x-oss-process=image/format,png" type="image/"/>
+    </item>
+    <item>
+      <title>Linux下redis安装</title>
+      <link>https://dearlocation.com/posts/redis/redis-install-to-linux.html</link>
+      <guid>https://dearlocation.com/posts/redis/redis-install-to-linux.html</guid>
+      <source url="https://dearlocation.com/rss.xml">Linux下redis安装</source>
+      <description>基于 centOS7 的 redis 安装
+</description>
+      <category>redis</category>
+      <pubDate>Thu, 19 May 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>基于 centOS7 的 redis 安装</p>
+
+<p>基于SpringBoot+VUE的后台管理系统免费开源，欢迎观赏。在线地址：<a href="http://liawan.dearlocation.net.cn/" target="_blank" rel="noopener noreferrer">http://liawan.dearlocation.net.cn/</a>。详细参考文档及视频同步更新。</p>
+<h2 id="前言" tabindex="-1"> 前言</h2>
+<p>安装环境：</p>
+<p>centos7、redis5、</p>
+<iframe src="//player.bilibili.com/player.html?bvid=BV1qR4y1c78t&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<h2 id="安装教程" tabindex="-1"> 安装教程</h2>
+<h3 id="_1-下载" tabindex="-1"> 1. 下载</h3>
+<p>国内镜像地址：<a href="https://mirrors.huaweicloud.com/redis/" target="_blank" rel="noopener noreferrer">https://mirrors.huaweicloud.com/redis/</a></p>
+<p><img src="https://tva3.sinaimg.cn/large/007F3CC8ly1h2dguy49obj31hc0q1gzo.jpg" alt="image" loading="lazy"></p>
+<h3 id="_2-安装" tabindex="-1"> 2. 安装</h3>
+<p>解压：</p>
+<blockquote>
+<p>tar -zxvf redis-5.0.8.tar.gz</p>
+</blockquote>
+<p>编译：</p>
+<div><pre><code><span>cd</span> redis-5.0.8
+
+<span>make</span> <span>install</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><h3 id="_3-修改配置" tabindex="-1"> 3. 修改配置</h3>
+<p><code>修改redis.conf</code></p>
+<p>开启外网访问</p>
+<blockquote>
+<p>bind 0.0.0.0</p>
+</blockquote>
+<p>关闭Redis的服务保护模式</p>
+<blockquote>
+<p>protected-mode no</p>
+</blockquote>
+<p>修改密码</p>
+<blockquote>
+<p>requirepass dearlocation</p>
+</blockquote>
+<h3 id="_4-启动" tabindex="-1"> 4. 启动</h3>
+<blockquote>
+<p>redis-server redis.conf</p>
+</blockquote>
+<p>后台启动：</p>
+<blockquote>
+<p>nohup redis-server redis.conf &amp;</p>
+</blockquote>
+<h3 id="_5-访问测试" tabindex="-1"> 5. 访问测试</h3>
+<blockquote>
+<p>注意，如果外网访问，要保证防火墙对应端口开放。</p>
+</blockquote>
+<p>原文：<a href="https://blog.csdn.net/qq_40374604/article/details/124857707" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/qq_40374604/article/details/124857707</a></p>
+]]></content:encoded>
+      <enclosure url="https://tva3.sinaimg.cn/large/007F3CC8ly1h2dguy49obj31hc0q1gzo.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>主要功能与配置演示</title>
+      <link>https://dearlocation.com/zh/guide/</link>
+      <guid>https://dearlocation.com/zh/guide/</guid>
+      <source url="https://dearlocation.com/rss.xml">主要功能与配置演示</source>
+      <category>使用指南</category>
+      <pubDate>Tue, 28 Jun 2022 16:08:36 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="主要功能与配置演示" tabindex="-1"> 主要功能与配置演示</h1>
+<ul>
+<li>
+<p><a href="/zh/guide/page.html">页面展示</a></p>
+</li>
+<li>
+<p><a href="/zh/guide/markdown.html">Markdown 展示</a></p>
+</li>
+<li>
+<p><a href="/zh/guide/disable.html">禁用展示</a></p>
+</li>
+<li>
+<p><a href="/zh/guide/encrypt.html">加密展示</a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>组件禁用</title>
+      <link>https://dearlocation.com/zh/guide/disable.html</link>
+      <guid>https://dearlocation.com/zh/guide/disable.html</guid>
+      <source url="https://dearlocation.com/rss.xml">组件禁用</source>
+      <description>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。
+</description>
+      <category>使用指南</category>
+      <pubDate>Tue, 28 Jun 2022 16:08:36 GMT</pubDate>
+      <content:encoded><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。</p>
+
+<p>本页面应当禁用了:</p>
+<ul>
+<li>导航栏</li>
+<li>侧边栏</li>
+<li>路径导航</li>
+<li>页面信息</li>
+<li>贡献者</li>
+<li>编辑此页链接</li>
+<li>更新时间</li>
+<li>上一篇/下一篇 链接</li>
+<li>评论</li>
+<li>页脚</li>
+<li>返回顶部按钮</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>密码加密的文章</title>
+      <link>https://dearlocation.com/zh/guide/encrypt.html</link>
+      <guid>https://dearlocation.com/zh/guide/encrypt.html</guid>
+      <source url="https://dearlocation.com/rss.xml">密码加密的文章</source>
+      <category>使用指南</category>
+      <pubDate>Tue, 28 Jun 2022 16:08:36 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="密码加密的文章" tabindex="-1"> 密码加密的文章</h1>
+<p>实际的文章内容。</p>
+<p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
+<p>段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Markdown 增强</title>
+      <link>https://dearlocation.com/zh/guide/markdown.html</link>
+      <guid>https://dearlocation.com/zh/guide/markdown.html</guid>
+      <source url="https://dearlocation.com/rss.xml">Markdown 增强</source>
+      <description>VuePress 的每个文档页面都是由 Markdown 渲染而成。所以你需要通过在相应路径创建编写 Markdown 建立你的文档或博客页面。
+</description>
+      <category>使用指南</category>
+      <pubDate>Tue, 28 Jun 2022 16:08:36 GMT</pubDate>
+      <content:encoded><![CDATA[<p>VuePress 的每个文档页面都是由 Markdown 渲染而成。所以你需要通过在相应路径创建编写 Markdown 建立你的文档或博客页面。</p>
+
+<h2 id="markdown-介绍" tabindex="-1"> Markdown 介绍</h2>
+<p>如果你是一个新手，还不会编写 Markdown，请先阅读 <a href="https://vuepress-theme-hope.github.io/v2/zh/basic/markdown/README.html" target="_blank" rel="noopener noreferrer">Markdown 介绍</a> 和 <a href="https://vuepress-theme-hope.github.io/v2/zh/basic/markdown/demo.html" target="_blank" rel="noopener noreferrer">Markdown 演示</a>。</p>
+<div><p>Frontmatter</p>
+<p>Frontmatter 是 VuePress 中很重要的一个概念，如果你不了解它，你需要阅读 <a href="https://vuepress-theme-hope.github.io/v2/zh/basic/vuepress/page.html#front-matter" target="_blank" rel="noopener noreferrer">Frontmatter 介绍</a>。</p>
+</div>
+<h2 id="vuepress-扩展" tabindex="-1"> VuePress 扩展</h2>
+<p>为了丰富文档写作，VuePress 对 Markdown 语法进行了扩展。</p>
+<p>关于这些扩展，请阅读 <a href="https://vuepress-theme-hope.github.io/v2/zh/basic/vuepress/markdown.html" target="_blank" rel="noopener noreferrer">VuePress 中的 Markdown 扩展</a>。</p>
+<h2 id="主题扩展" tabindex="-1"> 主题扩展</h2>
+<h3 id="一键启用" tabindex="-1"> 一键启用</h3>
+<p>你可以设置 <code>themeconfig.plugins.htmlEnhance.enableAll</code> 启用 <a href="https://vuepress-theme-hope.github.io/v2/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a> 插件的所有功能。</p>
+<div><pre><code>module.exports = {
+  themeConfig: {
+    plugins: {
+      mdEnhance: {
+        enableAll: true,
+      },
+    },
+  },
+};
+</code></pre><div><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br><br><br></div><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="自定义容器" tabindex="-1"> 自定义容器</h3>
+<div>
+<p>安全的在 Markdown 中使用 {{ variable }}。</p>
+</div>
+<div><p>自定义标题</p>
+<p>信息容器，包含 <code>代码</code> 与 。</p>
+<div><pre><code><span>const</span> a <span>=</span> <span>1</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div></div></div></div>
+<div><p>自定义标题</p>
+<p>提示容器</p>
+</div>
+<div><p>自定义标题</p>
+<p>警告容器</p>
+</div>
+<div><p>自定义标题</p>
+<p>危险容器</p>
+</div>
+<details><summary>自定义标题</summary>
+<p>详情容器</p>
+</details>
+<details><summary>代码</summary>
+<div><pre><code>:::
+
+安全的在 Markdown 中使用 {{ variable }}。
+
+:::
+
+::: info 自定义标题
+
+信息容器
+
+:::
+
+::: tip 自定义标题
+
+提示容器
+
+:::
+
+::: warning 自定义标题
+
+警告容器
+
+:::
+
+::: danger 自定义标题
+
+危险容器
+
+:::
+
+::: details 自定义标题
+
+详情容器
+
+:::
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></details>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/container.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="代码块" tabindex="-1"> 代码块</h3>
+<p>:::: code-group</p>
+<p>::: code-group-item yarn</p>
+<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-theme-hope
+</code></pre><div aria-hidden="true"><div></div></div></div><p>:::</p>
+<p>::: code-group-item npm:active</p>
+<div><pre><code><span>npm</span> i -D vuepress-theme-hope
+</code></pre><div aria-hidden="true"><div></div></div></div><p>:::</p>
+<p>::::</p>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/code-group.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="自定义对齐" tabindex="-1"> 自定义对齐</h3>
+<div style="text-align: center"><p>我是居中的</p>
+</div>
+<div style="text-align: right"><p>我在右对齐</p>
+</div>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/align.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="上下角标" tabindex="-1"> 上下角标</h3>
+<p>19<sup>th</sup> H<sub>2</sub>O</p>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/sup-sub.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="脚注" tabindex="-1"> 脚注</h3>
+<p>此文字有脚注<sup></sup>.</p>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/footnote.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="标记" tabindex="-1"> 标记</h3>
+<p>你可以标记 <mark>重要的内容</mark> 。</p>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/mark.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="任务列表" tabindex="-1"> 任务列表</h3>
+<ul>
+<li>
+<p><input type="checkbox" id="task-item-0" checked="checked" disabled="disabled"><label for="task-item-0"> 计划 1</label></p>
+</li>
+<li>
+<p><input type="checkbox" id="task-item-1" disabled="disabled"><label for="task-item-1"> 计划 2</label></p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/tasklist.html" target="_blank" rel="noopener noreferrer">查看详情</a></p>
+</li>
+</ul>
+<h3 id="图表" tabindex="-1"> 图表</h3>
+<i>Content not supported</i><ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/chart.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="流程图" tabindex="-1"> 流程图</h3>
+<i>Content not supported</i><ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/flowchart.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="mermaid" tabindex="-1"> Mermaid</h3>
+<i>Content not supported</i><ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/mermaid.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="tex-语法" tabindex="-1"> Tex 语法</h3>
+<p class='katex-block'><span><span><span><i>Content not supported</i></span><span aria-hidden="true"><span><span style="height:2.4em;vertical-align:-0.95em;"></span><span><span></span><span><span><span><span style="height:1.3714em;"><span style="top:-2.314em;"><span style="height:3em;"></span><span><span style="margin-right:0.05556em;">∂</span><span><span style="margin-right:0.03588em;">ω</span><span><span><span><span style="height:0.5904em;"><span style="top:-2.989em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span style="height:3em;"></span><span style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span style="height:3em;"></span><span><span><span style="margin-right:0.05556em;">∂</span><span><span><span><span style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span></span></span></span><span>​</span></span><span><span style="height:0.686em;"><span></span></span></span></span></span><span></span></span><span style="margin-right:0.1667em;"></span><span><span style="top:0em;"><span>(</span></span><span><span></span><span><span><span><span style="height:1.3414em;"><span style="top:-2.314em;"><span style="height:3em;"></span><span><span style="margin-right:0.03588em;">ω</span></span></span><span style="top:-3.23em;"><span style="height:3em;"></span><span style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span style="height:3em;"></span><span><span><span style="margin-right:0.03588em;">y</span><span><span><span><span style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span><span style="margin-right:0.03588em;">ω</span></span></span></span></span></span></span></span></span></span></span></span><span>​</span></span><span><span style="height:0.686em;"><span></span></span></span></span></span><span></span></span><span style="top:0em;"><span>)</span></span></span><span style="margin-right:0.2778em;"></span><span>=</span><span style="margin-right:0.2778em;"></span></span><span><span style="height:3.0277em;vertical-align:-1.2777em;"></span><span><span style="top:0em;"><span>(</span></span><span><span></span><span><span><span><span style="height:1.3414em;"><span style="top:-2.314em;"><span style="height:3em;"></span><span><span style="margin-right:0.03588em;">ω</span></span></span><span style="top:-3.23em;"><span style="height:3em;"></span><span style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span style="height:3em;"></span><span><span><span style="margin-right:0.03588em;">y</span><span><span><span><span style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span><span style="margin-right:0.03588em;">ω</span></span></span></span></span></span></span></span></span></span></span></span><span>​</span></span><span><span style="height:0.686em;"><span></span></span></span></span></span><span></span></span><span style="top:0em;"><span>)</span></span></span><span style="margin-right:0.1667em;"></span><span><span style="top:0em;"><span>{</span></span><span>(</span><span>lo<span style="margin-right:0.01389em;">g</span></span><span style="margin-right:0.1667em;"></span><span style="margin-right:0.03588em;">y</span><span><span>)</span><span><span><span><span style="height:0.7144em;"><span style="top:-3.113em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span><span style="margin-right:0.2222em;"></span><span>+</span><span style="margin-right:0.2222em;"></span><span><span><span><span style="height:1.6514em;"><span style="top:-1.8723em;margin-left:0em;"><span style="height:3.05em;"></span><span><span><span>i</span><span>=</span><span>1</span></span></span></span><span style="top:-3.05em;"><span style="height:3.05em;"></span><span><span>∑</span></span></span><span style="top:-4.3em;margin-left:0em;"><span style="height:3.05em;"></span><span><span style="margin-right:0.02778em;">r</span></span></span></span><span>​</span></span><span><span style="height:1.2777em;"><span></span></span></span></span></span><span style="margin-right:0.1667em;"></span><span><span></span><span><span><span><span style="height:1.5017em;"><span style="top:-2.314em;"><span style="height:3em;"></span><span><span><span style="margin-right:0.03588em;">ω</span><span><span><span><span style="height:0.7507em;"><span style="top:-2.989em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span>i</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span style="height:3em;"></span><span style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span style="height:3em;"></span><span><span>(</span><span>−</span><span>1</span><span><span>)</span><span><span><span><span style="height:0.8247em;"><span style="top:-3.063em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span>i</span></span></span></span></span></span></span></span><span style="margin-right:0.02778em;">r</span><span style="margin-right:0.1667em;"></span><span>⋯</span><span style="margin-right:0.1667em;"></span><span>(</span><span style="margin-right:0.02778em;">r</span><span style="margin-right:0.2222em;"></span><span>−</span><span style="margin-right:0.2222em;"></span><span>i</span><span style="margin-right:0.2222em;"></span><span>+</span><span style="margin-right:0.2222em;"></span><span>1</span><span>)</span><span>(</span><span>lo<span style="margin-right:0.01389em;">g</span></span><span style="margin-right:0.1667em;"></span><span style="margin-right:0.03588em;">y</span><span><span>)</span><span><span><span><span style="height:0.8247em;"><span style="top:-3.063em;margin-right:0.05em;"><span style="height:2.7em;"></span><span><span><span style="margin-right:0.02778em;">r</span><span>−</span><span>i</span></span></span></span></span></span></span></span></span></span></span></span><span>​</span></span><span><span style="height:0.686em;"><span></span></span></span></span></span><span></span></span><span style="top:0em;"><span>}</span></span></span></span></span></span></span></p>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/tex.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="代码演示" tabindex="-1"> 代码演示</h3>
+<p>::: demo 一个普通 Demo</p>
+<div><pre><code><span><span><span>&lt;</span>h1</span><span>></span></span>VuePress Theme Hope<span><span><span>&lt;/</span>h1</span><span>></span></span>
+<span><span><span>&lt;</span>p</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>id</span><span><span>=</span><span>"</span>very<span>"</span></span><span>></span></span>非常<span><span><span>&lt;/</span>span</span><span>></span></span>强大!<span><span><span>&lt;/</span>p</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><div><pre><code>document<span>.</span><span>querySelector</span><span>(</span><span>"#very"</span><span>)</span><span>.</span><span>addEventListener</span><span>(</span><span>"click"</span><span>,</span> <span>(</span><span>)</span> <span>=></span> <span>{</span>
+  <span>alert</span><span>(</span><span>"非常强大"</span><span>)</span><span>;</span>
+<span>}</span><span>)</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><div><pre><code><span>span</span> <span>{</span>
+  <span>color</span><span>:</span> red<span>;</span>
+<span>}</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><p>:::</p>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/demo.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h3 id="幻灯片" tabindex="-1"> 幻灯片</h3>
+<i>Content not supported</i><ul>
+<li><a href="https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/presentation.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<hr>
+<section>
+<ol>
+<li id="footnote1"><p>这是脚注内容 </p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>页面配置</title>
+      <link>https://dearlocation.com/zh/guide/page.html</link>
+      <guid>https://dearlocation.com/zh/guide/page.html</guid>
+      <source url="https://dearlocation.com/rss.xml">页面配置</source>
+      <description>more 注释之前的内容被视为文章摘要。
+</description>
+      <category>使用指南</category>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><code>more</code> 注释之前的内容被视为文章摘要。</p>
+
+<h2 id="页面信息" tabindex="-1"> 页面信息</h2>
+<p>你可以在 Markdown 的 Frontmatter 中设置页面信息。</p>
+<ul>
+<li>
+<p>作者设置为 Ms.Hope。</p>
+</li>
+<li>
+<p>写作时间应为 2020 年 1 月 1 日</p>
+</li>
+<li>
+<p>分类为 “使用指南”</p>
+</li>
+<li>
+<p>标签为 “页面配置” 和 “使用指南”</p>
+</li>
+</ul>
+<h2 id="页面内容" tabindex="-1"> 页面内容</h2>
+<p>你可以自由在这里书写你的 Markdown。</p>
+<div><p>Tips</p>
+<ul>
+<li>
+<p>Markdown 文件夹的图片请使用相对链接 <code>./</code> 进行引用。</p>
+</li>
+<li>
+<p><code>.vuepress/public</code> 文件夹的图片，请使用绝对链接 <code>/</code> 进行引用</p>
+</li>
+</ul>
+</div>
+<p>主题包含了一个自定义徽章章可以使用:</p>
+<blockquote>
+<p>文字结尾应该有深蓝色的 徽章文字 徽章。 <i>Content not supported</i></p>
+</blockquote>
+<h2 id="页面结构" tabindex="-1"> 页面结构</h2>
+<p>此页面应当包含：</p>
+<ul>
+<li>返回顶部按钮</li>
+<li>路径导航</li>
+<li>评论</li>
+<li>页脚</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文章 10</title>
+      <link>https://dearlocation.com/zh/posts/article10.html</link>
+      <guid>https://dearlocation.com/zh/posts/article10.html</guid>
+      <source url="https://dearlocation.com/rss.xml">文章 10</source>
+      <category>CategoryA</category>
+      <category>CategoryB</category>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文章-10" tabindex="-1"> 文章 10</h1>
+<h2 id="标题-2" tabindex="-1"> 标题 2</h2>
+<p>这里是内容。</p>
+<h3 id="标题-3" tabindex="-1"> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文章 11</title>
+      <link>https://dearlocation.com/zh/posts/article11.html</link>
+      <guid>https://dearlocation.com/zh/posts/article11.html</guid>
+      <source url="https://dearlocation.com/rss.xml">文章 11</source>
+      <category>CategoryA</category>
+      <category>CategoryB</category>
+      <pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文章-11" tabindex="-1"> 文章 11</h1>
+<h2 id="标题-2" tabindex="-1"> 标题 2</h2>
+<p>这里是内容。</p>
+<h3 id="标题-3" tabindex="-1"> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文章 12</title>
+      <link>https://dearlocation.com/zh/posts/article12.html</link>
+      <guid>https://dearlocation.com/zh/posts/article12.html</guid>
+      <source url="https://dearlocation.com/rss.xml">文章 12</source>
+      <category>CategoryA</category>
+      <category>CategoryB</category>
+      <pubDate>Wed, 12 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文章-12" tabindex="-1"> 文章 12</h1>
+<h2 id="标题-2" tabindex="-1"> 标题 2</h2>
+<p>这里是内容。</p>
+<h3 id="标题-3" tabindex="-1"> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文章 9</title>
+      <link>https://dearlocation.com/zh/posts/article9.html</link>
+      <guid>https://dearlocation.com/zh/posts/article9.html</guid>
+      <source url="https://dearlocation.com/rss.xml">文章 9</source>
+      <category>CategoryA</category>
+      <category>CategoryB</category>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文章-9" tabindex="-1"> 文章 9</h1>
+<h2 id="标题-2" tabindex="-1"> 标题 2</h2>
+<p>这里是内容。</p>
+<h3 id="标题-3" tabindex="-1"> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文章 1</title>
+      <link>https://dearlocation.com/zh/posts/article/article1.html</link>
+      <guid>https://dearlocation.com/zh/posts/article/article1.html</guid>
+      <source url="https://dearlocation.com/rss.xml">文章 1</source>
+      <category>CategoryA</category>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文章-1" tabindex="-1"> 文章 1</h1>
+<h2 id="标题-2" tabindex="-1"> 标题 2</h2>
+<p>这里是内容。</p>
+<h3 id="标题-3" tabindex="-1"> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文章 2</title>
+      <link>https://dearlocation.com/zh/posts/article/article2.html</link>
+      <guid>https://dearlocation.com/zh/posts/article/article2.html</guid>
+      <source url="https://dearlocation.com/rss.xml">文章 2</source>
+      <category>CategoryA</category>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文章-2" tabindex="-1"> 文章 2</h1>
+<h2 id="标题-2" tabindex="-1"> 标题 2</h2>
+<p>这里是内容。</p>
+<h3 id="标题-3" tabindex="-1"> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文章 3</title>
+      <link>https://dearlocation.com/zh/posts/article/article3.html</link>
+      <guid>https://dearlocation.com/zh/posts/article/article3.html</guid>
+      <source url="https://dearlocation.com/rss.xml">文章 3</source>
+      <category>CategoryA</category>
+      <category>CategoryB</category>
+      <pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文章-3" tabindex="-1"> 文章 3</h1>
+<h2 id="标题-2" tabindex="-1"> 标题 2</h2>
+<p>这里是内容。</p>
+<h3 id="标题-3" tabindex="-1"> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文章 4</title>
+      <link>https://dearlocation.com/zh/posts/article/article4.html</link>
+      <guid>https://dearlocation.com/zh/posts/article/article4.html</guid>
+      <source url="https://dearlocation.com/rss.xml">文章 4</source>
+      <category>CategoryA</category>
+      <category>CategoryB</category>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文章-4" tabindex="-1"> 文章 4</h1>
+<h2 id="标题-2" tabindex="-1"> 标题 2</h2>
+<p>这里是内容。</p>
+<h3 id="标题-3" tabindex="-1"> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文章 5</title>
+      <link>https://dearlocation.com/zh/posts/article/article5.html</link>
+      <guid>https://dearlocation.com/zh/posts/article/article5.html</guid>
+      <source url="https://dearlocation.com/rss.xml">文章 5</source>
+      <category>CategoryA</category>
+      <category>CategoryB</category>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文章-5" tabindex="-1"> 文章 5</h1>
+<h2 id="标题-2" tabindex="-1"> 标题 2</h2>
+<p>这里是内容。</p>
+<h3 id="标题-3" tabindex="-1"> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文章 6</title>
+      <link>https://dearlocation.com/zh/posts/article/article6.html</link>
+      <guid>https://dearlocation.com/zh/posts/article/article6.html</guid>
+      <source url="https://dearlocation.com/rss.xml">文章 6</source>
+      <category>CategoryA</category>
+      <category>CategoryB</category>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文章-6" tabindex="-1"> 文章 6</h1>
+<h2 id="标题-2" tabindex="-1"> 标题 2</h2>
+<p>这里是内容。</p>
+<h3 id="标题-3" tabindex="-1"> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文章 7</title>
+      <link>https://dearlocation.com/zh/posts/article/article7.html</link>
+      <guid>https://dearlocation.com/zh/posts/article/article7.html</guid>
+      <source url="https://dearlocation.com/rss.xml">文章 7</source>
+      <category>CategoryA</category>
+      <category>CategoryB</category>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文章-7" tabindex="-1"> 文章 7</h1>
+<h2 id="标题-2" tabindex="-1"> 标题 2</h2>
+<p>这里是内容。</p>
+<h3 id="标题-3" tabindex="-1"> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文章 8</title>
+      <link>https://dearlocation.com/zh/posts/article/article8.html</link>
+      <guid>https://dearlocation.com/zh/posts/article/article8.html</guid>
+      <source url="https://dearlocation.com/rss.xml">文章 8</source>
+      <category>CategoryA</category>
+      <category>CategoryB</category>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文章-8" tabindex="-1"> 文章 8</h1>
+<h2 id="标题-2" tabindex="-1"> 标题 2</h2>
+<p>这里是内容。</p>
+<h3 id="标题-3" tabindex="-1"> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
