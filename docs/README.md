@@ -6,12 +6,8 @@ title: 博客主页
 heroImage: /javapub-backgroup.svg
 heroText: DearLocation
 heroFullScreen: true
-tagline: 专注于面试、副业，技术人的成长记录
+tagline: 「Java面试+Java学习」
 projects:
-  - icon: project
-    name: 小游戏
-    desc: 人人可上手的小游戏
-    link: /project/game/
 
   - icon: friend
     name: 面试题
@@ -27,11 +23,6 @@ projects:
     name: 关于我
     desc: 我的故事
     link: /me/
-	 
-  - icon: link
-    name: 旧版博客
-    desc: GitHub
-    link: https://github.com/yangchunjian/dearlocation
 	 
 #   - icon: book
 #     name: 书籍名称

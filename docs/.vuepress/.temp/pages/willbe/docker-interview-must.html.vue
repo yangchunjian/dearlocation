@@ -1,7 +1,7 @@
 <template><div><p>Docker</p>
 <!-- more -->
 <p>10道不得不会的 Docker 面试题</p>
-<p>我是DearLocation，专注于面试、副业，技术人的成长记录。</p>
+<p>我是DearLocation，「Java面试+Java学习」。</p>
 <p>以下是 Docker 面试题，相信大家都会有种及眼熟又陌生的感觉、看过可能在短暂的面试后又马上忘记了。<strong>DearLocation</strong>在这里整理这些容易忘记的重点知识及<strong>解答</strong>，<code v-pre>建议收藏，经常温习查阅</code>。</p>
 <p>评论区见</p>
 <p>@[toc]</p>
