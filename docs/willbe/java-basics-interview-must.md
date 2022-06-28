@@ -677,12 +677,3 @@ Employee emp5 = (Employee) in.readObject();
 [GItHub](https://github.com/yangchunjian)|[GitEE](https://gitee.com/yangchunjian)
 
 
-
-
-公众号二维码
-
-![](/accounts/wechat.jpg)
-
-个人微信
-
-![](/accounts/QRcode.jpg)
