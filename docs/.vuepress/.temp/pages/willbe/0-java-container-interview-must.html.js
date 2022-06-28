@@ -50,6 +50,13 @@ export const data = {
       [
         "meta",
         {
+          "property": "og:updated_time",
+          "content": "2022-06-28T07:53:46.000Z"
+        }
+      ],
+      [
+        "meta",
+        {
           "property": "og:locale",
           "content": "en-US"
         }
@@ -81,27 +88,32 @@ export const data = {
           "property": "article:published_time",
           "content": "2022-04-23T00:00:00.000Z"
         }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:modified_time",
+          "content": "2022-06-28T07:53:46.000Z"
+        }
       ]
     ]
   },
   "excerpt": "<p>Java 容器</p>\n",
   "headers": [],
+  "git": {
+    "createdTime": 1656398775000,
+    "updatedTime": 1656402826000,
+    "contributors": [
+      {
+        "name": "yangchunjian",
+        "email": "1091938307@qq.com",
+        "commits": 4
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.71,
     "words": 213
   },
   "filePathRelative": "willbe/0-java-container-interview-must.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

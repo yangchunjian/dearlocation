@@ -50,6 +50,13 @@ export const data = {
       [
         "meta",
         {
+          "property": "og:updated_time",
+          "content": "2022-06-28T07:53:46.000Z"
+        }
+      ],
+      [
+        "meta",
+        {
           "property": "og:locale",
           "content": "en-US"
         }
@@ -81,27 +88,32 @@ export const data = {
           "property": "article:published_time",
           "content": "2022-06-01T00:00:00.000Z"
         }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:modified_time",
+          "content": "2022-06-28T07:53:46.000Z"
+        }
       ]
     ]
   },
   "excerpt": "<p>nacos下载安装教程-windows</p>\n",
   "headers": [],
+  "git": {
+    "createdTime": 1656398775000,
+    "updatedTime": 1656402826000,
+    "contributors": [
+      {
+        "name": "yangchunjian",
+        "email": "1091938307@qq.com",
+        "commits": 2
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.61,
     "words": 182
   },
   "filePathRelative": "posts/nacos/nacos-install-windows.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }
