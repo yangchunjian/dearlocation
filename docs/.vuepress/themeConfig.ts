@@ -18,7 +18,7 @@ export default defineUserConfig({
 
     repo: "https://github.com/yangchunjian",
 
-    docsDir: "demo/src",
+    docsDir: "docs",
 
     pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 

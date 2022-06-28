@@ -89,7 +89,7 @@ export default defineUserConfig({
 
       logo: "/javapub-backgroup.svg",
 
-      repo: "https://github.com/yangchunjian",
+      repo: "https://github.com/yangchunjian/dearlocation",
 
       docsDir: "demo/src",
 
