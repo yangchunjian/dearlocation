@@ -3,10 +3,10 @@ import { defineHopeConfig } from "vuepress-theme-hope";
 
 import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
-import * as navbar from "./navbar/zh";
-import * as sidebar from "./sidebar/zh";
-// import * as navbar from "./navbar";
-// import * as sidebar from "./sidebar";
+// import * as navbar from "./navbar/zh";
+// import * as sidebar from "./sidebar/zh";
+import * as navbar from "./navbar";
+import * as sidebar from "./sidebar";
 
 export default defineUserConfig({
   theme: hopeTheme({
