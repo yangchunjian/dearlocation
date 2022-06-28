@@ -14,7 +14,7 @@
 <h4 id="_1-1-redis-desktop-manager" tabindex="-1"><a class="header-anchor" href="#_1-1-redis-desktop-manager" aria-hidden="true">#</a> 1.1.Redis Desktop Manager</h4>
 <p>使用称手的工具，做起事来 <code v-pre>事半功倍</code> ，用 <code v-pre>redis-cli</code> 自然不错。我推荐一款我经常用的 <code v-pre>Redis</code> <strong>可视化</strong>工具，<code v-pre>Redis Desktop Manager</code> 。</p>
 <p>启动界面如下：</p>
-<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zdGF0aWMwMS5pbWdrci5jb20vdGVtcC81MzEyMWYwMGVkNDg0ZTJlYWFkYTZlYWM2NGMzMjE1NC5wbmc?x-oss-process=image/format,png" alt=""></p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zdGF0aWMwMS5pbWdrci5jb20vdGVtcC81MzEyMWYwMGVkNDg0ZTJlYWFkYTZlYWM2NGMzMjE1NC5wbmc?x-oss-process=image/format,png" alt="" loading="lazy"></p>
 <p>至于安装方式是 <code v-pre>一键安装</code> 。</p>
 <blockquote>
 <p>官网下载地址：<a href="https://redisdesktop.com/pricing" target="_blank" rel="noopener noreferrer">https://redisdesktop.com/pricing<ExternalLinkIcon/></a></p>
@@ -164,5 +164,5 @@
 <blockquote>
 <p>有任何问题都可以来谈谈 ！</p>
 </blockquote>
-<p><img src="https://img-blog.csdnimg.cn/20200625165207975.jpg" alt="在这里插入图片描述"></p>
+<p><img src="https://img-blog.csdnimg.cn/20200625165207975.jpg" alt="在这里插入图片描述" loading="lazy"></p>
 </div></template>
