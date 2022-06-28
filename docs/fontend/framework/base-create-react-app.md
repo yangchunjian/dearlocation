@@ -47,10 +47,10 @@ let toLowerCase = arr => arr.map(function(item) {
    return item.toLowerCase();
 })
 
-let aToCasesA = ['SUIBICHUANJI','dearlocation', 'ZHONGGUO', 'BEIJING', 'AGE'];
+let aToCasesA = ['berich20000000','dearlocation', 'ZHONGGUO', 'BEIJING', 'AGE'];
 let aToCasesB = toLowerCase(aToCasesA);
-console.log(aToCasesA); // ["SUIBICHUANJI", "dearlocation", "ZHONGGUO", "BEIJING", "AGE"]
-console.log(aToCasesB); // ["suibichuanji", "dearlocation", "zhongguo", "beijing", "age"]
+console.log(aToCasesA); // ["berich20000000", "dearlocation", "ZHONGGUO", "BEIJING", "AGE"]
+console.log(aToCasesB); // ["berich20000000", "dearlocation", "zhongguo", "beijing", "age"]
 ```
 
 - **命令式编程**(类似`jQuery`操作`DOM`,创建一个页面,你要一点点的告诉 DOM 怎么去挂载,要怎么去做,JQ,原生也好都是命令式编程，都是在做 DOM 操作,获取元素,绑定元素,执行操作)
@@ -63,7 +63,7 @@ console.log(aToCasesB); // ["suibichuanji", "dearlocation", "zhongguo", "beijing
 */
 
 
-var aToCasesA = ['SUIBICHUANJI', 'dearlocation', 'ZHONGGUO', 'BEIJING', 'AGE'];
+var aToCasesA = ['berich20000000', 'dearlocation', 'ZHONGGUO', 'BEIJING', 'AGE'];
 function toLowerCase(arr) {
      var res = [];
      for(var i = 0; i < arr.length; i++) {
@@ -72,8 +72,8 @@ function toLowerCase(arr) {
     return res;
 }
 var aToCasesB = toLowerCase(aToCasesA);
-console.log(aToCasesA); // ["SUIBICHUANJI", "dearlocation", "ZHONGGUO", "BEIJING", "AGE"]
-console.log(aToCasesB); // ["suibichuanji", "dearlocation", "zhongguo", "beijing", "age"]
+console.log(aToCasesA); // ["berich20000000", "dearlocation", "ZHONGGUO", "BEIJING", "AGE"]
+console.log(aToCasesB); // ["berich20000000", "dearlocation", "zhongguo", "beijing", "age"]
 ```
 
 - **函数式编程**:写的都是一些函数，带来的好处,是维护起来比较容易,当一个函数比较大的时候,可以进行拆分，每一个函数各司其职,便于前端自动化测试(数组中的一些 map,reduce,find 等方法的应用就是函数式编程)

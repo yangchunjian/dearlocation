@@ -38,7 +38,7 @@ export default {
           text: "简书"
         },
         {
-          href: "https://segmentfault.com/u/suibichuanji_5900e1f5bcf67",
+          href: "https://segmentfault.com/u/berich20000000_5900e1f5bcf67",
           imgSrc: "/images/latest/social-segmentfault.svg",
           alt: "segmentfault",
           text: "segmentfault"

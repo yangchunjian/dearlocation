@@ -101,7 +101,7 @@ Page({
 
       {
         list_name: '微信ID',
-        list_content: 'suibichuanji',
+        list_content: 'berich20000000',
       },
 
       {

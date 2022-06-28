@@ -8,7 +8,7 @@
         <div>亲位</div>
       </el-collapse-item>
       <el-collapse-item title="微信ID" name="3">
-        <div>suibichuanji</div>
+        <div>berich20000000</div>
       </el-collapse-item>
       <el-collapse-item title="微信公众号" name="4">
         <div>dearlocation:读书,技术,生活,笔耕不辍,知行合一,旨在用心交流与快乐分享,做一个具有情怀的先行者</div>

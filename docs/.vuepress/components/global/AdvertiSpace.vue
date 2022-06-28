@@ -16,7 +16,7 @@
       width="30%"
       center
     >
-      <span>如需合作:请您联系站长,添加微信:suibichuanji,期待我们合作愉快</span>
+      <span>如需合作:请您联系站长,添加微信:berich20000000,期待我们合作愉快</span>
       <span slot="footer" class="dialog-footer">
         <el-button @click="centerDialogVisible = false">取 消</el-button>
         <el-button type="primary" @click="centerDialogVisible = false"

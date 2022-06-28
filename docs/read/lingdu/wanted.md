@@ -12,7 +12,7 @@ title: 招募领读者
       <img class="medium-zoom lazy" loading="lazy" src="../images/lingdu-article-imgs/lingdu01.jpg" width="300" height="300" alt="领读" /> 
 </div>
   <p> QQ:1703409633(人人领读)<p>
-  <p>微信:suibichuanji(亲位)</p>
+  <p>微信:berich20000000(亲位)</p>
 
 <div> 
   <p>人生百态</p>
@@ -61,7 +61,7 @@ title: 招募领读者
     <p>个人觉得类似咪蒙鸡汤类的就不太好</p>
     <p>凡是能让自己身体力行的文章都值得与人分享</p>
     <p>发送至`renrenlingdu@163.com`</p>
-    <p>或加微信`suibichuanji`,进行咨询</p>
+    <p>或加微信`berich20000000`,进行咨询</p>
     <p>无论您是否能够加入人人领读的大家庭中</p>
     <p>您都会收到回复</p>
     <img class="medium-zoom lazy" loading="lazy" src="../images/lingdu-article-imgs/lingdu03.jpg" width="550" height="300" alt="领读">

@@ -23,9 +23,9 @@ sidebarDepth: 3
 
 如果您有任何疑问,请您通过以下方式联系我
 
-1. 通过邮件:`itclancode@163.com`
+1. 通过邮件:`1091938307@qq.com`
 2. 通过官方微信公众号:`dearlocation`
-3. 通过添加微信:`suibichuanji`
+3. 通过添加微信:`berich20000000`
 
 <div align="center">
      <img class="medium-zoom lazy" src="https://cdn.jsdelivr.net/gh/itclanCode/blogImgAssets/adverent/1607579945697-person-code.jpg" width="150" height="150" />
@@ -33,9 +33,9 @@ sidebarDepth: 3
 
 If you have any question, please contact us immediately for free:
 
-send email to **itclanCode@163.com**
+send email to **1091938307@qq.com**
 
-follow us on **weixin:suibichuanji**
+follow us on **weixin:berich20000000**
 
 ## 接受广告投放
 

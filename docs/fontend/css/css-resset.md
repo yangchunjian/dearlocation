@@ -15,7 +15,7 @@ autoGroup-1: css基础
 @charset 'UTF-8';
 /**
  * 
- * @authors suibichuanji (itclancode@163.com)
+ * @authors berich20000000 (1091938307@qq.com)
  * @wechatPublic: dearlocation
  * @version $Id$
  * @description pc端重置样式表
@@ -246,7 +246,7 @@ th {
 @charset "UTF-8";
 /**
  * 
- * @authors suibichuanji (itclancode@163.com)
+ * @authors berich20000000 (1091938307@qq.com)
  * @wechatPublic: dearlocation
  * @description app移动端重置样式表
  */

@@ -19,7 +19,7 @@ autoGroup-1: 正则表达式
 
 在将这些表单数据信息提交到服务器处理之前,我们使用 javascript 程序检查表单以确认用户输入的信息,并且是否符合某些条件要求的,当然正则的用处远不止在表单上,比如:
 
-- 你正在搜索一个文件,这个文件里包含 `suibichuanji`(不区分大小写),你并不想要把包含着其他的字母给找出来,比如什么 `hello`, `boy`, `handsome`( 搜索文件关键字,排除其他字符)
+- 你正在搜索一个文件,这个文件里包含 `berich20000000`(不区分大小写),你并不想要把包含着其他的字母给找出来,比如什么 `hello`, `boy`, `handsome`( 搜索文件关键字,排除其他字符)
 - 创建了一张用户表单的`web`页面,用来收集用户信息,web 页面中包含了一个邮件地止,你需要检查用户给出的电子邮件是否正确的语法格式( 验证文本格式的正确性)
 - 正在编辑一段源码并且要把所有的`name`都替换成`myName`驼峰式命名
 - 一份计算机文件系统中所有文件的清单,想要把文件名里包含`fileName`的文件列举出来
@@ -146,7 +146,7 @@ var pattern = /pattern/gi; // 第二个斜杠后加一个或者多个模式修�
 绝大多数正则表达式引擎的默认行文只是返回第一个匹配的结果,如果想要把两个或者更多个匹配的结果都找出来,通常返回为一个数组或者是其他的专用格式,可以使用`g修饰符`,表示全局匹配,该标志将返回一个包含着所有匹配的结果数组.例如:
 
 ```js
-var str = 'my name is suibichuanji,my public numer is dearlocation'; // 待匹配对象
+var str = 'my name is berich20000000,my public numer is dearlocation'; // 待匹配对象
 var pattern = /my/; // 后面无修饰符，书写好正则规则,然后拿着要待匹配对象进行匹配
 console.log(pattern.test(str)); // true
 ```
@@ -154,7 +154,7 @@ console.log(pattern.test(str)); // true
 用全局匹配修饰符
 
 ```js
-var str = 'my name is suibichuanji,my public numer is dearlocation';
+var str = 'my name is berich20000000,my public numer is dearlocation';
 var pattern = /my/g;
 console.log(pattern.test(str)); // true
 ```
@@ -164,7 +164,7 @@ console.log(pattern.test(str)); // true
 :::
 
 ```js
-var str = 'my name is suibichuanji,my public numer is dearlocation';
+var str = 'my name is berich20000000,my public numer is dearlocation';
 var pattern = /MY/; // 未使用任何修饰符
 console.log(pattern.test(str)); // false
 ```
@@ -172,7 +172,7 @@ console.log(pattern.test(str)); // false
 使用`i修饰符`,不区分大小写匹配
 
 ```js
-var str = 'my name is suibichuanji,my public numer is dearlocation';
+var str = 'my name is berich20000000,my public numer is dearlocation';
 var pattern = /MY/i; // 第二个斜杠后使用i修饰符,表示忽略大小写
 console.log(pattern.test(str)); // true
 ```
@@ -181,10 +181,10 @@ console.log(pattern.test(str)); // true
 
 ```js
 console.log(
-  /my/.test('my name is suibichuanji,my public numer is dearlocation')
+  /my/.test('my name is berich20000000,my public numer is dearlocation')
 );
 console.log(
-  /MY/i.test('my name is suibichuanji,my public numer is dearlocation')
+  /MY/i.test('my name is berich20000000,my public numer is dearlocation')
 ); // 前面是正则规则.test()方法,圆括号内是要待匹配的对象与前面的规则进行匹配,其结果,要么true,要么false
 ```
 
@@ -202,7 +202,7 @@ console.log(
 
 ```js
 var str = 'welcome focus on dearlocation public Number';
-var pattern = /suibichuanji/gi; // 忽略大小写,并且全局匹配
+var pattern = /berich20000000/gi; // 忽略大小写,并且全局匹配
 console.log(pattern.exec(str)); // null
 ```
 
@@ -348,7 +348,7 @@ console.log("使用split方法之后",str.split(pattern,2)); //使用split方法
 **解释**:匹配除换行符以外的字符(也就是匹配任何单个字符,字母,数字,下划线,甚至字符本身) 使用一个点符号,只匹配一个字符,使用 test()测试
 
 ```js
-var str = 'suibichuanji';
+var str = 'berich20000000';
 var pattern = /s.i/;
 console.log(pattern.test(str)); //true
 ```
@@ -356,23 +356,23 @@ console.log(pattern.test(str)); //true
 使用`exec()`测试结果
 
 ```js
-var str = 'suibichuanji';
+var str = 'berich20000000';
 var pattern = /s.i/;
-console.log(pattern.exec(str)); // ["sui", index: 0, input: "suibichuanji"]
+console.log(pattern.exec(str)); // ["sui", index: 0, input: "berich20000000"]
 ```
 
 使用`match()`方法,圆括号内是要待匹配的对象与前面的规则进行匹配,其结果,要么`true`,要么`false`
 
 ```js
-var str = 'suibichuanji';
+var str = 'berich20000000';
 var pattern = /s.i/;
-console.log(str.match(pattern)); // ["sui", index: 0, input: "suibichuanji"]
+console.log(str.match(pattern)); // ["sui", index: 0, input: "berich20000000"]
 ```
 
 使用`search`方法查找到即返回,也就是说无需`g`修饰符全局匹配,查到并返回第一个 若没有匹配到,则返回`-1`
 
 ```js
-var str = 'suibichuanji';
+var str = 'berich20000000';
 var pattern = /s.i/;
 console.log(str.search(pattern)); // 0
 ```
@@ -380,7 +380,7 @@ console.log(str.search(pattern)); // 0
 用`replace(pattern,replacePattern)`使用`replace`方法替换匹配到的数据
 
 ```js
-var str = 'suibichuanji';
+var str = 'berich20000000';
 var pattern = /s.i/;
 console.log(str.replace(pattern, 'ab')); // abbichuanji
 ```
@@ -388,7 +388,7 @@ console.log(str.replace(pattern, 'ab')); // abbichuanji
 使用`split()`方法对指定的字符串进行以指定的正则规则进行切割并返回数组
 
 ```js
-var str = 'suibichuanji';
+var str = 'berich20000000';
 var pattern = /s.i/;
 console.log(str.split(pattern)); // ["", "bichuanji"]
 ```

@@ -958,8 +958,8 @@ debounce(method, duration, timer = null) {
 
 ```js
 /*
-* @authors 春建 (itclancode@163.com)
-* @ID suibichuanji
+* @authors 春建 (1091938307@qq.com)
+* @ID berich20000000
 * @date 2019-08-31 21:08:17
 * @weChatNum 微信公众号:dearlocation
 @desc 封装节流函数
@@ -1013,8 +1013,8 @@ this.handleClickThrottled = throttle(this.handleClick, 1000);
 ```js
 /**
  *
- * @authors 春建 (itclancode@163.com)
- * @ID suibichuanji
+ * @authors 春建 (1091938307@qq.com)
+ * @ID berich20000000
  * @date 2019-08-31 21:10:17
  * @version $Id$
  * @description 函数防抖
