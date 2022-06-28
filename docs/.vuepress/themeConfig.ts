@@ -14,7 +14,7 @@ export default defineThemeConfig({
 
   logo: "/javapub-backgroup.svg",
 
-  repo: "https://github.com/Rodert",
+  repo: "https://github.com/yangchunjian",
 
   docsDir: "demo/src",
 
@@ -35,8 +35,8 @@ export default defineThemeConfig({
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
-      Gitee: "https://gitee.com/rodert/DearLocation",
-      GitHub: "https://github.com/Rodert",
+      Gitee: "https://gitee.com/yangchunjian/DearLocation",
+      GitHub: "https://github.com/yangchunjian",
       // Gitlab: "https://example.com",
       // Gmail: "https://example.com",
       // Instagram: "https://example.com",
@@ -133,7 +133,7 @@ export default defineThemeConfig({
        * Using giscus
        */
       // type: "giscus",
-      // repo: "Rodert/DearLocation-Blog",
+      // repo: "yangchunjian/DearLocation-Blog",
       // repoId: "R_kgDOHK-WNg",
       // category: "Announcements",
       // categoryId: "DIC_kwDOHK-WNs4COsXL",
@@ -149,7 +149,7 @@ export default defineThemeConfig({
        * Using Waline
        */
       type: "waline",
-      serverURL: "https://rodert-java-pub-blog-cq4tgfqik-rodert.vercel.app",
+      serverURL: "https://yangchunjian-java-pub-blog-cq4tgfqik-yangchunjian.vercel.app",
       dark: "auto",//自适应深色模式
       meta: ['nick', 'mail', 'link'],
       login: "force",

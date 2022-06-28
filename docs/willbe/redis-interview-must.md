@@ -189,5 +189,5 @@ redis部署分为单节点、主从部署（master-slave）、哨兵部署（Sen
 
 [【Redis】10道不得不会的Redis面试题](https://blog.csdn.net/qq_40374604/category_11740063.html)
 
-[GItHub](https://github.com/Rodert)|[GitEE](https://gitee.com/rodert)
+[GItHub](https://github.com/yangchunjian)|[GitEE](https://gitee.com/yangchunjian)
 

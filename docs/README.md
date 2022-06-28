@@ -31,7 +31,7 @@ projects:
   - icon: link
     name: 旧版博客
     desc: GitHub
-    link: https://github.com/Rodert/DearLocation
+    link: https://github.com/yangchunjian/DearLocation
 	 
 #   - icon: book
 #     name: 书籍名称

@@ -29,7 +29,7 @@ Java练手项目 [第一弹]
 ![image](https://tva2.sinaimg.cn/large/007F3CC8ly1h1l2mnl7y0j30oq09h76p.jpg)
 
 
-最近总有人私信我，问有没有Java练手的项目今天 rodert 在这分享几个
+最近总有人私信我，问有没有Java练手的项目今天 yangchunjian 在这分享几个
 
 
 ## 1. 基于SSM图书馆管理系统

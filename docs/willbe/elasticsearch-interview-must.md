@@ -53,7 +53,7 @@ e. 采取curator进行索引的生命周期管理；
 f. 仅针对需要分词的字段，合理的设置分词器；
 g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否需要存储等。
 
-进100+原创文章：https://gitee.com/rodert/DearLocation
+进100+原创文章：https://gitee.com/yangchunjian/DearLocation
 
 **写入调优**
 
@@ -76,7 +76,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 
 
 ## 3. elasticsearch 是如何实现 master 选举的
-> ElasticSearch 的选主是 ZenDiscovery 模块负责，源码分析将首发在。 https://gitee.com/rodert/DearLocation 
+> ElasticSearch 的选主是 ZenDiscovery 模块负责，源码分析将首发在。 https://gitee.com/yangchunjian/DearLocation 
 
 1. 对所有可以成为 Master 的节点（node.master: true）根据 nodeId 排序，每次选举每个节点都把自己所知道节点排一次序，然后选出第一个（第0位）节点，暂且认为它是 Master 节点。
 2. 如果对某个节点的投票数达到一定的值（可以成为master节点数n/2+1）并且该节点自己也选举自己，那这个节点就是master。否则重新选举。
@@ -264,5 +264,5 @@ HyperLogLog：
 
 [【Spring】10道不得不会的Spring面试题](willbe/spring-interview-must.md)
 
-[GItHub](https://github.com/Rodert)|[GitEE](https://gitee.com/rodert)
+[GItHub](https://github.com/yangchunjian)|[GitEE](https://gitee.com/yangchunjian)
 

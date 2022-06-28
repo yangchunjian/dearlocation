@@ -3,17 +3,15 @@ import { defineNavbarConfig } from "vuepress-theme-hope";
 export const javapub = defineNavbarConfig([
   "/",
   "/home",
-  { text: "使用指南", icon: "creative", link: "/guide/" },
-  { text: "练手项目", icon: "creative", link: "/project/" },
+  { text: "指南", icon: "creative", link: "/guide/" },
   {
-    text: "最少必要面试题",
+    text: "试题",
     icon: "edit",
     prefix: "/willbe/",
     children: [
       {
         text: "文章 1-n",
         icon: "edit",
-        // prefix: "article/",
         children: [
           { text: "10道不得不会的Java基础面试题", icon: "edit", link: "java-basics-interview-must" },
           { text: "10道不得不会的Java容器面试题", icon: "edit", link: "java-container-interview-must" },
@@ -26,7 +24,7 @@ export const javapub = defineNavbarConfig([
     ],
   },
   {
-    text: "关于站长",
+    text: "作者",
     icon: "note",
     link: "/me/",
   },

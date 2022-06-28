@@ -4,12 +4,12 @@ icon: home
 title: 项目主页
 heroImage: /javapub-logo.svg
 heroText: DearLocation
-tagline: 专注于面试、副业，技术人的成长记录。
+tagline: 亲位：「Java面试+Java学习」
 actions:
-  - text: 最少必要面试题 💡
+  - text: 试题 💡
     link: /willbe/
 
-  - text: 博客主页 🏠
+  - text: 主页 🏠
     link: /
     type: secondary
 
@@ -103,51 +103,28 @@ footer: MIT Licensed | Copyright © 2022-present Chunjian Yang
 ---
 
 
-[GItHub](https://github.com/Rodert) | [GitEE](https://gitee.com/rodert)
+[GItHub](https://github.com/yangchunjian) | [GitEE](https://gitee.com/yangchunjian)
 
 
-# 最少必要面试题
+# 试题
 
 - [目录](willbe/)
-
-[【Java基础】10道不得不会的Java基础面试题](willbe/java-basics-interview-must.md)
-
-[【Java并发】10道不得不会的Java并发基础面试题](willbe/java-concurrent-interview-must)
-
-[【MySQL】10道不得不会的MySQL基础面试题](willbe/mysql-interview-must.md)
-
-[【ElasticSearch】10道不得不会的ElasticSearch面试题](willbe/elasticsearch-interview-must.md)
-
-[【JVM】10道不得不会的JVM面试题](willbe/jvm-interview-must.md)
-
-[【Spring】10道不得不会的Spring面试题](willbe/spring-interview-must.md)
-
----
-
-
-
-
-
 
 
 ---
 
 # 公众号
 
-文章都会在第一时间同步公众号，也会发一些日常和对副业的尝试。
+推荐一波~
 
-![wechat](https://tva1.sinaimg.cn/large/007F3CC8ly1h1fh7jgw85j3076076glw.jpg)
-
----
-
-# 联系我
-
-欢迎添加我微信，可以免费提供面试帮助，交流|加群|朋友圈。
-
-![my二维码](https://tva1.sinaimg.cn/large/007F3CC8ly1h1fh8itv2gj30by0byq3j.jpg)
-
-
-
+![公众号](https://www.yangchunjian.com/docbook/imgs/qrcode_for_gh_8756901e5b12_344.jpg)
 
 ---
+
+## 联系我
+
+交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。
+
+![微信](https://javainterview.cn/img/weixin.jpeg)
+
 

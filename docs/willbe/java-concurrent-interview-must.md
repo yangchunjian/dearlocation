@@ -222,7 +222,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * @Author: DearLocation
- * @License: https://github.com/Rodert/
+ * @License: https://github.com/yangchunjian/
  * @Contact: https://javapub.blog.csdn.net/
  * @Date: 2022/1/1 16:50
  * @Version: 1.0
@@ -287,7 +287,7 @@ import java.util.concurrent.CyclicBarrier;
 
 /**
  * @Author: DearLocation
- * @License: https://github.com/Rodert/
+ * @License: https://github.com/yangchunjian/
  * @Contact: https://javapub.blog.csdn.net/
  * @Date: 2022/1/2 13:42
  * @Version: 1.0
@@ -397,7 +397,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @Author: DearLocation
- * @License: https://github.com/Rodert/
+ * @License: https://github.com/yangchunjian/
  * @Contact: https://javapub.blog.csdn.net/
  * @Date: 2022/1/2 14:38
  * @Version: 1.0
@@ -530,7 +530,7 @@ package com.javapub.test;
 
 /**
  * @Author: DearLocation
- * @License: https://github.com/Rodert/
+ * @License: https://github.com/yangchunjian/
  * @Contact: https://javapub.blog.csdn.net/
  * @Date: 2022/1/2 15:20
  * @Version: 1.0
@@ -632,7 +632,7 @@ class ThreadC extends Thread {
 
 [【JVM】10道不得不会的JVM面试题](jvm-interview-must.md)
 
-[GItHub](https://github.com/Rodert)|[GitEE](https://gitee.com/rodert)
+[GItHub](https://github.com/yangchunjian)|[GitEE](https://gitee.com/yangchunjian)
 
 
 

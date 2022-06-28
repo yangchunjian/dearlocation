@@ -102,7 +102,7 @@ services:
 ### 6. docker常用命令
 
 > 命令建议在本地安装做一个实操，记忆会更深刻。
-> 也可以克隆基于docker的俩万（springboot+vue）项目练手，提供视频+完善文档。地址：<https://gitee.com/rodert/liawan-vue>
+> 也可以克隆基于docker的俩万（springboot+vue）项目练手，提供视频+完善文档。地址：<https://gitee.com/yangchunjian/liawan-vue>
 
 
 1. 查看本地主机的所用镜像：`docker images``

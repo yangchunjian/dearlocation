@@ -186,7 +186,7 @@ mysql 还有个问题是 select… for update 语句执行中，如果数据表�
 
 [【Spring】10道不得不会的Spring面试题](spring-interview-must.md)
 
-[GItHub](https://github.com/Rodert)|[GitEE](https://gitee.com/rodert)
+[GItHub](https://github.com/yangchunjian)|[GitEE](https://gitee.com/yangchunjian)
 
 
 
