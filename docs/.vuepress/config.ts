@@ -28,6 +28,13 @@ export default defineUserConfig({
                     content: "63b223c45248d2ea87cb9b1042148dda",
                 },
             ],
+            //百度站长的验证代码
+            ["meta",
+                {
+                    name: "baidu-site-verification",
+                    content: "code-jiOVohMv5f",
+                },
+            ],
             // 添加360站长的自动推送代码
             ["script",
                 {
