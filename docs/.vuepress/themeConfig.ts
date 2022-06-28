@@ -6,7 +6,7 @@ export default defineThemeConfig({
   hostname: "http://javapub.net.cn/",
 
   author: {
-    name: "Wang Shiyu",
+    name: "Chunjian Yang",
     url: "http://javapub.net.cn",
   },
 

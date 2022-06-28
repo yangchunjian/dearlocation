@@ -44,7 +44,7 @@ export const data = {
         "link": "https://github.com/yangchunjian/DearLocation"
       }
     ],
-    "footer": "MIT Licensed | Copyright © 2022-present Wang Shiyu",
+    "footer": "MIT Licensed | Copyright © 2022-present Chunjian Yang",
     "summary": "如果你愿意",
     "head": [
       [

@@ -6,7 +6,7 @@ icon: page
 # 这是文章的标题
 title: 10道不得不会的 Zookeeper 面试题
 # 设置作者
-author: Wang Shiyu
+author: Chunjian Yang
 # 设置写作时间
 date: 2022-06-23
 # 一个页面可以有多个分类

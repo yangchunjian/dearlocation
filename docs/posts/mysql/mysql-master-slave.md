@@ -6,7 +6,7 @@ icon: page
 ## 这是文章的标题
 title: mysql主从搭建
 ## 设置作者
-author: Wang Shiyu
+author: Chunjian Yang
 ## 设置写作时间
 date: 2022-04-27
 ## 一个页面可以有多个分类
