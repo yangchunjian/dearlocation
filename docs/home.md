@@ -99,7 +99,7 @@ actions:
 #     details: 包括图标支持、全屏按钮、返回顶部按钮等
 #     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/
 copyright: false
-footer: MIT Licensed | Copyright © 2022-present Wang Shiyu
+footer: MIT Licensed | Copyright © 2022-present Chunjian Yang
 ---
 
 
@@ -124,34 +124,6 @@ footer: MIT Licensed | Copyright © 2022-present Wang Shiyu
 
 ---
 
-# 小游戏
-
-- [目录](project/game/)
-
-
-
-
-[Java实现一个坦克大战的小游戏【附源码】](/project/game/tank-game.md)
-
-[Java实现植物大战僵尸小游戏【附源码】](/project/game/plants-vs-zombies-game.md)
-
-[Java实现捕鱼达人小游戏【附源码】](/project/game/catch-fish-game.md)
-
-[Java实现贪吃蛇小游戏【附源码】](/project/game/gluttonous-snake-game.md)
-
-[Java实现一个打飞机的小游戏【附源码】](/project/game/hit-aircraft-game.md)
-
-[俄罗斯方块【附源码】](/project/game/tetris-game.md)
-
-[3D赛车【附源码】](/project/game/3d-racing-game.md)
-
-[小鸟飞行游戏【附源码】](/project/game/bird-flying-game.md)
-
-[打地鼠【附源码】](/project/game/dadishu-game.md)
-
-[吃豆人游戏【附源码】](/project/game/pac-man-game.md)
-
-[超级马里奥【附源码】](/project/game/super-mario-game.md)
 
 
 
@@ -179,4 +151,3 @@ footer: MIT Licensed | Copyright © 2022-present Wang Shiyu
 
 ---
 
-必须是你
