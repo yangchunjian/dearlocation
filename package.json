@@ -8,8 +8,7 @@
     "build": "vuepress build docs",
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "docs:dev": "vuepress dev docs",
-    "deploy": "bash deploy.sh"
+    "docs:dev": "vuepress dev docs"
   },
   "devDependencies": {
     "@vuepress/plugin-docsearch": "^2.0.0-beta.48",
