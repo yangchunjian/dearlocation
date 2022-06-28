@@ -129,7 +129,7 @@ sleep方法属于Thread类中方法，表示让一个线程进入睡眠状态，
 
 object.wait()让当前线程进入不可运行状态，如sleep()一样，但不同的是wait方法从一个对象调用，而不是从一个线程调用；我们称这个对象为“锁定对象（lockObj）”。在lockObj.wait()被调用之前，当前线程必须在lockObj上同步（synchronize）；然后调用wait()后释放这个锁，并将线程增加到与lockObj相关的“等待名单（wait list）”。然后，另一个在同一个lockObj锁定（synchronize）的方法可以调用lockObj.nofity()。这会唤醒原来等待的线程。基本上，wait() / notify()就像sleep() / interrupt()，只是活动线程不需要直接指向一个睡眠线程，他们只需要共享锁对象（lockObj）。
 
-到这里你是否明白这个问题，如果不明白来JavaPub，后续一篇代码分析，马上安排。
+到这里你是否明白这个问题，如果不明白来DearLocation，后续一篇代码分析，马上安排。
 
 ---
 
@@ -614,9 +614,9 @@ class ThreadC extends Thread {
 
 
 
-**联系JavaPub:**
+**联系DearLocation:**
 
-1. 如果需要下载CSDN资料又没有积分可以JavaPub留言，JavaPub帮你下载
+1. 如果需要下载CSDN资料又没有积分可以DearLocation留言，DearLocation帮你下载
 
 
 ## 推荐阅读：

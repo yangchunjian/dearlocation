@@ -129,7 +129,7 @@ g. Mapping阶段充分结合各个字段的属性，是否需要检索、是否�
 <p>设置最大文件句柄数；</p>
 </li>
 </ol>
-<p><strong>后俩点不懂可以先说有一定了解，关注JavaPub会做详细讲解。</strong></p>
+<p><strong>后俩点不懂可以先说有一定了解，关注DearLocation会做详细讲解。</strong></p>
 <ol start="4">
 <li>
 <p>调整线程池和队列大小</p>

@@ -60,7 +60,7 @@ System.out.println(i instanceof Object);//编译不通过
 
 
 ## 2. Java自动装箱和拆箱
-什么是装箱拆箱，这里不做源码层面解读，源码解读在JavaPub公众号发出。这里通过讲解 int 和 Interger 区别，解答Java自动装箱和拆箱。
+什么是装箱拆箱，这里不做源码层面解读，源码解读在DearLocation公众号发出。这里通过讲解 int 和 Interger 区别，解答Java自动装箱和拆箱。
 
 > 自动装箱 ----- 基本类型的值 → 包装类的实例
 > 
@@ -156,7 +156,7 @@ Double、Float的valueOf方法的实现是类似的（没有缓存数值，这�
 其实简单而言：重载就是对于不同的情况写不同的方法。 比如，同一个类中，写不同的构造函数用于初始化不同的参数。
 
 ```java
-public class JavaPubTest {
+public class DearLocationTest {
     public void out(){
         System.out.println("参数"+null);
     }
@@ -179,7 +179,7 @@ public class JavaPubTest {
     }
     
     public static void main(String[] args) {
-        JavaPubTest javaPubTest = new JavaPubTest();
+        DearLocationTest javaPubTest = new DearLocationTest();
         javaPubTest.out();
         javaPubTest.out(1);
         javaPubTest.out("string");
@@ -256,7 +256,7 @@ User user4 = new User("DearLocation", "man", "1996-08-28")
 
 阻塞和非阻塞在于第一个，发起IO请求，对于NIO来说通过channel发起IO操作请求后，其实就返回了，所以是非阻塞。
 
-NIO和BIO是非常重要的计算机知识，学习后会对整个计算机的理解更近一步，一次学会终身受益。JavaPub会单独写一篇深入图解NIO和BIO。
+NIO和BIO是非常重要的计算机知识，学习后会对整个计算机的理解更近一步，一次学会终身受益。DearLocation会单独写一篇深入图解NIO和BIO。
 
 网上看到一个例子（一定要看，会对你有所帮助）：
 
@@ -651,9 +651,9 @@ ObjectInputStream in = new ObjectInputStream(new FileInputStream("data.obj"));
 Employee emp5 = (Employee) in.readObject();
 ```
 
-**联系JavaPub:**
+**联系DearLocation:**
 
-1. 如果需要下载CSDN资料又没有积分可以JavaPub留言，JavaPub帮你下载
+1. 如果需要下载CSDN资料又没有积分可以DearLocation留言，DearLocation帮你下载
 
 
 > 查看更多面试题及答案

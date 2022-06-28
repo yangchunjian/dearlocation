@@ -17,7 +17,7 @@
 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i <span class="token keyword">instanceof</span> <span class="token class-name">Object</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//编译不通过</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>源码参考：JavaSE 8 instanceof 的实现算法：<a href="https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-6.html#jvms-6.5.instanceof" target="_blank" rel="noopener noreferrer">https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-6.html#jvms-6.5.instanceof<ExternalLinkIcon/></a></p>
 <h2 id="_2-java自动装箱和拆箱" tabindex="-1"><a class="header-anchor" href="#_2-java自动装箱和拆箱" aria-hidden="true">#</a> 2. Java自动装箱和拆箱</h2>
-<p>什么是装箱拆箱，这里不做源码层面解读，源码解读在JavaPub公众号发出。这里通过讲解 int 和 Interger 区别，解答Java自动装箱和拆箱。</p>
+<p>什么是装箱拆箱，这里不做源码层面解读，源码解读在DearLocation公众号发出。这里通过讲解 int 和 Interger 区别，解答Java自动装箱和拆箱。</p>
 <blockquote>
 <p>自动装箱 ----- 基本类型的值 → 包装类的实例</p>
 <p>自动拆箱 ----- 基本类型的值 ← 包装类的实例</p>
@@ -95,7 +95,7 @@
 <li>访问修饰符和返回值类型可以相同也可以不同。</li>
 </ol>
 <p>其实简单而言：重载就是对于不同的情况写不同的方法。 比如，同一个类中，写不同的构造函数用于初始化不同的参数。</p>
-<div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">JavaPubTest</span> <span class="token punctuation">{</span>
+<div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">DearLocationTest</span> <span class="token punctuation">{</span>
     <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">out</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
         <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"参数"</span><span class="token operator">+</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
@@ -118,7 +118,7 @@
     <span class="token punctuation">}</span>
     
     <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token class-name">JavaPubTest</span> javaPubTest <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">JavaPubTest</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">DearLocationTest</span> javaPubTest <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">DearLocationTest</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         javaPubTest<span class="token punctuation">.</span><span class="token function">out</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         javaPubTest<span class="token punctuation">.</span><span class="token function">out</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         javaPubTest<span class="token punctuation">.</span><span class="token function">out</span><span class="token punctuation">(</span><span class="token string">"string"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -177,7 +177,7 @@
 </ol>
 <p>同步和异步在于第二个，实际的IO读写操作，如果操作系统帮你完成了再通知你，那就是异步，否则都叫做同步。</p>
 <p>阻塞和非阻塞在于第一个，发起IO请求，对于NIO来说通过channel发起IO操作请求后，其实就返回了，所以是非阻塞。</p>
-<p>NIO和BIO是非常重要的计算机知识，学习后会对整个计算机的理解更近一步，一次学会终身受益。JavaPub会单独写一篇深入图解NIO和BIO。</p>
+<p>NIO和BIO是非常重要的计算机知识，学习后会对整个计算机的理解更近一步，一次学会终身受益。DearLocation会单独写一篇深入图解NIO和BIO。</p>
 <p>网上看到一个例子（一定要看，会对你有所帮助）：</p>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>一辆从 A 开往 B 的公共汽车上，路上有很多点可能会有人下车。司机不知道哪些点会有哪些人会下车，对于需要下车的人，如何处理更好？   
 
@@ -466,9 +466,9 @@
 <p>为了反序列化一个对象，我们需要让我们的类实现Serializable接口</p>
 <div class="language-java ext-java line-numbers-mode"><pre v-pre class="language-java"><code><span class="token class-name">ObjectInputStream</span> in <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ObjectInputStream</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">FileInputStream</span><span class="token punctuation">(</span><span class="token string">"data.obj"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token class-name">Employee</span> emp5 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">Employee</span><span class="token punctuation">)</span> in<span class="token punctuation">.</span><span class="token function">readObject</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>联系JavaPub:</strong></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>联系DearLocation:</strong></p>
 <ol>
-<li>如果需要下载CSDN资料又没有积分可以JavaPub留言，JavaPub帮你下载</li>
+<li>如果需要下载CSDN资料又没有积分可以DearLocation留言，DearLocation帮你下载</li>
 </ol>
 <blockquote>
 <p>查看更多面试题及答案

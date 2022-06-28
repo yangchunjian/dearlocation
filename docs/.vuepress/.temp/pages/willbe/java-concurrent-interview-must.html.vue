@@ -60,7 +60,7 @@ instance <span class="token operator">=</span> memory<span class="token punctuat
 <p><strong>wait</strong> 方法一般是跟notify方法连用的</p>
 <p>多线程之间需要协调工作。如果条件不满足则等待。当条件满足时，等待该条件的线程将被唤醒。在Java中，这个机制实现依赖于wait/notify或wait/notifyAll。</p>
 <p>object.wait()让当前线程进入不可运行状态，如sleep()一样，但不同的是wait方法从一个对象调用，而不是从一个线程调用；我们称这个对象为“锁定对象（lockObj）”。在lockObj.wait()被调用之前，当前线程必须在lockObj上同步（synchronize）；然后调用wait()后释放这个锁，并将线程增加到与lockObj相关的“等待名单（wait list）”。然后，另一个在同一个lockObj锁定（synchronize）的方法可以调用lockObj.nofity()。这会唤醒原来等待的线程。基本上，wait() / notify()就像sleep() / interrupt()，只是活动线程不需要直接指向一个睡眠线程，他们只需要共享锁对象（lockObj）。</p>
-<p>到这里你是否明白这个问题，如果不明白来JavaPub，后续一篇代码分析，马上安排。</p>
+<p>到这里你是否明白这个问题，如果不明白来DearLocation，后续一篇代码分析，马上安排。</p>
 <hr>
 <h2 id="_4-如何停止一个正在运行的线程" tabindex="-1"><a class="header-anchor" href="#_4-如何停止一个正在运行的线程" aria-hidden="true">#</a> 4. 如何停止一个正在运行的线程？</h2>
 <p>最直观的一定是 Thread.stop，但是它是不推荐的，并且已经废弃。看一下官方说明
@@ -467,9 +467,9 @@ CyclicBarrier：
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>信号量方式 java.util.concurrent.Semaphore <code v-pre>英 [ˈseməfɔː(r)]</code>
 待研究</p>
 <hr>
-<p><strong>联系JavaPub:</strong></p>
+<p><strong>联系DearLocation:</strong></p>
 <ol>
-<li>如果需要下载CSDN资料又没有积分可以JavaPub留言，JavaPub帮你下载</li>
+<li>如果需要下载CSDN资料又没有积分可以DearLocation留言，DearLocation帮你下载</li>
 </ol>
 <h2 id="推荐阅读" tabindex="-1"><a class="header-anchor" href="#推荐阅读" aria-hidden="true">#</a> 推荐阅读：</h2>
 <p><RouterLink to="/willbe/java-basics-interview-must.html">【Java基础】10道不得不会的Java基础面试题</RouterLink></p>

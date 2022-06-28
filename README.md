@@ -1,6 +1,6 @@
 # DearLocation-Blog
 
-JavaPub的博客仓库
+DearLocation的博客仓库
 
 <https://dearlocation.com/>
 
