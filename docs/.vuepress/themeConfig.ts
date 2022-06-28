@@ -24,11 +24,7 @@ export default defineThemeConfig({
 
   displayFooter: true,
 
-  blog: {
-    medias: {
-      GitHub: "https://github.com/yangchunjian"
-    },
-  },
+
 
   locales: {
     "/": {
