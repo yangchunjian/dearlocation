@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: home
 title: 博客主页
-heroImage: /javapub-backgroup.svg
+heroImage: /dearlocation-backgroup.svg
 heroText: DearLocation
 heroFullScreen: true
 tagline: 「Java面试+Java学习」

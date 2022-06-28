@@ -156,7 +156,7 @@ $$
 
 ## 布局
 
-![Logo](/javapub-logo.svg)
+![Logo](/dearlocation-logo.svg)
 
 <!-- .element: class="r-stretch" -->
 

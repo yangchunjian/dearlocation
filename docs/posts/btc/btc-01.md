@@ -28,7 +28,7 @@ bi
 
 俩万后台管理系统免费开源，
 
-预览地址：<http://liawan.javapub.net.cn/>
+预览地址：<http://liawan.dearlocation.net.cn/>
 开源地址：<https://gitee.com/yangchunjian/liawan-vue>
 
 ---

@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 项目主页
-heroImage: /javapub-logo.svg
+heroImage: /dearlocation-logo.svg
 heroText: DearLocation
 tagline: 亲位：「Java面试+Java学习」
 actions:

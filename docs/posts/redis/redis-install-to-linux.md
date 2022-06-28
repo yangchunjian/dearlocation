@@ -24,7 +24,7 @@ star: true
 
 <!-- more -->
 
-基于SpringBoot+VUE的后台管理系统免费开源，欢迎观赏。在线地址：<http://liawan.javapub.net.cn/>。详细参考文档及视频同步更新。
+基于SpringBoot+VUE的后台管理系统免费开源，欢迎观赏。在线地址：<http://liawan.dearlocation.net.cn/>。详细参考文档及视频同步更新。
 
 ## 前言
 
@@ -71,7 +71,7 @@ make install
 
 修改密码
 
-> requirepass javapub
+> requirepass dearlocation
 
 ### 4. 启动
 
