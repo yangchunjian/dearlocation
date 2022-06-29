@@ -124,16 +124,16 @@ export default defineUserConfig({
             // If you don't need comment feature, you can remove following option
             // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
             // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
-            comment: {
-                /**
-                 * Using Waline
-                 */
-                type: "waline",
-                serverURL: "https://my-dearlocation-mhohh3ekc-yangchunjian.vercel.app",
-                // dark: "auto",//自适应深色模式
-                // meta: ['nick', 'mail', 'link'],
-                // login: "force",
-            },
+            // comment: {
+            //     /**
+            //      * Using Waline
+            //      */
+            //     type: "Waline",
+            //     serverURL: "https://my-dearlocation-mhohh3ekc-yangchunjian.vercel.app",
+            //     // dark: "auto",//自适应深色模式
+            //     // meta: ['nick', 'mail', 'link'],
+            //     // login: "force",
+            // },
             mdEnhance: {
                 enableAll: true,
                 presentation: {
