@@ -7,7 +7,7 @@ heroText: DearLocation
 tagline: 亲位：「Java面试+Java学习」
 actions:
   - text: 试题 💡
-    link: /willbe/
+    link: /exam/
 
   - text: 主页 🏠
     link: /
