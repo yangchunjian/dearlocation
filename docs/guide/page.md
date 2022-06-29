@@ -21,7 +21,7 @@ sticky: true
 # 此页面会出现在首页的文章板块中
 star: true
 # 你可以自定义页脚
-footer: <a href='https://beian.miit.gov.cn/'>京ICP备xxx号</a>
+footer: <a href='https://beian.miit.gov.cn/'></a>
 ---
 
 `more` 注释之前的内容被视为文章摘要。

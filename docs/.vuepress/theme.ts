@@ -36,7 +36,7 @@ export default hopeTheme({
       // sidebar
       sidebar: sidebar.dearlocation,
 
-      footer: "<a href='https://beian.miit.gov.cn/'>京ICP备xxx号</a>",
+      footer: "<a href='https://beian.miit.gov.cn/'></a>",
 
       displayFooter: true,
       //浏览量
@@ -62,7 +62,7 @@ export default hopeTheme({
     //   // sidebar
     //   sidebar: sidebar.zh,
     //
-    //   footer: "<a href='https://beian.miit.gov.cn/'>京ICP备xxx号</a>",
+    //   footer: "<a href='https://beian.miit.gov.cn/'></a>",
     //
     //   displayFooter: true,
     //   //浏览量
