@@ -7,7 +7,7 @@ export const dearlocation = navbar([
   {
     text: "试题",
     icon: "edit",
-    prefix: "/willbe/",
+    prefix: "/exam/",
     children: [
       {
         text: "文章 1-n",

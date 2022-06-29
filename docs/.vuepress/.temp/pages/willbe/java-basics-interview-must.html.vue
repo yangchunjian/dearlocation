@@ -475,12 +475,12 @@
 <img src="https://tvax3.sinaimg.cn/large/007F3CC8ly1h11lc8tbdbj3076076gm7.jpg" alt="image" loading="lazy"></p>
 </blockquote>
 <h2 id="推荐阅读" tabindex="-1"><a class="header-anchor" href="#推荐阅读" aria-hidden="true">#</a> 推荐阅读：</h2>
-<p><RouterLink to="/willbe/java-basics-interview-must.html">【Java基础】10道不得不会的Java基础面试题</RouterLink></p>
+<p><RouterLink to="/exam/java-basics-interview-must.html">【Java基础】10道不得不会的Java基础面试题</RouterLink></p>
 <p><a href="java-concurrent-interview-must">【Java并发】10道不得不会的Java并发基础面试题</a></p>
-<p><RouterLink to="/willbe/mysql-interview-must.html">【MySQL】10道不得不会的MySQL基础面试题</RouterLink></p>
-<p><RouterLink to="/willbe/elasticsearch-interview-must.html">【ElasticSearch】10道不得不会的ElasticSearch面试题</RouterLink></p>
-<p><RouterLink to="/willbe/jvm-interview-must.html">【JVM】10道不得不会的JVM面试题</RouterLink></p>
-<p><RouterLink to="/willbe/willbe/spring-interview-must.html">【Spring】10道不得不会的Spring面试题</RouterLink></p>
+<p><RouterLink to="/exam/mysql-interview-must.html">【MySQL】10道不得不会的MySQL基础面试题</RouterLink></p>
+<p><RouterLink to="/exam/elasticsearch-interview-must.html">【ElasticSearch】10道不得不会的ElasticSearch面试题</RouterLink></p>
+<p><RouterLink to="/exam/jvm-interview-must.html">【JVM】10道不得不会的JVM面试题</RouterLink></p>
+<p><RouterLink to="/exam/exam/spring-interview-must.html">【Spring】10道不得不会的Spring面试题</RouterLink></p>
 <p><a href="https://github.com/yangchunjian" target="_blank" rel="noopener noreferrer">GItHub<ExternalLinkIcon/></a>|<a href="https://gitee.com/yangchunjian" target="_blank" rel="noopener noreferrer">GitEE<ExternalLinkIcon/></a></p>
 <p>公众号二维码</p>
 <p><img src="/accounts/wechat.jpg" alt="" loading="lazy"></p>

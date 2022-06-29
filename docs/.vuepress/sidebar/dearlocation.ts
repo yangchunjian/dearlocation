@@ -8,8 +8,8 @@ export const dearlocation = sidebar({
     {
       text: "试题",
       icon: "creative",
-      prefix: "willbe/",
-      link: "willbe/",
+      prefix: "exam/",
+      link: "exam/",
       collapsable: true,//可折叠
       children: "structure",
     },

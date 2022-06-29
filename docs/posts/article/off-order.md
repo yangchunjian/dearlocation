@@ -4,23 +4,19 @@ index: 1
 # 这是页面的图标
 icon: page
 # 这是文章的标题
-title: Java练手项目 [第一弹]
+title: 脱单修行
 # 设置作者
 author: DearLocation.com
 # 设置写作时间
-date: 2022-04-24
+date: 2022-05-01
 # 一个页面可以有多个分类
 category:
-  - Java练手项目
+  - 恋爱
 # 一个页面可以有多个标签
 tag:
-  - 毕业设计
-  - Java
+  - 恋爱
 # 此页面会出现在首页的文章板块中
 star: true
 ---
 
-源码+文档+免费领取
-
-
-
+脱单修行

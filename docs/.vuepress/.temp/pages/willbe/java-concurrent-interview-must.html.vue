@@ -472,10 +472,10 @@ CyclicBarrier：
 <li>如果需要下载CSDN资料又没有积分可以DearLocation留言，DearLocation帮你下载</li>
 </ol>
 <h2 id="推荐阅读" tabindex="-1"><a class="header-anchor" href="#推荐阅读" aria-hidden="true">#</a> 推荐阅读：</h2>
-<p><RouterLink to="/willbe/java-basics-interview-must.html">【Java基础】10道不得不会的Java基础面试题</RouterLink></p>
+<p><RouterLink to="/exam/java-basics-interview-must.html">【Java基础】10道不得不会的Java基础面试题</RouterLink></p>
 <p><a href="java-concurrent-interview-must">【Java并发】10道不得不会的Java并发基础面试题</a></p>
-<p><RouterLink to="/willbe/mysql-interview-must.html">【MySQL】10道不得不会的MySQL基础面试题</RouterLink></p>
-<p><RouterLink to="/willbe/elasticsearch-interview-must.html">【ElasticSearch】10道不得不会的ElasticSearch面试题</RouterLink></p>
-<p><RouterLink to="/willbe/jvm-interview-must.html">【JVM】10道不得不会的JVM面试题</RouterLink></p>
+<p><RouterLink to="/exam/mysql-interview-must.html">【MySQL】10道不得不会的MySQL基础面试题</RouterLink></p>
+<p><RouterLink to="/exam/elasticsearch-interview-must.html">【ElasticSearch】10道不得不会的ElasticSearch面试题</RouterLink></p>
+<p><RouterLink to="/exam/jvm-interview-must.html">【JVM】10道不得不会的JVM面试题</RouterLink></p>
 <p><a href="https://github.com/yangchunjian" target="_blank" rel="noopener noreferrer">GItHub<ExternalLinkIcon/></a>|<a href="https://gitee.com/yangchunjian" target="_blank" rel="noopener noreferrer">GitEE<ExternalLinkIcon/></a></p>
 </div></template>

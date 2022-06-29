@@ -8,7 +8,7 @@
 <p><a href="https://mp.weixin.qq.com/s/h2tTwDVqL15rCI6rftgn9A" target="_blank" rel="noopener noreferrer">【Java并发】10道不得不会的Java并发基础面试题<ExternalLinkIcon/></a></p>
 <p><a href="https://mp.weixin.qq.com/s/yVPwCoSQ-8OYvhw8bH0PtA" target="_blank" rel="noopener noreferrer">【MySQL】10道不得不会的MySQL基础面试题<ExternalLinkIcon/></a></p>
 <p><a href="https://mp.weixin.qq.com/s/z3D37HqeTUmwrdheUL_Efw" target="_blank" rel="noopener noreferrer">【ElasticSearch】10道不得不会的ElasticSearch面试题<ExternalLinkIcon/></a></p>
-<p><RouterLink to="/willbe/jvm-interview-must.html">【JVM】10道不得不会的JVM面试题</RouterLink></p>
-<p><RouterLink to="/willbe/spring-interview-must.html">【Spring】10道不得不会的Spring面试题</RouterLink></p>
+<p><RouterLink to="/exam/jvm-interview-must.html">【JVM】10道不得不会的JVM面试题</RouterLink></p>
+<p><RouterLink to="/exam/spring-interview-must.html">【Spring】10道不得不会的Spring面试题</RouterLink></p>
 <p><a href="https://github.com/yangchunjian" target="_blank" rel="noopener noreferrer">GItHub<ExternalLinkIcon/></a>|<a href="https://gitee.com/yangchunjian" target="_blank" rel="noopener noreferrer">GitEE<ExternalLinkIcon/></a></p>
 </div></template>

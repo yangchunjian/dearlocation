@@ -2,7 +2,7 @@
 home: true
 layout: Blog
 icon: home
-title: 博客主页
+title: 亲位网
 heroImage: /dearlocation-backgroup.svg
 heroText: DearLocation
 heroFullScreen: true
@@ -12,7 +12,7 @@ projects:
   - icon: friend
     name: 面试题
     desc: 面经+试题
-    link: /willbe/
+    link: /exam/
 
   - icon: article
     name: 文章
