@@ -2,7 +2,7 @@
 home: true
 layout: Blog
 icon: home
-title: 亲位网
+title: 主页
 heroImage: /dearlocation-backgroup.svg
 heroText: DearLocation
 heroFullScreen: true
