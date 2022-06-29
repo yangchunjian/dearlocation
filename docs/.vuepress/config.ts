@@ -6,6 +6,8 @@ import { searchPlugin } from "@vuepress/plugin-search";
 import { commentPlugin } from "vuepress-plugin-comment2";
 
 export default defineUserConfig({
+    // 设置正在使用的语言
+    lang: "zh-CN",
 
     theme: hopeTheme({
         title: "DearLocation",//默认信息
