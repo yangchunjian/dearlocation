@@ -8,10 +8,10 @@ import { commentPlugin } from "vuepress-plugin-comment2";
 export default defineUserConfig({
     // 设置正在使用的语言
     lang: "zh-CN",
+    title: "DearLocation",//默认信息
+    description: "「Java面试+Java学习」",//默认信息
 
     theme: hopeTheme({
-        title: "DearLocation",//默认信息
-        description: "「Java面试+Java学习」",//默认信息
         head: [
             ["link",
                 {
