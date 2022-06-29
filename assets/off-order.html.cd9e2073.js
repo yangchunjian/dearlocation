@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c as r,b as t}from"./app.2c2f8e94.js";const _={},c=t("p",null,"\u8131\u5355\u4FEE\u884C",-1),s=[c];function n(a,f){return o(),r("div",null,s)}var i=e(_,[["render",n],["__file","off-order.html.vue"]]);export{i as default};
