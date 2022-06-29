@@ -11,21 +11,21 @@ projects:
 
   - icon: friend
     name: 面试题
-    desc: 最少必要面试题
+    desc: 面经+试题
     link: /willbe/
 
   - icon: article
-    name: 实用技巧
-    desc: 实用技巧
-    link: /practical/
+    name: 文章
+    desc: 文章列表
+    link: /posts/
 	 
   - icon: book
-    name: 关于我
-    desc: 我的故事
+    name: 作者
+    desc: 简介
     link: /me/
 	 
 # footer: 自定义你的页脚文字
-footer:  Copyright © 2022-present DearLocation.com
+footer:  Copyright © 2020-present DearLocation.com
 ---
 
 
