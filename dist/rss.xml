@@ -11,7 +11,7 @@
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>使用指南</category>
-    <category>最少必要面试题</category>
+    <category>面试题</category>
     <category>我</category>
     <category>vpn</category>
     <category>Java练手项目</category>
@@ -363,7 +363,7 @@
       <source url="https://dearlocation.com/rss.xml">MyBatis 面试题</source>
       <description>MyBatis
 </description>
-      <category>最少必要面试题</category>
+      <category>面试题</category>
       <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>MyBatis</p>
 
@@ -376,7 +376,7 @@
       <source url="https://dearlocation.com/rss.xml">MySQL面试题</source>
       <description>MySql
 </description>
-      <category>最少必要面试题</category>
+      <category>面试题</category>
       <pubDate>Thu, 21 Apr 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>MySql</p>
 

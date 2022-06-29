@@ -11,7 +11,7 @@ author: DearLocation.com
 date: 2022-06-23
 # 一个页面可以有多个分类
 category:
-  - 最少必要面试题
+  - 面试题
 # 一个页面可以有多个标签
 tag:
   - mybatis
