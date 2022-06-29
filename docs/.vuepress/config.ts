@@ -128,7 +128,7 @@ export default defineUserConfig({
                  * Using Waline
                  */
                 type: "waline",
-                serverURL: "https://my-dearlocation-hd4udatow-yangchunjian.vercel.app",
+                serverURL: "https://my-dearlocation-mhohh3ekc-yangchunjian.vercel.app",
                 dark: "auto",//自适应深色模式
                 meta: ['nick', 'mail', 'link'],
                 login: "force",
