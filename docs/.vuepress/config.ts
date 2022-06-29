@@ -152,6 +152,8 @@ export default defineUserConfig({
             // 插件选项
             provider: "Waline",
             comment: true,
+            login: "disable",
+            copyright: false,
             serverURL: "https://my-dearlocation-mhohh3ekc-yangchunjian.vercel.app",
 
         }),
