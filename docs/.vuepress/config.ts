@@ -125,19 +125,6 @@ export default defineUserConfig({
             // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
             comment: {
                 /**
-                 * Using giscus
-                 */
-                // type: "giscus",
-                // repo: "yangchunjian/DearLocation-Blog",
-                // repoId: "R_kgDOHK-WNg",
-                // category: "Announcements",
-                // categoryId: "DIC_kwDOHK-WNs4COsXL",
-                /**
-                 * Using twikoo
-                 */
-                // type: "twikoo",
-                // envId: "https://twikoo.ccknbc.vercel.app",
-                /**
                  * Using Waline
                  */
                 type: "waline",
