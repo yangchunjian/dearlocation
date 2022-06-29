@@ -1,14 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-8daa1a0e\",\"path\":\"/\",\"title\":\"主页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true,\"layout\":\"Blog\",\"icon\":\"home\",\"title\":\"主页\",\"heroImage\":\"/dearlocation-backgroup.svg\",\"heroText\":\"DearLocation\",\"heroFullScreen\":true,\"tagline\":\"「Java面试+Java学习」\",\"projects\":[{\"icon\":\"friend\",\"name\":\"面试题\",\"desc\":\"面经+试题\",\"link\":\"/exam/\"},{\"icon\":\"article\",\"name\":\"文章\",\"desc\":\"文章列表\",\"link\":\"/posts/\"},{\"icon\":\"book\",\"name\":\"作者\",\"desc\":\"简介\",\"link\":\"/me/\"}],\"footer\":\"Copyright © 2020-present DearLocation.com\",\"summary\":\"\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://dearlocation.com/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"DearLocation.com\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"主页\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}]]},\"excerpt\":\"\",\"headers\":[],\"readingTime\":{\"minutes\":0,\"words\":0},\"filePathRelative\":\"README.md\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
+export const data = JSON.parse("{\"key\":\"v-8daa1a0e\",\"path\":\"/\",\"title\":\"主页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true,\"layout\":\"Blog\",\"icon\":\"home\",\"title\":\"主页\",\"heroImage\":\"/dearlocation-backgroup.svg\",\"heroText\":\"DearLocation\",\"heroFullScreen\":true,\"tagline\":\"「Java面试+Java学习」\",\"projects\":[{\"icon\":\"friend\",\"name\":\"面试题\",\"desc\":\"面经+试题\",\"link\":\"/exam/\"},{\"icon\":\"article\",\"name\":\"文章\",\"desc\":\"文章列表\",\"link\":\"/posts/\"},{\"icon\":\"book\",\"name\":\"作者\",\"desc\":\"简介\",\"link\":\"/me/\"}],\"footer\":\"Copyright © 2020-present DearLocation.com\",\"summary\":\"\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://dearlocation.com/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"DearLocation.com\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"主页\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2022-06-29T08:14:26.000Z\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2022-06-29T08:14:26.000Z\"}]]},\"excerpt\":\"\",\"headers\":[],\"git\":{\"createdTime\":1648176695000,\"updatedTime\":1656490466000,\"contributors\":[{\"name\":\"yangchunjian\",\"email\":\"1091938307@qq.com\",\"commits\":16},{\"name\":\"yangchunjian01\",\"email\":\"yangchunjian01@58.com\",\"commits\":4}]},\"readingTime\":{\"minutes\":0,\"words\":0},\"filePathRelative\":\"README.md\",\"localizedDate\":\"2022年3月25日\"}")
