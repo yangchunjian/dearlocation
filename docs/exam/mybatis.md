@@ -4,7 +4,7 @@ index: 1
 # 这是页面的图标
 icon: page
 # 这是文章的标题
-title: MyBatis 面试题
+title: MyBatis面试题
 # 设置作者
 author: DearLocation.com
 # 设置写作时间
