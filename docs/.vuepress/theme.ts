@@ -19,7 +19,7 @@ export default hopeTheme({
   iconPrefix: "iconfont icon-",
   repo: "https://github.com/yangchunjian/dearlocation",
   docsDir: "docs",
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime","Word","PageView"],
 
   blog: {
     medias: {
