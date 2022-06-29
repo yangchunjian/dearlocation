@@ -3,6 +3,7 @@ import {hopeTheme} from "vuepress-theme-hope";
 import * as navbar from "./navbar";
 import * as sidebar from "./sidebar";
 import { searchPlugin } from "@vuepress/plugin-search";
+import { commentPlugin } from "vuepress-plugin-comment2";
 
 export default defineUserConfig({
 
@@ -108,7 +109,7 @@ export default defineUserConfig({
             feed: {
                 rss: true,
             },
-            //搜索start
+            // 搜索start
             search: {
                 locales: {
                     "/": {
@@ -129,9 +130,9 @@ export default defineUserConfig({
                  */
                 type: "waline",
                 serverURL: "https://my-dearlocation-mhohh3ekc-yangchunjian.vercel.app",
-                dark: "auto",//自适应深色模式
-                meta: ['nick', 'mail', 'link'],
-                login: "force",
+                // dark: "auto",//自适应深色模式
+                // meta: ['nick', 'mail', 'link'],
+                // login: "force",
             },
             mdEnhance: {
                 enableAll: true,
@@ -146,5 +147,14 @@ export default defineUserConfig({
             // 你的选项
 
         }),
+
+        commentPlugin({
+            // 插件选项
+            provider: "Waline",
+            comment: true,
+            serverURL: "https://my-dearlocation-mhohh3ekc-yangchunjian.vercel.app",
+
+        }),
+
     ],
 });
