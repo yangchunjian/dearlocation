@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as s,b as o}from"./app.b91cbad5.js";const r={},_=o("p",null,"MyBatis",-1),a=[_];function c(n,i){return t(),s("div",null,a)}var f=e(r,[["render",c],["__file","mybatis-interview-must.html.vue"]]);export{f as default};
