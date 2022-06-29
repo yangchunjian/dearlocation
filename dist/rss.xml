@@ -6,8 +6,8 @@
     <link>https://dearlocation.com/</link>
     <description>「Java面试+Java学习」</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 29 Jun 2022 08:43:20 GMT</pubDate>
-    <lastBuildDate>Wed, 29 Jun 2022 08:43:20 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Jun 2022 09:52:46 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Jun 2022 09:52:46 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>面试</category>
@@ -327,59 +327,6 @@
 </li>
 </ol>
 </section>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>页面配置</title>
-      <link>https://dearlocation.com/guide/page.html</link>
-      <guid>https://dearlocation.com/guide/page.html</guid>
-      <source url="https://dearlocation.com/rss.xml">页面配置</source>
-      <description>more 注释之前的内容被视为文章摘要。
-</description>
-      <category>使用指南</category>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p><code>more</code> 注释之前的内容被视为文章摘要。</p>
-
-<h2 id="页面信息" tabindex="-1"> 页面信息</h2>
-<p>你可以在 Markdown 的 Frontmatter 中设置页面信息。</p>
-<ul>
-<li>
-<p>作者设置为 Ms.Hope。</p>
-</li>
-<li>
-<p>写作时间应为 2020 年 1 月 1 日</p>
-</li>
-<li>
-<p>分类为 “使用指南”</p>
-</li>
-<li>
-<p>标签为 “页面配置” 和 “使用指南”</p>
-</li>
-</ul>
-<h2 id="页面内容" tabindex="-1"> 页面内容</h2>
-<p>你可以自由在这里书写你的 Markdown。</p>
-<div><p>提示</p>
-<ul>
-<li>
-<p>Markdown 文件夹的图片请使用相对链接 <code>./</code> 进行引用。</p>
-</li>
-<li>
-<p><code>.vuepress/public</code> 文件夹的图片，请使用绝对链接 <code>/</code> 进行引用</p>
-</li>
-</ul>
-</div>
-<p>主题包含了一个自定义徽章章可以使用:</p>
-<blockquote>
-<p>文字结尾应该有深蓝色的 徽章文字 徽章。 <i>Content not supported</i></p>
-</blockquote>
-<h2 id="页面结构" tabindex="-1"> 页面结构</h2>
-<p>此页面应当包含：</p>
-<ul>
-<li>返回顶部按钮</li>
-<li>路径导航</li>
-<li>评论</li>
-<li>页脚</li>
-</ul>
 ]]></content:encoded>
     </item>
     <item>
