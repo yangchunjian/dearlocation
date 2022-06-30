@@ -11,6 +11,16 @@ export default defineUserConfig({
 
   // dest: "./dist",
 
+  head: [
+    [
+      "meta",
+      {
+        name: "baidu-site-verification",
+        content: "code-jiOVohMv5f",
+      },
+    ],
+  ],
+
   locales: {
     "/": {
       lang: "zh-CN",
