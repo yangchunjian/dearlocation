@@ -8,7 +8,10 @@
     "build": "vuepress build docs",
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "docs:dev": "vuepress dev docs"
+    "docs:dev": "vuepress dev docs",
+    "baiduPush": "node utils/baiduPush.js https://javainterview.cn && bash baiduPush.sh",
+    "editFm": "node utils/editFrontmatter.js"
+
   },
   "devDependencies": {
     "@vuepress/plugin-docsearch": "^2.0.0-beta.48",
