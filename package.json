@@ -11,7 +11,6 @@
     "docs:dev": "vuepress dev docs",
     "baiduPush": "node utils/baiduPush.js https://dearlocation.com && bash baiduPush.sh",
     "editFm": "node utils/editFrontmatter.js"
-
   },
   "devDependencies": {
     "@vuepress/plugin-docsearch": "^2.0.0-beta.48",
@@ -19,6 +18,7 @@
     "valine": "^1.5.0",
     "vuepress": "^2.0.0-beta.48",
     "vuepress-plugin-comment2": "^2.0.0-beta.84",
+    "vuepress-plugin-components": "^2.0.0-beta.69",
     "vuepress-theme-hope": "^2.0.0-beta.84"
   },
   "dependencies": {

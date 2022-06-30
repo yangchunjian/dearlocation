@@ -2,7 +2,7 @@ import { defineUserConfig } from "@vuepress/cli";
 import theme from "./theme";
 import { searchPlugin } from "@vuepress/plugin-search";
 import {commentPlugin} from "vuepress-plugin-comment2";
-import { componentsPlugin } from "vuepress-plugin-components";
+// import { componentsPlugin } from "vuepress-plugin-components";
 
 
 // const base = (process.env.BASE as "/" | `/${string}/`) || "/";
@@ -41,19 +41,19 @@ export default defineUserConfig({
       // 你的选项
 
     }),
-    componentsPlugin({
-      // addThis: "ra-5f829c59e6c6bc9a",
-      backToTop: true,
-      components: [
-        // "Badge",
-        // "CodePen",
-        // "FontIcon",
-        "PDF",
-        // "StackBlitz",
-        // "YouTube",
-      ],
-      // iconAssets: "iconfont",
-    }),
+    // componentsPlugin({
+    //   // addThis: "ra-5f829c59e6c6bc9a",
+    //   // backToTop: true,
+    //   components: [
+    //     // "Badge",
+    //     // "CodePen",
+    //     // "FontIcon",
+    //     "PDF",
+    //     // "StackBlitz",
+    //     // "YouTube",
+    //   ],
+    //   // iconAssets: "iconfont",
+    // }),
     // commentPlugin({
     //   // 插件选项
     //   provider: "Waline",
