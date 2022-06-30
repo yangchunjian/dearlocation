@@ -88,7 +88,7 @@ export default hopeTheme({
   },
 
   plugins: {
-
+    components: ["Badge", "CodePen", "PDF", "StackBlitz", "YouTube"],
     //rss
     feed: {
       rss: true,

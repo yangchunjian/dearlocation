@@ -23,5 +23,5 @@ star: true
 
 ## 富爸爸穷爸爸
 
-
+<PDF url="./book/富爸爸穷爸爸.pdf" />
 
