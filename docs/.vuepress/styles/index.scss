@@ -4,3 +4,10 @@
   display: none;
 }
 
+//隐藏Markdown图标
+[data-waline] a:hover{
+  display: none;
+}
+[data-waline] a{
+  display: none;
+}
