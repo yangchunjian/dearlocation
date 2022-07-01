@@ -40,30 +40,12 @@ export default defineUserConfig({
     searchPlugin({
       // 你的选项
 
+      locales: {
+        "/": {
+          placeholder: "搜索",
+        },
+      },
     }),
-    // componentsPlugin({
-    //   // addThis: "ra-5f829c59e6c6bc9a",
-    //   // backToTop: true,
-    //   components: [
-    //     // "Badge",
-    //     // "CodePen",
-    //     // "FontIcon",
-    //     "PDF",
-    //     // "StackBlitz",
-    //     // "YouTube",
-    //   ],
-    //   // iconAssets: "iconfont",
-    // }),
-    // commentPlugin({
-    //   // 插件选项
-    //   provider: "Waline",
-    //   comment: true,
-    //   login: "disable",
-    //   copyright: false,
-    //   serverURL: "https://my-dearlocation-mhohh3ekc-yangchunjian.vercel.app",
-    //
-    // }),
-
   ],
   shouldPrefetch: false,
 });
