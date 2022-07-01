@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,b as _}from"./app.e3016560.js";const c={},n=_("p",null,"\u5BFB\u627E\u5AB3\u5987\u4FEE\u884C",-1),r=[n];function s(a,f){return t(),o("div",null,r)}var d=e(c,[["render",s],["__file","findwife.html.vue"]]);export{d as default};
