@@ -5022,6 +5022,18 @@ vuepress-plugin-copyright2@2.0.0-beta.84:
     vue "^3.2.37"
     vuepress-shared "2.0.0-beta.84"
 
+vuepress-plugin-copyright2@^2.0.0-beta.84:
+  version "2.0.0-beta.84"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-copyright2/-/vuepress-plugin-copyright2-2.0.0-beta.84.tgz#6265dcccba4a1e37fd0bdf57dabe0df0cd105996"
+  integrity sha512-lD2gxs8iVK18JPfrt/38/3Pye8ycZG1zpDb3NZu902pDRAJOqPpIhhrkGn9dvcU+rqq4jO1dhPaJSNtcMlcRZw==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.48"
+    "@vuepress/shared" "2.0.0-beta.48"
+    "@vuepress/utils" "2.0.0-beta.48"
+    "@vueuse/core" "^8.7.4"
+    vue "^3.2.37"
+    vuepress-shared "2.0.0-beta.84"
+
 vuepress-plugin-feed2@2.0.0-beta.84:
   version "2.0.0-beta.84"
   resolved "https://registry.npmjs.org/vuepress-plugin-feed2/-/vuepress-plugin-feed2-2.0.0-beta.84.tgz"
