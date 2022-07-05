@@ -25,3 +25,7 @@ star: true
 
 <PDF url="./book/富爸爸穷爸爸.pdf" />
 
+
+## 深入理解Java虚拟机:JVM高级特性与最佳实践(第3版)周志明
+
+<PDF url="./book/深入理解Java虚拟机:JVM高级特性与最佳实践(第3版)周志明.pdf" />
