@@ -7,6 +7,17 @@ heroImage: /dearlocation-backgroup.svg
 heroText: DearLocation
 heroFullScreen: true
 tagline: 「Java面试+Java学习」
+actions:
+  - text: 主页 🏠
+    link: /
+    type: primary
+    
+  - text: 指南 💡
+    link: /guide/
+    type: primary
+
+  - text: 作者 🛠
+    link: /me/
 projects:
 
   - icon: friend
