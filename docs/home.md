@@ -4,6 +4,7 @@ icon: home
 title: 项目主页
 heroImage: /dearlocation-logo.svg
 heroText: DearLocation
+bgImage: /imgs/home_0.jpeg
 tagline: 亲位：「相亲 + 交友」
 actions:
   - text: 试题 💡
