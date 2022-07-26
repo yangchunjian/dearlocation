@@ -45,7 +45,7 @@ export default defineUserConfig({
       // twitterUser: `ntnyq`,
       fallbackImage: `/dearlocation.jpg`,
       autoQuote: true,
-      isPlain: true,
+      isPlain: false,
       qrcodeOptions: {
         width: 240,
       },
