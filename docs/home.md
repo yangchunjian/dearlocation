@@ -6,6 +6,7 @@ heroImage: /dearlocation-logo.svg
 heroText: DearLocation
 bgImage: https://dearlocation.com/imgs/home_0.jpeg
 tagline: 亲位：「相亲 + 交友」
+bannerBg: background:#999 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABOSURBVFhH7c6xCQAgDAVRR9A6E4hLu4uLiWJ7tSnuQcIvr2TRYsw3/zOGGEOMIcYQY4gxxBhiDDGGGEOMIcYQY4gxxBhiDLkx52W4Gn1tuslCtHJvL54AAAAASUVORK5CYII=)
 actions:
   - text: 试题 💡
     link: /exam/
