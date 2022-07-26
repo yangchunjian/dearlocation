@@ -27,12 +27,12 @@ export default defineUserConfig({
     "/": {
       lang: "zh-CN",
       title: "DearLocation.com",
-      description: "「Java面试+Java学习」",
+      description: "「相亲 + 交友」",
     },
     // "/zh/": {
     //   lang: "zh-CN",
     //   title: "DearLocation.com",
-    //   description: "「Java面试+Java学习」",
+    //   description: "「相亲 + 交友」",
     // },
   },
 

@@ -4,7 +4,7 @@ icon: home
 title: 项目主页
 heroImage: /dearlocation-logo.svg
 heroText: DearLocation
-tagline: 亲位：「Java面试+Java学习」
+tagline: 亲位：「相亲 + 交友」
 actions:
   - text: 试题 💡
     link: /exam/
