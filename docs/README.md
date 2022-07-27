@@ -22,9 +22,9 @@ actions:
 projects:
 
   - icon: friend
-    name: 面试题
-    desc: 面经+试题
-    link: /exam/
+    name: 问卷
+    desc: 问卷调查
+    link: /survey/
 
   - icon: article
     name: 文章

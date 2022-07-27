@@ -6,7 +6,7 @@ export const dearlocation = sidebar({
     // "home",
     // "slide",
     {
-      text: "试题",
+      text: "问卷",
       icon: "creative",
       prefix: "exam/",
       // link: "exam/",
