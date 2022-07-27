@@ -2,6 +2,7 @@
 
 ## 本人信息
 
+```scss
     昵称：春建
     性别：男
     年龄：1990
@@ -15,7 +16,7 @@
     房车：北京一套，哈尔滨一套
     性格：开朗
     爱好：追剧、游玩、健身
-
+```
 ### 照片
 
 ![天安门](https://dearlocation.com/imgs/me/me_1.jpeg)
@@ -26,22 +27,27 @@
 
 ## 择偶要求
 
+```scss
     年龄：90后
     学历：本科及以上
     其他：最好老家附近的
-    
+```    
 ## 有意联系
 
+```scss
     微信 or 留言
-    
+```
+
 ## 联系方式
 
 ### 微信号
 
-交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。
+```scss
+  交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。
+``` 
 
 ![](https://dearlocation.com/imgs/me/me_0.jpeg)
-    
+   
 ### 微信群
 ![](https://dearlocation.com/imgs/me/me_00.jpeg)
 
