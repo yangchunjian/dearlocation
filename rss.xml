@@ -6,8 +6,8 @@
     <link>https://dearlocation.com/</link>
     <description>「相亲 + 交友」</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 27 Jul 2022 03:04:42 GMT</pubDate>
-    <lastBuildDate>Wed, 27 Jul 2022 03:04:42 GMT</lastBuildDate>
+    <pubDate>Wed, 27 Jul 2022 03:16:32 GMT</pubDate>
+    <lastBuildDate>Wed, 27 Jul 2022 03:16:32 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>恋爱</category>
@@ -17,7 +17,7 @@
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">Intro Page</source>
-      <pubDate>Wed, 27 Jul 2022 03:03:33 GMT</pubDate>
+      <pubDate>Wed, 27 Jul 2022 03:14:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="intro-page" tabindex="-1"> Intro Page</h1>
 <p>Place your introducation and profile here.</p>
 ]]></content:encoded>
@@ -27,7 +27,7 @@
       <link>https://dearlocation.com/slide.html</link>
       <guid>https://dearlocation.com/slide.html</guid>
       <source url="https://dearlocation.com/rss.xml">幻灯片页</source>
-      <pubDate>Wed, 27 Jul 2022 03:03:33 GMT</pubDate>
+      <pubDate>Wed, 27 Jul 2022 03:14:55 GMT</pubDate>
       <content:encoded><![CDATA[
 <i>Content not supported</i>]]></content:encoded>
       <enclosure url="https://dearlocation.com/dearlocation-logo.svg" type="image/svg+xml"/>
@@ -70,13 +70,13 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>指南</title>
+      <title>指南管理</title>
       <link>https://dearlocation.com/guide/</link>
       <guid>https://dearlocation.com/guide/</guid>
-      <source url="https://dearlocation.com/rss.xml">指南</source>
-      <category>使用指南</category>
-      <pubDate>Wed, 27 Jul 2022 03:03:33 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="指南" tabindex="-1"> 指南</h1>
+      <source url="https://dearlocation.com/rss.xml">指南管理</source>
+      <category>恋爱</category>
+      <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="指南管理" tabindex="-1"> 指南管理</h1>
 <ul>
 <li>
 <p><a href="/survey/">问卷</a></p>
@@ -120,7 +120,7 @@
       <link>https://dearlocation.com/me/</link>
       <guid>https://dearlocation.com/me/</guid>
       <source url="https://dearlocation.com/rss.xml">相亲交友</source>
-      <pubDate>Wed, 27 Jul 2022 03:03:33 GMT</pubDate>
+      <pubDate>Wed, 27 Jul 2022 03:14:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="相亲交友" tabindex="-1"> 相亲交友</h1>
 <h2 id="本人信息" tabindex="-1"> 本人信息</h2>
 <div><pre><code>    昵称：春建
@@ -164,7 +164,7 @@
       <guid>https://dearlocation.com/posts/</guid>
       <source url="https://dearlocation.com/rss.xml">文章列表</source>
       <category>使用指南</category>
-      <pubDate>Wed, 27 Jul 2022 03:03:33 GMT</pubDate>
+      <pubDate>Wed, 27 Jul 2022 03:14:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="文章列表" tabindex="-1"> 文章列表</h1>
 ]]></content:encoded>
     </item>
@@ -208,28 +208,17 @@
       <link>https://dearlocation.com/register/</link>
       <guid>https://dearlocation.com/register/</guid>
       <source url="https://dearlocation.com/rss.xml">登记管理</source>
-      <category>使用指南</category>
-      <pubDate>Wed, 27 Jul 2022 03:03:33 GMT</pubDate>
+      <category>恋爱</category>
+      <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="登记管理" tabindex="-1"> 登记管理</h1>
 <h2 id="登记信息" tabindex="-1"> 登记信息</h2>
 ]]></content:encoded>
     </item>
     <item>
-      <title>登记管理</title>
+      <title>问卷管理</title>
       <link>https://dearlocation.com/survey/</link>
       <guid>https://dearlocation.com/survey/</guid>
-      <source url="https://dearlocation.com/rss.xml">登记管理</source>
-      <category>使用指南</category>
-      <pubDate>Wed, 27 Jul 2022 03:03:33 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="登记管理" tabindex="-1"> 登记管理</h1>
-<h2 id="记录登记信息" tabindex="-1"> 记录登记信息</h2>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>问卷填写</title>
-      <link>https://dearlocation.com/survey/survey_0.html</link>
-      <guid>https://dearlocation.com/survey/survey_0.html</guid>
-      <source url="https://dearlocation.com/rss.xml">问卷填写</source>
+      <source url="https://dearlocation.com/rss.xml">问卷管理</source>
       <category>恋爱</category>
       <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<div><pre><code>
