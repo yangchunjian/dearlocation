@@ -48,9 +48,9 @@ export default hopeTheme({
         intro: "/intro.html",
       },
 
-      // metaLocales: {
-      //   editLink: "编辑此页",
-      // },
+      metaLocales: {
+        editLink: false,
+      },
     },
 
     /**
