@@ -6,8 +6,8 @@
     <link>https://dearlocation.com/</link>
     <description>「相亲 + 交友」</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 27 Jul 2022 03:45:50 GMT</pubDate>
-    <lastBuildDate>Wed, 27 Jul 2022 03:45:50 GMT</lastBuildDate>
+    <pubDate>Wed, 27 Jul 2022 03:54:36 GMT</pubDate>
+    <lastBuildDate>Wed, 27 Jul 2022 03:54:36 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>恋爱</category>
@@ -16,21 +16,11 @@
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">介绍</source>
-      <pubDate>Wed, 27 Jul 2022 03:44:37 GMT</pubDate>
+      <pubDate>Wed, 27 Jul 2022 03:53:07 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="介绍" tabindex="-1"> 介绍</h1>
-<p>##「相亲 + 交友」
-##「热爱工作 + 热爱生活」</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>幻灯片页</title>
-      <link>https://dearlocation.com/slide.html</link>
-      <guid>https://dearlocation.com/slide.html</guid>
-      <source url="https://dearlocation.com/rss.xml">幻灯片页</source>
-      <pubDate>Wed, 27 Jul 2022 03:44:37 GMT</pubDate>
-      <content:encoded><![CDATA[
-<i>Content not supported</i>]]></content:encoded>
-      <enclosure url="https://dearlocation.com/dearlocation-logo.svg" type="image/svg+xml"/>
+<div><pre><code>「相亲 <span>+</span> 交友」
+「热爱工作 <span>+</span> 热爱生活」
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div>]]></content:encoded>
     </item>
     <item>
       <title>书籍列表</title>
