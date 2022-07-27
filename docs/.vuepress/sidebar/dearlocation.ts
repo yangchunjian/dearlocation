@@ -5,6 +5,15 @@ export const dearlocation = sidebar({
     // "",
     // "home",
     // "slide",
+
+    {
+      text: "指南",
+      icon: "creative",
+      prefix: "guide/",
+      // link: "exam/",
+      collapsable: true,//可折叠
+      children: "structure",
+    },
     {
       text: "问卷",
       icon: "creative",
@@ -12,7 +21,8 @@ export const dearlocation = sidebar({
       // link: "exam/",
       collapsable: true,//可折叠
       children: "structure",
-    },{
+    },
+    {
       text: "书籍",
       icon: "creative",
       prefix: "book/",

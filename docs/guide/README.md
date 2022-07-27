@@ -5,12 +5,18 @@ category:
   - 使用指南
 ---
 
-# 主要功能与配置演示
+# 指南
 
-- [页面展示](page.md)
+- [问卷](/survey/README.md)
 
-- [Markdown展示](markdown.md)
+- [书籍](/book/README.md)
 
-- [禁用展示](disable.md)
+- [文章](/posts/README.md)
 
-- [加密展示](encrypt.md)
+- [财商](/fq/README.md)
+
+- [情商](/eq/README.md)
+
+- [智商](/iq/README.md)
+
+- [作者](/me/README.md)
