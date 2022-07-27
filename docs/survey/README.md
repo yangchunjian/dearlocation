@@ -1,3 +1,10 @@
+---
+index: false
+icon: creative
+category:
+  - 使用指南
+---
+
 # 登记管理
 
 ## 记录登记信息
