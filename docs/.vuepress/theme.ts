@@ -44,13 +44,13 @@ export default hopeTheme({
       visitor: true,
 
       blog: {
-        description: "一个来自黑龙江的朋友",
+        description: "「相亲 + 交友」",
         intro: "/intro.html",
       },
 
-      metaLocales: {
-        editLink: "编辑此页",
-      },
+      // metaLocales: {
+      //   editLink: "编辑此页",
+      // },
     },
 
     /**
