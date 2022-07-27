@@ -11,3 +11,19 @@
 [data-waline] a{
   display: none;
 }
+
+//隐藏编辑图标
+.page-meta .edit-link{
+  display: none;
+}
+//隐藏贡献者
+.page-meta .contributors{
+  display: none;
+}
+
+//提交时间放在右侧
+@media (max-width: 719px) {
+  .page-meta .update-time{
+    float: right;
+  }
+}
