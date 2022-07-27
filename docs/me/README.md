@@ -17,7 +17,7 @@
     性格：开朗
     爱好：追剧、游玩、健身
 ```
-### 照片
+### 照片集
 
 ![天安门](https://dearlocation.com/imgs/me/me_1.jpeg)
 ![古塔公园](https://dearlocation.com/imgs/me/me_2.jpeg)
@@ -32,11 +32,6 @@
     学历：本科及以上
     其他：最好老家附近的
 ```    
-## 有意联系
-
-```scss
-    微信 or 留言
-```
 
 ## 联系方式
 
