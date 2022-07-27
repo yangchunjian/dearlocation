@@ -17,8 +17,16 @@ export const dearlocation = sidebar({
     {
       text: "问卷",
       icon: "creative",
-      prefix: "exam/",
-      // link: "exam/",
+      prefix: "survey/",
+      // link: "survey/",
+      collapsable: true,//可折叠
+      children: "structure",
+    },
+    {
+      text: "登记",
+      icon: "creative",
+      prefix: "register/",
+      // link: "register/",
       collapsable: true,//可折叠
       children: "structure",
     },

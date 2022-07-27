@@ -1,5 +1,5 @@
 ---
-index: false
+index: 1
 icon: creative
 category:
   - 使用指南
