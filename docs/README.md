@@ -6,7 +6,7 @@ title: 主页
 heroImage: /dearlocation-backgroup.svg
 heroText: DearLocation
 heroFullScreen: true
-bgImage: https://dearlocation.com/imgs/home_0.jpeg
+bgImage: https://dearlocation.com/imgs/home_1.jpeg
 tagline: 「相亲 + 交友」
 actions:
   - text: 主页 🏠
