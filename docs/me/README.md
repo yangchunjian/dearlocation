@@ -1,17 +1,51 @@
-> 本站完善中，谢谢你的关注
+# 相亲交友
 
+## 本人信息
 
-# 公众号
+    昵称：春建
+    性别：男
+    年龄：1990
+    学历：985硕
+    籍贯：黑龙江
+    户口：天津
+    坐标：北京
+    身高：170cm
+    体重：120+斤
+    职业：程序员
+    房车：北京一套，哈尔滨一套
+    性格：开朗
+    爱好：追剧、游玩、健身
+照片：
+![天安门](https://dearlocation.com/imgs/me/me_1.jpeg)
+![古塔公园](https://dearlocation.com/imgs/me/me_2.jpeg)
+![故宫](https://dearlocation.com/imgs/me/me_3.jpeg)
+![天坛](https://dearlocation.com/imgs/me/me_4.jpeg)
+![北京站](https://dearlocation.com/imgs/me/me_5.jpeg)
 
-推荐一波~
+## 择偶要求
 
-![公众号](https://www.yangchunjian.com/docbook/imgs/qrcode_for_gh_8756901e5b12_344.jpg)
+    年龄：90后
+    学历：本科及以上
+    其他：最好老家附近的
+    
+## 有意联系
 
----
+    微信 or 留言
+    
+## 联系方式
 
-## 联系我
+### 微信号
 
 交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。
 
-![微信](https://javainterview.cn/img/weixin.jpeg)
+![](https://dearlocation.com/imgs/me/me_0.jpeg)
+    
+### 微信群
+![](https://dearlocation.com/imgs/me/me_00.jpeg)
 
+    
+### 公众号
+
+![](https://dearlocation.com/imgs/me/me_000.jpg)
+
+---
