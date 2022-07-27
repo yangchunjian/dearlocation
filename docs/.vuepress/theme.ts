@@ -7,6 +7,7 @@ const hostname =
 
 export default hopeTheme({
   hostname,
+  fullscreen: true,
 
   author: {
     name: "DearLocation.com",
