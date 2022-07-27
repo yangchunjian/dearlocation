@@ -6,6 +6,7 @@ title: 主页
 heroImage: /dearlocation-backgroup.svg
 heroText: DearLocation
 heroFullScreen: true
+bgImage: https://dearlocation.com/imgs/home_0.jpeg
 tagline: 「相亲 + 交友」
 actions:
   - text: 主页 🏠
@@ -36,6 +37,8 @@ projects:
     link: /me/
 	 
 # footer: 自定义你的页脚文字
+
+copyright: false
 footer:  Copyright © 2020-present DearLocation.com
 ---
 
