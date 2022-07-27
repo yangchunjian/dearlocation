@@ -6,21 +6,20 @@
     <link>https://dearlocation.com/</link>
     <description>「相亲 + 交友」</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 27 Jul 2022 06:21:22 GMT</pubDate>
-    <lastBuildDate>Wed, 27 Jul 2022 06:21:22 GMT</lastBuildDate>
+    <pubDate>Wed, 27 Jul 2022 06:59:47 GMT</pubDate>
+    <lastBuildDate>Wed, 27 Jul 2022 06:59:47 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>恋爱</category>
     <item>
-      <title>介绍</title>
+      <title>简介</title>
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
-      <source url="https://dearlocation.com/rss.xml">介绍</source>
-      <pubDate>Wed, 27 Jul 2022 06:20:12 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="介绍" tabindex="-1"> 介绍</h1>
-<div><pre><code>「相亲 <span>+</span> 交友」
-「热爱工作 <span>+</span> 热爱生活」
-</code></pre><div aria-hidden="true"><div></div><div></div></div></div>]]></content:encoded>
+      <source url="https://dearlocation.com/rss.xml">简介</source>
+      <pubDate>Wed, 27 Jul 2022 06:58:36 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="简介" tabindex="-1"> 简介</h1>
+<p><a href="/me/">「相亲 + 交友」</a></p>
+]]></content:encoded>
     </item>
     <item>
       <title>书籍列表</title>
