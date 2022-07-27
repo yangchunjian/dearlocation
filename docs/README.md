@@ -1,24 +1,24 @@
 ---
 home: true
-layout: Blog
-icon: home
-title: 主页
-heroImage: /dearlocation-backgroup.svg
-heroText: DearLocation
-heroFullScreen: true
-bgImage: https://dearlocation.com/imgs/home_1.jpeg
-tagline: 「相亲 + 交友」
-actions:
-  - text: 主页 🏠
-    link: /
-    type: primary
+# layout: Blog
+# icon: home
+# title: 主页
+# heroImage: /dearlocation-backgroup.svg
+# heroText: DearLocation
+# heroFullScreen: true
+# bgImage: https://dearlocation.com/imgs/home_1.jpeg
+# tagline: 「相亲 + 交友」
+# actions:
+#   - text: 主页 🏠
+#     link: /
+#     type: primary
     
-  - text: 指南 💡
-    link: /guide/
-    type: primary
+#   - text: 指南 💡
+#     link: /guide/
+#     type: primary
 
-  - text: 作者 🛠
-    link: /me/
+#   - text: 作者 🛠
+#     link: /me/
 projects:
 
   - icon: friend
