@@ -33,7 +33,7 @@ projects:
 	 
   - icon: book
     name: 作者
-    desc: 简介
+    desc: 相亲交友
     link: /me/
 	 
 # footer: 自定义你的页脚文字
