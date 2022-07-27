@@ -6,18 +6,17 @@
     <link>https://dearlocation.com/</link>
     <description>「相亲 + 交友」</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 27 Jul 2022 03:37:53 GMT</pubDate>
-    <lastBuildDate>Wed, 27 Jul 2022 03:37:53 GMT</lastBuildDate>
+    <pubDate>Wed, 27 Jul 2022 03:45:50 GMT</pubDate>
+    <lastBuildDate>Wed, 27 Jul 2022 03:45:50 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>恋爱</category>
-    <category>使用指南</category>
     <item>
       <title>介绍</title>
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">介绍</source>
-      <pubDate>Wed, 27 Jul 2022 03:36:47 GMT</pubDate>
+      <pubDate>Wed, 27 Jul 2022 03:44:37 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="介绍" tabindex="-1"> 介绍</h1>
 <p>##「相亲 + 交友」
 ##「热爱工作 + 热爱生活」</p>
@@ -28,7 +27,7 @@
       <link>https://dearlocation.com/slide.html</link>
       <guid>https://dearlocation.com/slide.html</guid>
       <source url="https://dearlocation.com/rss.xml">幻灯片页</source>
-      <pubDate>Wed, 27 Jul 2022 03:36:47 GMT</pubDate>
+      <pubDate>Wed, 27 Jul 2022 03:44:37 GMT</pubDate>
       <content:encoded><![CDATA[
 <i>Content not supported</i>]]></content:encoded>
       <enclosure url="https://dearlocation.com/dearlocation-logo.svg" type="image/svg+xml"/>
@@ -161,49 +160,29 @@
       <enclosure url="https://dearlocation.com/imgs/me/me_1.jpeg" type="image/jpeg"/>
     </item>
     <item>
-      <title>文章列表</title>
+      <title>文章管理</title>
       <link>https://dearlocation.com/posts/</link>
       <guid>https://dearlocation.com/posts/</guid>
-      <source url="https://dearlocation.com/rss.xml">文章列表</source>
-      <category>使用指南</category>
-      <pubDate>Wed, 27 Jul 2022 03:36:47 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="文章列表" tabindex="-1"> 文章列表</h1>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>寻找媳妇</title>
-      <link>https://dearlocation.com/posts/post_0.html</link>
-      <guid>https://dearlocation.com/posts/post_0.html</guid>
-      <source url="https://dearlocation.com/rss.xml">寻找媳妇</source>
+      <source url="https://dearlocation.com/rss.xml">文章管理</source>
       <category>恋爱</category>
       <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<ol>
-<li>联系方式</li>
-<li>愉快聊天</li>
-<li>实现邀约</li>
-<li>升级关系</li>
-<li>共同生活</li>
-<li>双见父母</li>
-<li>领取证书</li>
-<li>蜜月旅游</li>
-<li>正常生活</li>
-</ol>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>脱单修行</title>
-      <link>https://dearlocation.com/posts/post_1.html</link>
-      <guid>https://dearlocation.com/posts/post_1.html</guid>
-      <source url="https://dearlocation.com/rss.xml">脱单修行</source>
-      <category>恋爱</category>
-      <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<ol>
-<li>以终为始</li>
-<li>明确自知</li>
-<li>快速筛选</li>
-<li>感受状态</li>
-</ol>
-]]></content:encoded>
+      <content:encoded><![CDATA[<h1 id="文章管理" tabindex="-1"> 文章管理</h1>
+<h2 id="相恋流程" tabindex="-1"> 相恋流程</h2>
+<div><pre><code>    1. 联系方式
+    2. 愉快聊天
+    3. 实现邀约
+    4. 升级关系
+    5. 共同生活
+    6. 双见父母
+    7. 领取证书
+    8. 蜜月旅游
+    9. 正常生活
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="相恋高效" tabindex="-1"> 相恋高效</h2>
+<div><pre><code>    1. 以终为始
+    2. 明确自知
+    3. 快速筛选
+    4. 感受状态
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div>]]></content:encoded>
     </item>
     <item>
       <title>登记管理</title>
