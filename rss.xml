@@ -6,8 +6,8 @@
     <link>https://dearlocation.com/</link>
     <description>「相亲 + 交友」</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 27 Jul 2022 15:12:40 GMT</pubDate>
-    <lastBuildDate>Wed, 27 Jul 2022 15:12:40 GMT</lastBuildDate>
+    <pubDate>Thu, 28 Jul 2022 03:29:53 GMT</pubDate>
+    <lastBuildDate>Thu, 28 Jul 2022 03:29:53 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>恋爱</category>
@@ -16,7 +16,7 @@
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">简介</source>
-      <pubDate>Wed, 27 Jul 2022 15:10:25 GMT</pubDate>
+      <pubDate>Thu, 28 Jul 2022 03:28:45 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="简介" tabindex="-1"> 简介</h1>
 <p><a href="/me/">「相亲 + 交友」</a></p>
 ]]></content:encoded>
@@ -27,7 +27,7 @@
       <guid>https://dearlocation.com/book/</guid>
       <source url="https://dearlocation.com/rss.xml">书籍列表</source>
       <category>恋爱</category>
-      <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
+      <pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="书籍列表" tabindex="-1"> 书籍列表</h1>
 <h2 id="富爸爸穷爸爸" tabindex="-1"> 富爸爸穷爸爸</h2>
 <PDF url="./book/富爸爸穷爸爸.pdf" />
