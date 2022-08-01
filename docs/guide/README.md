@@ -27,17 +27,17 @@ star: true
 ## 📚简介
 DearLocation是一个「相亲+交友」平台。提供登记、问卷、恋爱、婚姻等功能。发布恋爱、婚姻等文章。提高相亲和恋爱效率，促成广大姻缘。
 
-### 🎁名称
+## 🎁名称
 
 DearLocation = Dear + Location。
 
-### 🎁LOGO
+## 🎁LOGO
 
 寓意 = 亲近的人聚集的地方
 
 ![](https://dearlocation.com/dearlocation.jpg)
 
-### 🍺目标
+## 🍺目标
 
 做一个[「相亲 + 交友」的平台，发布恋爱、婚姻等文章，促成广大姻缘。
 
@@ -58,7 +58,7 @@ DearLocation = Dear + Location。
 
 - [作者](/me/README.md)
 
-### 微信群
+## 微信群
 
 ![](https://dearlocation.com/imgs/me/me_00.jpeg)
 
