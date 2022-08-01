@@ -6,8 +6,8 @@
     <link>https://dearlocation.com/</link>
     <description>「相亲 + 交友」</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 01 Aug 2022 01:38:56 GMT</pubDate>
-    <lastBuildDate>Mon, 01 Aug 2022 01:38:56 GMT</lastBuildDate>
+    <pubDate>Mon, 01 Aug 2022 02:14:01 GMT</pubDate>
+    <lastBuildDate>Mon, 01 Aug 2022 02:14:01 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>恋爱</category>
@@ -16,9 +16,12 @@
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">简介</source>
-      <pubDate>Mon, 01 Aug 2022 01:37:50 GMT</pubDate>
+      <pubDate>Mon, 01 Aug 2022 02:12:45 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="简介" tabindex="-1"> 简介</h1>
-<p><a href="/me/">「相亲 + 交友」</a></p>
+<h2 id="📚指南" tabindex="-1"> 📚指南</h2>
+<p><a href="/guide/">「指南」</a></p>
+<h2 id="📚作者" tabindex="-1"> 📚作者</h2>
+<p><a href="/me/">「作者」</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -66,6 +69,20 @@
       <category>恋爱</category>
       <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="指南管理" tabindex="-1"> 指南管理</h1>
+<h2 id="📚首页" tabindex="-1"> 📚首页</h2>
+<ul>
+<li><strong><a href="/">《DearLocation》</a></strong> : DearLocation！</li>
+</ul>
+<h2 id="📚简介" tabindex="-1"> 📚简介</h2>
+<p>DearLocation是一个「相亲+交友」平台。提供登记、问卷、恋爱、婚姻等功能。发布恋爱、婚姻等文章。提高相亲和恋爱效率，促成广大姻缘。</p>
+<h3 id="🎁名称" tabindex="-1"> 🎁名称</h3>
+<p>DearLocation = Dear + Location。</p>
+<h3 id="🎁logo" tabindex="-1"> 🎁LOGO</h3>
+<p>寓意 = 亲近的人聚集的地方</p>
+<p><img src="https://dearlocation.com/dearlocation.jpg" alt="" loading="lazy"></p>
+<h3 id="🍺目标" tabindex="-1"> 🍺目标</h3>
+<p>做一个[「相亲 + 交友」的平台，发布恋爱、婚姻等文章，促成广大姻缘。</p>
+<h2 id="🛠菜单" tabindex="-1"> 🛠菜单</h2>
 <ul>
 <li>
 <p><a href="/survey/">问卷</a></p>
@@ -89,7 +106,16 @@
 <p><a href="/me/">作者</a></p>
 </li>
 </ul>
+<h3 id="微信群" tabindex="-1"> 微信群</h3>
+<p><img src="https://dearlocation.com/imgs/me/me_00.jpeg" alt="" loading="lazy"></p>
+<h2 id="公众号" tabindex="-1"> 公众号</h2>
+<p>微信公众号<strong>亲位网</strong>，会发布一些恋爱、婚姻等文章，欢迎关注，推荐一波~</p>
+<p><img src="https://dearlocation.com/imgs/me/me_000.jpg" alt="" loading="lazy"></p>
+<h2 id="联系我" tabindex="-1"> 联系我</h2>
+<p>交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。</p>
+<p><img src="https://dearlocation.com/imgs/me/me_0.jpeg" alt="" loading="lazy"></p>
 ]]></content:encoded>
+      <enclosure url="https://dearlocation.com/dearlocation.jpg" type="image/jpeg"/>
     </item>
     <item>
       <title>智商列表</title>
