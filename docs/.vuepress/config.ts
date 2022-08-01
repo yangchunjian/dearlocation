@@ -15,13 +15,15 @@ export default defineUserConfig({
   // dest: "./dist",
 
   head: [
-    [
-      "meta",
+    ["meta",
       {
         name: "baidu-site-verification",
         content: "code-jiOVohMv5f",
       },
     ],
+    ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}], // 不蒜子统计
+    ['script', { src: '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }],
+
   ],
 
   locales: {
