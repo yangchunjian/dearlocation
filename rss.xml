@@ -6,8 +6,8 @@
     <link>https://dearlocation.com/</link>
     <description>「相亲 + 交友」</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 01 Aug 2022 01:30:04 GMT</pubDate>
-    <lastBuildDate>Mon, 01 Aug 2022 01:30:04 GMT</lastBuildDate>
+    <pubDate>Mon, 01 Aug 2022 01:38:56 GMT</pubDate>
+    <lastBuildDate>Mon, 01 Aug 2022 01:38:56 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>恋爱</category>
@@ -16,7 +16,7 @@
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">简介</source>
-      <pubDate>Mon, 01 Aug 2022 01:28:50 GMT</pubDate>
+      <pubDate>Mon, 01 Aug 2022 01:37:50 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="简介" tabindex="-1"> 简介</h1>
 <p><a href="/me/">「相亲 + 交友」</a></p>
 ]]></content:encoded>
@@ -172,6 +172,18 @@
     3. 快速筛选
     4. 感受状态
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>文章总结</title>
+      <link>https://dearlocation.com/posts/summary.html</link>
+      <guid>https://dearlocation.com/posts/summary.html</guid>
+      <source url="https://dearlocation.com/rss.xml">文章总结</source>
+      <category>恋爱</category>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文章总结" tabindex="-1"> 文章总结</h1>
+<h2 id="大道至简" tabindex="-1"> 大道至简</h2>
+<p>有限的时间和精力用在对的地方</p>
+]]></content:encoded>
     </item>
     <item>
       <title>登记管理</title>
