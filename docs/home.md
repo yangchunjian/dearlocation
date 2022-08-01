@@ -101,7 +101,7 @@ actions:
 #     details: 包括图标支持、全屏按钮、返回顶部按钮等
 #     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/
 copyright: false
-footer:  Copyright © 2013-present DearLocation.com
+footer:  Copyright © 2022-present DearLocation.com
 ---
 
 
