@@ -6,8 +6,8 @@
     <link>https://dearlocation.com/</link>
     <description>「相亲 + 交友」</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 01 Aug 2022 02:14:01 GMT</pubDate>
-    <lastBuildDate>Mon, 01 Aug 2022 02:14:01 GMT</lastBuildDate>
+    <pubDate>Mon, 01 Aug 2022 02:19:28 GMT</pubDate>
+    <lastBuildDate>Mon, 01 Aug 2022 02:19:28 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>恋爱</category>
@@ -16,7 +16,7 @@
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">简介</source>
-      <pubDate>Mon, 01 Aug 2022 02:12:45 GMT</pubDate>
+      <pubDate>Mon, 01 Aug 2022 02:18:18 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="简介" tabindex="-1"> 简介</h1>
 <h2 id="📚指南" tabindex="-1"> 📚指南</h2>
 <p><a href="/guide/">「指南」</a></p>
@@ -75,12 +75,12 @@
 </ul>
 <h2 id="📚简介" tabindex="-1"> 📚简介</h2>
 <p>DearLocation是一个「相亲+交友」平台。提供登记、问卷、恋爱、婚姻等功能。发布恋爱、婚姻等文章。提高相亲和恋爱效率，促成广大姻缘。</p>
-<h3 id="🎁名称" tabindex="-1"> 🎁名称</h3>
+<h2 id="🎁名称" tabindex="-1"> 🎁名称</h2>
 <p>DearLocation = Dear + Location。</p>
-<h3 id="🎁logo" tabindex="-1"> 🎁LOGO</h3>
+<h2 id="🎁logo" tabindex="-1"> 🎁LOGO</h2>
 <p>寓意 = 亲近的人聚集的地方</p>
 <p><img src="https://dearlocation.com/dearlocation.jpg" alt="" loading="lazy"></p>
-<h3 id="🍺目标" tabindex="-1"> 🍺目标</h3>
+<h2 id="🍺目标" tabindex="-1"> 🍺目标</h2>
 <p>做一个[「相亲 + 交友」的平台，发布恋爱、婚姻等文章，促成广大姻缘。</p>
 <h2 id="🛠菜单" tabindex="-1"> 🛠菜单</h2>
 <ul>
@@ -106,7 +106,7 @@
 <p><a href="/me/">作者</a></p>
 </li>
 </ul>
-<h3 id="微信群" tabindex="-1"> 微信群</h3>
+<h2 id="微信群" tabindex="-1"> 微信群</h2>
 <p><img src="https://dearlocation.com/imgs/me/me_00.jpeg" alt="" loading="lazy"></p>
 <h2 id="公众号" tabindex="-1"> 公众号</h2>
 <p>微信公众号<strong>亲位网</strong>，会发布一些恋爱、婚姻等文章，欢迎关注，推荐一波~</p>
