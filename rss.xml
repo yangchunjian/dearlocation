@@ -6,8 +6,8 @@
     <link>https://dearlocation.com/</link>
     <description>「相亲 + 交友」</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 01 Aug 2022 06:26:17 GMT</pubDate>
-    <lastBuildDate>Mon, 01 Aug 2022 06:26:17 GMT</lastBuildDate>
+    <pubDate>Mon, 01 Aug 2022 07:36:12 GMT</pubDate>
+    <lastBuildDate>Mon, 01 Aug 2022 07:36:12 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>恋爱</category>
@@ -16,7 +16,7 @@
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">简介</source>
-      <pubDate>Mon, 01 Aug 2022 06:25:05 GMT</pubDate>
+      <pubDate>Mon, 01 Aug 2022 07:34:59 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="简介" tabindex="-1"> 简介</h1>
 <h2 id="📚指南" tabindex="-1"> 📚指南</h2>
 <p><a href="/guide/">「指南」</a></p>
@@ -218,9 +218,8 @@
       <source url="https://dearlocation.com/rss.xml">登记管理</source>
       <category>恋爱</category>
       <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="登记管理" tabindex="-1"> 登记管理</h1>
-<h2 id="登记信息" tabindex="-1"> 登记信息</h2>
-]]></content:encoded>
+      <content:encoded><![CDATA[<div><pre><code>  登记填写，可发布到评论区~
+</code></pre><div aria-hidden="true"><div></div></div></div>]]></content:encoded>
     </item>
     <item>
       <title>问卷管理</title>
@@ -229,9 +228,8 @@
       <source url="https://dearlocation.com/rss.xml">问卷管理</source>
       <category>恋爱</category>
       <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div><pre><code>
-  问卷填写，记录个人相亲交友信息~
-</code></pre><div aria-hidden="true"><div></div><div></div></div></div>]]></content:encoded>
+      <content:encoded><![CDATA[<div><pre><code>  问卷调查，会发布到评论区~
+</code></pre><div aria-hidden="true"><div></div></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>
