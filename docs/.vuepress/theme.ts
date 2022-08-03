@@ -24,7 +24,7 @@ export default hopeTheme({
 
   blog: {
     medias: {
-      Wechat: "https://javainterview.cn/img/weixin.jpeg",
+      Wechat: "https://dearlocation.com/imgs/me/me_0.jpeg",
       Pocket: "https://www.yangchunjian.com/docbook/imgs/qrcode_for_gh_8756901e5b12_344.jpg",
     },
   },

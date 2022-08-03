@@ -119,6 +119,6 @@ footer:  Copyright © 2022-present DearLocation.com
 
 交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。
 
-![微信](https://javainterview.cn/img/weixin.jpeg)
+![微信](https://dearlocation.com/imgs/me/me_0.jpeg)
 
 
