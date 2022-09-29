@@ -6,7 +6,7 @@ import {commentPlugin} from "vuepress-plugin-comment2";
 import { copyrightPlugin } from "vuepress-plugin-copyright2";
 import { socialSharePlugin } from 'vuepress-plugin-social-share';
 // import { seoPlugin } from "vuepress-plugin-seo2";
-import { pwaPlugin } from "vuepress-plugin-pwa2";
+// import { pwaPlugin } from "vuepress-plugin-pwa2";
 
 
 
@@ -43,9 +43,9 @@ export default defineUserConfig({
 
   theme,
   plugins: [
-    pwaPlugin({
-      // 你的选项
-    }),
+    // pwaPlugin({
+    //   // 你的选项
+    // }),
     // seoPlugin({
     //   hostname: "dearlocation.com"
     // }),
