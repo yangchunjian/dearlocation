@@ -5,7 +5,7 @@ import {commentPlugin} from "vuepress-plugin-comment2";
 // import { componentsPlugin } from "vuepress-plugin-components";
 import { copyrightPlugin } from "vuepress-plugin-copyright2";
 import { socialSharePlugin } from 'vuepress-plugin-social-share';
-import { seoPlugin } from "vuepress-plugin-seo2";
+// import { seoPlugin } from "vuepress-plugin-seo2";
 import { pwaPlugin } from "vuepress-plugin-pwa2";
 
 
@@ -46,9 +46,9 @@ export default defineUserConfig({
     pwaPlugin({
       // 你的选项
     }),
-    seoPlugin({
-      hostname: "dearlocation.com"
-    }),
+    // seoPlugin({
+    //   hostname: "dearlocation.com"
+    // }),
     socialSharePlugin({
       networks: [`douban`, `weibo`, `email`, `qq`, `wechat`],
       email: `1091938307@qq.com`,
