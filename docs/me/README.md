@@ -9,7 +9,7 @@ title: 相亲交友
 author: DearLocation.com
 # 设置写作时间
 date: 2022-09-29
-# 一个页面可以有多个分类
+# 一个页面可以有多个分类。
 category:
   - 恋爱
 # 一个页面可以有多个标签。
