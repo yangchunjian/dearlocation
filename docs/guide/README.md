@@ -25,7 +25,7 @@ star: true
 - **[《DearLocation》](../README.md)** : DearLocation！
 
 ## 📚简介
-DearLocation是一个「相亲+交友」平台。提供登记、问卷、恋爱、婚姻等功能。发布恋爱、婚姻等文章。提高相亲和恋爱效率，促成广大姻缘。
+DearLocation是一个「亲位小程序」平台。
 
 ## 🎁名称
 
@@ -39,7 +39,7 @@ DearLocation = Dear + Location。
 
 ## 🍺目标
 
-做一个[「相亲 + 交友」的平台，发布恋爱、婚姻等文章，促成广大姻缘。
+做一个[「亲位小程序」的平台。
 
 
 ## 🛠菜单
@@ -56,11 +56,12 @@ DearLocation = Dear + Location。
 
 - [智商](/iq/README.md)
 
-- [作者](/me/README.md)
+[//]: # (- [作者]&#40;/me/README.md&#41;)
 
-## 微信群
+[//]: # (## 微信群)
 
-![](https://dearlocation.com/imgs/me/me_00.jpeg)
+[//]: # ()
+[//]: # (![]&#40;https://dearlocation.com/imgs/me/me_00.jpeg&#41;)
 
 ## 公众号
 
@@ -68,8 +69,11 @@ DearLocation = Dear + Location。
 
 ![](https://dearlocation.com/imgs/me/me_000.jpg)
 
-## 联系我
+[//]: # ()
+[//]: # (## 联系我)
 
-交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。
+[//]: # ()
+[//]: # (交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。)
 
-![](https://dearlocation.com/imgs/me/me_0.jpeg)
+[//]: # ()
+[//]: # (![]&#40;https://dearlocation.com/imgs/me/me_0.jpeg&#41;)

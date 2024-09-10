@@ -9,7 +9,8 @@ icon: info
 [「指南」](/guide/README.md)
 
 
-## 📚作者
+[//]: # (## 📚作者)
 
-[「作者」](/me/README.md)
+[//]: # ()
+[//]: # ([「作者」]&#40;/me/README.md&#41;)
 

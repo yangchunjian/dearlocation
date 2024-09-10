@@ -1,3 +1,4 @@
+// @ts-ignore
 import { sidebar } from "vuepress-theme-hope";
 
 export const dearlocation = sidebar({
@@ -76,14 +77,14 @@ export const dearlocation = sidebar({
       children: "structure",
 
     },
-    {
-      text: "作者",
-      icon: "creative",
-      prefix: "me/",
-      // link: "posts/",
-      collapsable: true,
-      children: "structure",
-
-    },
+    // {
+    //   text: "作者",
+    //   icon: "creative",
+    //   prefix: "me/",
+    //   // link: "posts/",
+    //   collapsable: true,
+    //   children: "structure",
+    //
+    // },
   ],
 });
