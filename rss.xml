@@ -6,8 +6,8 @@
     <link>https://dearlocation.com/</link>
     <description>「相亲 + 交友」</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 27 Feb 2023 03:10:55 GMT</pubDate>
-    <lastBuildDate>Mon, 27 Feb 2023 03:10:55 GMT</lastBuildDate>
+    <pubDate>Tue, 10 Sep 2024 03:49:25 GMT</pubDate>
+    <lastBuildDate>Tue, 10 Sep 2024 03:49:25 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>恋爱</category>
@@ -16,7 +16,7 @@
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">简介</source>
-      <pubDate>Mon, 27 Feb 2023 03:09:29 GMT</pubDate>
+      <pubDate>Tue, 10 Sep 2024 03:42:38 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="简介" tabindex="-1"> 简介</h1>
 <h2 id="📚指南" tabindex="-1"> 📚指南</h2>
 <p><a href="/guide/">「指南」</a></p>
@@ -48,6 +48,7 @@
       <content:encoded><![CDATA[<h1 id="情商列表" tabindex="-1"> 情商列表</h1>
 <ol>
 <li>情商是非常重要的</li>
+<li>情商是财富</li>
 </ol>
 ]]></content:encoded>
     </item>
