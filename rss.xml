@@ -4,10 +4,10 @@
     <atom:link href="https://dearlocation.com/rss.xml" rel="self" type="application/rss+xml"/>
     <title>DearLocation.com</title>
     <link>https://dearlocation.com/</link>
-    <description>「相亲 + 交友」</description>
+    <description>「亲位小程序」</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 10 Sep 2024 03:49:25 GMT</pubDate>
-    <lastBuildDate>Tue, 10 Sep 2024 03:49:25 GMT</lastBuildDate>
+    <pubDate>Tue, 10 Sep 2024 04:31:41 GMT</pubDate>
+    <lastBuildDate>Tue, 10 Sep 2024 04:31:41 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>恋爱</category>
@@ -16,12 +16,10 @@
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">简介</source>
-      <pubDate>Tue, 10 Sep 2024 03:42:38 GMT</pubDate>
+      <pubDate>Tue, 10 Sep 2024 04:30:35 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="简介" tabindex="-1"> 简介</h1>
 <h2 id="📚指南" tabindex="-1"> 📚指南</h2>
 <p><a href="/guide/">「指南」</a></p>
-<h2 id="📚作者" tabindex="-1"> 📚作者</h2>
-<p><a href="/me/">「作者」</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -39,6 +37,16 @@
 ]]></content:encoded>
     </item>
     <item>
+      <title>财商列表</title>
+      <link>https://dearlocation.com/fq/</link>
+      <guid>https://dearlocation.com/fq/</guid>
+      <source url="https://dearlocation.com/rss.xml">财商列表</source>
+      <category>恋爱</category>
+      <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="财商列表" tabindex="-1"> 财商列表</h1>
+]]></content:encoded>
+    </item>
+    <item>
       <title>情商列表</title>
       <link>https://dearlocation.com/eq/</link>
       <guid>https://dearlocation.com/eq/</guid>
@@ -50,16 +58,6 @@
 <li>情商是非常重要的</li>
 <li>情商是财富</li>
 </ol>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>财商列表</title>
-      <link>https://dearlocation.com/fq/</link>
-      <guid>https://dearlocation.com/fq/</guid>
-      <source url="https://dearlocation.com/rss.xml">财商列表</source>
-      <category>恋爱</category>
-      <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="财商列表" tabindex="-1"> 财商列表</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -75,14 +73,14 @@
 <li><strong><a href="/">《DearLocation》</a></strong> : DearLocation！</li>
 </ul>
 <h2 id="📚简介" tabindex="-1"> 📚简介</h2>
-<p>DearLocation是一个「相亲+交友」平台。提供登记、问卷、恋爱、婚姻等功能。发布恋爱、婚姻等文章。提高相亲和恋爱效率，促成广大姻缘。</p>
+<p>DearLocation是一个「亲位小程序」平台。</p>
 <h2 id="🎁名称" tabindex="-1"> 🎁名称</h2>
 <p>DearLocation = Dear + Location。</p>
 <h2 id="🎁logo" tabindex="-1"> 🎁LOGO</h2>
 <p>寓意 = 亲近的人聚集的地方</p>
 <p><img src="https://dearlocation.com/dearlocation.jpg" alt="" loading="lazy"></p>
 <h2 id="🍺目标" tabindex="-1"> 🍺目标</h2>
-<p>做一个[「相亲 + 交友」的平台，发布恋爱、婚姻等文章，促成广大姻缘。</p>
+<p>做一个[「亲位小程序」的平台。</p>
 <h2 id="🛠菜单" tabindex="-1"> 🛠菜单</h2>
 <ul>
 <li>
@@ -103,18 +101,10 @@
 <li>
 <p><a href="/iq/">智商</a></p>
 </li>
-<li>
-<p><a href="/me/">作者</a></p>
-</li>
 </ul>
-<h2 id="微信群" tabindex="-1"> 微信群</h2>
-<p><img src="https://dearlocation.com/imgs/me/me_00.jpeg" alt="" loading="lazy"></p>
 <h2 id="公众号" tabindex="-1"> 公众号</h2>
 <p>微信公众号<strong>亲位网</strong>，会发布一些恋爱、婚姻等文章，欢迎关注，推荐一波~</p>
 <p><img src="https://dearlocation.com/imgs/me/me_000.jpg" alt="" loading="lazy"></p>
-<h2 id="联系我" tabindex="-1"> 联系我</h2>
-<p>交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。</p>
-<p><img src="https://dearlocation.com/imgs/me/me_0.jpeg" alt="" loading="lazy"></p>
 ]]></content:encoded>
       <enclosure url="https://dearlocation.com/dearlocation.jpg" type="image/jpeg"/>
     </item>
@@ -130,48 +120,6 @@
 <li>智商是基础</li>
 </ol>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>相亲交友</title>
-      <link>https://dearlocation.com/me/</link>
-      <guid>https://dearlocation.com/me/</guid>
-      <source url="https://dearlocation.com/rss.xml">相亲交友</source>
-      <category>恋爱</category>
-      <pubDate>Sun, 26 Feb 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="相亲交友" tabindex="-1"> 相亲交友</h1>
-<h2 id="本人信息" tabindex="-1"> 本人信息</h2>
-<div><pre><code>    昵称：建
-    性别：男
-    年龄：1990
-    学历：985硕
-    籍贯：黑龙江
-    户口：天津
-    坐标：北京
-    身高：170cm
-    体重：65kg
-    职业：程序员
-    房车：北京一套，哈尔滨一套
-    性格：开朗
-    爱好：追剧、游泳、健身
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="照片集" tabindex="-1"> 照片集</h3>
-<p><img src="https://dearlocation.com/imgs/me/me_1.jpeg" alt="天安门" loading="lazy">
-<img src="https://dearlocation.com/imgs/me/me_2.jpeg" alt="古塔公园" loading="lazy">
-<img src="https://dearlocation.com/imgs/me/me_3.jpeg" alt="故宫" loading="lazy">
-<img src="https://dearlocation.com/imgs/me/me_4.jpeg" alt="天坛" loading="lazy">
-<img src="https://dearlocation.com/imgs/me/me_5.jpeg" alt="北京站" loading="lazy"></p>
-<h2 id="择偶要求" tabindex="-1"> 择偶要求</h2>
-<div><pre><code>    年龄：90后
-</code></pre><div aria-hidden="true"><div></div></div></div><h2 id="联系方式" tabindex="-1"> 联系方式</h2>
-<h3 id="微信号" tabindex="-1"> 微信号</h3>
-<div><pre><code>  交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。
-</code></pre><div aria-hidden="true"><div></div></div></div><p><img src="https://dearlocation.com/imgs/me/me_0.jpeg" alt="" loading="lazy"></p>
-<h3 id="微信群" tabindex="-1"> 微信群</h3>
-<p><img src="https://dearlocation.com/imgs/me/me_00.jpeg" alt="" loading="lazy"></p>
-<h3 id="公众号" tabindex="-1"> 公众号</h3>
-<p><img src="https://dearlocation.com/imgs/me/me_000.jpg" alt="" loading="lazy"></p>
-<hr>
-]]></content:encoded>
-      <enclosure url="https://dearlocation.com/imgs/me/me_1.jpeg" type="image/jpeg"/>
     </item>
     <item>
       <title>文章管理</title>
