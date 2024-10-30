@@ -54,18 +54,3 @@ DearLocation = Dear + Location。
 
 - [智商](/iq/README.md)
 
-
-## 公众号
-
-微信公众号**亲位网**，会发布一些教程、动漫等内容，欢迎关注，推荐一波~
-
-![](https://dearlocation.com/imgs/me/me_000.jpg)
-
-[//]: # ()
-[//]: # (## 联系我)
-
-[//]: # ()
-[//]: # (交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。)
-
-[//]: # ()
-[//]: # (![]&#40;https://dearlocation.com/imgs/me/me_0.jpeg&#41;)
