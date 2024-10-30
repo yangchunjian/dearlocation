@@ -1,2 +1,0 @@
-import{_ as s}from"./plugin-vue_export-helper.21dcd24c.js";import{o as n,c as a,a as e}from"./app.dd85049f.js";const c={},r=e("div",{class:"language-scss ext-scss line-numbers-mode"},[e("pre",{class:"language-scss"},[e("code",null,`  \u95EE\u5377\u8C03\u67E5\uFF0C\u4F1A\u53D1\u5E03\u5230\u8BC4\u8BBA\u533A~
-`)]),e("div",{class:"line-numbers","aria-hidden":"true"},[e("div",{class:"line-number"})])],-1),l=[r];function t(o,i){return n(),a("div",null,l)}var m=s(c,[["render",t],["__file","index.html.vue"]]);export{m as default};
