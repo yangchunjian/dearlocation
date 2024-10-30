@@ -4,7 +4,7 @@ index: 1
 # 这是页面的图标
 icon: page
 # 这是内容的标题
-title: 登记管理
+title: 建议管理
 # 设置作者
 author: DearLocation.com
 # 设置写作时间
@@ -19,5 +19,5 @@ tag:
 star: true
 ---
 ```scss
-  登记填写，可发布到评论区~
+  建议填写，可发布到评论区~
 ```

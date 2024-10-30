@@ -24,7 +24,7 @@ export const dearlocation = sidebar({
       children: "structure",
     },
     {
-      text: "登记",
+      text: "建议",
       icon: "creative",
       prefix: "register/",
       // link: "register/",
