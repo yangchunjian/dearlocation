@@ -6,8 +6,8 @@
     <link>https://dearlocation.com/</link>
     <description>「亲位」</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 30 Oct 2024 08:51:13 GMT</pubDate>
-    <lastBuildDate>Wed, 30 Oct 2024 08:51:13 GMT</lastBuildDate>
+    <pubDate>Wed, 30 Oct 2024 08:58:36 GMT</pubDate>
+    <lastBuildDate>Wed, 30 Oct 2024 08:58:36 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>教程</category>
@@ -16,24 +16,10 @@
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">简介</source>
-      <pubDate>Wed, 30 Oct 2024 08:49:51 GMT</pubDate>
+      <pubDate>Wed, 30 Oct 2024 08:57:41 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="简介" tabindex="-1"> 简介</h1>
 <h2 id="📚指南" tabindex="-1"> 📚指南</h2>
 <p><a href="/guide/">「指南」</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>书籍列表</title>
-      <link>https://dearlocation.com/book/</link>
-      <guid>https://dearlocation.com/book/</guid>
-      <source url="https://dearlocation.com/rss.xml">书籍列表</source>
-      <category>教程</category>
-      <pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="书籍列表" tabindex="-1"> 书籍列表</h1>
-<h2 id="富爸爸穷爸爸" tabindex="-1"> 富爸爸穷爸爸</h2>
-<PDF url="./book/富爸爸穷爸爸.pdf" />
-<h2 id="深入理解java虚拟机-jvm高级特性与最佳实践-第3版-周志明" tabindex="-1"> 深入理解Java虚拟机:JVM高级特性与最佳实践(第3版)周志明</h2>
-<PDF url="./book/深入理解Java虚拟机:JVM高级特性与最佳实践(第3版)周志明.pdf" />
 ]]></content:encoded>
     </item>
     <item>
@@ -85,9 +71,6 @@
 <ul>
 <li>
 <p><a href="/survey/">问卷</a></p>
-</li>
-<li>
-<p><a href="/book/">书籍</a></p>
 </li>
 <li>
 <p><a href="/posts/">内容</a></p>
