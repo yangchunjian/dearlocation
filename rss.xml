@@ -4,19 +4,19 @@
     <atom:link href="https://dearlocation.com/rss.xml" rel="self" type="application/rss+xml"/>
     <title>DearLocation.com</title>
     <link>https://dearlocation.com/</link>
-    <description>「亲位小程序」</description>
+    <description>「亲位」</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 10 Sep 2024 04:31:41 GMT</pubDate>
-    <lastBuildDate>Tue, 10 Sep 2024 04:31:41 GMT</lastBuildDate>
+    <pubDate>Wed, 30 Oct 2024 08:50:55 GMT</pubDate>
+    <lastBuildDate>Wed, 30 Oct 2024 08:50:55 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>恋爱</category>
+    <category>教程</category>
     <item>
       <title>简介</title>
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">简介</source>
-      <pubDate>Tue, 10 Sep 2024 04:30:35 GMT</pubDate>
+      <pubDate>Wed, 30 Oct 2024 08:49:05 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="简介" tabindex="-1"> 简介</h1>
 <h2 id="📚指南" tabindex="-1"> 📚指南</h2>
 <p><a href="/guide/">「指南」</a></p>
@@ -27,7 +27,7 @@
       <link>https://dearlocation.com/book/</link>
       <guid>https://dearlocation.com/book/</guid>
       <source url="https://dearlocation.com/rss.xml">书籍列表</source>
-      <category>恋爱</category>
+      <category>教程</category>
       <pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="书籍列表" tabindex="-1"> 书籍列表</h1>
 <h2 id="富爸爸穷爸爸" tabindex="-1"> 富爸爸穷爸爸</h2>
@@ -37,21 +37,11 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>财商列表</title>
-      <link>https://dearlocation.com/fq/</link>
-      <guid>https://dearlocation.com/fq/</guid>
-      <source url="https://dearlocation.com/rss.xml">财商列表</source>
-      <category>恋爱</category>
-      <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="财商列表" tabindex="-1"> 财商列表</h1>
-]]></content:encoded>
-    </item>
-    <item>
       <title>情商列表</title>
       <link>https://dearlocation.com/eq/</link>
       <guid>https://dearlocation.com/eq/</guid>
       <source url="https://dearlocation.com/rss.xml">情商列表</source>
-      <category>恋爱</category>
+      <category>教程</category>
       <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="情商列表" tabindex="-1"> 情商列表</h1>
 <ol>
@@ -61,11 +51,21 @@
 ]]></content:encoded>
     </item>
     <item>
+      <title>财商列表</title>
+      <link>https://dearlocation.com/fq/</link>
+      <guid>https://dearlocation.com/fq/</guid>
+      <source url="https://dearlocation.com/rss.xml">财商列表</source>
+      <category>教程</category>
+      <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="财商列表" tabindex="-1"> 财商列表</h1>
+]]></content:encoded>
+    </item>
+    <item>
       <title>指南管理</title>
       <link>https://dearlocation.com/guide/</link>
       <guid>https://dearlocation.com/guide/</guid>
       <source url="https://dearlocation.com/rss.xml">指南管理</source>
-      <category>恋爱</category>
+      <category>教程</category>
       <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="指南管理" tabindex="-1"> 指南管理</h1>
 <h2 id="📚首页" tabindex="-1"> 📚首页</h2>
@@ -73,14 +73,14 @@
 <li><strong><a href="/">《DearLocation》</a></strong> : DearLocation！</li>
 </ul>
 <h2 id="📚简介" tabindex="-1"> 📚简介</h2>
-<p>DearLocation是一个「亲位小程序」平台。</p>
+<p>DearLocation是一个「亲位」平台。</p>
 <h2 id="🎁名称" tabindex="-1"> 🎁名称</h2>
 <p>DearLocation = Dear + Location。</p>
 <h2 id="🎁logo" tabindex="-1"> 🎁LOGO</h2>
 <p>寓意 = 亲近的人聚集的地方</p>
 <p><img src="https://dearlocation.com/dearlocation.jpg" alt="" loading="lazy"></p>
 <h2 id="🍺目标" tabindex="-1"> 🍺目标</h2>
-<p>做一个[「亲位小程序」的平台。</p>
+<p>做一个[「亲位」的平台。</p>
 <h2 id="🛠菜单" tabindex="-1"> 🛠菜单</h2>
 <ul>
 <li>
@@ -90,7 +90,7 @@
 <p><a href="/book/">书籍</a></p>
 </li>
 <li>
-<p><a href="/posts/">文章</a></p>
+<p><a href="/posts/">内容</a></p>
 </li>
 <li>
 <p><a href="/fq/">财商</a></p>
@@ -103,7 +103,7 @@
 </li>
 </ul>
 <h2 id="公众号" tabindex="-1"> 公众号</h2>
-<p>微信公众号<strong>亲位网</strong>，会发布一些恋爱、婚姻等文章，欢迎关注，推荐一波~</p>
+<p>微信公众号<strong>亲位网</strong>，会发布一些教程、动漫等内容，欢迎关注，推荐一波~</p>
 <p><img src="https://dearlocation.com/imgs/me/me_000.jpg" alt="" loading="lazy"></p>
 ]]></content:encoded>
       <enclosure url="https://dearlocation.com/dearlocation.jpg" type="image/jpeg"/>
@@ -113,7 +113,7 @@
       <link>https://dearlocation.com/iq/</link>
       <guid>https://dearlocation.com/iq/</guid>
       <source url="https://dearlocation.com/rss.xml">智商列表</source>
-      <category>恋爱</category>
+      <category>教程</category>
       <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="智商列表" tabindex="-1"> 智商列表</h1>
 <ol>
@@ -122,13 +122,13 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>文章管理</title>
+      <title>内容管理</title>
       <link>https://dearlocation.com/posts/</link>
       <guid>https://dearlocation.com/posts/</guid>
-      <source url="https://dearlocation.com/rss.xml">文章管理</source>
-      <category>恋爱</category>
+      <source url="https://dearlocation.com/rss.xml">内容管理</source>
+      <category>教程</category>
       <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="文章管理" tabindex="-1"> 文章管理</h1>
+      <content:encoded><![CDATA[<h1 id="内容管理" tabindex="-1"> 内容管理</h1>
 <h2 id="相恋流程" tabindex="-1"> 相恋流程</h2>
 <div><pre><code>    1. 联系方式
     2. 愉快聊天
@@ -147,13 +147,13 @@
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>文章总结</title>
+      <title>内容总结</title>
       <link>https://dearlocation.com/posts/summary.html</link>
       <guid>https://dearlocation.com/posts/summary.html</guid>
-      <source url="https://dearlocation.com/rss.xml">文章总结</source>
-      <category>恋爱</category>
+      <source url="https://dearlocation.com/rss.xml">内容总结</source>
+      <category>教程</category>
       <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="文章总结" tabindex="-1"> 文章总结</h1>
+      <content:encoded><![CDATA[<h1 id="内容总结" tabindex="-1"> 内容总结</h1>
 <h2 id="大道至简" tabindex="-1"> 大道至简</h2>
 <p>有限的时间和精力用在对的地方</p>
 ]]></content:encoded>
@@ -163,7 +163,7 @@
       <link>https://dearlocation.com/register/</link>
       <guid>https://dearlocation.com/register/</guid>
       <source url="https://dearlocation.com/rss.xml">登记管理</source>
-      <category>恋爱</category>
+      <category>教程</category>
       <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<div><pre><code>  登记填写，可发布到评论区~
 </code></pre><div aria-hidden="true"><div></div></div></div>]]></content:encoded>
@@ -173,7 +173,7 @@
       <link>https://dearlocation.com/survey/</link>
       <guid>https://dearlocation.com/survey/</guid>
       <source url="https://dearlocation.com/rss.xml">问卷管理</source>
-      <category>恋爱</category>
+      <category>教程</category>
       <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<div><pre><code>  问卷调查，会发布到评论区~
 </code></pre><div aria-hidden="true"><div></div></div></div>]]></content:encoded>
