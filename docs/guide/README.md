@@ -3,7 +3,7 @@
 index: 1
 # 这是页面的图标
 icon: page
-# 这是文章的标题
+# 这是内容的标题
 title: 指南管理
 # 设置作者
 author: DearLocation.com
@@ -11,11 +11,11 @@ author: DearLocation.com
 date: 2022-05-01
 # 一个页面可以有多个分类
 category:
-  - 恋爱
+  - 教程
 # 一个页面可以有多个标签
 tag:
-  - 恋爱
-# 此页面会出现在首页的文章板块中
+  - 教程
+# 此页面会出现在首页的内容板块中
 star: true
 ---
 # 指南管理
@@ -25,7 +25,7 @@ star: true
 - **[《DearLocation》](../README.md)** : DearLocation！
 
 ## 📚简介
-DearLocation是一个「亲位小程序」平台。
+DearLocation是一个「亲位」平台。
 
 ## 🎁名称
 
@@ -39,7 +39,7 @@ DearLocation = Dear + Location。
 
 ## 🍺目标
 
-做一个[「亲位小程序」的平台。
+做一个[「亲位」的平台。
 
 
 ## 🛠菜单
@@ -48,7 +48,7 @@ DearLocation = Dear + Location。
 
 - [书籍](/book/README.md)
 
-- [文章](/posts/README.md)
+- [内容](/posts/README.md)
 
 - [财商](/fq/README.md)
 
@@ -56,16 +56,10 @@ DearLocation = Dear + Location。
 
 - [智商](/iq/README.md)
 
-[//]: # (- [作者]&#40;/me/README.md&#41;)
-
-[//]: # (## 微信群)
-
-[//]: # ()
-[//]: # (![]&#40;https://dearlocation.com/imgs/me/me_00.jpeg&#41;)
 
 ## 公众号
 
-微信公众号**亲位网**，会发布一些恋爱、婚姻等文章，欢迎关注，推荐一波~
+微信公众号**亲位网**，会发布一些教程、动漫等内容，欢迎关注，推荐一波~
 
 ![](https://dearlocation.com/imgs/me/me_000.jpg)
 

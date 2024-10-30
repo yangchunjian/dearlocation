@@ -32,12 +32,12 @@ export default defineUserConfig({
     "/": {
       lang: "zh-CN",
       title: "DearLocation.com",
-      description: "「亲位小程序」",
+      description: "「亲位」",
     },
     // "/zh/": {
     //   lang: "zh-CN",
     //   title: "DearLocation.com",
-    //   description: "「亲位小程序」",
+    //   description: "「亲位」",
     // },
   },
 

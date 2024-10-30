@@ -5,7 +5,7 @@
 - **[《DearLocation》](https://dearlocation.com)** : DearLocation！
 
 ## 📚简介
-DearLocation是一个「亲位小程序」平台。
+DearLocation是一个「亲位」平台。
 
 ## 🎁名称
 
@@ -19,7 +19,7 @@ DearLocation = Dear + Location。
 
 ## 🍺目标
 
-做一个[「亲位小程序」的平台。
+做一个[「亲位」的平台。
 
 
 ## 🛠菜单
@@ -28,7 +28,7 @@ DearLocation = Dear + Location。
 
 - [书籍](https://dearlocation.com/book/)
 
-- [文章](https://dearlocation.com/posts/)
+- [内容](https://dearlocation.com/posts/)
 
 - [财商](https://dearlocation.com/fq/)
 
@@ -44,7 +44,7 @@ DearLocation = Dear + Location。
 
 ## 公众号
 
-微信公众号**亲位网**，会发布一些恋爱、婚姻等文章，欢迎关注，推荐一波~
+微信公众号**亲位网**，会发布一些教程、动漫等内容，欢迎关注，推荐一波~
 
 ![](https://dearlocation.com/imgs/me/me_000.jpg)
 

@@ -5,11 +5,11 @@ title: 项目主页
 heroImage: /dearlocation-logo.svg
 heroText: DearLocation
 bgImage: https://dearlocation.com/imgs/home_1.jpeg
-tagline: 「亲位小程序」
+tagline: 「亲位」
 bannerBg: background:#999 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABOSURBVFhH7c6xCQAgDAVRR9A6E4hLu4uLiWJ7tSnuQcIvr2TRYsw3/zOGGEOMIcYQY4gxxBhiDDGGGEOMIcYQY4gxxBhiDLkx52W4Gn1tuslCtHJvL54AAAAASUVORK5CYII=)
 actions:
-  - text: 登记 💡
-    link: /register/
+#  - text: 登记 💡
+#    link: /register/
 
   - text: 主页 🏠
     link: /
@@ -36,14 +36,14 @@ actions:
 #     details: 配合 Waline 来开启阅读量统计与评论支持
 #     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/comment.html
 
-#   - title: 文章信息
+#   - title: 内容信息
 #     icon: info
-#     details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
+#     details: 为你的内容添加作者、写作日期、预计阅读时间、字数统计等信息
 #     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/page-info.html
 
 #   - title: 博客支持
 #     icon: blog
-#     details: 使用一些很棒的布局提供博客功能，通过文章的日期、标签和分类，自动生成文章、分类、标签与时间轴列表
+#     details: 使用一些很棒的布局提供博客功能，通过内容的日期、标签和分类，自动生成内容、分类、标签与时间轴列表
 #     link: https://vuepress-theme-hope.github.io/v2/zh/guide/blog/intro.html
 
 #   - title: 主题色切换
@@ -61,7 +61,7 @@ actions:
 #     details: 为你的网站带来完整的无障碍支持
 #     link: https://vuepress-theme-hope.github.io/v2/zh/guide/interface/accessibility.html
 
-#   - title: 文章加密
+#   - title: 内容加密
 #     icon: lock
 #     details: 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
 #     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/encrypt.html
@@ -106,19 +106,5 @@ footer:  Copyright © 2022-present DearLocation.com
 
 
 ---
-
-# 公众号
-
-推荐一波~
-
-![公众号](https://www.yangchunjian.com/docbook/imgs/qrcode_for_gh_8756901e5b12_344.jpg)
-
----
-
-## 联系我
-
-交流/加群/互看朋友圈，欢迎添加我的微信（备注“DearLocation”即可）。
-
-![微信](https://dearlocation.com/imgs/me/me_0.jpeg)
 
 

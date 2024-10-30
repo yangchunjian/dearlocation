@@ -40,7 +40,7 @@ export const dearlocation = sidebar({
       children: "structure",
     },
     {
-      text: "文章",
+      text: "内容",
       icon: "creative",
       prefix: "posts/",
       // link: "posts/",

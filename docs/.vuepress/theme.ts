@@ -44,7 +44,7 @@ export default hopeTheme({
       visitor: true,
 
       blog: {
-        description: "「亲位小程序」",
+        description: "「亲位」",
         intro: "/intro.html",
       },
 

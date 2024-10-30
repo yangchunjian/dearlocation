@@ -9,7 +9,7 @@ heroText: DearLocation
 heroFullScreen: true
 bgImage:  "javascript:;"
 # bgImage: https://dearlocation.com/imgs/home_1.jpeg
-tagline: 「亲位小程序」
+tagline: 「亲位」
 actions:
   - text: 主页 🏠
     link: /
@@ -29,13 +29,13 @@ projects:
     link: /survey/
 
   - icon: article
-    name: 文章
-    desc: 文章列表
+    name: 内容
+    desc: 内容列表
     link: /posts/
 	 
 #  - icon: book
 #    name: 作者
-#    desc: 相亲交友
+#    desc: 
 #    link: /me/
 	 
 #footer: 自定义你的页脚文字
