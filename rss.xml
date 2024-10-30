@@ -6,8 +6,8 @@
     <link>https://dearlocation.com/</link>
     <description>「亲位」</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 30 Oct 2024 08:58:36 GMT</pubDate>
-    <lastBuildDate>Wed, 30 Oct 2024 08:58:36 GMT</lastBuildDate>
+    <pubDate>Wed, 30 Oct 2024 09:50:00 GMT</pubDate>
+    <lastBuildDate>Wed, 30 Oct 2024 09:50:00 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>教程</category>
@@ -16,7 +16,7 @@
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">简介</source>
-      <pubDate>Wed, 30 Oct 2024 08:57:41 GMT</pubDate>
+      <pubDate>Wed, 30 Oct 2024 09:15:06 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="简介" tabindex="-1"> 简介</h1>
 <h2 id="📚指南" tabindex="-1"> 📚指南</h2>
 <p><a href="/guide/">「指南」</a></p>
@@ -85,9 +85,6 @@
 <p><a href="/iq/">智商</a></p>
 </li>
 </ul>
-<h2 id="公众号" tabindex="-1"> 公众号</h2>
-<p>微信公众号<strong>亲位网</strong>，会发布一些教程、动漫等内容，欢迎关注，推荐一波~</p>
-<p><img src="https://dearlocation.com/imgs/me/me_000.jpg" alt="" loading="lazy"></p>
 ]]></content:encoded>
       <enclosure url="https://dearlocation.com/dearlocation.jpg" type="image/jpeg"/>
     </item>
