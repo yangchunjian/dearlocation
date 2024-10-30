@@ -7,7 +7,7 @@ const hostname =
 
 export default hopeTheme({
   hostname,
-  fullscreen: true,
+  // fullscreen: true,
 
   author: {
     name: "DearLocation.com",
@@ -18,13 +18,13 @@ export default hopeTheme({
 
   logo: "/logo.svg",
   iconPrefix: "iconfont icon-",
-  repo: "https://github.com/yangchunjian/dearlocation",
+  // repo: "https://github.com/yangchunjian/dearlocation",
   docsDir: "docs",
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime","Word","PageView"],
 
   blog: {
     medias: {
-      Pocket: "https://yjava.cn/docbook/imgs/qrcode_for_gh_8756901e5b12_344.jpg",
+      // Pocket: "https://yjava.cn/docbook/imgs/qrcode_for_gh_8756901e5b12_344.jpg",
     },
   },
 
@@ -82,8 +82,8 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/guide/encrypt.html": ["1234"],
-      "/zh/guide/encrypt.html": ["1234"],
+      "/guide/encrypt.html": ["888888"],
+      "/zh/guide/encrypt.html": ["888888"],
     },
   },
 
