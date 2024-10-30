@@ -26,8 +26,6 @@ DearLocation = Dear + Location。
 
 - [问卷](https://dearlocation.com/survey/)
 
-- [书籍](https://dearlocation.com/book/)
-
 - [内容](https://dearlocation.com/posts/)
 
 - [财商](https://dearlocation.com/fq/)

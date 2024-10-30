@@ -46,8 +46,6 @@ DearLocation = Dear + Location。
 
 - [问卷](/survey/README.md)
 
-- [书籍](/book/README.md)
-
 - [内容](/posts/README.md)
 
 - [财商](/fq/README.md)

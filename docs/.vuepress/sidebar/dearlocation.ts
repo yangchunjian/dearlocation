@@ -32,14 +32,6 @@ export const dearlocation = sidebar({
       children: "structure",
     },
     {
-      text: "书籍",
-      icon: "creative",
-      prefix: "book/",
-      // link: "exa m/",
-      collapsable: true,//可折叠
-      children: "structure",
-    },
-    {
       text: "内容",
       icon: "creative",
       prefix: "posts/",
