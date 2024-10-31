@@ -28,8 +28,4 @@ DearLocation = Dear + Location。
 
 - [内容](https://dearlocation.com/posts/)
 
-- [财商](https://dearlocation.com/fq/)
-
-- [情商](https://dearlocation.com/eq/)
-
 - [智商](https://dearlocation.com/iq/)

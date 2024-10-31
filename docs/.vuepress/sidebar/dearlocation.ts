@@ -16,17 +16,9 @@ export const dearlocation = sidebar({
       children: "structure",
     },
     {
-      text: "问卷",
+      text: "教程",
       icon: "creative",
-      prefix: "survey/",
-      // link: "survey/",
-      collapsable: true,//可折叠
-      children: "structure",
-    },
-    {
-      text: "建议",
-      icon: "creative",
-      prefix: "register/",
+      prefix: "tutorial/",
       // link: "register/",
       collapsable: true,//可折叠
       children: "structure",
@@ -35,35 +27,6 @@ export const dearlocation = sidebar({
       text: "内容",
       icon: "creative",
       prefix: "posts/",
-      // link: "posts/",
-      collapsable: true,
-      children: "structure",
-
-    },
-    {
-      text: "财商",
-      icon: "creative",
-      prefix: "fq/",
-      // link: "posts/",
-      collapsable: true,
-      children: "structure",
-
-    },
-
-    {
-      text: "情商",
-      icon: "creative",
-      prefix: "eq/",
-      // link: "posts/",
-      collapsable: true,
-      children: "structure",
-
-    },
-
-    {
-      text: "智商",
-      icon: "creative",
-      prefix: "iq/",
       // link: "posts/",
       collapsable: true,
       children: "structure",

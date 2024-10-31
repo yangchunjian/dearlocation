@@ -48,9 +48,5 @@ DearLocation = Dear + Location。
 
 - [内容](/posts/README.md)
 
-- [财商](/fq/README.md)
-
-- [情商](/eq/README.md)
-
 - [智商](/iq/README.md)
 
