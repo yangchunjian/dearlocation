@@ -6,8 +6,8 @@
     <link>https://dearlocation.com/</link>
     <description>「亲位」</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 30 Oct 2024 09:50:00 GMT</pubDate>
-    <lastBuildDate>Wed, 30 Oct 2024 09:50:00 GMT</lastBuildDate>
+    <pubDate>Thu, 31 Oct 2024 01:26:16 GMT</pubDate>
+    <lastBuildDate>Thu, 31 Oct 2024 01:26:16 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>教程</category>
@@ -16,34 +16,10 @@
       <link>https://dearlocation.com/intro.html</link>
       <guid>https://dearlocation.com/intro.html</guid>
       <source url="https://dearlocation.com/rss.xml">简介</source>
-      <pubDate>Wed, 30 Oct 2024 09:15:06 GMT</pubDate>
+      <pubDate>Thu, 31 Oct 2024 01:24:29 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="简介" tabindex="-1"> 简介</h1>
 <h2 id="📚指南" tabindex="-1"> 📚指南</h2>
 <p><a href="/guide/">「指南」</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>情商列表</title>
-      <link>https://dearlocation.com/eq/</link>
-      <guid>https://dearlocation.com/eq/</guid>
-      <source url="https://dearlocation.com/rss.xml">情商列表</source>
-      <category>教程</category>
-      <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="情商列表" tabindex="-1"> 情商列表</h1>
-<ol>
-<li>情商是非常重要的</li>
-<li>情商是财富</li>
-</ol>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>财商列表</title>
-      <link>https://dearlocation.com/fq/</link>
-      <guid>https://dearlocation.com/fq/</guid>
-      <source url="https://dearlocation.com/rss.xml">财商列表</source>
-      <category>教程</category>
-      <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="财商列表" tabindex="-1"> 财商列表</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -76,30 +52,11 @@
 <p><a href="/posts/">内容</a></p>
 </li>
 <li>
-<p><a href="/fq/">财商</a></p>
-</li>
-<li>
-<p><a href="/eq/">情商</a></p>
-</li>
-<li>
 <p><a href="/iq/">智商</a></p>
 </li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://dearlocation.com/dearlocation.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>智商列表</title>
-      <link>https://dearlocation.com/iq/</link>
-      <guid>https://dearlocation.com/iq/</guid>
-      <source url="https://dearlocation.com/rss.xml">智商列表</source>
-      <category>教程</category>
-      <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="智商列表" tabindex="-1"> 智商列表</h1>
-<ol>
-<li>智商是基础</li>
-</ol>
-]]></content:encoded>
     </item>
     <item>
       <title>内容管理</title>
@@ -109,53 +66,16 @@
       <category>教程</category>
       <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="内容管理" tabindex="-1"> 内容管理</h1>
-<h2 id="相恋流程" tabindex="-1"> 相恋流程</h2>
-<div><pre><code>    1. 联系方式
-    2. 愉快聊天
-    3. 实现邀约
-    4. 升级关系
-    5. 共同生活
-    6. 双见父母
-    7. 领取证书
-    8. 蜜月旅游
-    9. 正常生活
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="相恋高效" tabindex="-1"> 相恋高效</h2>
-<div><pre><code>    1. 以终为始
-    2. 明确自知
-    3. 快速筛选
-    4. 感受状态
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>内容总结</title>
-      <link>https://dearlocation.com/posts/summary.html</link>
-      <guid>https://dearlocation.com/posts/summary.html</guid>
-      <source url="https://dearlocation.com/rss.xml">内容总结</source>
-      <category>教程</category>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="内容总结" tabindex="-1"> 内容总结</h1>
-<h2 id="大道至简" tabindex="-1"> 大道至简</h2>
-<p>有限的时间和精力用在对的地方</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>建议管理</title>
-      <link>https://dearlocation.com/register/</link>
-      <guid>https://dearlocation.com/register/</guid>
+      <link>https://dearlocation.com/tutorial/</link>
+      <guid>https://dearlocation.com/tutorial/</guid>
       <source url="https://dearlocation.com/rss.xml">建议管理</source>
       <category>教程</category>
       <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<div><pre><code>  建议填写，可发布到评论区~
-</code></pre><div aria-hidden="true"><div></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>问卷管理</title>
-      <link>https://dearlocation.com/survey/</link>
-      <guid>https://dearlocation.com/survey/</guid>
-      <source url="https://dearlocation.com/rss.xml">问卷管理</source>
-      <category>教程</category>
-      <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div><pre><code>  问卷调查，会发布到评论区~
 </code></pre><div aria-hidden="true"><div></div></div></div>]]></content:encoded>
     </item>
   </channel>
